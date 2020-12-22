@@ -1,6 +1,7 @@
-# Summary_of_Cross-modal_Retrieval
+# Cross-modal_Retrieval_Tutorial
 ## Peformance comparison
 
-| Method         | backbone   |  | Flickr30K    |      |  | MSCOCO1K |    |  | MSCOCO5K | |  
-| :------------: | :-----:    | :-----:   | :-----:       | :-----:               | :----------:          | :---------:          | :--------:  | :----------:  | :--------:    |  
-|           d     |            |           | rank1 / mAP   | rank1/rank5/rank10    | rank1 / mAP           | rank1 / mAP          | rank1 / mAP |               | rank1 / mAP   |
+| Method | Backbone | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
