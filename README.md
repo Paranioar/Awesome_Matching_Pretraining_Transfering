@@ -55,7 +55,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
     <tr> <td rowspan="3">Method</td> <td colspan="6", align="center">MSCOCO5K</td> </tr>
     <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
     <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
+    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td> </tr>
     
 </table>
 
