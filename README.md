@@ -2,8 +2,7 @@ Cross-modal_Retrieval_Tutorial
 ==============================
 The Tutorial of Image-Text Matching for Preliminary Insight. 
 ****
-
-## Catalogue
+## ``Catalogue ``
 * [Peformance comparison](#peformance-comparison)
     * [Flickr8K](#performance-of-flickr8k)
     * [Flickr30K](#performance-of-flickr30k)
@@ -18,10 +17,9 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
     * [Posted in](#posted-in)
 ****
 
-## Peformance comparison
-[Back_to_Catalogue](#catalogue)
+## ``Peformance comparison``
 
-### Performance of Flickr8K
+### *Performance of Flickr8K*
 **(*\** indicates Ensemble models, *^* indicates questionable authen)**
 <table>
     <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
@@ -32,7 +30,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
  
 </table> 
 
-### Performance of Flickr30K
+### *Performance of Flickr30K*
 <table>
     <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
          <td colspan="6", align="center">Flickr30K</td>
@@ -42,7 +40,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
  
 </table> 
 
-### Performance of MSCOCO1K
+### *Performance of MSCOCO1K*
 <table>
     <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
          <td colspan="6", align="center">MSCOCO1K</td>
@@ -52,7 +50,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
  
 </table> 
 
-### Performance of MSCOCO5K 
+### *Performance of MSCOCO5K*
 <table>
     <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
          <td colspan="6", align="center">MSCOCO5K</td>
@@ -64,10 +62,9 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 
 ****
 
-## Method summary 
-[Back_to_Catalogue](#catalogue)
+## ``Method summary`` 
 
-### Generic-feature extraction
+### *Generic-feature extraction*
 **(*DeViSE_NIPS2013*) DeViSE: A Deep Visual-Semantic Embedding Model.** <br>
 *Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
 [[paper]](https://papers.nips.cc/paper/5204-devise-a-deep-visual-semantic-embedding-model.pdf)
@@ -77,10 +74,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[paper]](https://arxiv.org/pdf/1411.2539.pdf)
 [[code]](https://github.com/ryankiros/visual-semantic-embedding)
 
-### Cross-attention interaction
-### Similarity measurement
-### Loss function
-### Posted in
+### *Cross-attention interaction*
+### *Similarity measurement*
+### *Loss function*
+### *Posted in*
 
 
 **Deep Visual-Semantic Alignments for Generating Image Descriptions.**<br>
