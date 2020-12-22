@@ -1,7 +1,9 @@
 # Cross-modal_Retrieval_Tutorial
+The Tutorial of Image-Text Matching for Preliminary Insight.
 ## Peformance comparison
+### Flickr30K and MSCOCO1K
+| Method     | Backbone      |Flickr30K|                  |     |     |               |     |MSCOCO1K|                  |     |     |               |     |
+|            |               |         |Sentence retrieval|     |     |Image retrieval|     |        |Sentence retrieval|     |     |Image retrieval|     |
+|:---        |:---:          |:---:    |:---:             |:---:|:---:|:---:          |:---:|:---:   |:---:             |:---:|:---:|:---:          |:---:|
 
-| Method | Backbone | Right-aligned | Flickr30K | MSCOCO1K | MSCOCO5K |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+### MSCOCO5K
