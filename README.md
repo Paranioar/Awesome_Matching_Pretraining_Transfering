@@ -11,14 +11,13 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
     * [MSCOCO5K](#performance-of-mscoco5k)
 
 * [Methods summary](#method-summary)
-    * [Generic Representation Extraction](#generic-representation-extraction)
+    * [Generic-feature extraction](#generic-feature-extraction)
     * [Cross-attention interaction](#cross-attention-interaction)
-    * [](#)
-    * [](#)
+    * [Similarity measurement](#similarity-measurement)
+    * [Loss function](#loss-function)
+    * [Posted in](#posted-in)
     
 ****
-## Cross-attention interaction
-## Generic Representation Extraction
 
 ## Peformance comparison
 
@@ -62,7 +61,19 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 
 ****
 
-## Method summary
+## Method summary 
+[Back_to_Catalogue](#catalogue)
+
+### Generic-feature extraction
+
+### Cross-attention interaction
+### Similarity measurement
+### Loss function
+### Posted in
+
+
+
+
 
 **DeViSE: A Deep Visual-Semantic Embedding Model.** <br>
 *Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
