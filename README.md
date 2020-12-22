@@ -1,13 +1,13 @@
 Cross-modal_Retrieval_Tutorial
 ==============================
 The Tutorial of Image-Text Matching for Preliminary Insight. 
-
 ****
 
 ## Catalogue
 * [Peformance comparison](#peformance-comparison)
-    * [Flickr30K](#performance-of-flickr30k-and-mscoco1k)
-    * [MSCOCO1K](#performance-of-flickr30k-and-mscoco1k)
+    * [Flickr8K](#performance-of-flickr8k)
+    * [Flickr30K](#performance-of-flickr30k)
+    * [MSCOCO1K](#performance-of--mscoco1k)
     * [MSCOCO5K](#performance-of-mscoco5k)
 
 * [Methods summary](#method-summary)
@@ -16,48 +16,51 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
     * [Similarity measurement](#similarity-measurement)
     * [Loss function](#loss-function)
     * [Posted in](#posted-in)
-    
 ****
 
 ## Peformance comparison
+[Back_to_Catalogue](#catalogue)
 
-### Performance of Flickr30K and MSCOCO1K 
+### Performance of Flickr8K
 **(*\** indicates Ensemble models, *^* indicates questionable authen)**
-
 <table>
-    <tr> <td rowspan="3">Method</td> <td rowspan="3">Backbone</td> 
-         <td colspan="6", align="center">Flicker30K</td> <td colspan="6", align="center">MSCOCO1K</td> </tr>
-    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> 
-         <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
-    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td>
-         <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
-                                <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
-    
-</table>  
-
-### Performance of MSCOCO5K 
-**(*\** indicates Ensemble models, *^* indicates questionable authen)**
-
-<table>
-    <tr> <td rowspan="3">Method</td> <td colspan="6", align="center">MSCOCO5K</td> </tr>
+    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
+         <td colspan="6", align="center">Flickr8K</td>
     <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
     <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>GSMN</td><td>Bert</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td> </tr>
-    
-</table>
+    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
+ 
+</table> 
+
+### Performance of Flickr30K
+<table>
+    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
+         <td colspan="6", align="center">Flickr30K</td>
+    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
+ 
+</table> 
+
+### Performance of MSCOCO1K
+<table>
+    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
+         <td colspan="6", align="center">MSCOCO1K</td>
+    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
+ 
+</table> 
+
+### Performance of MSCOCO5K 
+<table>
+    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
+         <td colspan="6", align="center">MSCOCO5K</td>
+    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
+ 
+</table> 
 
 ****
 
@@ -65,26 +68,20 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [Back_to_Catalogue](#catalogue)
 
 ### Generic-feature extraction
+**(*DeViSE_NIPS2013*) DeViSE: A Deep Visual-Semantic Embedding Model.** <br>
+*Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
+[[paper]](https://papers.nips.cc/paper/5204-devise-a-deep-visual-semantic-embedding-model.pdf)
+
+**(*OxfordNet_NIPS2014*) Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.**<br>
+*Ryan Kiros, Ruslan Salakhutdinov, Richard S. Zemel.*<br>
+[[paper]](https://arxiv.org/pdf/1411.2539.pdf)
+[[code]](https://github.com/ryankiros/visual-semantic-embedding)
 
 ### Cross-attention interaction
 ### Similarity measurement
 ### Loss function
 ### Posted in
 
-
-
-
-
-**DeViSE: A Deep Visual-Semantic Embedding Model.** <br>
-*Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
-**_(NIPS 2013)_**<br>
-[[paper]](https://papers.nips.cc/paper/5204-devise-a-deep-visual-semantic-embedding-model.pdf)
-
-**Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.**<br>
-*Ryan Kiros, Ruslan Salakhutdinov, Richard S. Zemel.*<br>
-**_(NIPS 2014 Deep Learning Workshop)_**<br>
-[[paper]](https://arxiv.org/pdf/1411.2539.pdf)
-[[code]](https://github.com/ryankiros/visual-semantic-embedding)(Theano)
 
 **Deep Visual-Semantic Alignments for Generating Image Descriptions.**<br>
 *Andrej Karpathy, Li Fei-Fei.*<br>
