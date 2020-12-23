@@ -27,14 +27,18 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
         <td colspan="6", align="center">Flickr8K</td> </tr>
    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
    <tr> <td>SDT-RNN</td><td></td> <td>4.5</td><td>18.0</td><td>28.6</td> <td>6.1</td><td>18.5</td><td>29.0</td> </tr> 
    <tr> <td>SDT-RNN</td><td>detection</td> <td>6.0</td><td>22.7</td><td>34.0</td> <td>6.6</td><td>21.6</td><td>31.7</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
    <tr> <td>DeFrag</td><td></td> <td>5.9</td><td>19.2</td><td>27.3</td> <td>5.2</td><td>17.6</td><td>26.5</td> </tr>
    <tr> <td>DeFrag</td><td>detection</td> <td>12.6</td><td>32.9</td><td>44.0</td> <td>9.7</td><td>29.6</td><td>42.5</td> </tr>
    <tr> <td>m-RNN</td><td></td> <td>14.5</td><td>37.2</td><td>48.5</td> <td>11.5</td><td>31.0</td><td>42.4</td> </tr>
    <tr> <td>UVSE</td><td></td> <td>13.5</td><td>36.2</td><td>45.7</td> <td>10.4</td><td>31.0</td><td>43.7</td> </tr>
    <tr> <td>UVSE</td><td>OxfordNet</td> <td>18.0</td><td>40.9</td><td>55.0</td> <td>12.5</td><td>37.0</td><td>51.5</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
 </table> 
 
 ### *Performance of Flickr30K*
@@ -46,7 +50,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>DeViSE</td><td>detection</td> <td>4.5</td><td>18.1</td><td>29.2</td> <td>6.7</td><td>21.9</td><td>32.7</td> </tr>
    <tr> <td>SDT-RNN</td><td>detection</td> <td>9.6</td><td>29.8</td><td>41.1</td> <td>8.9</td><td>29.8</td><td>41.1</td> </tr>
    <tr> <td>DeFrag</td><td>detection</td> <td>14.2</td><td>37.7</td><td>51.3</td> <td>10.2</td><td>30.8</td><td>44.2</td> </tr>
-   <tr> <td>DeFrag(ft_CNN)</td><td>detection</td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
+   <tr> <td>DeFrag</td>ft_CNN<td></td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
    <tr> <td>m-RNN</td><td></td> <td>18.4</td><td>40.2</td><td>50.9</td> <td>12.6</td><td>31.2</td><td>41.5</td> </tr>
    <tr> <td>UVSE</td><td></td> <td>14.8</td><td>39.2</td><td>50.9</td> <td>11.8</td><td>34.0</td><td>46.3</td> </tr>
    <tr> <td>UVSE</td><td>OxfordNet</td> <td>23.0</td><td>50.7</td><td>62.9</td> <td>16.8</td><td>42.0</td><td>56.5</td> </tr>
@@ -81,20 +85,31 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
 [[paper]](https://papers.nips.cc/paper/5204-devise-a-deep-visual-semantic-embedding-model.pdf)
 
+**(*SDT-RNN_TACL2014*) Grounded Compositional Semantics for Finding and Describing Images with Sentences.**<br>
+*Richard Socher, Andrej Karpathy, Quoc V. Le, Christopher D. Manning, Andrew Y. Ng.*<br>
+[[paper]](https://www.aclweb.org/anthology/Q14-1017.pdf)
+
+**(*DeFrag_NIPS2014*) Deep fragment embeddings for bidirectional image sentence mapping.**<br>
+*Andrej Karpathy, Armand Joulin, and Li Fei-Fei.*<br>
+[[paper]](https://cs.stanford.edu/people/karpathy/nips2014.pdf)
+
 **(*UVSE_NIPS2014*) Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.**<br>
 *Ryan Kiros, Ruslan Salakhutdinov, Richard S. Zemel.*<br>
 [[paper]](https://arxiv.org/pdf/1411.2539.pdf)
 [[code]](https://github.com/ryankiros/visual-semantic-embedding)
 [[demo]](http://www.cs.toronto.edu/~rkiros/lstm_scnlm.html)
 
-**(*DFE_NIPS2014*) Deep fragment embeddings for bidirectional image sentence mapping.**<br>
-*Andrej Karpathy, Armand Joulin, and Li Fei-Fei.*<br>
-[[paper]](https://cs.stanford.edu/people/karpathy/nips2014.pdf)
+### *Cross-modal interaction*
+**(*m-RNN_arXiv2014*) Explain Images with Multimodal Recurrent Neural Networks.**<br>
+*Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Alan L. Yuille.*<br>
+[[paper]](https://arxiv.org/abs/1410.1090)
 
-### *Cross-attention interaction*
 ### *Similarity measurement*
+
 ### *Loss function*
+
 ### *Related works*
+
 ### *Posted in*
 
 
@@ -378,15 +393,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[paper]](https://www.aclweb.org/anthology/2020.coling-main.64.pdf)
 [[code]](https://github.com/dali-does/vse-probing)(PyTorch)
 
-## Journals
 **Large scale image annotation: learning to rank with joint word-image embeddings.**<br>
 *Jason Weston, Samy Bengio, Nicolas Usunier.*<br>
 **_(Machine Learning 2010)_**<br>
 [[paper]](https://link.springer.com/content/pdf/10.1007%2Fs10994-010-5198-3.pdf)
-
-**(*SDT-RNN_TACL2014*) Grounded Compositional Semantics for Finding and Describing Images with Sentences.**<br>
-*Richard Socher, Andrej Karpathy, Quoc V. Le, Christopher D. Manning, Andrew Y. Ng.*<br>
-[[paper]](https://www.aclweb.org/anthology/Q14-1017.pdf)
 
 **Learning Two-Branch Neural Networks for Image-Text Matching Tasks.**<br>
 *Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik.*<br>
