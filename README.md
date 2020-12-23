@@ -175,8 +175,8 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 <table>
    <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
         <td colspan="6", align="center">CUB-Flowers</td> </tr>
-   <tr> <td colspan="2", align="center">Image-to-Text</td> <td colspan="2", align="center">Text-to-Image</td> 
-        <td colspan="2", align="center">Image-to-Text</td> <td colspan="2", align="center">Text-to-Image</td> </tr>
+   <tr> <td align="center">Image-to-Text</td> <td align="center">Text-to-Image</td> 
+        <td align="center">Image-to-Text</td> <td align="center">Text-to-Image</td> </tr>
    <tr> <td>R@1</td><td>AP@50</td> <td>R@1</td><td>AP@50</td> </tr>
    <tr> <td>222</td><td>222</td> <td>222</td><td>222</td> <td>222</td><td>222</td> </tr>
    <tr> <td>222</td><td>222</td> <td>222</td><td>222</td> <td>222</td><td>222</td> </tr>
