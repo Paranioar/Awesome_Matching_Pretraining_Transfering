@@ -11,7 +11,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 
 * [Methods summary](#method-summary)
     * [Generic-feature extraction](#generic-feature-extraction)
-    * [Cross-attention interaction](#cross-attention-interaction)
+    * [Cross-modal interaction](#cross-modal-interaction)
     * [Similarity measurement](#similarity-measurement)
     * [Loss function](#loss-function)
     * [Related works](#related-works)
@@ -27,18 +27,24 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
         <td colspan="6", align="center">Flickr8K</td> </tr>
    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
-   <tr> <td>SDT-RNN</td><td></td> <td>4.5</td><td>18.0</td><td>28.6</td> <td>6.1</td><td>18.5</td><td>29.0</td> </tr> 
-   <tr> <td>SDT-RNN</td><td>detection</td> <td>6.0</td><td>22.7</td><td>34.0</td> <td>6.6</td><td>21.6</td><td>31.7</td> </tr>
-   <tr> <td>DeFrag</td><td></td> <td>5.9</td><td>19.2</td><td>27.3</td> <td>5.2</td><td>17.6</td><td>26.5</td> </tr>
-   <tr> <td>DeFrag</td><td>detection</td> <td>12.6</td><td>32.9</td><td>44.0</td> <td>9.7</td><td>29.6</td><td>42.5</td> </tr>
-   <tr> <td>m-RNN</td><td></td> <td>14.5</td><td>37.2</td><td>48.5</td> <td>11.5</td><td>31.0</td><td>42.4</td> </tr>
-   <tr> <td>UVSE</td><td></td> <td>13.5</td><td>36.2</td><td>45.7</td> <td>10.4</td><td>31.0</td><td>43.7</td> </tr>
-   <tr> <td>UVSE</td><td>OxfordNet</td> <td>18.0</td><td>40.9</td><td>55.0</td> <td>12.5</td><td>37.0</td><td>51.5</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
+   <tr> <td>DeViSE</td><td>RCNN</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
+   <tr> <td>SDT-RNN</td><td>AlexNet</td> <td>4.5</td><td>18.0</td><td>28.6</td> <td>6.1</td><td>18.5</td><td>29.0</td> </tr> 
+   <tr> <td>SDT-RNN</td><td>RCNN</td> <td>6.0</td><td>22.7</td><td>34.0</td> <td>6.6</td><td>21.6</td><td>31.7</td> </tr>
+   <tr> <td>DeFrag</td><td>AlexNet</td> <td>5.9</td><td>19.2</td><td>27.3</td> <td>5.2</td><td>17.6</td><td>26.5</td> </tr>
+   <tr> <td>DeFrag</td><td>RCNN</td> <td>12.6</td><td>32.9</td><td>44.0</td> <td>9.7</td><td>29.6</td><td>42.5</td> </tr>
+   <tr> <td>m-RNN</td><td>AlexNet</td> <td>14.5</td><td>37.2</td><td>48.5</td> <td>11.5</td><td>31.0</td><td>42.4</td> </tr>
+   <tr> <td>DVSA</td><td>DepTree</td> <td>14.8</td><td>37.9</td><td>50.0</td> <td>11.6</td><td>31.4</td><td>43.8</td> </tr>
+   <tr> <td>DVSA</td><td>BRNN</td> <td>16.5</td><td>40.6</td><td>54.2</td> <td>11.8</td><td>32.1</td><td>44.7</td> </tr>
+   <tr> <td>DCCA</td><td></td> <td>17.9</td><td>40.3</td><td>51.9</td> <td>12.7</td><td>31.2</td><td>44.1</td> </tr>
+   <tr> <td>UVSE</td><td>AlexNet</td> <td>13.5</td><td>36.2</td><td>45.7</td> <td>10.4</td><td>31.0</td><td>43.7</td> </tr>
+   <tr> <td>UVSE</td><td>VggNet</td> <td>18.0</td><td>40.9</td><td>55.0</td> <td>12.5</td><td>37.0</td><td>51.5</td> </tr>
+   <tr> <td>m-CNN</td><td>OverFeat</td> <td>14.9</td><td>35.9</td><td>49.0</td> <td>11.8</td><td>34.5</td><td>48.0</td> </tr>
+   <tr> <td>m-CNN</td><td>VggNet</td> <td>24.8</td><td>53.7</td><td>67.1</td> <td>20.3</td><td>47.6</td><td>61.7</td> </tr>
+   <tr> <td>FV</td><td>GMM+HGLMM</td> <td>31.0</td><td>59.3</td><td>73.7</td> <td>21.2</td><td>50.0</td><td>64.8</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
 </table> 
 
 ### *Performance of Flickr30K*
@@ -47,13 +53,24 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
         <td colspan="6", align="center">Flickr30K</td> </tr>
    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-   <tr> <td>DeViSE</td><td>detection</td> <td>4.5</td><td>18.1</td><td>29.2</td> <td>6.7</td><td>21.9</td><td>32.7</td> </tr>
-   <tr> <td>SDT-RNN</td><td>detection</td> <td>9.6</td><td>29.8</td><td>41.1</td> <td>8.9</td><td>29.8</td><td>41.1</td> </tr>
-   <tr> <td>DeFrag</td><td>detection</td> <td>14.2</td><td>37.7</td><td>51.3</td> <td>10.2</td><td>30.8</td><td>44.2</td> </tr>
-   <tr> <td>DeFrag</td>ft_CNN<td></td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
-   <tr> <td>m-RNN</td><td></td> <td>18.4</td><td>40.2</td><td>50.9</td> <td>12.6</td><td>31.2</td><td>41.5</td> </tr>
-   <tr> <td>UVSE</td><td></td> <td>14.8</td><td>39.2</td><td>50.9</td> <td>11.8</td><td>34.0</td><td>46.3</td> </tr>
-   <tr> <td>UVSE</td><td>OxfordNet</td> <td>23.0</td><td>50.7</td><td>62.9</td> <td>16.8</td><td>42.0</td><td>56.5</td> </tr>
+   <tr> <td>DeViSE</td><td>RCNN</td> <td>4.5</td><td>18.1</td><td>29.2</td> <td>6.7</td><td>21.9</td><td>32.7</td> </tr>
+   <tr> <td>SDT-RNN</td><td>RCNN</td> <td>9.6</td><td>29.8</td><td>41.1</td> <td>8.9</td><td>29.8</td><td>41.1</td> </tr>
+   <tr> <td>DeFrag</td><td>RCNN</td> <td>14.2</td><td>37.7</td><td>51.3</td> <td>10.2</td><td>30.8</td><td>44.2</td> </tr>
+   <tr> <td>DeFrag</td><td>ft_CNN</td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
+   <tr> <td>DCCA</td><td></td> <td>16.7</td><td>39.3</td><td>52.9</td> <td>12.6</td><td>31.0</td><td>43.0</td> </tr>
+   <tr> <td>DVSA</td><td>DepTree</td> <td>20.0</td><td>46.6</td><td>59.4</td> <td>15.0</td><td>36.5</td><td>48.2</td> </tr>
+   <tr> <td>DVSA</td><td>BRNN</td> <td>22.2</td><td>48.2</td><td>61.4</td> <td>15.2</td><td>37.7</td><td>50.5</td> </tr>
+   <tr> <td>UVSE</td><td>AlexNet</td> <td>14.8</td><td>39.2</td><td>50.9</td> <td>11.8</td><td>34.0</td><td>46.3</td> </tr>
+   <tr> <td>UVSE</td><td>VggNet</td> <td>23.0</td><td>50.7</td><td>62.9</td> <td>16.8</td><td>42.0</td><td>56.5</td> </tr>
+   <tr> <td>m-RNN</td><td>AlexNet</td> <td>18.4</td><td>40.2</td><td>50.9</td> <td>12.6</td><td>31.2</td><td>41.5</td> </tr>
+   <tr> <td>m-RNN</td><td>VggNet</td> <td>35.4</td><td>63.8</td><td>73.7</td> <td>22.8</td><td>50.7</td><td>63.1</td> </tr>
+   <tr> <td>FV</td><td>GMM+HGLMM</td> <td>35.0</td><td>62.0</td><td>73.8</td> <td>25.0</td><td>52.7</td><td>66.0</td> </tr>
+   <tr> <td>m-CNN</td><td>OverFeat</td> <td>20.1</td><td>44.2</td><td>56.3</td> <td>15.9</td><td>40.3</td><td>51.9</td> </tr>
+   <tr> <td>m-CNN</td><td>VggNet</td> <td>33.6</td><td>64.1</td><td>74.9</td> <td>26.2</td><td>56.3</td><td>69.6</td> </tr>
+   <tr> <td>LDSP</td><td>FV</td> <td>40.3</td><td>68.9</td><td>79.9</td> <td>29.7</td><td>60.1</td><td>72.1</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+
 </table> 
 
 ### *Performance of MSCOCO1K*
@@ -62,8 +79,23 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
         <td colspan="6", align="center">MSCOCO1K</td> </tr>
    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr> 
-   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
+   <tr> <td>STV</td><td>combine-skip</td> <td>33.8</td><td>67.7</td><td>82.1</td> <td>25.9</td><td>60.0</td><td>74.6</td> </tr>
+   <tr> <td>FV</td><td>GMM+HGLMM</td> <td>39.4</td><td>67.9</td><td>80.9</td> <td>25.1</td><td>59.8</td><td>76.6</td> </tr>
+   <tr> <td>DVSA</td><td></td> <td>38.4</td><td>69.9</td><td>80.5</td> <td>27.4</td><td>60.2</td><td>74.8</td> </tr>
+   <tr> <td>m-RNN</td><td>VggNet</td> <td>41.0</td><td>73.0</td><td>83.5</td> <td>29.0</td><td>42.2</td><td>77.0</td> </tr>
+   <tr> <td>m-CNN</td><td>VggNet</td> <td>42.8</td><td>73.1</td><td>84.1</td> <td>32.6</td><td>68.6</td><td>82.8</td> </tr>
+   <tr> <td>UVSE</td><td>VggNet</td> <td>43.4</td><td>75.7</td><td>85.8</td> <td>31.0</td><td>66.7</td><td>79.9</td> </tr>
+   <tr> <td>Order-emb</td><td></td> <td>46.7</td><td>--</td><td>88.9</td> <td>37.9</td><td>--</td><td>85.9</td> </tr>
+   <tr> <td>LDSP</td><td>FV</td> <td>50.1</td><td>79.7</td><td>89.2</td> <td>39.6</td><td>75.2</td><td>86.9</td> </tr>   
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>   
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>   
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>   
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+
+
 </table> 
 
 ### *Performance of MSCOCO5K*
@@ -72,8 +104,14 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
         <td colspan="6", align="center">MSCOCO5K</td> </tr>
    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr> 
-   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
+   <tr> <td>DVSA</td><td></td> <td>16.5</td><td>39.2</td><td>52.0</td> <td>10.7</td><td>29.6</td><td>42.2</td> </tr>
+   <tr> <td>FV</td><td>GMM+HGLMM</td> <td>17.3</td><td>39.0</td><td>50.2</td> <td>10.8</td><td>28.3</td><td>40.1</td> </tr>
+   <tr> <td>Order-emb</td><td></td> <td>23.3</td><td>--</td><td>65.0</td> <td>18.0</td><td>--</td><td>57.6</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   
 </table> 
 
 ****
@@ -90,7 +128,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[paper]](https://www.aclweb.org/anthology/Q14-1017.pdf)
 
 **(*DeFrag_NIPS2014*) Deep fragment embeddings for bidirectional image sentence mapping.**<br>
-*Andrej Karpathy, Armand Joulin, and Li Fei-Fei.*<br>
+*Andrej Karpathy, Armand Joulin, Li Fei-Fei.*<br>
 [[paper]](https://cs.stanford.edu/people/karpathy/nips2014.pdf)
 
 **(*UVSE_NIPS2014*) Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.**<br>
@@ -99,39 +137,46 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[code]](https://github.com/ryankiros/visual-semantic-embedding)
 [[demo]](http://www.cs.toronto.edu/~rkiros/lstm_scnlm.html)
 
+**(*m-CNN_ICCV2015*) Multimodal Convolutional Neural Networks for Matching Image and Sentence.**<br>
+*Lin Ma, Zhengdong Lu, Lifeng Shang, Hang Li.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7410658)
+
+**(*STV_NIPS2015*) Skip-thought Vectors.**<br>
+*Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=http%3A%2F%2Fcn.arxiv.org%2Fpdf%2F1506.06726v1.pdf)
+
+**(*DCCA_CVPR2015*) Deep Correlation for Matching Images and Text.**<br>
+*Fei Yan, Krystian Mikolajczyk.*<br>
+[[paper]](http://openaccess.thecvf.com/content_cvpr_2015/papers/Yan_Deep_Correlation_for_2015_CVPR_paper.pdf)
+
+**(*FV_CVPR2015*) Associating Neural Word Embeddings with Deep Image Representationsusing Fisher Vectors.**<br>
+*Benjamin Klein, Guy Lev, Gil Sadeh, Lior Wolf.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7299073)
+
+**(*DVSA_CVPR2015*) Deep Visual-Semantic Alignments for Generating Image Descriptions.**<br>
+*Andrej Karpathy, Li Fei-Fei.*<br>
+[[paper]](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
+
+**(*LDSP_CVPR2016*)Learning Deep Structure-Preserving Image-Text Embeddings.**<br>
+*Liwei Wang, Yin Li, Svetlana Lazebnik.*<br>
+[[paper]](http://slazebni.cs.illinois.edu/publications/cvpr16_structure.pdf)
+
 ### *Cross-modal interaction*
-**(*m-RNN_arXiv2014*) Explain Images with Multimodal Recurrent Neural Networks.**<br>
-*Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Alan L. Yuille.*<br>
-[[paper]](https://arxiv.org/abs/1410.1090)
+**(*m-RNN_ICLR2015*) Deep Captioning with Multimodal Recurrent Neural Network(M-RNN).**<br>
+*Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, Alan Yuille.*<br>
+[[paper]](https://arxiv.org/abs/1412.6632)
+[[code]](https://github.com/mjhucla/mRNN-CR)
 
 ### *Similarity measurement*
+**(*Order-emb_ICLR2016*) Order-Embeddings of Images and Language.**<br>
+*Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
+[[paper]](https://arxiv.org/pdf/1511.06361.pdf)
 
 ### *Loss function*
 
 ### *Related works*
 
 ### *Posted in*
-
-
-**Deep Visual-Semantic Alignments for Generating Image Descriptions.**<br>
-*Andrej Karpathy, Li Fei-Fei.*<br>
-**_(CVPR 2015)_**<br>
-[[paper]](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
-
-**Deep Correlation for Matching Images and Text.**<br>
-*Fei Yan, Krystian Mikolajczyk.*<br>
-**_(CVPR 2015)_**<br>
-[[paper]](http://openaccess.thecvf.com/content_cvpr_2015/papers/Yan_Deep_Correlation_for_2015_CVPR_paper.pdf)
-
-**ORDER-EMBEDDINGS OF IMAGES AND LANGUAGE.**<br>
-*Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
-**_(ICLR 2016)_**<br>
-[[paper]](https://arxiv.org/pdf/1511.06361.pdf)
-
-**Learning Deep Structure-Preserving Image-Text Embeddings.**<br>
-*Liwei Wang, Yin Li, Svetlana Lazebnik.*<br>
-**_(CVPR 2016)_**<br>
-[[paper]](http://slazebni.cs.illinois.edu/publications/cvpr16_structure.pdf)
 
 **Learning a Deep Embedding Model for Zero-Shot Learning.**<br>
 *Li Zhang, Tao Xiang, Shaogang Gong.*<br>
