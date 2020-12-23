@@ -6,7 +6,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 * [Peformance comparison](#peformance-comparison)
     * [Flickr8K](#performance-of-flickr8k)
     * [Flickr30K](#performance-of-flickr30k)
-    * [MSCOCO1K](#performance-of--mscoco1k)
+    * [MSCOCO1K](#performance-of-mscoco1k)
     * [MSCOCO5K](#performance-of-mscoco5k)
 
 * [Methods summary](#method-summary)
@@ -14,6 +14,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
     * [Cross-attention interaction](#cross-attention-interaction)
     * [Similarity measurement](#similarity-measurement)
     * [Loss function](#loss-function)
+    * [Related works](#related-works)
     * [Posted in](#posted-in)
 ****
 
@@ -22,42 +23,53 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 ### *Performance of Flickr8K*
 **(*\** indicates Ensemble models, *^* indicates questionable authen)**
 <table>
-    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
-         <td colspan="6", align="center">Flickr8K</td>
-    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
-    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
- 
+   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
+        <td colspan="6", align="center">Flickr8K</td> </tr>
+   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+   <tr> <td>SDT-RNN</td><td></td> <td>4.5</td><td>18.0</td><td>28.6</td> <td>6.1</td><td>18.5</td><td>29.0</td> </tr> 
+   <tr> <td>SDT-RNN</td><td>detection</td> <td>6.0</td><td>22.7</td><td>34.0</td> <td>6.6</td><td>21.6</td><td>31.7</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
+   <tr> <td>DeFrag</td><td></td> <td>5.9</td><td>19.2</td><td>27.3</td> <td>5.2</td><td>17.6</td><td>26.5</td> </tr>
+   <tr> <td>DeFrag</td><td>detection</td> <td>12.6</td><td>32.9</td><td>44.0</td> <td>9.7</td><td>29.6</td><td>42.5</td> </tr>
+   <tr> <td>m-RNN</td><td></td> <td>14.5</td><td>37.2</td><td>48.5</td> <td>11.5</td><td>31.0</td><td>42.4</td> </tr>
+   <tr> <td>UVSE</td><td></td> <td>13.5</td><td>36.2</td><td>45.7</td> <td>10.4</td><td>31.0</td><td>43.7</td> </tr>
+   <tr> <td>UVSE</td><td>OxfordNet</td> <td>18.0</td><td>40.9</td><td>55.0</td> <td>12.5</td><td>37.0</td><td>51.5</td> </tr>
 </table> 
 
 ### *Performance of Flickr30K*
 <table>
-    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
-         <td colspan="6", align="center">Flickr30K</td>
-    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
-    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
- 
+   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
+        <td colspan="6", align="center">Flickr30K</td> </tr>
+   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+   <tr> <td>DeViSE</td><td>detection</td> <td>4.5</td><td>18.1</td><td>29.2</td> <td>6.7</td><td>21.9</td><td>32.7</td> </tr>
+   <tr> <td>SDT-RNN</td><td>detection</td> <td>9.6</td><td>29.8</td><td>41.1</td> <td>8.9</td><td>29.8</td><td>41.1</td> </tr>
+   <tr> <td>DeFrag</td><td>detection</td> <td>14.2</td><td>37.7</td><td>51.3</td> <td>10.2</td><td>30.8</td><td>44.2</td> </tr>
+   <tr> <td>DeFrag(ft_CNN)</td><td>detection</td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
+   <tr> <td>m-RNN</td><td></td> <td>18.4</td><td>40.2</td><td>50.9</td> <td>12.6</td><td>31.2</td><td>41.5</td> </tr>
+   <tr> <td>UVSE</td><td></td> <td>14.8</td><td>39.2</td><td>50.9</td> <td>11.8</td><td>34.0</td><td>46.3</td> </tr>
+   <tr> <td>UVSE</td><td>OxfordNet</td> <td>23.0</td><td>50.7</td><td>62.9</td> <td>16.8</td><td>42.0</td><td>56.5</td> </tr>
 </table> 
 
 ### *Performance of MSCOCO1K*
 <table>
-    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
-         <td colspan="6", align="center">MSCOCO1K</td>
-    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
-    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
- 
+   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
+        <td colspan="6", align="center">MSCOCO1K</td> </tr>
+   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr> 
+   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
 </table> 
 
 ### *Performance of MSCOCO5K*
 <table>
-    <tr> <td rowspan="3">Method</td> <td rowspan="3", align="center">Note</td> 
-         <td colspan="6", align="center">MSCOCO5K</td>
-    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
-    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>UVSE</td><td>OxfordNet</td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td>
- 
+   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
+        <td colspan="6", align="center">MSCOCO5K</td> </tr>
+   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
+   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr> 
+   <tr> <td>SDT-RNN</td><td></td> <td>31.2</td><td>31.2</td><td>31.2</td> <td>31.2</td><td>31.2</td><td>31.2</td> </tr>
 </table> 
 
 ****
@@ -69,14 +81,20 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
 [[paper]](https://papers.nips.cc/paper/5204-devise-a-deep-visual-semantic-embedding-model.pdf)
 
-**(*OxfordNet_NIPS2014*) Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.**<br>
+**(*UVSE_NIPS2014*) Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.**<br>
 *Ryan Kiros, Ruslan Salakhutdinov, Richard S. Zemel.*<br>
 [[paper]](https://arxiv.org/pdf/1411.2539.pdf)
 [[code]](https://github.com/ryankiros/visual-semantic-embedding)
+[[demo]](http://www.cs.toronto.edu/~rkiros/lstm_scnlm.html)
+
+**(*DFE_NIPS2014*) Deep fragment embeddings for bidirectional image sentence mapping.**<br>
+*Andrej Karpathy, Armand Joulin, and Li Fei-Fei.*<br>
+[[paper]](https://cs.stanford.edu/people/karpathy/nips2014.pdf)
 
 ### *Cross-attention interaction*
 ### *Similarity measurement*
 ### *Loss function*
+### *Related works*
 ### *Posted in*
 
 
@@ -366,9 +384,8 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 **_(Machine Learning 2010)_**<br>
 [[paper]](https://link.springer.com/content/pdf/10.1007%2Fs10994-010-5198-3.pdf)
 
-**Grounded Compositional Semantics for Finding and Describing Images with Sentences.**<br>
+**(*SDT-RNN_TACL2014*) Grounded Compositional Semantics for Finding and Describing Images with Sentences.**<br>
 *Richard Socher, Andrej Karpathy, Quoc V. Le, Christopher D. Manning, Andrew Y. Ng.*<br>
-**_(TACL 2014)_**<br>
 [[paper]](https://www.aclweb.org/anthology/Q14-1017.pdf)
 
 **Learning Two-Branch Neural Networks for Image-Text Matching Tasks.**<br>
