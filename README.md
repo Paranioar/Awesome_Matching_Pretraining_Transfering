@@ -40,7 +40,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>DeFrag</td><td>RCNN</td> <td>12.6</td><td>32.9</td><td>44.0</td> <td>9.7</td><td>29.6</td><td>42.5</td> </tr>
    <tr> <td>m-RNN</td><td>AlexNet</td> <td>14.5</td><td>37.2</td><td>48.5</td> <td>11.5</td><td>31.0</td><td>42.4</td> </tr>
    <tr> <td>DVSA</td><td>DepTree</td> <td>14.8</td><td>37.9</td><td>50.0</td> <td>11.6</td><td>31.4</td><td>43.8</td> </tr>
-   <tr> <td>DVSA</td><td>BRNN</td> <td>16.5</td><td>40.6</td><td>54.2</td> <td>11.8</td><td>32.1</td><td>44.7</td> </tr>
+   <tr> <td>DVSA</td><td>RCNN</td> <td>16.5</td><td>40.6</td><td>54.2</td> <td>11.8</td><td>32.1</td><td>44.7</td> </tr>
    <tr> <td>UVSE</td><td>AlexNet</td> <td>13.5</td><td>36.2</td><td>45.7</td> <td>10.4</td><td>31.0</td><td>43.7</td> </tr>
    <tr> <td>UVSE</td><td>VggNet</td> <td>18.0</td><td>40.9</td><td>55.0</td> <td>12.5</td><td>37.0</td><td>51.5</td> </tr>
    <tr> <td>NIC</td><td>GoogleNet</td> <td>20</td><td>--</td><td>61</td> <td>19</td><td>--</td><td>64</td> </tr>
@@ -63,10 +63,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>DeViSE</td><td>RCNN</td> <td>4.5</td><td>18.1</td><td>29.2</td> <td>6.7</td><td>21.9</td><td>32.7</td> </tr>
    <tr> <td>SDT-RNN</td><td>RCNN</td> <td>9.6</td><td>29.8</td><td>41.1</td> <td>8.9</td><td>29.8</td><td>41.1</td> </tr>
    <tr> <td>DeFrag</td><td>RCNN</td> <td>14.2</td><td>37.7</td><td>51.3</td> <td>10.2</td><td>30.8</td><td>44.2</td> </tr>
-   <tr> <td>DeFrag</td><td>ft_CNN</td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
+   <tr> <td>DeFrag</td><td>ftCNN</td> <td>16.4</td><td>40.2</td><td>54.7</td> <td>10.3</td><td>31.4</td><td>44.5</td> </tr>
    <tr> <td>NIC</td><td>GoogleNet</td> <td>17</td><td>--</td><td>56</td> <td>17</td><td>--</td><td>57</td> </tr>
    <tr> <td>DVSA</td><td>DepTree</td> <td>20.0</td><td>46.6</td><td>59.4</td> <td>15.0</td><td>36.5</td><td>48.2</td> </tr>
-   <tr> <td>DVSA</td><td>BRNN</td> <td>22.2</td><td>48.2</td><td>61.4</td> <td>15.2</td><td>37.7</td><td>50.5</td> </tr>
+   <tr> <td>DVSA</td><td>RCNN</td> <td>22.2</td><td>48.2</td><td>61.4</td> <td>15.2</td><td>37.7</td><td>50.5</td> </tr>
    <tr> <td>UVSE</td><td>AlexNet</td> <td>14.8</td><td>39.2</td><td>50.9</td> <td>11.8</td><td>34.0</td><td>46.3</td> </tr>
    <tr> <td>UVSE</td><td>VggNet</td> <td>23.0</td><td>50.7</td><td>62.9</td> <td>16.8</td><td>42.0</td><td>56.5</td> </tr>
    <tr> <td>m-RNN</td><td>AlexNet</td> <td>18.4</td><td>40.2</td><td>50.9</td> <td>12.6</td><td>31.2</td><td>41.5</td> </tr>
@@ -75,17 +75,17 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>m-CNN*</td><td>OverFeat</td> <td>20.1</td><td>44.2</td><td>56.3</td> <td>15.9</td><td>40.3</td><td>51.9</td> </tr>
    <tr> <td>m-CNN*</td><td>VggNet</td> <td>33.6</td><td>64.1</td><td>74.9</td> <td>26.2</td><td>56.3</td><td>69.6</td> </tr>
    <tr> <td>HM-LSTM</td><td>RCNN</td> <td>38.1</td><td>--</td><td>76.5</td> <td>27.7</td><td>--</td><td>68.8</td> </tr>
-   <tr> <td>SPE</td><td>FV</td> <td>40.3</td><td>68.9</td><td>79.9</td> <td>29.7</td><td>60.1</td><td>72.1</td> </tr>
+   <tr> <td>SPE</td><td>VggNet</td> <td>40.3</td><td>68.9</td><td>79.9</td> <td>29.7</td><td>60.1</td><td>72.1</td> </tr>
    <tr> <td>sm-LSTM</td><td>VggNet</td> <td>42.4</td><td>67.5</td><td>79.9</td> <td>28.2</td><td>57.0</td><td>68.4</td> </tr>
    <tr> <td>sm-LSTM*</td><td>VggNet</td> <td>42.5</td><td>71.9</td><td>81.5</td> <td>30.2</td><td>60.4 </td><td>72.3</td> </tr>
    <tr> <td>CSE</td><td>ResNet</td> <td>44.6</td><td>74.3</td><td>83.8</td> <td>36.9</td><td>69.1</td><td>79.6</td> </tr>
-   <tr> <td>2WayNet</td><td></td> <td>49.8</td><td>67.5</td><td>--</td> <td>36.0</td><td>55.6</td><td>--</td> </tr>
+   <tr> <td>2WayNet</td><td>VggNet</td> <td>49.8</td><td>67.5</td><td>--</td> <td>36.0</td><td>55.6</td><td>--</td> </tr>
    <tr> <td>RRF-Net</td><td>ResNet</td> <td>47.6</td><td>77.4</td><td>87.1</td> <td>35.4</td><td>68.3</td><td>79.9</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>40.3</td><td>66.9</td><td>76.7</td> <td>30.4</td><td>58.2</td><td>68.5</td> </tr>
    <tr> <td>CMPL</td><td>ResNet</td> <td>49.6</td><td>76.8</td><td>86.1</td> <td>37.3</td><td>65.7</td><td>75.5</td> </tr>
-   <tr> <td>VSE++</td><td>ft_VggNet</td> <td>41.3</td><td>69.1</td><td>77.9</td> <td>31.4</td><td>60.0</td><td>71.2</td> </tr>
-   <tr> <td>VSE++</td><td>ft_ResNet</td> <td>52.9</td><td>80.5</td><td>87.2</td> <td>39.6</td><td>70.1</td><td>79.5</td> </tr>
-   <tr> <td>TIMAM</td><td>ft_ResNet, Bert</td> <td>53.1</td><td>78.8</td><td>87.6</td> <td>42.6</td><td>71.6</td><td>81.9</td> </tr>
+   <tr> <td>VSE++</td><td>VggNet</td> <td>41.3</td><td>69.1</td><td>77.9</td> <td>31.4</td><td>60.0</td><td>71.2</td> </tr>
+   <tr> <td>VSE++</td><td>ResNet</td> <td>52.9</td><td>80.5</td><td>87.2</td> <td>39.6</td><td>70.1</td><td>79.5</td> </tr>
+   <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>53.1</td><td>78.8</td><td>87.6</td> <td>42.6</td><td>71.6</td><td>81.9</td> </tr>
    <tr> <td>DAN</td><td>VggNet</td> <td>41.4</td><td>73.5</td><td>82.5</td> <td>31.8</td><td>61.7</td><td>72.5</td> </tr>
    <tr> <td>DAN</td><td>ResNet</td> <td>55.0</td><td>81.8</td><td> 89.0</td> <td>39.4</td><td>69.2</td><td>79.1</td> </tr>
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>61.8</td><td>87.5</td><td>93.7</td> <td>45.8</td><td>74.4</td><td>83.0</td> </tr>
@@ -108,25 +108,25 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
    <tr> <td>STV</td><td>combine-skip</td> <td>33.8</td><td>67.7</td><td>82.1</td> <td>25.9</td><td>60.0</td><td>74.6</td> </tr>
    <tr> <td>FV</td><td>GMM+HGLMM</td> <td>39.4</td><td>67.9</td><td>80.9</td> <td>25.1</td><td>59.8</td><td>76.6</td> </tr>
-   <tr> <td>DVSA</td><td></td> <td>38.4</td><td>69.9</td><td>80.5</td> <td>27.4</td><td>60.2</td><td>74.8</td> </tr>
+   <tr> <td>DVSA</td><td>RCNN</td> <td>38.4</td><td>69.9</td><td>80.5</td> <td>27.4</td><td>60.2</td><td>74.8</td> </tr>
    <tr> <td>m-RNN</td><td>VggNet</td> <td>41.0</td><td>73.0</td><td>83.5</td> <td>29.0</td><td>42.2</td><td>77.0</td> </tr>
    <tr> <td>m-CNN*</td><td>VggNet</td> <td>42.8</td><td>73.1</td><td>84.1</td> <td>32.6</td><td>68.6</td><td>82.8</td> </tr>
    <tr> <td>UVSE</td><td>VggNet</td> <td>43.4</td><td>75.7</td><td>85.8</td> <td>31.0</td><td>66.7</td><td>79.9</td> </tr>
    <tr> <td>HM-LSTM</td><td>RCNN</td> <td>43.9</td><td>--</td><td>87.8</td> <td>36.1</td><td>--</td><td>86.7</td> </tr>
-   <tr> <td>Order-emb</td><td>FV</td> <td>46.7</td><td>--</td><td>88.9</td> <td>37.9</td><td>--</td><td>85.9</td> </tr>
-   <tr> <td>SPE</td><td>FV</td> <td>50.1</td><td>79.7</td><td>89.2</td> <td>39.6</td><td>75.2</td><td>86.9</td> </tr> 
+   <tr> <td>Order-emb</td><td>VggNet</td> <td>46.7</td><td>--</td><td>88.9</td> <td>37.9</td><td>--</td><td>85.9</td> </tr>
+   <tr> <td>SPE</td><td>VggNet</td> <td>50.1</td><td>79.7</td><td>89.2</td> <td>39.6</td><td>75.2</td><td>86.9</td> </tr> 
    <tr> <td>SEAM</td><td>VggNet</td> <td>50.7</td><td>81.4</td><td>90.9</td> <td>40.3</td><td>75.7</td><td>87.4</td> </tr>
    <tr> <td>sm-LSTM</td><td>VggNet</td> <td>52.4</td><td>81.7</td><td>90.8</td> <td>38.6</td><td>73.4</td><td>84.6</td> </tr>
    <tr> <td>sm-LSTM*</td><td>VggNet</td> <td>53.2</td><td>83.1</td><td>91.5</td> <td>40.7</td><td>75.8</td><td>87.4</td> </tr>  
-   <tr> <td>2WayNet</td><td></td> <td>55.8</td><td>75.2</td><td>--</td> <td>39.7</td><td>63.3</td><td>--</td> </tr>
+   <tr> <td>2WayNet</td><td>VggNet</td> <td>55.8</td><td>75.2</td><td>--</td> <td>39.7</td><td>63.3</td><td>--</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>52.9</td><td>83.8</td><td>92.1</td> <td>41.3</td><td>74.6</td><td>85.9</td> </tr>
    <tr> <td>CMPM</td><td>ResNet</td> <td>56.1</td><td>86.3</td><td>92.9</td> <td>44.6</td><td>78.8</td><td>89.0</td> </tr>
    <tr> <td>RRF-Net</td><td>ResNet</td> <td>56.4</td><td>85.3</td><td>91.5</td> <td>43.9</td><td>78.1</td><td>88.6</td> </tr>   
    <tr> <td>CSE</td><td>ResNet</td> <td>56.3</td><td>84.4</td><td>92.2</td> <td>45.7</td><td>81.2</td><td>90.6</td> </tr>    
    <tr> <td>CHAIN-VSE</td><td>VggNet</td> <td>51.6</td><td>82.0</td><td>91.3</td> <td>38.6</td><td>75.1</td><td>87.2</td> </tr>
    <tr> <td>CHAIN-VSE</td><td>ResNet</td> <td>59.4</td><td>88.0</td><td>94.2</td> <td>43.5</td><td>79.8</td><td>90.2</td> </tr>
-   <tr> <td>VSE++</td><td>ft_VggNet</td> <td>57.2</td><td>86.0</td><td>93.3</td> <td>45.9</td><td>79.4</td><td>89.1</td> </tr>
-   <tr> <td>VSE++</td><td>ft_ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
+   <tr> <td>VSE++</td><td>VggNet</td> <td>57.2</td><td>86.0</td><td>93.3</td> <td>45.9</td><td>79.4</td><td>89.1</td> </tr>
+   <tr> <td>VSE++</td><td>ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>70.9</td><td>94.5</td><td>97.8</td> <td>56.4</td><td>87.0</td><td>93.9</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, AVE</td> <td>69.2</td><td>93.2</td><td>97.5</td> <td>54.4</td><td>86.0</td><td>93.6</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4 </td><td>94.8</td> </tr>
@@ -146,14 +146,14 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
         <td colspan="6", align="center">MSCOCO5K</td> </tr>
    <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-   <tr> <td>DVSA</td><td></td> <td>16.5</td><td>39.2</td><td>52.0</td> <td>10.7</td><td>29.6</td><td>42.2</td> </tr>
+   <tr> <td>DVSA</td><td>RCNN</td> <td>16.5</td><td>39.2</td><td>52.0</td> <td>10.7</td><td>29.6</td><td>42.2</td> </tr>
    <tr> <td>FV</td><td>GMM+HGLMM</td> <td>17.3</td><td>39.0</td><td>50.2</td> <td>10.8</td><td>28.3</td><td>40.1</td> </tr>
-   <tr> <td>Order-emb</td><td>FV</td> <td>23.3</td><td>--</td><td>65.0</td> <td>18.0</td><td>--</td><td>57.6</td> </tr>
+   <tr> <td>Order-emb</td><td>VggNet</td> <td>23.3</td><td>--</td><td>65.0</td> <td>18.0</td><td>--</td><td>57.6</td> </tr>
    <tr> <td>CSE</td><td>ResNet</td> <td>27.9</td><td>57.1</td><td>70.4</td> <td>22.2</td><td>50.2</td><td>64.4</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>24.6</td><td>52.3</td><td>66.4</td> <td>19.1</td><td>44.6</td><td>58.4</td> </tr>
    <tr> <td>CMPM</td><td>ResNet</td> <td>31.1</td><td>60.7</td><td>73.9</td> <td>22.9</td><td>50.2</td><td>63.8</td> </tr>
-   <tr> <td>VSE++</td><td>ft_VggNet</td> <td>32.9</td><td>61.7</td><td>74.7</td> <td>24.1</td><td>52.8</td><td>66.2</td> </tr>
-   <tr> <td>VSE++</td><td>ft_ResNet</td> <td>41.3</td><td>71.1</td><td>81.2</td> <td>30.3</td><td>59.4</td><td>72.4</td> </tr>
+   <tr> <td>VSE++</td><td>VggNet</td> <td>32.9</td><td>61.7</td><td>74.7</td> <td>24.1</td><td>52.8</td><td>66.2</td> </tr>
+   <tr> <td>VSE++</td><td>ResNet</td> <td>41.3</td><td>71.1</td><td>81.2</td> <td>30.3</td><td>59.4</td><td>72.4</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
    <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
@@ -169,16 +169,16 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td></tr>
    <tr> <td>LSTM-Q+I</td><td>VggNet</td> <td>17.19</td><td>--</td><td>57.82</td> </tr>
    <tr> <td>GNA-RNN</td><td>VggNet</td> <td>19.05</td><td>--</td><td>53.64</td> </tr>
-   <tr> <td>IATV</td><td>ft_VggNet</td> <td>25.94</td><td>--</td><td>60.48</td> </tr>
-   <tr> <td>PWM-ATH</td><td>ft_VggNet</td> <td>27.14</td><td>49.45</td><td>61.02</td> </tr>
-   <tr> <td>GLA</td><td>ft_ResNet</td> <td>43.58</td><td>66.93</td><td>76.26</td> </tr>
-   <tr> <td>Dual-Path</td><td>ft_VggNet</td> <td>32.15</td><td>54.42</td><td>64.30</td> </tr>
-   <tr> <td>Dual-Path</td><td>ft_ResNet</td> <td>44.40</td><td>66.26</td><td>75.07</td> </tr>
-   <tr> <td>CMPM</td><td>ft_MobileNet</td> <td>44.02</td><td>--</td><td>77.00</td> </tr>
-   <tr> <td>CMPL</td><td>ft_MobileNet</td> <td>49.37</td><td>--</td><td>79.27</td> </tr>
-   <tr> <td>PMA</td><td>ft_VggNet</td> <td>47.02</td><td>68.54</td><td>78.06</td> </tr>
-   <tr> <td>PMA</td><td>ft_ResNet</td> <td>53.81</td><td>73.54</td><td>81.23</td> </tr>
-   <tr> <td>TIMAM</td><td>ft_ResNet101, Bert</td> <td>54.51</td><td>77.56</td><td>84.78</td> </tr>
+   <tr> <td>IATV</td><td>VggNet</td> <td>25.94</td><td>--</td><td>60.48</td> </tr>
+   <tr> <td>PWM-ATH</td><td>VggNet</td> <td>27.14</td><td>49.45</td><td>61.02</td> </tr>
+   <tr> <td>GLA</td><td>ResNet</td> <td>43.58</td><td>66.93</td><td>76.26</td> </tr>
+   <tr> <td>Dual-Path</td><td>VggNet</td> <td>32.15</td><td>54.42</td><td>64.30</td> </tr>
+   <tr> <td>Dual-Path</td><td>ResNet</td> <td>44.40</td><td>66.26</td><td>75.07</td> </tr>
+   <tr> <td>CMPM</td><td>MobileNet</td> <td>44.02</td><td>--</td><td>77.00</td> </tr>
+   <tr> <td>CMPL</td><td>MobileNet</td> <td>49.37</td><td>--</td><td>79.27</td> </tr>
+   <tr> <td>PMA</td><td>VggNet</td> <td>47.02</td><td>68.54</td><td>78.06</td> </tr>
+   <tr> <td>PMA</td><td>ResNet</td> <td>53.81</td><td>73.54</td><td>81.23</td> </tr>
+   <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>54.51</td><td>77.56</td><td>84.78</td> </tr>
 </table> 
 
 ### *performance of CUB-Flowers*
@@ -193,12 +193,11 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>Triplet</td><td>IATV</td> <td>52.5</td><td>52.4</td> <td>64.3</td><td>64.9</td> </tr>
    <tr> <td>Word-NN</td><td>CNN</td> <td>51.0</td><td>43.3</td> <td>60.7</td><td>56.3</td> </tr>
    <tr> <td>Word-NN</td><td>CNN-RNN</td> <td>56.8</td><td>48.7</td> <td>65.6</td><td>59.6</td> </tr>
-   <tr> <td>IATV</td><td>ft_VggNet</td> <td>61.5</td><td>57.6</td> <td>68.4</td><td>70.1</td> </tr>
-   <tr> <td>CMPM</td><td>ft_MobileNet</td> <td>62.1</td><td>64.6</td> <td>66.1</td><td>67.7</td> </tr>
-   <tr> <td>CMPL</td><td>ft_MobileNet</td> <td>64.3</td><td>67.9</td> <td>68.9</td><td>69.7</td> </tr>
-   <tr> <td>TIMAM</td><td>ft_ResNet101, Bert</td> <td>67.7</td><td>70.3</td> <td>70.6</td><td>73.7</td> </tr>
+   <tr> <td>IATV</td><td>VggNet</td> <td>61.5</td><td>57.6</td> <td>68.4</td><td>70.1</td> </tr>
+   <tr> <td>CMPM</td><td>MobileNet</td> <td>62.1</td><td>64.6</td> <td>66.1</td><td>67.7</td> </tr>
+   <tr> <td>CMPL</td><td>MobileNet</td> <td>64.3</td><td>67.9</td> <td>68.9</td><td>69.7</td> </tr>
+   <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>67.7</td><td>70.3</td> <td>70.6</td><td>73.7</td> </tr>
 </table> 
-
 
 ****
 
@@ -273,6 +272,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wehrmann_Bidirectional_Retrieval_Made_CVPR_2018_paper.pdf)
 [[code]](https://github.com/jwehrmann/chain-vse)
 
+**(*SCO_CVPR2018*) Learning Semantic Concepts and Order for Image and Sentence Matching.**<br>
+*Yan Huang, Qi Wu, Liang Wang.*<br>
+[[paper]](https://arxiv.org/pdf/1712.02036)
+
 ### ``*Cross-modal interaction*``
 **(*NIC_arXiv2014*) Show and Tell: A Neural Image Caption Generator.**<br>
 *Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.*<br>
@@ -341,6 +344,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Haoyue Shi, Jiayuan Mao, Tete Xiao, Yuning Jiang, Jian Sun.*<br>
 [[paper]](https://aclweb.org/anthology/C18-1315)
 [[code]](https://github.com/ExplorerFreda/VSE-C)
+
+**(*GXN_CVPR2018*) Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models.**<br>
+*Jiuxiang Gu, Jianfei Cai, Shafiq Joty, Li Niu, Gang Wang.*<br>
+[[paper]](https://arxiv.org/pdf/1711.06420)
 
 **(*TIMAM_ICCV2019*) Adversarial Representation Learning for Text-to-Image Matching.**<br>
 *Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris.*<br>
