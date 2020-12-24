@@ -16,9 +16,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
     * [Cross-modal interaction](#cross-modal-interaction)
     * [Similarity measurement](#similarity-measurement)
     * [Loss function](#loss-function)
-    * [Adversarial training](#adversarial-training)
     * [Un-supervised or Semi-supervised](#un-supervised-or-semi-supervised)
     * [Zero-shot or Fewer-shot](#zero-shot-or-fewer-shot)
+    * [Adversarial learning](#adversarial-learning)
+    * [Identification learning](#identification-learning)
     * [Related works](#related-works)
     * [Posted in](#posted-in)
 ****
@@ -47,10 +48,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>m-CNN*</td><td>VggNet</td> <td>24.8</td><td>53.7</td><td>67.1</td> <td>20.3</td><td>47.6</td><td>61.7</td> </tr>
    <tr> <td>HM-LSTM</td><td>RCNN</td> <td>27.7</td><td>--</td><td>68.6</td> <td>24.4</td><td>--</td><td>68.1</td> </tr>
    <tr> <td>FV</td><td>GMM+HGLMM</td> <td>31.0</td><td>59.3</td><td>73.7</td> <td>21.2</td><td>50.0</td><td>64.8</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>SCAN*</td><td>BUTD</td> <td>52.2</td><td>81.0</td><td>89.2</td> <td>38.3</td><td>67.8</td><td>78.9</td> </tr>
+   <tr> <td>IMRAM_t2i</td><td>BUTD</td> <td>48.5</td><td>78.1</td><td>85.3</td> <td>32.0</td><td>61.4</td><td>73.9</td> </tr>
+   <tr> <td>IMRAM_i2t</td><td>BUTD</td> <td>52.1</td><td>81.5</td><td>90.1</td> <td>40.2</td><td>69.0</td><td>79.2</td> </tr>
+   <tr> <td>IMRAM</td><td>BUTD</td> <td>54.7</td><td>84.2</td><td>91.0</td> <td>41.0</td><td>69.2</td><td>79.9</td> </tr>
 </table> 
 
 ### *Performance of Flickr30K*
@@ -78,12 +79,13 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>sm-LSTM</td><td>VggNet</td> <td>42.4</td><td>67.5</td><td>79.9</td> <td>28.2</td><td>57.0</td><td>68.4</td> </tr>
    <tr> <td>sm-LSTM*</td><td>VggNet</td> <td>42.5</td><td>71.9</td><td>81.5</td> <td>30.2</td><td>60.4 </td><td>72.3</td> </tr>
    <tr> <td>CSE</td><td>ResNet</td> <td>44.6</td><td>74.3</td><td>83.8</td> <td>36.9</td><td>69.1</td><td>79.6</td> </tr>
-   <tr> <td>2WayNet</td><td>--</td> <td>49.8</td><td>67.5</td><td>--</td> <td>36.0</td><td>55.6</td><td>--</td> </tr>
+   <tr> <td>2WayNet</td><td></td> <td>49.8</td><td>67.5</td><td>--</td> <td>36.0</td><td>55.6</td><td>--</td> </tr>
    <tr> <td>RRF-Net</td><td>ResNet</td> <td>47.6</td><td>77.4</td><td>87.1</td> <td>35.4</td><td>68.3</td><td>79.9</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>40.3</td><td>66.9</td><td>76.7</td> <td>30.4</td><td>58.2</td><td>68.5</td> </tr>
    <tr> <td>CMPL</td><td>ResNet</td> <td>49.6</td><td>76.8</td><td>86.1</td> <td>37.3</td><td>65.7</td><td>75.5</td> </tr>
    <tr> <td>VSE++</td><td>ft_VggNet</td> <td>41.3</td><td>69.1</td><td>77.9</td> <td>31.4</td><td>60.0</td><td>71.2</td> </tr>
    <tr> <td>VSE++</td><td>ft_ResNet</td> <td>52.9</td><td>80.5</td><td>87.2</td> <td>39.6</td><td>70.1</td><td>79.5</td> </tr>
+   <tr> <td>TIMAM</td><td>ft_ResNet, Bert</td> <td>53.1</td><td>78.8</td><td>87.6</td> <td>42.6</td><td>71.6</td><td>81.9</td> </tr>
    <tr> <td>DAN</td><td>VggNet</td> <td>41.4</td><td>73.5</td><td>82.5</td> <td>31.8</td><td>61.7</td><td>72.5</td> </tr>
    <tr> <td>DAN</td><td>ResNet</td> <td>55.0</td><td>81.8</td><td> 89.0</td> <td>39.4</td><td>69.2</td><td>79.1</td> </tr>
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>61.8</td><td>87.5</td><td>93.7</td> <td>45.8</td><td>74.4</td><td>83.0</td> </tr>
@@ -116,7 +118,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>SEAM</td><td>VggNet</td> <td>50.7</td><td>81.4</td><td>90.9</td> <td>40.3</td><td>75.7</td><td>87.4</td> </tr>
    <tr> <td>sm-LSTM</td><td>VggNet</td> <td>52.4</td><td>81.7</td><td>90.8</td> <td>38.6</td><td>73.4</td><td>84.6</td> </tr>
    <tr> <td>sm-LSTM*</td><td>VggNet</td> <td>53.2</td><td>83.1</td><td>91.5</td> <td>40.7</td><td>75.8</td><td>87.4</td> </tr>  
-   <tr> <td>2WayNet</td><td>--</td> <td>55.8</td><td>75.2</td><td>--</td> <td>39.7</td><td>63.3</td><td>--</td> </tr>
+   <tr> <td>2WayNet</td><td></td> <td>55.8</td><td>75.2</td><td>--</td> <td>39.7</td><td>63.3</td><td>--</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>52.9</td><td>83.8</td><td>92.1</td> <td>41.3</td><td>74.6</td><td>85.9</td> </tr>
    <tr> <td>CMPM</td><td>ResNet</td> <td>56.1</td><td>86.3</td><td>92.9</td> <td>44.6</td><td>78.8</td><td>89.0</td> </tr>
    <tr> <td>RRF-Net</td><td>ResNet</td> <td>56.4</td><td>85.3</td><td>91.5</td> <td>43.9</td><td>78.1</td><td>88.6</td> </tr>   
@@ -165,10 +167,18 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
         <td colspan="3", align="center">CUHK-PEDES</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td></tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>LSTM-Q+I</td><td>VggNet</td> <td>17.19</td><td>--</td><td>57.82</td> </tr>
+   <tr> <td>GNA-RNN</td><td>VggNet</td> <td>19.05</td><td>--</td><td>53.64</td> </tr>
+   <tr> <td>IATV</td><td>ft_VggNet</td> <td>25.94</td><td>--</td><td>60.48</td> </tr>
+   <tr> <td>PWM-ATH</td><td>ft_VggNet</td> <td>27.14</td><td>49.45</td><td>61.02</td> </tr>
+   <tr> <td>GLA</td><td>ft_ResNet</td> <td>43.58</td><td>66.93</td><td>76.26</td> </tr>
+   <tr> <td>Dual-Path</td><td>ft_VggNet</td> <td>32.15</td><td>54.42</td><td>64.30</td> </tr>
+   <tr> <td>Dual-Path</td><td>ft_ResNet</td> <td>44.40</td><td>66.26</td><td>75.07</td> </tr>
+   <tr> <td>CMPM</td><td>ft_MobileNet</td> <td>44.02</td><td>--</td><td>77.00</td> </tr>
+   <tr> <td>CMPL</td><td>ft_MobileNet</td> <td>49.37</td><td>--</td><td>79.27</td> </tr>
+   <tr> <td>PMA</td><td>ft_VggNet</td> <td>47.02</td><td>68.54</td><td>78.06</td> </tr>
+   <tr> <td>PMA</td><td>ft_ResNet</td> <td>53.81</td><td>73.54</td><td>81.23</td> </tr>
+   <tr> <td>TIMAM</td><td>ft_ResNet101, Bert</td> <td>54.51</td><td>77.56</td><td>84.78</td> </tr>
 </table> 
 
 ### *performance of CUB-Flowers*
@@ -178,10 +188,15 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td align="center">Image-to-Text</td> <td align="center">Text-to-Image</td> 
         <td align="center">Image-to-Text</td> <td align="center">Text-to-Image</td> </tr>
    <tr> <td>R@1</td><td>AP@50</td> <td>R@1</td><td>AP@50</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td> <td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td> <td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td> <td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td> <td>222</td><td>222</td> </tr>
+   <tr> <td>Word2Vec</td><td></td> <td>38.6</td><td>33.5</td> <td>54.2</td><td>52.1</td> </tr>
+   <tr> <td>FV</td><td>GMM+HGLMM</td> <td>36.5</td><td>35.6</td> <td>54.8</td><td>52.8</td> </tr>
+   <tr> <td>Triplet</td><td>IATV</td> <td>52.5</td><td>52.4</td> <td>64.3</td><td>64.9</td> </tr>
+   <tr> <td>Word-NN</td><td>CNN</td> <td>51.0</td><td>43.3</td> <td>60.7</td><td>56.3</td> </tr>
+   <tr> <td>Word-NN</td><td>CNN-RNN</td> <td>56.8</td><td>48.7</td> <td>65.6</td><td>59.6</td> </tr>
+   <tr> <td>IATV</td><td>ft_VggNet</td> <td>61.5</td><td>57.6</td> <td>68.4</td><td>70.1</td> </tr>
+   <tr> <td>CMPM</td><td>ft_MobileNet</td> <td>62.1</td><td>64.6</td> <td>66.1</td><td>67.7</td> </tr>
+   <tr> <td>CMPL</td><td>ft_MobileNet</td> <td>64.3</td><td>67.9</td> <td>68.9</td><td>69.7</td> </tr>
+   <tr> <td>TIMAM</td><td>ft_ResNet101, Bert</td> <td>67.7</td><td>70.3</td> <td>70.6</td><td>73.7</td> </tr>
 </table> 
 
 
@@ -276,7 +291,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Yan Huang, Wei Wang, Liang Wang.*<br>
 [[paper]](https://arxiv.org/pdf/1611.05588)
 
-**(*CITE_ECCV2018*)Conditional Image-Text Embedding Networks.**<br>
+**(*CITE_ECCV2018*) Conditional Image-Text Embedding Networks.**<br>
 *Bryan A. Plummer, Paige Kordas, M. Hadi Kiapour, Shuai Zheng, Robinson Piramuthu, Svetlana Lazebnik.*<br>
 [[paper]](https://arxiv.org/pdf/1711.08389.pdf)
 
@@ -305,11 +320,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Fangyu Liu, Rongtian Ye.*<br> 
 [[paper]](https://www.aclweb.org/anthology/P19-2023.pdf)
 
-### ``*Adversarial training*``
-**(*CAS_COLING2018*) Learning Visually-Grounded Semantics from Contrastive Adversarial Samples.**<br>
-*Haoyue Shi, Jiayuan Mao, Tete Xiao, Yuning Jiang, Jian Sun.*<br>
-[[paper]](https://aclweb.org/anthology/C18-1315)
-[[code]](https://github.com/ExplorerFreda/VSE-C)
+**(*Dual-Path_TOMM2020*) Dual-path Convolutional Image-Text Embeddings with Instance Loss.**<br>
+*Zhedong Zheng, Liang Zheng, Michael Garrett, Yi Yang, Mingliang Xu, YiDong Shen.*<br>
+[[paper]](https://arxiv.org/pdf/1711.05535)
+[[code]](https://github.com/layumi/Image-Text-Embedding)
 
 ### ``*Un-supervised or Semi-supervised*``
 **(*VSA-AE-MMD_ECCV2018*) Visual-Semantic Alignment Across Domains Using a Semi-Supervised Approach.**<br>
@@ -322,7 +336,51 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[paper]](https://arxiv.org/pdf/1611.05088.pdf)
 [[code]](https://github.com/lzrobots/DeepEmbeddingModel_ZSL)
 
+### ``*Adversarial learning*``
+**(*CAS_COLING2018*) Learning Visually-Grounded Semantics from Contrastive Adversarial Samples.**<br>
+*Haoyue Shi, Jiayuan Mao, Tete Xiao, Yuning Jiang, Jian Sun.*<br>
+[[paper]](https://aclweb.org/anthology/C18-1315)
+[[code]](https://github.com/ExplorerFreda/VSE-C)
+
+**(*TIMAM_ICCV2019*) Adversarial Representation Learning for Text-to-Image Matching.**<br>
+*Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris.*<br>
+[[paper]](https://arxiv.org/pdf/1908.10534.pdf)
+
+### ``*Identification learning*``
+**(*LSTM-Q+I_ICCV2015*) VQA: Visual question answering.**<br>
+*Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, MargaretMitchell, Dhruv Batra, C Lawrence Zitnick, Devi Parikh.*<br>
+[[paper]](http://scholar.google.com.hk/scholar_url?url=http://openaccess.thecvf.com/content_iccv_2015/papers/Antol_VQA_Visual_Question_ICCV_2015_paper.pdf&hl=zh-CN&sa=X&ei=EDHkX9aDAY6CywTJ6a2ACw&scisig=AAGBfm2VHgUhZ4sZPI-ODBqcEdCd34_V8w&nossl=1&oi=scholarr)
+
+**(*Word-NN_CVPR2016*) Learning Deep Representations of Fine-grained Visual Descriptions.**<br>
+*Scott Reed, Zeynep Akata, Bernt Schiele, Honglak Lee.*<br>
+[[paper]](https://arxiv.org/pdf/1605.05395)
+
+**(*GNA-RNN_CVPR2017*) Person search with natural language description.**<br>
+*huang  Li, Tong Xiao, Hongsheng Li, Bolei Zhou, DayuYue, Xiaogang Wang.*<br>
+[[paper]](https://arxiv.org/pdf/1702.05729)
+[[code]](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description)
+
+**(*IATV_ICCV2017*) Identity-aware textual-visual matching with latent co-attention.**<br>
+*Shuang Li, Tong Xiao, Hongsheng Li, Wei Yang, Xiaogang Wang.*<br>
+[[paper]](https://arxiv.org/pdf/1708.01988)
+
+**(*PWM-ATH_WACV2018*) Improving text-based person search by spatial matching and adaptive threshold.**<br>
+*Tianlang Chen, Chenliang Xu, Jiebo Luo.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8354312)
+
+**(*GLA_ECCV2018*) Improving deep visual representation for person re-identification by global and local image-language association.**<br>
+*Dapeng Chen, Hongsheng Li, Xihui Liu, Yantao Shen, JingShao, Zejian Yuan, Xiaogang Wang.*<br>
+[[paper]](https://arxiv.org/pdf/1808.01571)
+
+**(*PMA_AAAI2020*) Pose-Guided Multi-Granularity Attention Network for Text-Based Person Search.**<br>
+*Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan.*<br>
+[[paper]](https://arxiv.org/pdf/1809.08440)
+
 ### ``*Related works*``
+**(*Word2Vec_NIPS2013*) Distributed Representations of Words and Phrases and their Compositionality.**<br>
+*Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean.*<br>
+[[paper]](https://arxiv.org/pdf/1310.4546)
+
 **(*DVSQ_CVPR2017*) Deep Visual-Semantic Quantization for Efficient Image Retrieval.**<br>
 *Yue Cao, Mingsheng Long, Jianmin Wang, Shichen Liu.*<br>
 [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Cao_Deep_Visual-Semantic_Quantization_CVPR_2017_paper.pdf)
@@ -386,11 +444,6 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Kunpeng Li, Yulun Zhang, Kai Li, Yuanyuan Li, Yun Fu.*<br>
 **_(ICCV 2019)_**<br>
 [[paper]](https://arxiv.org/pdf/1909.02701.pdf)
-
-**Adversarial Representation Learning for Text-to-Image Matching.**<br>
-*Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris.*<br>
-**_(ICCV 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1908.10534.pdf)
 
 **CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval.**<br>
 *Zihao Wang, Xihui Liu, Hongsheng Li, Lu Sheng, Junjie Yan, Xiaogang Wang, Jing Shao.*<br>
