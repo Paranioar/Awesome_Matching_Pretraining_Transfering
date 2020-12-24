@@ -1,6 +1,6 @@
 Cross-modal_Retrieval_Tutorial
 ==============================
-The Tutorial of Image-Text Matching for Preliminary Insight. 
+The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent time, we temporarily store some state-of-the-arts in [Posted in](#posted-in). We will continue to update the tutorial and release the PyTorch code of [Image-Text Matching Benchmard](https://github.com/Paranioar/Cross-modal_Retrieval_Benchmark).
 ****
 ## ``Catalogue ``
 * [Peformance comparison](#peformance-comparison)
@@ -327,7 +327,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
 [[paper]](https://arxiv.org/pdf/1511.06361.pdf)
 
-**(*SGRAF_AAAI20212*) Similarity Reasoning and Filtration for Image-Text Matching.**<br>
+**(*SGRAF_AAAI2021*) Similarity Reasoning and Filtration for Image-Text Matching.**<br>
 *Haiwen Diao, Ying Zhang, Lin Ma, Huchuan Lu.*<br>
 [[paper]](https://drive.google.com/file/d/1tAE_qkAxiw1CajjHix9EXoI7xu2t66iQ/view?usp=sharing)
 [[code]](https://github.com/Paranioar/SGRAF)
