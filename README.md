@@ -97,8 +97,12 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>61.8</td><td>87.5</td><td>93.7</td> <td>45.8</td><td>74.4</td><td>83.0</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, AVE</td> <td>67.9</td><td>89.0</td><td>94.4</td> <td>43.9</td><td>74.2</td><td>82.8</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>67.4</td><td>90.3</td><td>95.8</td> <td>48.6</td><td>77.7</td><td>85.2</td> </tr>
-   
-
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>73.7</td><td>93.3</td><td>96.3</td> <td>56.1</td><td>81.5</td><td>88.0</td> </tr>
+   <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>75.2</td><td>93.3</td><td>96.6</td> <td>56.2</td><td>81.0</td><td>86.5</td> </tr>
+   <tr> <td>SGRAF*</td><td>BUTD</td> <td>77.8</td><td>94.1</td><td>97.4</td> <td>58.5</td><td>83.0</td><td>88.8</td> </tr>
 </table> 
 
 ### *Performance of MSCOCO1K*
@@ -130,19 +134,18 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>VSE++</td><td>ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>59.4</td><td>86.2</td><td>92.9</td> <td>41.6</td><td>76.3</td><td>87.5</td> </tr>
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>65.6</td><td>89.8</td><td>95.5</td> <td>47.1</td><td>79.9</td><td>90.0</td> </tr>
+   <tr> <td>GXN</td><td>ResNet</td> <td>68.5</td><td>--</td><td>97.9</td> <td>56.6</td><td>--</td><td>94.5</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>66.6</td><td>91.8</td><td>96.6</td> <td>55.5</td><td>86.6</td><td>93.8</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>69.9</td><td>92.9</td><td>97.5</td> <td>56.7</td><td>87.5</td><td>94.8</td> </tr>
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>70.9</td><td>94.5</td><td>97.8</td> <td>56.4</td><td>87.0</td><td>93.9</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, AVE</td> <td>69.2</td><td>93.2</td><td>97.5</td> <td>54.4</td><td>86.0</td><td>93.6</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4 </td><td>94.8</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>76.1</td><td>95.4</td><td>98.3</td> <td>61.8</td><td>89.4</td><td>95.3</td> </tr>
+   <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>78.0</td><td>95.8</td><td>98.2</td> <td>61.4</td><td>89.3</td><td>95.4</td> </tr>
+   <tr> <td>SGRAF*</td><td>BUTD</td> <td>79.6</td><td>96.2</td><td>98.5</td> <td>63.2</td><td>90.7</td><td>96.1</td> </tr>
 </table> 
 
 ### *Performance of MSCOCO5K*
@@ -161,14 +164,17 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>41.2</td><td>70.5</td><td>81.1</td> <td>25.3</td><td>53.4</td><td>66.4</td> </tr>
    <tr> <td>VSE++</td><td>VggNet</td> <td>32.9</td><td>61.7</td><td>74.7</td> <td>24.1</td><td>52.8</td><td>66.2</td> </tr>
    <tr> <td>VSE++</td><td>ResNet</td> <td>41.3</td><td>71.1</td><td>81.2</td> <td>30.3</td><td>59.4</td><td>72.4</td> </tr>
+   <tr> <td>GXN</td><td>ResNet</td> <td>42.0</td><td>--</td><td>84.7</td> <td>31.7</td><td>--</td><td>74.6</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>40.2</td><td>70.1</td><td>81.3</td> <td>31.3</td><td>61.5</td><td>73.9</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>42.8</td><td>72.3</td><td>83.0</td> <td>33.1</td><td>62.9</td><td>75.5</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
-   <tr> <td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> <td>222</td><td>222</td><td>222</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>53.3</td><td>82.3</td><td>90.1</td> <td>39.8</td><td>69.0</td><td>80.2</td> </tr>
+   <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>56.9</td><td>83.2</td><td>90.5</td> <td>40.2</td><td>69.0</td><td>79.8</td> </tr>
+   <tr> <td>SGRAF*</td><td>BUTD</td> <td>57.8</td><td>84.9</td><td>91.6</td> <td>41.9</td><td>70.7</td><td>81.3</td> </tr>
 </table> 
 
 ### *performance of CUHK-PEDES*
@@ -321,7 +327,17 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
 [[paper]](https://arxiv.org/pdf/1511.06361.pdf)
 
+**(*SGRAF_AAAI20212*) Similarity Reasoning and Filtration for Image-Text Matching.**<br>
+*Haiwen Diao, Ying Zhang, Lin Ma, Huchuan Lu.*<br>
+[[paper]](https://drive.google.com/file/d/1tAE_qkAxiw1CajjHix9EXoI7xu2t66iQ/view?usp=sharing)
+[[code]](https://github.com/Paranioar/SGRAF)
+
 ### ``*Loss function*``
+**(*TBNN_TPAMI2018*) Learning Two-Branch Neural Networks for Image-Text Matching Tasks.**<br>
+*Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik.*<br>
+[[paper]](https://arxiv.org/pdf/1704.03470.pdf)
+[[code]](https://github.com/lwwang/Two_branch_network)
+
 **(*VSE++_BMVC2018*) VSE++: Improving Visual-Semantic Embeddings with Hard Negatives.**<br>
 *Fartash Faghri, David J. Fleet, Jamie Ryan Kiros, Sanja Fidler.*<br>
 [[paper]](https://arxiv.org/pdf/1707.05612.pdf)
@@ -432,8 +448,6 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 [[code]](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 
 ### *Posted in*
-
-
 -----------------------------------------------------------
 **Unified Visual-Semantic Embeddings: Bridging Vision and Language with Structured Meaning Representations.**<br>
 *Hao Wu, Jiayuan Mao, Yufeng Zhang, Yuning Jiang, Lei Li, Weiwei Sun, Wei-Ying Ma.*<br>
@@ -571,7 +585,6 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 **_(ECCV 2020)_**<br>
 [[paper]](https://arxiv.org/pdf/2007.08617.pdf)
 
-
 **Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
 *Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
 **_(COLING 2020)_**<br>
@@ -582,12 +595,6 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 *Jason Weston, Samy Bengio, Nicolas Usunier.*<br>
 **_(Machine Learning 2010)_**<br>
 [[paper]](https://link.springer.com/content/pdf/10.1007%2Fs10994-010-5198-3.pdf)
-
-**Learning Two-Branch Neural Networks for Image-Text Matching Tasks.**<br>
-*Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik.*<br>
-**_(IPAMI 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1704.03470.pdf)
-[[code]](https://github.com/lwwang/Two_branch_network)(TF)
 
 **Upgrading the Newsroom: An Automated Image Selection System for News Articles.**<br>
 *Fangyu Liu, Rémi Lebret, Didier Orel, Philippe Sordet, Karl Aberer.*<br>
