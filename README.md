@@ -504,7 +504,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Fangyu Liu, Rongtian Ye, Xun Wang, Shuaipeng Li.*<br>
 **_(AAAI 2020)_**<br>
 [[paper]](https://arxiv.org/pdf/1911.10097v1.pdf)
-[[code]](https://github.com/hardyqr/HAL) (PyTorch)
+[[code]](https://github.com/hardyqr/HAL) 
 
 **Ladder Loss for Coherent Visual-Semantic Embedding.**<br>
 *Mo Zhou, Zhenxing Niu, Le Wang, Zhanning Gao, Qilin Zhang, Gang Hua.*<br>
@@ -520,7 +520,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Jonatas Wehrmann, Camila Kolling, Rodrigo C Barros.*<br>
 **_(AAAI 2020)_**<br>
 [[paper]](https://ojs.aaai.org//index.php/AAAI/article/view/6915)
-[[code]](https://github.com/jwehrmann/retrieval.pytorch) (PyTorch)
+[[code]](https://github.com/jwehrmann/retrieval.pytorch) 
 
 **Graph Structured Network for Image-Text Matching**.<br>
 *Chunxiao Liu, Zhendong Mao, Tianzhu Zhang, Hongtao Xie, Bin Wang, Yongdong Zhang.*<br>
@@ -561,7 +561,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Tianlang Chen, Jiajun Deng, Jiebo Luo.*<br>
 **_(ECCV 2020)_**<br>
 [[paper]](https://arxiv.org/pdf/2003.03669.pdf)
-[[code]](https://github.com/sunnychencool/AOQ)(PyTorch)
+[[code]](https://github.com/sunnychencool/AOQ)
 
 **Learning Joint Visual Semantic Matching Embeddings for Language-guided Retrieval.**<br>
 *Yanbei Chen, Loris Bazzani.*<br>
@@ -572,24 +572,24 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma.*<br>
 **_(ECCV 2020)_**<br>
 [[paper]](https://arxiv.org/pdf/2007.08883.pdf)
-[[code]](https://github.com/BruceW91/CVSE)(PyTorch)
-
-**Contrastive Learning for Weakly Supervised Phrase Grounding.**<br>
-*Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
-**_(ECCV 2020)_**<br>
-[[paper]](https://arxiv.org/pdf/2006.09920.pdf)
-[[code]](https://github.com/BigRedT/info-ground)(PyTorch)
+[[code]](https://github.com/BruceW91/CVSE)
 
 **Preserving Semantic Neighborhoods for Robust Cross-modal Retrieval.**<br>
 *Christopher Thomas, Adriana Kovashka.*<br>
 **_(ECCV 2020)_**<br>
 [[paper]](https://arxiv.org/pdf/2007.08617.pdf)
 
+**Contrastive Learning for Weakly Supervised Phrase Grounding.**<br>
+*Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
+**_(ECCV 2020)_**<br>
+[[paper]](https://arxiv.org/pdf/2006.09920.pdf)
+[[code]](https://github.com/BigRedT/info-ground)
+
 **Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
 *Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
 **_(COLING 2020)_**<br>
 [[paper]](https://www.aclweb.org/anthology/2020.coling-main.64.pdf)
-[[code]](https://github.com/dali-does/vse-probing)(PyTorch)
+[[code]](https://github.com/dali-does/vse-probing)
 
 **Large scale image annotation: learning to rank with joint word-image embeddings.**<br>
 *Jason Weston, Samy Bengio, Nicolas Usunier.*<br>
