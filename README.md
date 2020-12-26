@@ -94,10 +94,15 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>55.6</td><td>81.9</td><td>89.5</td> <td>39.1</td><td>69.2</td><td>80.9</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>44.2</td><td>74.1</td><td>83.6</td> <td>32.8</td><td>64.3</td><td>74.9</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>55.5</td><td>82.0</td><td>89.3</td> <td>41.1</td><td>70.5</td><td>80.1</td> </tr>
+   <tr> <td>GXN</td><td>ResNet</td> <td>56.8</td><td>--</td><td>89.6</td> <td>41.5</td><td>--</td><td>80.1</td> </tr>
+   <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>49.7</td><td>74.8</td><td>83.3</td> </tr>
+   <tr> <td>A3VSE</td><td>BUTD</td> <td>65.0</td><td>89.2</td><td>94.5</td> <td>49.5</td><td>79.5</td><td>86.6</td> </tr>
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>61.8</td><td>87.5</td><td>93.7</td> <td>45.8</td><td>74.4</td><td>83.0</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, AVE</td> <td>67.9</td><td>89.0</td><td>94.4</td> <td>43.9</td><td>74.2</td><td>82.8</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>67.4</td><td>90.3</td><td>95.8</td> <td>48.6</td><td>77.7</td><td>85.2</td> </tr>
-   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>CAMP</td><td>BUTD</td> <td>68.1</td><td>89.7</td><td>95.2</td> <td>51.5</td><td>77.1</td><td>85.3</td> </tr>
+   <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>68.4</td><td>90.6</td><td>95.3</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>VSRN*</td><td>BUTD</td> <td>71.3</td><td>90.6</td><td>96.0</td> <td>54.7</td><td>81.8</td><td>88.2</td> </tr>
    <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>73.7</td><td>93.3</td><td>96.3</td> <td>56.1</td><td>81.5</td><td>88.0</td> </tr>
@@ -134,14 +139,17 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>VSE++</td><td>ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>59.4</td><td>86.2</td><td>92.9</td> <td>41.6</td><td>76.3</td><td>87.5</td> </tr>
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>65.6</td><td>89.8</td><td>95.5</td> <td>47.1</td><td>79.9</td><td>90.0</td> </tr>
+   <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>67.3</td><td>91.7</td><td>96.5</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>56.6</td><td>84.9</td><td>92.8</td> </tr>
    <tr> <td>GXN</td><td>ResNet</td> <td>68.5</td><td>--</td><td>97.9</td> <td>56.6</td><td>--</td><td>94.5</td> </tr>
+   <tr> <td>PVSE</td><td>ResNet</td> <td>69.2</td><td>91.6</td><td>96.6</td> <td>55.2</td><td>86.5</td><td>93.7</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>66.6</td><td>91.8</td><td>96.6</td> <td>55.5</td><td>86.6</td><td>93.8</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>69.9</td><td>92.9</td><td>97.5</td> <td>56.7</td><td>87.5</td><td>94.8</td> </tr>
+   <tr> <td>CAMP</td><td>BUTD</td> <td>72.3</td><td>94.8</td><td>98.3</td> <td>58.5</td><td>87.9</td><td>95.0</td> </tr>
    <tr> <td>SCAN_t2i</td><td>BUTD, AVE</td> <td>70.9</td><td>94.5</td><td>97.8</td> <td>56.4</td><td>87.0</td><td>93.9</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, AVE</td> <td>69.2</td><td>93.2</td><td>97.5</td> <td>54.4</td><td>86.0</td><td>93.6</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4 </td><td>94.8</td> </tr>
-   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
-   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>VSRN*</td><td>BUTD</td> <td>76.2</td><td>94.8</td><td>98.2</td> <td>62.8</td><td>89.7</td><td>95.1</td> </tr>
    <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>76.1</td><td>95.4</td><td>98.3</td> <td>61.8</td><td>89.4</td><td>95.3</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>78.0</td><td>95.8</td><td>98.2</td> <td>61.4</td><td>89.3</td><td>95.4</td> </tr>
@@ -167,9 +175,12 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>GXN</td><td>ResNet</td> <td>42.0</td><td>--</td><td>84.7</td> <td>31.7</td><td>--</td><td>74.6</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>40.2</td><td>70.1</td><td>81.3</td> <td>31.3</td><td>61.5</td><td>73.9</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>42.8</td><td>72.3</td><td>83.0</td> <td>33.1</td><td>62.9</td><td>75.5</td> </tr>
+   <tr> <td>PVSE</td><td>ResNet</td> <td>45.2</td><td>74.3</td><td>84.5</td> <td>32.4</td><td>63.0</td><td>75.0</td> </tr>
+   <tr> <td>A3VSE</td><td>BUTD</td> <td>49.3</td><td>81.1</td><td>90.2</td> <td>39.0</td><td>68.0</td><td>80.1</td> </tr>
+   <tr> <td>CAMP</td><td>BUTD</td> <td>50.1</td><td>82.1</td><td>89.7</td> <td>39.0</td><td>68.9</td><td>80.2</td> </tr>
    <tr> <td>SCAN_i2t</td><td>BUTD, LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
-   <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>VSRN*</td><td>BUTD</td> <td>53.0</td><td>81.1</td><td>89.4</td> <td>40.5</td><td>70.6</td><td>81.1</td> </tr>
    <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>53.3</td><td>82.3</td><td>90.1</td> <td>39.8</td><td>69.0</td><td>80.2</td> </tr>
@@ -291,6 +302,20 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Yan Huang, Qi Wu, Liang Wang.*<br>
 [[paper]](https://arxiv.org/pdf/1712.02036)
 
+**(*Personality_CVPR2019*) Engaging Image Captioning via Personality.**<br>
+*Kurt Shuster, Samuel Humeau, Hexiang Hu, Antoine Bordes, Jason Weston.*<br>
+[[paper]](https://arxiv.org/pdf/1810.10665.pdf)
+
+**(*PVSE_CVPR2019*) Polysemous Visual-Semantic Embedding for Cross-Modal Retrieval.**<br>
+*Yale Song, Mohammad Soleymani.*<br>
+[[paper]](https://arxiv.org/pdf/1906.04402.pdf)
+[[code]](https://github.com/yalesong/pvse)
+
+**(*VSRN_ICCV2019*) Visual Semantic Reasoning for Image-Text Matching.**<br>
+*Kunpeng Li, Yulun Zhang, Kai Li, Yuanyuan Li, Yun Fu.*<br>
+[[paper]](https://arxiv.org/pdf/1909.02701.pdf)
+[[code]](https://github.com/KunpengLi1994/VSRN)
+
 ### ``*Cross-modal interaction*``
 **(*NIC_arXiv2014*) Show and Tell: A Neural Image Caption Generator.**<br>
 *Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.*<br>
@@ -322,10 +347,46 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 [[paper]](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Kuang-Huei_Lee_Stacked_Cross_Attention_ECCV_2018_paper.pdf)
 [[code]](https://github.com/kuanghuei/SCAN)
 
+**(*CAMP_ICCV2019*) CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval.**<br>
+*Zihao Wang, Xihui Liu, Hongsheng Li, Lu Sheng, Junjie Yan, Xiaogang Wang, Jing Shao.*<br>
+[[paper]](https://arxiv.org/pdf/1909.05506.pdf)
+[[code]](https://github.com/ZihaoWang-CV/CAMP_iccv19)
+
+**(*CAAN_CVPR2020*) Context-Aware Attention Network for Image-Text Retrieval.**<br>
+*Qi Zhang, Zhen Lei, Zhaoxiang Zhang, Stan Z. Li.*<br>
+[[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Context-Aware_Attention_Network_for_Image-Text_Retrieval_CVPR_2020_paper.pdf)
+
+**(*MMCA_CVPR2020*) Multi-Modality Cross Attention Network for Image and Sentence Matching.**<br>
+*Xi Wei, Tianzhu Zhang, Yan Li, Yongdong Zhang, Feng Wu.*<br>
+[[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Multi-Modality_Cross_Attention_Network_for_Image_and_Sentence_Matching_CVPR_2020_paper.pdf)
+
+**(*IMRAM_CVPR2020*) IMRAM: Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval.**<br>
+*Hui Chen, Guiguang Ding, Xudong Liu, Zijia Lin, Ji Liu, Jungong Han.*<br>
+[[paper]](https://arxiv.org/pdf/2003.03772.pdf)
+[[code]](https://github.com/HuiChen24/IMRAM)
+
+**(*ADAPT_AAAI2020*) Adaptive Cross-modal Embeddings for Image-Text Alignment.**<br>
+*Jonatas Wehrmann, Camila Kolling, Rodrigo C Barros.*<br>
+[[paper]](https://ojs.aaai.org//index.php/AAAI/article/view/6915)
+[[code]](https://github.com/jwehrmann/retrieval.pytorch) 
+
+**(*DP-RNN_AAAI2020*) Expressing Objects just like Words: Recurrent Visual Embedding for Image-Text Matching.** <br>
+*Tianlang Chen, Jiebo Luo.*<br>
+[[paper]](https://arxiv.org/pdf/2002.08510.pdf)
+
 ### ``*Similarity measurement*``
 **(*Order-emb_ICLR2016*) Order-Embeddings of Images and Language.**<br>
 *Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
 [[paper]](https://arxiv.org/pdf/1511.06361.pdf)
+
+**(*HOAD_CVPR2020*) Visual-Semantic Matching by Exploring High-Order Attention and Distraction.**<br>
+*Yongzhi Li, Duo Zhang, Yadong Mu.*<br>
+[[paper]](https://pkumyd.github.io/paper/CVPR2020_LYZ.pdf)
+
+**(*GSMN_CVPR2020*) Graph Structured Network for Image-Text Matching.**<br>
+*Chunxiao Liu, Zhendong Mao, Tianzhu Zhang, Hongtao Xie, Bin Wang, Yongdong Zhang.*<br>
+[[paper]](https://arxiv.org/pdf/2004.00277.pdf)
+[[code]](https://github.com/CrossmodalGroup/GSMN)
 
 **(*SGRAF_AAAI2021*) Similarity Reasoning and Filtration for Image-Text Matching.**<br>
 *Haiwen Diao, Ying Zhang, Lin Ma, Huchuan Lu.*<br>
@@ -352,15 +413,37 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Fangyu Liu, Rongtian Ye.*<br> 
 [[paper]](https://www.aclweb.org/anthology/P19-2023.pdf)
 
+**(*PVSE_CVPR2019*) Polysemous Visual-Semantic Embedding for Cross-Modal Retrieval.**<br>
+*Yale Song, Mohammad Soleymani.*<br>
+[[paper]](https://arxiv.org/pdf/1906.04402.pdf)
+[[code]](https://github.com/yalesong/pvse)
+
 **(*Dual-Path_TOMM2020*) Dual-path Convolutional Image-Text Embeddings with Instance Loss.**<br>
 *Zhedong Zheng, Liang Zheng, Michael Garrett, Yi Yang, Mingliang Xu, YiDong Shen.*<br>
 [[paper]](https://arxiv.org/pdf/1711.05535)
 [[code]](https://github.com/layumi/Image-Text-Embedding)
 
+**(*HAL_AAAI2020*) HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs.**<br>
+*Fangyu Liu, Rongtian Ye, Xun Wang, Shuaipeng Li.*<br>
+[[paper]](https://arxiv.org/pdf/1911.10097v1.pdf)
+[[code]](https://github.com/hardyqr/HAL) 
+
+**(*CVSE_AAAI2020*) Ladder Loss for Coherent Visual-Semantic Embedding.**<br>
+*Mo Zhou, Zhenxing Niu, Le Wang, Zhanning Gao, Qilin Zhang, Gang Hua.*<br>
+[[paper]](https://arxiv.org/pdf/1911.07528.pdf)
+
+**(*MPL_CVPR2020*) Universal Weighting Metric Learning for Cross-Modal Matching.**<br>
+*Jiwei Wei, Xing Xu, Yang Yang, Yanli Ji, Zheng Wang, Heng Tao Shen.*<br>
+[[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Universal_Weighting_Metric_Learning_for_Cross-Modal_Matching_CVPR_2020_paper.pdf)
+
 ### ``*Un-supervised or Semi-supervised*``
 **(*VSA-AE-MMD_ECCV2018*) Visual-Semantic Alignment Across Domains Using a Semi-Supervised Approach.**<br>
 *Angelo Carraggi, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara.*<br>
 [[paper]](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11134/Carraggi_Visual-Semantic_Alignment_Across_Domains_Using_a_Semi-Supervised_Approach_ECCVW_2018_paper.pdf)
+
+**(*A3VSE_MM2019*) Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment.**<br>
+*Po-Yao Huang, Guoliang Kang, Wenhe Liu, Xiaojun Chang, Alexander G Hauptmann.*<br>
+[[paper]](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)
 
 ### ``*Zero-shot or Fewer-shot*``
 **(*DEM_CVPR2017*) Learning a Deep Embedding Model for Zero-Shot Learning.**<br>
@@ -381,6 +464,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 **(*TIMAM_ICCV2019*) Adversarial Representation Learning for Text-to-Image Matching.**<br>
 *Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris.*<br>
 [[paper]](https://arxiv.org/pdf/1908.10534.pdf)
+
+**(*UniVSE_CVPR2019*) Unified Visual-Semantic Embeddings: Bridging Vision and Language with Structured Meaning Representations.**<br>
+*Hao Wu, Jiayuan Mao, Yufeng Zhang, Yuning Jiang, Lei Li, Weiwei Sun, Wei-Ying Ma.*<br>
+[[paper]](https://arxiv.org/pdf/1904.05521.pdf)
 
 ### ``*Identification learning*``
 **(*LSTM-Q+I_ICCV2015*) VQA: Visual question answering.**<br>
@@ -447,110 +534,25 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 [[paper]](https://drive.google.com/file/d/1Jr1uWF3RImqNRsDMKTJVIswUVfMKYnuE/view)
 [[code]](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 
-### *Posted in*
------------------------------------------------------------
-**Unified Visual-Semantic Embeddings: Bridging Vision and Language with Structured Meaning Representations.**<br>
-*Hao Wu, Jiayuan Mao, Yufeng Zhang, Yuning Jiang, Lei Li, Weiwei Sun, Wei-Ying Ma.*<br>
-**_(CVPR 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1904.05521.pdf)
-
-**Engaging Image Captioning via Personality.**<br>
-*Kurt Shuster, Samuel Humeau, Hexiang Hu, Antoine Bordes, Jason Weston.*<br>
-**_(CVPR 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1810.10665.pdf)
-
-**Polysemous Visual-Semantic Embedding for Cross-Modal Retrieval.**<br>
-*Yale Song, Mohammad Soleymani.*<br>
-**_(CVPR 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1906.04402.pdf)
- 
-**Composing Text and Image for Image Retrieval - An Empirical Odyssey.**<br>
+**(*TIRG_CVPR2019*)Composing Text and Image for Image Retrieval - An Empirical Odyssey.**<br>
 *Nam Vo, Lu Jiang, Chen Sun, Kevin Murphy, Li-Jia Li, Li Fei-Fei, James Hays.*<br>
-**_(CVPR 2019)_**<br>
 [[paper]](https://arxiv.org/pdf/1812.07119.pdf)
 
-**Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment.**<br>
-*Po-Yao Huang, Guoliang Kang, Wenhe Liu, Xiaojun Chang, Alexander G Hauptmann.*<br>
-**_(ACM MM 2019)_**<br>
-[[paper]](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)
-
-**Visual Semantic Reasoning for Image-Text Matching.**<br>
-*Kunpeng Li, Yulun Zhang, Kai Li, Yuanyuan Li, Yun Fu.*<br>
-**_(ICCV 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1909.02701.pdf)
-
-**CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval.**<br>
-*Zihao Wang, Xihui Liu, Hongsheng Li, Lu Sheng, Junjie Yan, Xiaogang Wang, Jing Shao.*<br>
-**_(ICCV 2019)_**<br>
-[[paper]](https://arxiv.org/pdf/1909.05506.pdf)
-
-**Align2Ground: Weakly Supervised Phrase Grounding Guided by Image-Caption Alignment.**<br>
+**(*Align2Ground_ICCV2019*) Align2Ground: Weakly Supervised Phrase Grounding Guided by Image-Caption Alignment.**<br>
 *Samyak Datta, Karan Sikka, Anirban Roy, Karuna Ahuja, Devi Parikh, Ajay Divakaran.*<br>
-**_(ICCV 2019)_**<br>
 [[paper]](https://arxiv.org/pdf/1903.11649.pdf)
 
-**Multi-Head Attention with Diversity for Learning Grounded Multilingual Multimodal Representations.**<br>
+**(*GMMR_EMNLP2019*) Multi-Head Attention with Diversity for Learning Grounded Multilingual Multimodal Representations.**<br>
 *Po-Yao Huang, Xiaojun Chang, Alexander Hauptmann.*<br>
-**_(EMNLP 2019)_**<br>
 [[paper]](https://www.aclweb.org/anthology/D19-1154.pdf)
 
-**Unsupervised Discovery of Multimodal Links in Multi-Image, Multi-Sentence Documents.**<br>
+**(*MIMSD_EMNLP2019*) Unsupervised Discovery of Multimodal Links in Multi-Image, Multi-Sentence Documents.**<br>
 *Jack Hessel, Lillian Lee, David Mimno.*<br>
-**_(EMNLP 2019)_**<br>
 [[paper]](https://arxiv.org/pdf/1904.07826.pdf)
 [[code]](https://github.com/jmhessel/multi-retrieval)
 
-**HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs.**<br>
-*Fangyu Liu, Rongtian Ye, Xun Wang, Shuaipeng Li.*<br>
-**_(AAAI 2020)_**<br>
-[[paper]](https://arxiv.org/pdf/1911.10097v1.pdf)
-[[code]](https://github.com/hardyqr/HAL) 
-
-**Ladder Loss for Coherent Visual-Semantic Embedding.**<br>
-*Mo Zhou, Zhenxing Niu, Le Wang, Zhanning Gao, Qilin Zhang, Gang Hua.*<br>
-**_(AAAI 2020)_**<br>
-[[paper]](https://arxiv.org/pdf/1911.07528.pdf)
-
-**Expressing Objects just like Words: Recurrent Visual Embedding for Image-Text Matching.** <br>
-*Tianlang Chen, Jiebo Luo.*<br>
-**_(AAAI 2020)_**<br>
-[[paper]](https://arxiv.org/pdf/2002.08510.pdf)
-
-**Adaptive Cross-modal Embeddings for Image-Text Alignment.**<br>
-*Jonatas Wehrmann, Camila Kolling, Rodrigo C Barros.*<br>
-**_(AAAI 2020)_**<br>
-[[paper]](https://ojs.aaai.org//index.php/AAAI/article/view/6915)
-[[code]](https://github.com/jwehrmann/retrieval.pytorch) 
-
-**Graph Structured Network for Image-Text Matching**.<br>
-*Chunxiao Liu, Zhendong Mao, Tianzhu Zhang, Hongtao Xie, Bin Wang, Yongdong Zhang.*<br>
-**_(CVPR 2020)_**<br>
-[[paper]](https://arxiv.org/pdf/2004.00277.pdf)
-
-**IMRAM: Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval.**<br>
-*Hui Chen, Guiguang Ding, Xudong Liu, Zijia Lin, Ji Liu, Jungong Han.*<br>
-**_(CVPR 2020)_**<br>
-[[paper]](https://arxiv.org/pdf/2003.03772.pdf)
-
-**Visual-Semantic Matching by Exploring High-Order Attention and Distraction.**<br>
-*Yongzhi Li, Duo Zhang, Yadong Mu.*<br>
-**_(CVPR 2020)_**<br>
-[[paper]](https://pkumyd.github.io/paper/CVPR2020_LYZ.pdf)
-
-**Multi-Modality Cross Attention Network for Image and Sentence Matching.**<br>
-*Xi Wei, Tianzhu Zhang, Yan Li, Yongdong Zhang, Feng Wu.*<br>
-**_(CVPR 2020)_**<br>
-[[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Multi-Modality_Cross_Attention_Network_for_Image_and_Sentence_Matching_CVPR_2020_paper.pdf)
-
-**Context-Aware Attention Network for Image-Text Retrieval.**<br>
-*Qi Zhang, Zhen Lei, Zhaoxiang Zhang, Stan Z. Li.*<br>
-**_(CVPR 2020)_**<br>
-[[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Context-Aware_Attention_Network_for_Image-Text_Retrieval_CVPR_2020_paper.pdf)
-
-**Universal Weighting Metric Learning for Cross-Modal Matching.**<br>
-*Jiwei Wei, Xing Xu, Yang Yang, Yanli Ji, Zheng Wang, Heng Tao Shen.*<br>
-**_(CVPR 2020)_**<br>
-[[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Universal_Weighting_Metric_Learning_for_Cross-Modal_Matching_CVPR_2020_paper.pdf)
+### *Posted in*
+-----------------------------------------------------------
 
 **Graph Optimal Transport for Cross-Domain Alignment.**<br>
 *Liqun Chen, Zhe Gan, Yu Cheng, Linjie Li, Lawrence Carin, Jingjing Liu.*<br>
@@ -568,7 +570,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 **_(ECCV 2020)_**<br>
 [[paper]](https://assets.amazon.science/5b/db/440af26349adb83c77c85cd11922/learning-joint-visual-semantic-matching-embeddings-for-text-guided-retrieval.pdf)
 
-**Consensus-Aware Visual-Semantic Embeddingfor Image-Text Matching.**<br>
+**Consensus-Aware Visual-Semantic Embedding for Image-Text Matching.**<br>
 *Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma.*<br>
 **_(ECCV 2020)_**<br>
 [[paper]](https://arxiv.org/pdf/2007.08883.pdf)
