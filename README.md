@@ -284,7 +284,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>ACMM*</td><td>BUTD</td> <td>66.9</td><td>89.6</td><td>94.9</td> <td>39.5</td><td>69.6</td><td>81.1</td> </tr>
 </table> 
 
-### *performance of CUHK-PEDES*
+### *Performance of CUHK-PEDES*
 <table>
    <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
         <td colspan="3", align="center">CUHK-PEDES</td> </tr>
@@ -303,7 +303,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>54.51</td><td>77.56</td><td>84.78</td> </tr>
 </table> 
 
-### *performance of CUB-Flowers*
+### *Performance of CUB-Flowers*
 <table>
    <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
         <td colspan="2", align="center">CUB</td> <td colspan="2", align="center">Flowers</td> </tr>
