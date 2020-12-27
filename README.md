@@ -19,9 +19,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
     * [Un-supervised or Semi-supervised](#un-supervised-or-semi-supervised)
     * [Zero-shot or Fewer-shot](#zero-shot-or-fewer-shot)
     * [Adversarial learning](#adversarial-learning)
+    * [Commonsense learning](#commonsense-learning)
     * [Identification learning](#identification-learning)
     * [Related works](#related-works)
-    * [Posted in](#posted-in)
+* [Posted in](#posted-in)
 ****
 
 ## ``Peformance comparison``
@@ -47,7 +48,9 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>m-CNN*</td><td>OverFeat</td> <td>14.9</td><td>35.9</td><td>49.0</td> <td>11.8</td><td>34.5</td><td>48.0</td> </tr>
    <tr> <td>m-CNN*</td><td>VggNet</td> <td>24.8</td><td>53.7</td><td>67.1</td> <td>20.3</td><td>47.6</td><td>61.7</td> </tr>
    <tr> <td>HM-LSTM</td><td>RCNN</td> <td>27.7</td><td>--</td><td>68.6</td> <td>24.4</td><td>--</td><td>68.1</td> </tr>
+   <tr> <td>SPE</td><td>VggNet</td> <td>30.1</td><td>60.4</td><td>73.7</td> <td>23.0</td><td>51.3</td><td>64.8</td> </tr>
    <tr> <td>FV</td><td>GMM+HGLMM</td> <td>31.0</td><td>59.3</td><td>73.7</td> <td>21.2</td><td>50.0</td><td>64.8</td> </tr>
+   <tr> <td>NAA</td><td>ResNet</td> <td>37.2</td><td>68.1</td><td>79.1</td> <td>27.7</td><td>59.6</td><td>71.8</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD</td> <td>52.2</td><td>81.0</td><td>89.2</td> <td>38.3</td><td>67.8</td><td>78.9</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>48.5</td><td>78.1</td><td>85.3</td> <td>32.0</td><td>61.4</td><td>73.9</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>52.1</td><td>81.5</td><td>90.1</td> <td>40.2</td><td>69.0</td><td>79.2</td> </tr>
@@ -90,6 +93,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>53.1</td><td>78.8</td><td>87.6</td> <td>42.6</td><td>71.6</td><td>81.9</td> </tr>
    <tr> <td>DAN</td><td>VggNet</td> <td>41.4</td><td>73.5</td><td>82.5</td> <td>31.8</td><td>61.7</td><td>72.5</td> </tr>
    <tr> <td>DAN</td><td>ResNet</td> <td>55.0</td><td>81.8</td><td> 89.0</td> <td>39.4</td><td>69.2</td><td>79.1</td> </tr>
+   <tr> <td>NAA</td><td>ResNet</td> <td>55.1</td><td>80.3</td><td>89.6</td> <td>39.4</td><td>68.8</td><td>79.9</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>44.2</td><td>74.1</td><td>83.6</td> <td>32.8</td><td>64.3</td><td>74.9</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>55.5</td><td>82.0</td><td>89.3</td> <td>41.1</td><td>70.5</td><td>80.1</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>47.6</td><td>77.3</td><td>87.1</td> <td>35.3</td><td>66.6</td><td>78.2</td> </tr>
@@ -98,23 +102,40 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>GXN</td><td>ResNet</td> <td>56.8</td><td>--</td><td>89.6</td> <td>41.5</td><td>--</td><td>80.1</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>49.7</td><td>74.8</td><td>83.3</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>65.0</td><td>89.2</td><td>94.5</td> <td>49.5</td><td>79.5</td><td>86.6</td> </tr>
+   <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>66.3</td><td>90.6</td><td>96.0</td> <td>51.4</td><td>77.8</td><td>84.9</td> </tr>
+   <tr> <td>SAVE</td><td>ResNet</td> <td>67.2</td><td>88.3</td><td>94.2</td> <td>49.8</td><td>78.7</td><td>86.2</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, t2i_AVE</td> <td>61.8</td><td>87.5</td><td>93.7</td> <td>45.8</td><td>74.4</td><td>83.0</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, i2t_AVE</td> <td>67.9</td><td>89.0</td><td>94.4</td> <td>43.9</td><td>74.2</td><td>82.8</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>67.4</td><td>90.3</td><td>95.8</td> <td>48.6</td><td>77.7</td><td>85.2</td> </tr>
+   <tr> <td>BFAN</td><td>BUTD, prob</td> <td>65.5</td><td>89.4</td><td>--</td> <td>47.9</td><td>77.6</td><td>--</td> </tr>
+   <tr> <td>BFAN</td><td>BUTD, equal</td> <td>64.5</td><td>89.7</td><td>--</td> <td>48.8</td><td>77.3</td><td>--</td> </tr>
+   <tr> <td>BFAN*</td><td>BUTD</td> <td>68.1</td><td>91.4</td><td>--</td> <td>50.8</td><td>78.4</td><td>--</td> </tr>
    <tr> <td>CAMP</td><td>BUTD</td> <td>68.1</td><td>89.7</td><td>95.2</td> <td>51.5</td><td>77.1</td><td>85.3</td> </tr>
+   <tr> <td>RDAN</td><td>BUTD</td> <td>68.1</td><td>91.0</td><td>95.9</td> <td>54.1</td><td>80.9</td><td>87.2</td> </tr>
    <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>68.4</td><td>90.6</td><td>95.3</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>GVSE*</td><td>BUTD</td> <td>68.5</td><td>90.9</td><td>95.5</td> <td>50.6</td><td>79.8</td><td>87.6</td> </tr>
    <tr> <td>HAL</td><td>SCAN_i2t</td> <td>68.6</td><td>89.9</td><td>94.7</td> <td>46.0</td><td>74.0</td><td>82.3</td> </tr>
+   <tr> <td>OAN</td><td>BUTD</td> <td>68.6</td><td>93.0</td><td>96.0</td> <td>53.3</td><td>80.1</td><td>87.1</td> </tr>
+   <tr> <td>SAEM</td><td>BUTD, Bert</td> <td>69.1</td><td>91.0</td><td>95.1</td> <td>52.4</td><td>81.1</td><td>88.1</td> </tr>
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>69.4</td><td>89.9</td><td>95.4</td> <td>47.5</td><td>75.5</td><td>83.1</td> </tr>
+   <tr> <td>PFAN</td><td>BUTD, t2i</td> <td>66.0</td><td>89.6</td><td>94.3</td> <td>49.6</td><td>77.0</td><td>84.2</td> </tr>
+   <tr> <td>PFAN</td><td>BUTD, i2t</td> <td>67.6</td><td>90.0</td><td>93.8</td> <td>45.7</td><td>74.7</td><td>83.6</td> </tr>
+   <tr> <td>PFAN*</td><td>BUTD</td> <td>70.0</td><td>91.8</td><td>95.0</td> <td>50.4</td><td>78.7</td><td>86.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>70.1</td><td>91.6</td><td>97.2</td> <td>52.8</td><td>79.0</td><td>87.9</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>70.2</td><td>91.6</td><td>95.8</td> <td>55.5</td><td>81.3</td><td>88.2</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>59.5</td><td>85.6/td><td>91.0<</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>60.9</td><td>86.1</td><td>91.0</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>70.9</td><td>92.8</td><td>95.5</td> <td>50.7</td><td>78.7</td><td>86.2</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>71.3</td><td>90.6</td><td>96.0</td> <td>54.7</td><td>81.8</td><td>88.2</td> </tr>
+   <tr> <td>SCG</td><td>VggNet, Prod</td> <td>57.2</td><td>85.1</td><td>92.1</td> <td>40.1</td><td>69.5</td><td>79.5</td> </tr>
+   <tr> <td>SCG</td><td>VggNet, Gated</td> <td>71.8</td><td>90.8</td><td>94.8</td> <td>49.3</td><td>76.4</td><td>85.6</td> </tr>
+   <tr> <td>SGM</td><td>BUTD</td> <td>71.8</td><td>91.7</td><td>95.5</td> <td>53.5</td><td>79.6</td><td>86.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>67.0</td><td>90.5</td><td>95.6</td> <td>51.2</td><td>78.2</td><td>85.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>68.8</td><td>91.6</td><td>96.0</td> <td>53.0</td><td>79.0</td><td>87.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>74.1</td><td>93.0</td><td>96.6</td> <td>53.9</td><td>79.4</td><td>87.2</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.2</td><td>92.8</td><td>96.4</td> <td>54.8</td><td>81.4</td><td>87.8</td> </tr>
+   <tr> <td>SAN^</td><td>VggNet</td> <td>67.0</td><td>88.0</td><td>94.6</td> <td>51.4</td><td>77.2</td><td>85.2</td> </tr>
+   <tr> <td>SAN^</td><td>ResNet</td> <td>75.5</td><td>92.6</td><td>96.2</td> <td>60.1</td><td>84.7</td><td>90.6</td> </tr>
    <tr> <td>GSMN</td><td>BUTD, sparse</td> <td>71.4</td><td>92.0</td><td>96.1</td> <td>53.9</td><td>79.7</td><td>87.1</td> </tr>
    <tr> <td>GSMN</td><td>BUTD, dense</td> <td>72.6</td><td>93.5</td><td>96.8</td> <td>53.7</td><td>80.0</td><td>87.0</td> </tr>
    <tr> <td>GSMN*</td><td>BUTD</td> <td>76.4</td><td>94.3</td><td>97.3</td> <td>57.4</td><td>82.3</td><td>89.0</td> </tr>
@@ -124,6 +145,8 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>73.7</td><td>93.3</td><td>96.3</td> <td>56.1</td><td>81.5</td><td>88.0</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>75.2</td><td>93.3</td><td>96.6</td> <td>56.2</td><td>81.0</td><td>86.5</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>77.8</td><td>94.1</td><td>97.4</td> <td>58.5</td><td>83.0</td><td>88.8</td> </tr>
+   <tr> <td>ACMM</td><td>BUTD</td> <td>80.0</td><td>95.5</td><td>98.2</td> <td>50.2</td><td>76.8</td><td>84.7</td> </tr>
+   <tr> <td>ACMM*</td><td>BUTD</td> <td>85.2</td><td>96.7</td><td>98.4</td> <td>53.8</td><td>79.8</td><td>86.8</td> </tr>
 </table> 
 
 ### *Performance of MSCOCO1K*
@@ -151,6 +174,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>RRF-Net</td><td>ResNet</td> <td>56.4</td><td>85.3</td><td>91.5</td> <td>43.9</td><td>78.1</td><td>88.6</td> </tr>   
    <tr> <td>CHAIN-VSE</td><td>VggNet</td> <td>51.6</td><td>82.0</td><td>91.3</td> <td>38.6</td><td>75.1</td><td>87.2</td> </tr>
    <tr> <td>CHAIN-VSE</td><td>ResNet</td> <td>59.4</td><td>88.0</td><td>94.2</td> <td>43.5</td><td>79.8</td><td>90.2</td> </tr>
+   <tr> <td>NAA</td><td>ResNet</td> <td>61.3</td><td>87.9</td><td>95.4</td> <td>47.0</td><td>80.8</td><td>90.1</td> </tr>
    <tr> <td>VSE++</td><td>VggNet</td> <td>57.2</td><td>86.0</td><td>93.3</td> <td>45.9</td><td>79.4</td><td>89.1</td> </tr>
    <tr> <td>VSE++</td><td>ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>59.4</td><td>86.2</td><td>92.9</td> <td>41.6</td><td>76.3</td><td>87.5</td> </tr>
@@ -162,18 +186,35 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>PVSE</td><td>ResNet</td> <td>69.2</td><td>91.6</td><td>96.6</td> <td>55.2</td><td>86.5</td><td>93.7</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>66.6</td><td>91.8</td><td>96.6</td> <td>55.5</td><td>86.6</td><td>93.8</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>69.9</td><td>92.9</td><td>97.5</td> <td>56.7</td><td>87.5</td><td>94.8</td> </tr>
+   <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>70.3</td><td>94.5</td><td>98.1</td> <td>57.6</td><td>87.3</td><td>93.7</td> </tr>
+   <tr> <td>SAVE</td><td>ResNet</td> <td>70.8</td><td>93.2</td><td>97.6</td> <td>56.9</td><td>87.6</td><td>94.4</td> </tr>
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>71.1</td><td>93.7</td><td>98.2</td> <td>56.8</td><td>86.7</td><td>93.0</td> </tr>
+   <tr> <td>SAEM</td><td>BUTD, Bert</td> <td>71.2</td><td>94.1</td><td>97.7</td> <td>57.8</td><td>88.6</td><td>94.9</td> </tr>
+   <tr> <td>OAN</td><td>BUTD</td> <td>71.7</td><td>96.4</td><td>99.3</td> <td>60.2</td><td>88.6</td><td>94.5</td> </tr>
+   <tr> <td>GVSE*</td><td>BUTD</td> <td>72.2</td><td>94.1</td><td>98.1</td> <td>60.5</td><td>89.4</td><td>95.8</td> </tr>
    <tr> <td>CAMP</td><td>BUTD</td> <td>72.3</td><td>94.8</td><td>98.3</td> <td>58.5</td><td>87.9</td><td>95.0</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, t2i_AVE</td> <td>70.9</td><td>94.5</td><td>97.8</td> <td>56.4</td><td>87.0</td><td>93.9</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, i2t_AVE</td> <td>69.2</td><td>93.2</td><td>97.5</td> <td>54.4</td><td>86.0</td><td>93.6</td> </tr>
-   <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4 </td><td>94.8</td> </tr>
+   <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4</td><td>94.8</td> </tr>
+   <tr> <td>SGM</td><td>BUTD</td> <td>73.4</td><td>93.8</td><td>97.8</td> <td>57.5</td><td>87.3</td><td>94.3</td> </tr>
+   <tr> <td>ParNet</td><td>BUTD, NP</td> <td>72.8</td><td>94.9</td><td>97.9</td> <td>57.9</td><td>87.4</td><td>94.0</td> </tr>
+   <tr> <td>ParNet</td><td>BUTD, P</td> <td>73.5</td><td>94.5</td><td>98.3</td> <td>58.3</td><td>88.2</td><td>94.1</td> </tr>
+   <tr> <td>RDAN</td><td>BUTD</td> <td>74.6</td><td>96.2</td><td>98.7</td> <td>61.6</td><td>89.2</td><td>94.7</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.8</td><td>95.6</td><td>97.7</td> <td>61.6</td><td>89.8</td><td>95.2</td> </tr>
+   <tr> <td>BFAN</td><td>BUTD, prob</td> <td>73.0</td><td>94.8</td><td>--</td> <td>58.0</td><td>87.6</td><td>--</td> </tr>
+   <tr> <td>BFAN</td><td>BUTD, equal</td> <td>73.7</td><td>94.9</td><td>--</td> <td>58.3</td><td>87.5</td><td>--</td> </tr>
+   <tr> <td>BFAN*</td><td>BUTD</td> <td>74.9</td><td>95.2</td><td>--</td> <td>59.4</td><td>88.4</td><td>--</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>75.3</td><td>95.8</td><td>98.6</td> <td>62.5</td><td>89.7</td><td>95.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>75.5</td><td>95.4</td><td>98.5</td> <td>61.3</td><td>89.7</td><td>95.2</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>76.2</td><td>94.8</td><td>98.2</td> <td>62.8</td><td>89.7</td><td>95.1</td> </tr>
    <tr> <td>ADAPT</td><td>BUTD, i2t</td> <td>74.5</td><td>94.2</td><td>97.9</td> <td>62.0</td><td>90.4</td><td>95.5</td> </tr>
    <tr> <td>ADAPT</td><td>BUTD, t2i</td> <td>75.3</td><td>95.1</td><td>98.4</td> <td>63.3</td><td>90.0</td><td>95.5</td> </tr>
    <tr> <td>ADAPT*</td><td>BUTD</td> <td>76.5</td><td>95.6</td><td>98.9</td> <td>62.2</td><td>90.5</td><td>96.0</td> </tr>
+   <tr> <td>PFAN</td><td>BUTD, t2i</td> <td>75.8</td><td>95.9</td><td>99.0</td> <td>61.0</td><td>89.1</td><td>95.1</td> </tr>
+   <tr> <td>PFAN</td><td>BUTD, i2t</td> <td>70.7</td><td>94.1</td><td>97.8</td> <td>53.0</td><td>84.5</td><td>92.6</td> </tr>
+   <tr> <td>PFAN*</td><td>BUTD</td> <td>76.5</td><td>96.3</td><td>99.0</td> <td>61.6</td><td>89.6</td><td>95.2</td> </tr>
+   <tr> <td>SCG</td><td>VggNet, Prod</td> <td>73.4</td><td>94.8</td><td>97.6</td> <td>56.3</td><td>85.6</td><td>93.5</td> </tr>
+   <tr> <td>SCG</td><td>VggNet, Gated</td> <td>76.6</td><td>96.3</td><td>99.2</td> <td>61.4</td><td>88.9</td><td>95.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>76.1</td><td>95.3</td><td>98.2</td> <td>61.0</td><td>88.6</td><td>94.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>74.0</td><td>95.6</td><td>98.4</td> <td>60.6</td><td>88.9</td><td>94.6</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>76.7</td><td>95.6</td><td>98.5</td> <td>61.7</td><td>89.1</td><td>95.0</td> </tr>
@@ -186,6 +227,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>76.1</td><td>95.4</td><td>98.3</td> <td>61.8</td><td>89.4</td><td>95.3</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>78.0</td><td>95.8</td><td>98.2</td> <td>61.4</td><td>89.3</td><td>95.4</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>79.6</td><td>96.2</td><td>98.5</td> <td>63.2</td><td>90.7</td><td>96.1</td> </tr>
+   <tr> <td>ACMM</td><td>BUTD</td> <td>81.9</td><td>98.0</td><td>99.3</td> <td>58.2</td><td>87.3</td><td>93.9</td> </tr>
+   <tr> <td>ACMM*</td><td>BUTD</td> <td>84.1</td><td>97.8</td><td>99.4</td> <td>60.7</td><td>88.7</td><td>94.9</td> </tr>
+   <tr> <td>SAN^</td><td>VggNet</td> <td>74.9</td><td>94.9</td><td>98.2</td> <td>60.8</td><td>90.3</td><td>95.7</td> </tr>
+   <tr> <td>SAN^</td><td>ResNet</td> <td>85.4</td><td>97.5</td><td>99.0</td> <td>69.1</td><td>93.4</td><td>97.2</td> </tr>
 </table> 
 
 ### *Performance of MSCOCO5K*
@@ -209,8 +254,13 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>SCO</td><td>ResNet</td> <td>42.8</td><td>72.3</td><td>83.0</td> <td>33.1</td><td>62.9</td><td>75.5</td> </tr>
    <tr> <td>CVSE++</td><td>ResNet</td> <td>43.2</td><td>73.5</td><td>84.1</td> <td>32.4</td><td>62.2</td><td>74.6</td> </tr>
    <tr> <td>PVSE</td><td>ResNet</td> <td>45.2</td><td>74.3</td><td>84.5</td> <td>32.4</td><td>63.0</td><td>75.0</td> </tr>
+   <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>45.4</td><td>77.9</td><td>87.9</td> <td>36.2</td><td>65.5</td><td>76.7</td> </tr>
+   <tr> <td>SAVE</td><td>ResNet</td> <td>46.7</td><td>76.3</td><td>86.1</td> <td>34.0</td><td>64.8</td><td>77.0</td> </tr>
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>46.9</td><td>77.7</td><td>87.6</td> <td>34.4</td><td>64.2</td><td>75.9</td> </tr>
+   <tr> <td>OAN</td><td>BUTD</td> <td>47.8</td><td>81.2</td><td>90.4</td> <td>37.0</td><td>66.6</td><td>78.0</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>49.3</td><td>81.1</td><td>90.2</td> <td>39.0</td><td>68.0</td><td>80.1</td> </tr>
+   <tr> <td>GVSE*</td><td>BUTD</td> <td>49.9</td><td>77.4</td><td>87.6</td> <td>38.4</td><td>68.5</td><td>79.7</td> </tr>
+   <tr> <td>SGM</td><td>BUTD</td> <td>50.0</td><td>79.3</td><td>87.9</td> <td>35.3</td><td>64.9</td><td>76.5</td> </tr>
    <tr> <td>CAMP</td><td>BUTD</td> <td>50.1</td><td>82.1</td><td>89.7</td> <td>39.0</td><td>68.9</td><td>80.2</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, i2t_LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
@@ -223,9 +273,14 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>52.0</td><td>81.8</td><td>90.1</td> <td>38.6</td><td>68.1</td><td>79.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>53.7</td><td>83.2</td><td>91.0</td> <td>39.7</td><td>69.1</td><td>79.8</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>54.0</td><td>82.5</td><td>90.7</td> <td>38.7</td><td>69.7</td><td>80.8</td> </tr>
+   <tr> <td>SCG</td><td>VggNet, Prod</td> <td>49.9</td><td>78.9</td><td>88.1</td> <td>33.2</td><td>62.4</td><td>74.7</td> </tr>
+   <tr> <td>SCG</td><td>VggNet, Gated</td> <td>56.6</td><td>84.5</td><td>92.0</td> <td>39.2</td><td>68.0</td><td>81.3</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>53.3</td><td>82.3</td><td>90.1</td> <td>39.8</td><td>69.0</td><td>80.2</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>56.9</td><td>83.2</td><td>90.5</td> <td>40.2</td><td>69.0</td><td>79.8</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>57.8</td><td>84.9</td><td>91.6</td> <td>41.9</td><td>70.7</td><td>81.3</td> </tr>
+   <tr> <td>SAN^</td><td>ResNet</td> <td>65.4</td><td>89.4</td><td>94.8</td> <td>46.2</td><td>77.4</td><td>86.6</td> </tr>
+   <tr> <td>ACMM</td><td>BUTD</td> <td>63.5</td><td>88.0</td><td>93.6</td> <td>36.7</td><td>65.1</td><td>76.7</td> </tr>
+   <tr> <td>ACMM*</td><td>BUTD</td> <td>66.9</td><td>89.6</td><td>94.9</td> <td>39.5</td><td>69.6</td><td>81.1</td> </tr>
 </table> 
 
 ### *performance of CUHK-PEDES*
@@ -402,6 +457,22 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 [[paper]](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Kuang-Huei_Lee_Stacked_Cross_Attention_ECCV_2018_paper.pdf)
 [[code]](https://github.com/kuanghuei/SCAN)
 
+**(*arXiv2019_R-SCAN*) Learning Visual Relation Priors for Image-Text Matching and Image Captioning with Neural Scene Graph Generators.**<br>
+*Kuang-Huei Lee, Hamid Palang, Xi Chen, Houdong Hu, Jianfeng Gao.*<br> 
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1909.09953.pdf)
+
+**(*arXiv2019_ParNet*) ParNet: Position-aware Aggregated Relation Network for Image-Text matching.**<br>
+*Yaxian Xia, Lun Huang, Wenmin Wang, Xiaoyong Wei, Jie Chen.*<br> 
+[[paper]](https://arxiv.org/pdf/1906.06892)
+
+**(*ACML2019_SAVE*) Multi-Scale Visual Semantics Aggregation with Self-Attention for End-to-End Image-Text Matching.**<br>
+*Zhuobin Zheng, Youcheng Ben, Chun Yuan.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=http%3A%2F%2Fproceedings.mlr.press%2Fv101%2Fzheng19a%2Fzheng19a.pdf)
+
+**(*ICMR2019_OAN*) Improving What Cross-Modal Retrieval Models Learn through Object-Oriented Inter- and Intra-Modal Attention Networks.**<br>
+*Po-Yao Huang, Vaibhav, Xiaojun Chang, Alexander Georg Hauptmann.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fdl.acm.org%2Fdoi%2Fpdf%2F10.1145%2F3323873.3325043)
+
 **(*MM2019_BFAN*) Focus Your Attention: A Bidirectional Focal Attention Network for Image-Text Matching.**<br>
 *Chunxiao Liu, Zhendong Mao, An-An Liu, Tianzhu Zhang, Bin Wang, Yongdong Zhang.*<br>
 [[paper]](https://arxiv.org/pdf/1909.11416)
@@ -424,6 +495,7 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 **(*ICCV2019_SAN*) Saliency-Guided Attention Network for Image-Sentence Matching.**<br>
 *Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
 [[paper]](https://arxiv.org/pdf/1904.09471)
+[[code]](https://github.com/HabbakukWang1103/SAN)
 
 **(*AAAI2020_DP-RNN*) Expressing Objects just like Words: Recurrent Visual Embedding for Image-Text Matching.** <br>
 *Tianlang Chen, Jiebo Luo.*<br>
@@ -491,6 +563,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Fangyu Liu, Rongtian Ye.*<br> 
 [[paper]](https://www.aclweb.org/anthology/P19-2023.pdf)
 
+**(*ICASSP2019_NAA*) A Neighbor-aware Approach for Image-text Matching.**<br>
+*Chunxiao Liu, Zhendong Mao, Wenyu Zang, Bin Wang.*<br> 
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8683869)
+
 **(*CVPR2019_PVSE*) Polysemous Visual-Semantic Embedding for Cross-Modal Retrieval.**<br>
 *Yale Song, Mohammad Soleymani.*<br>
 [[paper]](https://arxiv.org/pdf/1906.04402.pdf)
@@ -529,11 +605,20 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 [[paper]](https://arxiv.org/pdf/1611.05088.pdf)
 [[code]](https://github.com/lzrobots/DeepEmbeddingModel_ZSL)
 
+**(*AAAI2019_GVSE*) Few-shot image and sentence matching via gated visual-semantic matching.**<br>
+*Yan Huang, Yang Long, Liang Wang.*<br>
+[[paper]](https://ojs.aaai.org//index.php/AAAI/article/view/4866)
+
 **(*ICCV2019_ACMM*) ACMM: Aligned Cross-Modal Memory for Few-Shot Image andSentence Matching.**<br>
 *Yan Huang, Liang Wang.*<br>
 [[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_ICCV_2019%2Fpapers%2FHuang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
 
 ### ``*Adversarial learning*``
+**(*MM2017_ACMR*) Adversarial Cross-Modal Retrieval.**<br>
+*Bokun Wang, Yang Yang, Xing Xu, Alan Hanjalic, Heng Tao Shen.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fcfm.uestc.edu.cn%2F~yangyang%2Fpapers%2Facmr.pdf)
+[[code]](https://github.com/sunpeng981712364/ACMR_demo)
+
 **(*COLING2018_CAS*) Learning Visually-Grounded Semantics from Contrastive Adversarial Samples.**<br>
 *Haoyue Shi, Jiayuan Mao, Tete Xiao, Yuning Jiang, Jian Sun.*<br>
 [[paper]](https://aclweb.org/anthology/C18-1315)
@@ -550,6 +635,11 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 **(*CVPR2019_UniVSE*) Unified Visual-Semantic Embeddings: Bridging Vision and Language with Structured Meaning Representations.**<br>
 *Hao Wu, Jiayuan Mao, Yufeng Zhang, Yuning Jiang, Lei Li, Weiwei Sun, Wei-Ying Ma.*<br>
 [[paper]](https://arxiv.org/pdf/1904.05521.pdf)
+
+### ``*Commonsense learning*``
+**(*IJCAI2019_SCG*) Knowledge Aware Semantic Concept Expansion for Image-Text Matching.**<br>
+*Botian Shi, Lei Ji, Pan Lu, Zhendong Niu, Nan Duan.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fwww.ijcai.org%2FProceedings%2F2019%2F0720.pdf)
 
 ### ``*Identification learning*``
 **(*ICCV2015_LSTM-Q+I*) VQA: Visual question answering.**<br>
@@ -576,6 +666,11 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 **(*ECCV2018_GLA*) Improving deep visual representation for person re-identification by global and local image-language association.**<br>
 *Dapeng Chen, Hongsheng Li, Xihui Liu, Yantao Shen, JingShao, Zejian Yuan, Xiaogang Wang.*<br>
 [[paper]](https://arxiv.org/pdf/1808.01571)
+
+**(*CVPR2019_DSCMR*) Deep Supervised Cross-modal Retrieval.**<br>
+*Liangli Zhen, Peng Hu, Xu Wang, Dezhong Peng.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_CVPR_2019%2Fpapers%2FZhen_Deep_Supervised_Cross-Modal_Retrieval_CVPR_2019_paper.pdf)
+[[code]](https://github.com/penghu-cs/DSCMR)
 
 **(*AAAI2020_PMA*) Pose-Guided Multi-Granularity Attention Network for Text-Based Person Search.**<br>
 *Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan.*<br>
@@ -629,6 +724,10 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 [[paper]](https://arxiv.org/pdf/1904.07826.pdf)
 [[code]](https://github.com/jmhessel/multi-retrieval)
 
+**(*ICCV2019_DRNet*) Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid.**<br>
+*Zhanghui Kuang, Yiming Gao, Guanbin Li, Ping Luo, Yimin Chen, Liang Lin, Wayne Zhang.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1908.11754.pdf)
+
 **(*ICCV2019_Align2Ground*) Align2Ground: Weakly Supervised Phrase Grounding Guided by Image-Caption Alignment.**<br>
 *Samyak Datta, Karan Sikka, Anirban Roy, Karuna Ahuja, Devi Parikh, Ajay Divakaran.*<br>
 [[paper]](https://arxiv.org/pdf/1903.11649.pdf)
@@ -637,14 +736,21 @@ The Tutorial of Image-Text Matching for Preliminary Insight. Due to the urgent t
 *Nam Vo, Lu Jiang, Chen Sun, Kevin Murphy, Li-Jia Li, Li Fei-Fei, James Hays.*<br>
 [[paper]](https://arxiv.org/pdf/1812.07119.pdf)
 
+**(*SIGIR2019_PAICM*) Prototype-guided Attribute-wise Interpretable Scheme forClothing Matching.**<br>
+*Xianjing Han, Xuemeng Song, Jianhua Yin, Yinglong Wang, Liqiang Nie.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fxuemengsong.github.io%2FSIGIR2019_PAICM.pdf)
+
+**(*SIGIR2019_NCR*) Neural Compatibility Ranking for Text-based Fashion Matching.**<br>
+*Suthee Chaidaroon, Mix Xie, Yi Fang, Alessandro Magnani.*<br>
+[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Funsuthee.github.io%2Fabout%2FSIGIR2019_Compatible_Matching.pdf)
+
 **(*ECCV2020_InfoNCE*) Contrastive Learning for Weakly Supervised Phrase Grounding.**<br>
 *Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
 [[paper]](https://arxiv.org/pdf/2006.09920.pdf)
 [[code]](https://github.com/BigRedT/info-ground)
 
-### *Posted in*
+## ``Posted in``
 -----------------------------------------------------------
-
 **(*ECCV2020*) Adaptive Offline Quintuplet Loss for Image-Text Matching.**<br>
 *Tianlang Chen, Jiajun Deng, Jiebo Luo.*<br>
 [[paper]](https://arxiv.org/pdf/2003.03669.pdf)
