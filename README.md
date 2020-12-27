@@ -9,7 +9,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
     * [Flickr30K](#performance-of-flickr30k)
     * [MSCOCO1K](#performance-of-mscoco1k)
     * [MSCOCO5K](#performance-of-mscoco5k)
-    * [CUHK-PEDES](#performance-of-cukh-pedes)
+    * [CUHK-PEDES](#performance-of-cuhk-pedes)
     * [CUB-Flowers](#performance-of-cub-flowers)
 
 * [Methods summary](#method-summary)
