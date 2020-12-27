@@ -1,7 +1,7 @@
 Cross-modal_Retrieval_Tutorial
 ==============================
 The Tutorial of Image-Text Matching for Preliminary Insight.  
-Due to the urgent time, we temporarily store some state-of-the-arts in [Posted in](#posted-in). We will continue to update the tutorial and release the PyTorch code of [Image-Text Matching Benchmard](https://github.com/Paranioar/Cross-modal_Retrieval_Benchmark).
+Due to the urgent time, we temporarily store some state-of-the-arts in [Posted in](#posted-in). We will continue to update the tutorial and release the PyTorch code of [Image-Text Matching Benchmark](https://github.com/Paranioar/Cross-modal_Retrieval_Benchmark).
 ****
 ## ``Catalogue ``
 * [Peformance comparison](#peformance-comparison)
