@@ -473,11 +473,17 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 **(*ICMR2019_OAN*) Improving What Cross-Modal Retrieval Models Learn through Object-Oriented Inter- and Intra-Modal Attention Networks.**<br>
 *Po-Yao Huang, Vaibhav, Xiaojun Chang, Alexander Georg Hauptmann.*<br>
 [[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fdl.acm.org%2Fdoi%2Fpdf%2F10.1145%2F3323873.3325043)
+[[code]](https://github.com/idejie/OAN)
 
 **(*MM2019_BFAN*) Focus Your Attention: A Bidirectional Focal Attention Network for Image-Text Matching.**<br>
 *Chunxiao Liu, Zhendong Mao, An-An Liu, Tianzhu Zhang, Bin Wang, Yongdong Zhang.*<br>
 [[paper]](https://arxiv.org/pdf/1909.11416)
 [[code]](https://github.com/CrossmodalGroup/BFAN) 
+
+**(*MM2019_MTFN*) Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking.**<br>
+*Tan Wang, Xing Xu, Yang Yang, Alan Hanjalic, Heng Tao Shen, Jingkuan Song.*<br>
+[[paper]](https://arxiv.org/pdf/1908.04011)
+[[code]](https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code) 
 
 **(*IJCAI2019_RDAN*) Multi-Level Visual-Semantic Alignments with Relation-Wise Dual Attention Network for Image and Text Matching.** <br>
 *Zhibin Hu, Yongsheng Luo,Jiong Lin,Yan Yan, Jian Chen.*<br>
@@ -710,6 +716,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 **(*CVPR2018_BUTD*) Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering.**<br>
 *Peter Anderson, Xiaodong He, Chris Buehler, Damien Teney, Mark Johnson, Stephen Gould, Lei Zhang.*<br>
 [[paper]](https://arxiv.org/pdf/1707.07998)
+[[code]](https://github.com/peteanderson80/bottom-up-attention)
 
 **(*CVPR2018_DML*) Deep Mutual Learning.**<br>
 *Ying Zhang, Tao Xiang, Timothy M. Hospedales, Huchuan Lu.*<br>
@@ -769,6 +776,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 **(*ECCV2020*) Preserving Semantic Neighborhoods for Robust Cross-modal Retrieval.**<br>
 *Christopher Thomas, Adriana Kovashka.*<br>
 [[paper]](https://arxiv.org/pdf/2007.08617.pdf)
+[[code]](https://github.com/CLT29/semantic_neighborhoods)
 
 **(*COLING2020*) Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
 *Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
