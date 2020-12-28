@@ -400,7 +400,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*MM2019_SAEM*) Learning Fragment Self-Attention Embeddings for Image-Text Matching.**<br>
 *Yiling Wu, Shuhui Wang, Guoli Song, Qingming Huang.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fdl.acm.org%2Fdoi%2Fpdf%2F10.1145%2F3343031.3350940)
+[[paper]](https://dl.acm.org/doi/pdf/10.1145/3343031.3350940)
 [[code]](https://github.com/yiling2018/saem)
 
 **(*ICCV2019_VSRN*) Visual Semantic Reasoning for Image-Text Matching.**<br>
@@ -460,7 +460,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*arXiv2019_R-SCAN*) Learning Visual Relation Priors for Image-Text Matching and Image Captioning with Neural Scene Graph Generators.**<br>
 *Kuang-Huei Lee, Hamid Palang, Xi Chen, Houdong Hu, Jianfeng Gao.*<br> 
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1909.09953.pdf)
+[[paper]](https://arxiv.org/pdf/1909.09953)
 
 **(*arXiv2019_ParNet*) ParNet: Position-aware Aggregated Relation Network for Image-Text matching.**<br>
 *Yaxian Xia, Lun Huang, Wenmin Wang, Xiaoyong Wei, Jie Chen.*<br> 
@@ -468,11 +468,11 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*ACML2019_SAVE*) Multi-Scale Visual Semantics Aggregation with Self-Attention for End-to-End Image-Text Matching.**<br>
 *Zhuobin Zheng, Youcheng Ben, Chun Yuan.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=http%3A%2F%2Fproceedings.mlr.press%2Fv101%2Fzheng19a%2Fzheng19a.pdf)
+[[paper]](http://proceedings.mlr.press/v101/zheng19a/zheng19a.pdf)
 
 **(*ICMR2019_OAN*) Improving What Cross-Modal Retrieval Models Learn through Object-Oriented Inter- and Intra-Modal Attention Networks.**<br>
 *Po-Yao Huang, Vaibhav, Xiaojun Chang, Alexander Georg Hauptmann.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fdl.acm.org%2Fdoi%2Fpdf%2F10.1145%2F3323873.3325043)
+[[paper]](https://dl.acm.org/doi/pdf/10.1145/3323873.3325043)
 [[code]](https://github.com/idejie/OAN)
 
 **(*MM2019_BFAN*) Focus Your Attention: A Bidirectional Focal Attention Network for Image-Text Matching.**<br>
@@ -487,7 +487,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*IJCAI2019_RDAN*) Multi-Level Visual-Semantic Alignments with Relation-Wise Dual Attention Network for Image and Text Matching.** <br>
 *Zhibin Hu, Yongsheng Luo,Jiong Lin,Yan Yan, Jian Chen.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fwww.ijcai.org%2FProceedings%2F2019%2F0111.pdf)
+[[paper]](https://www.ijcai.org/proceedings/2019/0111.pdf)
 
 **(*IJCAI2019_PFAN*) Position Focused Attention Network for Image-Text Matching.**<br>
 *Yaxiong Wang, Hao Yang, Xueming Qian, Lin Ma, Jing Lu, Biao Li, Xin Fan.*<br>
@@ -618,12 +618,12 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*ICCV2019_ACMM*) ACMM: Aligned Cross-Modal Memory for Few-Shot Image andSentence Matching.**<br>
 *Yan Huang, Liang Wang.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_ICCV_2019%2Fpapers%2FHuang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
+[[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
 
 ### ``*Adversarial learning*``
 **(*MM2017_ACMR*) Adversarial Cross-Modal Retrieval.**<br>
 *Bokun Wang, Yang Yang, Xing Xu, Alan Hanjalic, Heng Tao Shen.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fcfm.uestc.edu.cn%2F~yangyang%2Fpapers%2Facmr.pdf)
+[[paper]](http://cfm.uestc.edu.cn/~yangyang/papers/acmr.pdf)
 [[code]](https://github.com/sunpeng981712364/ACMR_demo)
 
 **(*COLING2018_CAS*) Learning Visually-Grounded Semantics from Contrastive Adversarial Samples.**<br>
@@ -646,7 +646,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 ### ``*Commonsense learning*``
 **(*IJCAI2019_SCG*) Knowledge Aware Semantic Concept Expansion for Image-Text Matching.**<br>
 *Botian Shi, Lei Ji, Pan Lu, Zhendong Niu, Nan Duan.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fwww.ijcai.org%2FProceedings%2F2019%2F0720.pdf)
+[[paper]](https://www.ijcai.org/Proceedings/2019/0720.pdf)
 
 ### ``*Identification learning*``
 **(*ICCV2015_LSTM-Q+I*) VQA: Visual question answering.**<br>
@@ -676,7 +676,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*CVPR2019_DSCMR*) Deep Supervised Cross-modal Retrieval.**<br>
 *Liangli Zhen, Peng Hu, Xu Wang, Dezhong Peng.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_CVPR_2019%2Fpapers%2FZhen_Deep_Supervised_Cross-Modal_Retrieval_CVPR_2019_paper.pdf)
+[[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhen_Deep_Supervised_Cross-Modal_Retrieval_CVPR_2019_paper.pdf)
 [[code]](https://github.com/penghu-cs/DSCMR)
 
 **(*AAAI2020_PMA*) Pose-Guided Multi-Granularity Attention Network for Text-Based Person Search.**<br>
@@ -734,7 +734,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*ICCV2019_DRNet*) Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid.**<br>
 *Zhanghui Kuang, Yiming Gao, Guanbin Li, Ping Luo, Yimin Chen, Liang Lin, Wayne Zhang.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1908.11754.pdf)
+[[paper]](https://arxiv.org/pdf/1908.11754)
 
 **(*ICCV2019_Align2Ground*) Align2Ground: Weakly Supervised Phrase Grounding Guided by Image-Caption Alignment.**<br>
 *Samyak Datta, Karan Sikka, Anirban Roy, Karuna Ahuja, Devi Parikh, Ajay Divakaran.*<br>
@@ -746,11 +746,11 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 **(*SIGIR2019_PAICM*) Prototype-guided Attribute-wise Interpretable Scheme forClothing Matching.**<br>
 *Xianjing Han, Xuemeng Song, Jianhua Yin, Yinglong Wang, Liqiang Nie.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fxuemengsong.github.io%2FSIGIR2019_PAICM.pdf)
+[[paper]](https://xuemengsong.github.io/SIGIR2019_PAICM.pdf)
 
 **(*SIGIR2019_NCR*) Neural Compatibility Ranking for Text-based Fashion Matching.**<br>
 *Suthee Chaidaroon, Mix Xie, Yi Fang, Alessandro Magnani.*<br>
-[[paper]](chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/pdf-viewer/web/viewer.html?file=https%3A%2F%2Funsuthee.github.io%2Fabout%2FSIGIR2019_Compatible_Matching.pdf)
+[[paper]](https://dl.acm.org/doi/pdf/10.1145/3331184.3331365)
 
 **(*ECCV2020_InfoNCE*) Contrastive Learning for Weakly Supervised Phrase Grounding.**<br>
 *Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
