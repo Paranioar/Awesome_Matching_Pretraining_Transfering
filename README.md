@@ -114,6 +114,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>CAMP</td><td>BUTD</td> <td>68.1</td><td>89.7</td><td>95.2</td> <td>51.5</td><td>77.1</td><td>85.3</td> </tr>
    <tr> <td>RDAN</td><td>BUTD</td> <td>68.1</td><td>91.0</td><td>95.9</td> <td>54.1</td><td>80.9</td><td>87.2</td> </tr>
    <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>68.4</td><td>90.6</td><td>95.3</td> <td>--</td><td>--</td><td>--</td> </tr>
+   <tr> <td>CASC</td><td>ResNet</td> <td>68.5</td><td>90.6</td><td>95.9</td> <td>50.2</td><td>78.3</td><td>86.3</td> </tr>
    <tr> <td>GVSE*</td><td>BUTD</td> <td>68.5</td><td>90.9</td><td>95.5</td> <td>50.6</td><td>79.8</td><td>87.6</td> </tr>
    <tr> <td>HAL</td><td>SCAN_i2t</td> <td>68.6</td><td>89.9</td><td>94.7</td> <td>46.0</td><td>74.0</td><td>82.3</td> </tr>
    <tr> <td>OAN</td><td>BUTD</td> <td>68.6</td><td>93.0</td><td>96.0</td> <td>53.3</td><td>80.1</td><td>87.1</td> </tr>
@@ -194,6 +195,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>OAN</td><td>BUTD</td> <td>71.7</td><td>96.4</td><td>99.3</td> <td>60.2</td><td>88.6</td><td>94.5</td> </tr>
    <tr> <td>GVSE*</td><td>BUTD</td> <td>72.2</td><td>94.1</td><td>98.1</td> <td>60.5</td><td>89.4</td><td>95.8</td> </tr>
    <tr> <td>CAMP</td><td>BUTD</td> <td>72.3</td><td>94.8</td><td>98.3</td> <td>58.5</td><td>87.9</td><td>95.0</td> </tr>
+   <tr> <td>CASC</td><td>ResNet</td> <td>72.3</td><td>96.0</td><td>99.0</td> <td>58.9</td><td>89.8</td><td>96.0</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, t2i_AVE</td> <td>70.9</td><td>94.5</td><td>97.8</td> <td>56.4</td><td>87.0</td><td>93.9</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, i2t_AVE</td> <td>69.2</td><td>93.2</td><td>97.5</td> <td>54.4</td><td>86.0</td><td>93.6</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4</td><td>94.8</td> </tr>
@@ -258,6 +260,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>45.4</td><td>77.9</td><td>87.9</td> <td>36.2</td><td>65.5</td><td>76.7</td> </tr>
    <tr> <td>SAVE</td><td>ResNet</td> <td>46.7</td><td>76.3</td><td>86.1</td> <td>34.0</td><td>64.8</td><td>77.0</td> </tr>
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>46.9</td><td>77.7</td><td>87.6</td> <td>34.4</td><td>64.2</td><td>75.9</td> </tr>
+   <tr> <td>CASC</td><td>ResNet</td> <td>47.2</td><td>78.3</td><td>87.4</td> <td>34.7</td><td>64.8</td><td>76.8</td> </tr>
    <tr> <td>OAN</td><td>BUTD</td> <td>47.8</td><td>81.2</td><td>90.4</td> <td>37.0</td><td>66.6</td><td>78.0</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>49.3</td><td>81.1</td><td>90.2</td> <td>39.0</td><td>68.0</td><td>80.1</td> </tr>
    <tr> <td>GVSE*</td><td>BUTD</td> <td>49.9</td><td>77.4</td><td>87.6</td> <td>38.4</td><td>68.5</td><td>79.7</td> </tr>
@@ -503,6 +506,11 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
 [[paper]](https://arxiv.org/pdf/1904.09471)
 [[code]](https://github.com/HabbakukWang1103/SAN)
+
+**(*TNNLS2020_CASC*) Cross-Modal Attention With Semantic Consistence for Image-Text Matching.**<br>
+*Xing Xu, Tan Wang, Yang Yang, Lin Zuo, Fumin Shen, Heng Tao Shen.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8994196)
+[[code]](https://github.com/Wangt-CN/Code_CASC) 
 
 **(*AAAI2020_DP-RNN*) Expressing Objects just like Words: Recurrent Visual Embedding for Image-Text Matching.** <br>
 *Tianlang Chen, Jiebo Luo.*<br>
