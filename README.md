@@ -24,9 +24,10 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
     * [Identification learning](#identification-learning)
     * [Posted in](#posted-in)
 * [Related works](#related-works)   
-* [Other Resources]
+*  Other Resources
     * [Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)
     * [Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
+    
 ****
 
 ## ``Peformance comparison``
@@ -719,8 +720,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 [[paper]](https://www.aclweb.org/anthology/2020.coling-main.64.pdf)
 [[code]](https://github.com/dali-does/vse-probing)
 
+****
+
 ## ``*Related works*``
------------------------------------------------------------
 **(*Machine Learning 2010*) Large scale image annotation: learning to rank with joint word-image embeddings.**<br>
 *Jason Weston, Samy Bengio, Nicolas Usunier.*<br>
 [[paper]](https://link.springer.com/content/pdf/10.1007%2Fs10994-010-5198-3.pdf)
