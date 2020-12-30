@@ -27,6 +27,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *  Other Resources
     * [Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)
     * [Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
+    * [Awesome-Papers-Fewshot](https://github.com/Duan-JM/awesome-papers-fewshot)
     
 ****
 
