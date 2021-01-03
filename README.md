@@ -24,10 +24,10 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
     * [Identification learning](#identification-learning)
     * [Posted in](#posted-in)
 * [Related works](#related-works)   
-*  Other Resources
-    * [Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)
-    * [Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
-    * [Awesome-Papers-Fewshot](https://github.com/Duan-JM/awesome-papers-fewshot)
+* [Other resources](#other-resources)  
+    * [Fewshot learning](#fewshot-learning)
+    * [Graph learning](#graph-learning)
+    * [Vision-Language learning](#vision-language-learning)
     
 ****
 
@@ -784,7 +784,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Nam Vo, Lu Jiang, Chen Sun, Kevin Murphy, Li-Jia Li, Li Fei-Fei, James Hays.*<br>
 [[paper]](https://arxiv.org/pdf/1812.07119.pdf)
 
-**(*SIGIR2019_PAICM*) Prototype-guided Attribute-wise Interpretable Scheme forClothing Matching.**<br>
+**(*SIGIR2019_PAICM*) Prototype-guided Attribute-wise Interpretable Scheme for Clothing Matching.**<br>
 *Xianjing Han, Xuemeng Song, Jianhua Yin, Yinglong Wang, Liqiang Nie.*<br>
 [[paper]](https://xuemengsong.github.io/SIGIR2019_PAICM.pdf)
 
@@ -796,3 +796,16 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
 [[paper]](https://arxiv.org/pdf/2006.09920.pdf)
 [[code]](https://github.com/BigRedT/info-ground)
+
+****
+
+## ``*Other resources*``
+### ``*Fewshot learning*``
+[Awesome-Papers-Fewshot](https://github.com/Duan-JM/awesome-papers-fewshot)
+
+### ``*Graph learning*``
+[Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
+
+### ``*Vision-Language learning*``
+[Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)
+[Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)
