@@ -629,7 +629,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Yan Huang, Yang Long, Liang Wang.*<br>
 [[paper]](https://ojs.aaai.org//index.php/AAAI/article/view/4866)
 
-**(*ICCV2019_ACMM*) ACMM: Aligned Cross-Modal Memory for Few-Shot Image andSentence Matching.**<br>
+**(*ICCV2019_ACMM*) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching.**<br>
 *Yan Huang, Liang Wang.*<br>
 [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
 
