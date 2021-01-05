@@ -27,7 +27,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 * [Other resources](#other-resources)  
     * [Fewshot learning](#fewshot-learning)
     * [Graph learning](#graph-learning)
-    * [Vision-Language learning](#vision-language-learning)
+    * [Transformer learning](#transformer-learning)
     
 ****
 
@@ -806,7 +806,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 ### ``*Graph learning*``
 [Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
 
-### ``*Vision-Language learning*``
+### ``*Transformer learning*``
 [Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)  
 
-[Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)
+[Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)  
+
+[Transformers in Vision: A Survey](https://arxiv.org/pdf/2101.01169)
