@@ -725,6 +725,15 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 [[paper]](https://arxiv.org/pdf/2007.08617.pdf)
 [[code]](https://github.com/CLT29/semantic_neighborhoods)
 
+**(*TC2020*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image–Text Retrieval.**<br>
+*Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
+
+**(*TCSVT2020*) Learning Dual Semantic Relations with Graph Attention for Image-Text Matching.**<br>
+*Keyu Wen, Xiaodong Gu, Qingrong Cheng.*<br>
+[[paper]](https://arxiv.org/pdf/2010.11550)
+[[code]](https://github.com/kywen1119/DSRAN)
+
 **(*COLING2020*) Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
 *Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
 [[paper]](https://www.aclweb.org/anthology/2020.coling-main.64.pdf)
@@ -805,6 +814,11 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
 [[paper]](https://arxiv.org/pdf/2006.09920.pdf)
 [[code]](https://github.com/BigRedT/info-ground)
+
+**(*CVPR2020*) More Grounded Image Captioning by Distilling Image-Text Matching Model.**<br>
+*Yuanen Zhou, Meng Wang, Daqing Liu, Zhenzhen Hu, Hanwang Zhang.*<br>
+[[paper]](https://arxiv.org/pdf/2004.00390)
+[[code]](https://github.com/YuanEZhou/Grounded-Image-Captioning)
 
 ****
 
