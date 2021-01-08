@@ -36,9 +36,8 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 ### *Performance of Flickr8K*
 **(*\** indicates Ensemble models, *^* indicates questionable authen)**
 <table>
-   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
-        <td colspan="6", align="center">Flickr8K</td> </tr>
-   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
+        <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
    <tr> <td>DeViSE</td><td>RCNN</td> <td>4.8</td><td>16.5</td><td>27.3</td> <td>5.9</td><td>20.1</td><td>29.6</td> </tr>
    <tr> <td>SDT-RNN</td><td>AlexNet</td> <td>4.5</td><td>18.0</td><td>28.6</td> <td>6.1</td><td>18.5</td><td>29.0</td> </tr> 
@@ -65,9 +64,8 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 ### *Performance of Flickr30K*
 <table>
-   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
-        <td colspan="6", align="center">Flickr30K</td> </tr>
-   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td>
+        <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
    <tr> <td>DeViSE</td><td>RCNN</td> <td>4.5</td><td>18.1</td><td>29.2</td> <td>6.7</td><td>21.9</td><td>32.7</td> </tr>
    <tr> <td>SDT-RNN</td><td>RCNN</td> <td>9.6</td><td>29.8</td><td>41.1</td> <td>8.9</td><td>29.8</td><td>41.1</td> </tr>
@@ -108,6 +106,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>GXN</td><td>ResNet</td> <td>56.8</td><td>--</td><td>89.6</td> <td>41.5</td><td>--</td><td>80.1</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>49.7</td><td>74.8</td><td>83.3</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>65.0</td><td>89.2</td><td>94.5</td> <td>49.5</td><td>79.5</td><td>86.6</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD</td> <td>63.1</td><td>85.8</td><td>92.4</td> <td>46.3</td><td>75.3</td><td>83.6</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD, RR_no_STT</td> <td>65.3</td><td>88.3</td><td>93.3</td> <td>46.7</td><td>75.9</td><td>83.8</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD, RR_STT</td> <td>65.3</td><td>88.3</td><td>93.3</td> <td>52.0</td><td>80.1</td><td>86.1</td> </tr>
    <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>66.3</td><td>90.6</td><td>96.0</td> <td>51.4</td><td>77.8</td><td>84.9</td> </tr>
    <tr> <td>SAVE</td><td>ResNet</td> <td>67.2</td><td>88.3</td><td>94.2</td> <td>49.8</td><td>78.7</td><td>86.2</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, t2i_AVE</td> <td>61.8</td><td>87.5</td><td>93.7</td> <td>45.8</td><td>74.4</td><td>83.0</td> </tr>
@@ -130,7 +131,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>PFAN*</td><td>BUTD</td> <td>70.0</td><td>91.8</td><td>95.0</td> <td>50.4</td><td>78.7</td><td>86.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>70.1</td><td>91.6</td><td>97.2</td> <td>52.8</td><td>79.0</td><td>87.9</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>70.2</td><td>91.6</td><td>95.8</td> <td>55.5</td><td>81.3</td><td>88.2</td> </tr>
-   <tr> <td>HOAD</td><td>BUTD</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>59.5</td><td>85.6/td><td>91.0<</td> </tr>
+   <tr> <td>HOAD</td><td>BUTD</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>59.5</td><td>85.6</td><td>91.0</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>60.9</td><td>86.1</td><td>91.0</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>70.9</td><td>92.8</td><td>95.5</td> <td>50.7</td><td>78.7</td><td>86.2</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>71.3</td><td>90.6</td><td>96.0</td> <td>54.7</td><td>81.8</td><td>88.2</td> </tr>
@@ -158,9 +159,8 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 ### *Performance of MSCOCO1K*
 <table>
-   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
-        <td colspan="6", align="center">MSCOCO1K</td> </tr>
-   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
+        <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
    <tr> <td>STV</td><td>combine-skip</td> <td>33.8</td><td>67.7</td><td>82.1</td> <td>25.9</td><td>60.0</td><td>74.6</td> </tr>
    <tr> <td>DVSA</td><td>RCNN</td> <td>38.4</td><td>69.9</td><td>80.5</td> <td>27.4</td><td>60.2</td><td>74.8</td> </tr>
@@ -207,6 +207,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>SGM</td><td>BUTD</td> <td>73.4</td><td>93.8</td><td>97.8</td> <td>57.5</td><td>87.3</td><td>94.3</td> </tr>
    <tr> <td>ParNet</td><td>BUTD, NP</td> <td>72.8</td><td>94.9</td><td>97.9</td> <td>57.9</td><td>87.4</td><td>94.0</td> </tr>
    <tr> <td>ParNet</td><td>BUTD, P</td> <td>73.5</td><td>94.5</td><td>98.3</td> <td>58.3</td><td>88.2</td><td>94.1</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD</td> <td>71.9</td><td>94.2</td><td>97.9</td> <td>57.3</td><td>88.6</td><td>95.0</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD, RR_no_STT</td> <td>74.3</td><td>94.9</td><td>97.9</td> <td>57.5</td><td>88.8</td><td>95.0</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD, RR_STT</td> <td>74.3</td><td>94.9</td><td>97.9</td> <td>60.1</td><td>89.1</td><td>95.0</td> </tr>
    <tr> <td>RDAN</td><td>BUTD</td> <td>74.6</td><td>96.2</td><td>98.7</td> <td>61.6</td><td>89.2</td><td>94.7</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.8</td><td>95.6</td><td>97.7</td> <td>61.6</td><td>89.8</td><td>95.2</td> </tr>
    <tr> <td>BFAN</td><td>BUTD, prob</td> <td>73.0</td><td>94.8</td><td>--</td> <td>58.0</td><td>87.6</td><td>--</td> </tr>
@@ -226,7 +229,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>76.1</td><td>95.3</td><td>98.2</td> <td>61.0</td><td>88.6</td><td>94.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>74.0</td><td>95.6</td><td>98.4</td> <td>60.6</td><td>88.9</td><td>94.6</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>76.7</td><td>95.6</td><td>98.5</td> <td>61.7</td><td>89.1</td><td>95.0</td> </tr>
-   <tr> <td>HOAD</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1/td><td>97.9<</td> </tr>
+   <tr> <td>HOAD</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1</td><td>97.9</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>77.8</td><td>96.1</td><td>98.7</td> <td>66.2</td><td>93.0</td><td>97.9</td> </tr>
    <tr> <td>HAL</td><td>SCAN_i2t</td> <td>78.3</td><td>96.3</td><td>98.5</td> <td>60.1</td><td>86.7</td><td>92.8</td> </tr>
    <tr> <td>GSMN</td><td>BUTD, sparse</td> <td>76.1</td><td>95.6</td><td>98.3</td> <td>60.4</td><td>88.7</td><td>95.0</td> </tr>
@@ -243,9 +246,8 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 ### *Performance of MSCOCO5K*
 <table>
-   <tr> <td rowspan="3">Method_name</td> <td rowspan="3", align="center">Concise_note</td> 
-        <td colspan="6", align="center">MSCOCO5K</td> </tr>
-   <tr> <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
+   <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
+        <td colspan="3", align="center">Sentence retrieval</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
    <tr> <td>DVSA</td><td>RCNN</td> <td>16.5</td><td>39.2</td><td>52.0</td> <td>10.7</td><td>29.6</td><td>42.2</td> </tr>
    <tr> <td>FV</td><td>GMM+HGLMM</td> <td>17.3</td><td>39.0</td><td>50.2</td> <td>10.8</td><td>28.3</td><td>40.1</td> </tr>
@@ -267,10 +269,12 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>46.9</td><td>77.7</td><td>87.6</td> <td>34.4</td><td>64.2</td><td>75.9</td> </tr>
    <tr> <td>CASC</td><td>ResNet</td> <td>47.2</td><td>78.3</td><td>87.4</td> <td>34.7</td><td>64.8</td><td>76.8</td> </tr>
    <tr> <td>OAN</td><td>BUTD</td> <td>47.8</td><td>81.2</td><td>90.4</td> <td>37.0</td><td>66.6</td><td>78.0</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD</td> <td>44.7</td><td>76.4</td><td>87.3</td> <td>33.1</td><td>64.7</td><td>76.1</td> </tr>
+   <tr> <td>MTFN</td><td>BUTD, RR</td> <td>48.3</td><td>77.6</td><td>87.3</td> <td>35.9</td><td>66.1</td><td>76.1</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>49.3</td><td>81.1</td><td>90.2</td> <td>39.0</td><td>68.0</td><td>80.1</td> </tr>
    <tr> <td>GVSE*</td><td>BUTD</td> <td>49.9</td><td>77.4</td><td>87.6</td> <td>38.4</td><td>68.5</td><td>79.7</td> </tr>
    <tr> <td>SGM</td><td>BUTD</td> <td>50.0</td><td>79.3</td><td>87.9</td> <td>35.3</td><td>64.9</td><td>76.5</td> </tr>
-   <tr> <td>CAMP</td><td>BUTD</td> <td>50.1</td><td>82.1</td><td>89.7</td> <td>39.0</td><td>68.9</td><td>80.2</td> </tr>
+   <tr> <td>CAMP</td><td>BUTD</td> <td>50.1</td><td>82.1</td><td>89.7</td> <td>39.0</td><td>68.9</td><td>80.2</td> </tr>   
    <tr> <td>SCAN</td><td>BUTD, i2t_LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>50.5</td><td>80.2</td><td>89.8</td> <td>38.1</td><td>66.8</td><td>78.5</td> </tr>
@@ -295,7 +299,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 ### *Performance of CUHK-PEDES*
 <table>
    <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
-        <td colspan="3", align="center">CUHK-PEDES</td> </tr>
+        <td colspan="3", align="center">Text-to-Image</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td></tr>
    <tr> <td>LSTM-Q+I</td><td>VggNet</td> <td>17.19</td><td>--</td><td>57.82</td> </tr>
    <tr> <td>GNA-RNN</td><td>VggNet</td> <td>19.05</td><td>--</td><td>53.64</td> </tr>
@@ -557,6 +561,11 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Liqun Chen, Zhe Gan, Yu Cheng, Linjie Li, Lawrence Carin, Jingjing Liu.*<br>
 [[paper]](https://arxiv.org/pdf/2006.14744.pdf)
 [[code]](https://github.com/LiqunChen0606/Graph-Optimal-Transport)
+
+**(*EMNLP2020_WD-Match*) Wasserstein Distance Regularized Sequence Representation for Text Matching in Asymmetrical Domains.**<br>
+*Weijie Yu, Chen Xu, Jun Xu, Liang Pang, Xiaopeng Gao, Xiaozhao Wang, Ji-Rong Wen.*<br>
+[[paper]](https://arxiv.org/pdf/2010.07717)
+[[code]](https://github.com/RUC-WSM/WD-Match)
 
 **(*AAAI2021_SGRAF*) Similarity Reasoning and Filtration for Image-Text Matching.**<br>
 *Haiwen Diao, Ying Zhang, Lin Ma, Huchuan Lu.*<br>
