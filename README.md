@@ -138,6 +138,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>57.2</td><td>85.1</td><td>92.1</td> <td>40.1</td><td>69.5</td><td>79.5</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>71.8</td><td>90.8</td><td>94.8</td> <td>49.3</td><td>76.4</td><td>85.6</td> </tr>
    <tr> <td>SGM</td><td>BUTD</td> <td>71.8</td><td>91.7</td><td>95.5</td> <td>53.5</td><td>79.6</td><td>86.5</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>71.3</td><td>91.5</td><td>96.4</td> <td>54.0</td><td>80.0</td><td>87.6</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>72.1</td><td>93.1</td><td>96.1</td> <td>53.5</td><td>80.4</td><td>87.4</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>73.0</td><td>92.5</td><td>96.6</td> <td>55.6</td><td>82.0</td><td>88.9</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>67.0</td><td>90.5</td><td>95.6</td> <td>51.2</td><td>78.2</td><td>85.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>68.8</td><td>91.6</td><td>96.0</td> <td>53.0</td><td>79.0</td><td>87.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>74.1</td><td>93.0</td><td>96.6</td> <td>53.9</td><td>79.4</td><td>87.2</td> </tr>
@@ -229,6 +232,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>76.1</td><td>95.3</td><td>98.2</td> <td>61.0</td><td>88.6</td><td>94.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>74.0</td><td>95.6</td><td>98.4</td> <td>60.6</td><td>88.9</td><td>94.6</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>76.7</td><td>95.6</td><td>98.5</td> <td>61.7</td><td>89.1</td><td>95.0</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>76.1</td><td>95.5</td><td>98.4</td> <td>61.2</td><td>88.9</td><td>94.8</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>76.4</td><td>95.8</td><td>98.3</td> <td>62.3</td><td>89.4</td><td>96.2</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>77.4</td><td>96.1</td><td>98.9</td> <td>63.5</td><td>90.7</td><td>96.7</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1</td><td>97.9</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>77.8</td><td>96.1</td><td>98.7</td> <td>66.2</td><td>93.0</td><td>97.9</td> </tr>
    <tr> <td>HAL</td><td>SCAN_i2t</td> <td>78.3</td><td>96.3</td><td>98.5</td> <td>60.1</td><td>86.7</td><td>92.8</td> </tr>
@@ -288,6 +294,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>54.0</td><td>82.5</td><td>90.7</td> <td>38.7</td><td>69.7</td><td>80.8</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>49.9</td><td>78.9</td><td>88.1</td> <td>33.2</td><td>62.4</td><td>74.7</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>56.6</td><td>84.5</td><td>92.0</td> <td>39.2</td><td>68.0</td><td>81.3</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>54.3</td><td>84.0</td><td>91.5</td> <td>40.1</td><td>69.2</td><td>80.6</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>56.6</td><td>85.3</td><td>90.4</td> <td>42.5</td><td>71.9</td><td>82.0</td> </tr>
+   <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>57.3</td><td>86.0</td><td>92.7</td> <td>41.8</td><td>72.0</td><td>81.3</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>53.3</td><td>82.3</td><td>90.1</td> <td>39.8</td><td>69.0</td><td>80.2</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>56.9</td><td>83.2</td><td>90.5</td> <td>40.2</td><td>69.0</td><td>79.8</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>57.8</td><td>84.9</td><td>91.6</td> <td>41.9</td><td>70.7</td><td>81.3</td> </tr>
@@ -665,7 +674,16 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Hao Wu, Jiayuan Mao, Yufeng Zhang, Yuning Jiang, Lei Li, Weiwei Sun, Wei-Ying Ma.*<br>
 [[paper]](https://arxiv.org/pdf/1904.05521.pdf)
 
+**(*arXiv2020_ADDR*) Beyond the Deep Metric Learning: Enhance the Cross-Modal Matching with Adversarial Discriminative Domain Regularization.**<br>
+*Li Ren, Kai Li, LiQiang Wang, Kien Hua.*<br>
+[[paper]](https://arxiv.org/pdf/2010.12126)
+
 ### ``*Commonsense learning*``
+**(*KSEM2019_SCKR*) Semantic Modeling of Textual Relationships in Cross-Modal Retrieval.**<br>
+*Jing Yu, Chenghao Yang, Zengchang Qin, Zhuoqian Yang, Yue Hu, Weifeng Zhang.*<br>
+[[paper]](https://arxiv.org/pdf/1810.13151)
+[[code]](https://github.com/yzhq97/SCKR)
+
 **(*IJCAI2019_SCG*) Knowledge Aware Semantic Concept Expansion for Image-Text Matching.**<br>
 *Botian Shi, Lei Ji, Pan Lu, Zhendong Niu, Nan Duan.*<br>
 [[paper]](https://www.ijcai.org/Proceedings/2019/0720.pdf)
@@ -725,7 +743,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 [[paper]](https://arxiv.org/pdf/2007.08617.pdf)
 [[code]](https://github.com/CLT29/semantic_neighborhoods)
 
-**(*TC2020*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image–Text Retrieval.**<br>
+**(*TC2020*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image-Text Retrieval.**<br>
 *Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
 
@@ -733,6 +751,16 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Keyu Wen, Xiaodong Gu, Qingrong Cheng.*<br>
 [[paper]](https://arxiv.org/pdf/2010.11550)
 [[code]](https://github.com/kywen1119/DSRAN)
+
+**(*ICPR2020_TERN*) Transformer Reasoning Network for Image-Text Matching and Retrieval.**<br>
+*Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato.*<br>
+[[paper]](https://arxiv.org/pdf/2004.09144.pdf)
+[[code]](https://github.com/mesnico/TERN)
+
+**(*TOMM2020_TERAN*) Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders.**<br>
+*Nicola Messina, Giuseppe Amato, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro, Stéphane Marchand-Maillet.*<br>
+[[paper]](https://arxiv.org/pdf/2008.05231)
+[[code]](https://github.com/mesnico/TERAN)
 
 **(*COLING2020*) Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
 *Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
