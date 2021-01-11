@@ -862,4 +862,4 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 
 [Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)  
 
-[Transformers in Vision: A Survey](https://arxiv.org/pdf/2101.01169)
+[Awesome Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer)
