@@ -141,6 +141,10 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>71.3</td><td>91.5</td><td>96.4</td> <td>54.0</td><td>80.0</td><td>87.6</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>72.1</td><td>93.1</td><td>96.1</td> <td>53.5</td><td>80.4</td><td>87.4</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>73.0</td><td>92.5</td><td>96.6</td> <td>55.6</td><td>82.0</td><td>88.9</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, SCAN</td> <td>70.3</td><td>92.0</td><td>95.5</td> <td>50.0</td><td>79.2</td><td>86.2</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, VSRN</td> <td>72.8</td><td>91.8</td><td>95.8</td> <td>55.3</td><td>82.2</td><td>88.4</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, BFAN</td> <td>73.2</td><td>94.5</td><td>97.0</td> <td>54.0</td><td>80.3</td><td>87.7</td> </tr>
+   <tr> <td>CVSE^</td><td>BUTD</td> <td>73.5</td><td>92.1</td><td>95.8</td> <td>52.9</td><td>80.4</td><td>87.8</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>67.0</td><td>90.5</td><td>95.6</td> <td>51.2</td><td>78.2</td><td>85.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>68.8</td><td>91.6</td><td>96.0</td> <td>53.0</td><td>79.0</td><td>87.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>74.1</td><td>93.0</td><td>96.6</td> <td>53.9</td><td>79.4</td><td>87.2</td> </tr>
@@ -214,6 +218,7 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>MTFN</td><td>BUTD, RR_no_STT</td> <td>74.3</td><td>94.9</td><td>97.9</td> <td>57.5</td><td>88.8</td><td>95.0</td> </tr>
    <tr> <td>MTFN</td><td>BUTD, RR_STT</td> <td>74.3</td><td>94.9</td><td>97.9</td> <td>60.1</td><td>89.1</td><td>95.0</td> </tr>
    <tr> <td>RDAN</td><td>BUTD</td> <td>74.6</td><td>96.2</td><td>98.7</td> <td>61.6</td><td>89.2</td><td>94.7</td> </tr>
+   <tr> <td>CVSE^</td><td>BUTD</td> <td>74.8</td><td>95.1</td><td>98.3</td> <td>59.9</td><td>89.4</td><td>95.2</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.8</td><td>95.6</td><td>97.7</td> <td>61.6</td><td>89.8</td><td>95.2</td> </tr>
    <tr> <td>BFAN</td><td>BUTD, prob</td> <td>73.0</td><td>94.8</td><td>--</td> <td>58.0</td><td>87.6</td><td>--</td> </tr>
    <tr> <td>BFAN</td><td>BUTD, equal</td> <td>73.7</td><td>94.9</td><td>--</td> <td>58.3</td><td>87.5</td><td>--</td> </tr>
@@ -235,6 +240,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>76.1</td><td>95.5</td><td>98.4</td> <td>61.2</td><td>88.9</td><td>94.8</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>76.4</td><td>95.8</td><td>98.3</td> <td>62.3</td><td>89.4</td><td>96.2</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>77.4</td><td>96.1</td><td>98.9</td> <td>63.5</td><td>90.7</td><td>96.7</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, SCAN</td> <td>74.1</td><td>95.2</td><td>98.5</td> <td>59.8</td><td>88.6</td><td>95.0</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, BFAN</td> <td>77.3</td><td>96.0</td><td>98.5</td> <td>61.2</td><td>89.2</td><td>95.0</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, VSRN</td> <td>77.5</td><td>95.5</td><td>98.6</td> <td>63.5</td><td>90.5</td><td>95.8</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1</td><td>97.9</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>77.8</td><td>96.1</td><td>98.7</td> <td>66.2</td><td>93.0</td><td>97.9</td> </tr>
    <tr> <td>HAL</td><td>SCAN_i2t</td> <td>78.3</td><td>96.3</td><td>98.5</td> <td>60.1</td><td>86.7</td><td>92.8</td> </tr>
@@ -294,6 +302,9 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>54.0</td><td>82.5</td><td>90.7</td> <td>38.7</td><td>69.7</td><td>80.8</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>49.9</td><td>78.9</td><td>88.1</td> <td>33.2</td><td>62.4</td><td>74.7</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>56.6</td><td>84.5</td><td>92.0</td> <td>39.2</td><td>68.0</td><td>81.3</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, SCAN</td> <td>51.2</td><td>82.5</td><td>90.1</td> <td>39.4</td><td>69.7</td><td>80.4</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, VSRN</td> <td>55.1</td><td>83.3</td><td>90.8</td> <td>41.1</td><td>71.5</td><td>82.0</td> </tr>
+   <tr> <td>AOQ*</td><td>BUTD, BFAN</td> <td>57.3</td><td>84.5</td><td>91.7</td> <td>40.1</td><td>69.2</td><td>80.1</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>54.3</td><td>84.0</td><td>91.5</td> <td>40.1</td><td>69.2</td><td>80.6</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>56.6</td><td>85.3</td><td>90.4</td> <td>42.5</td><td>71.9</td><td>82.0</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>57.3</td><td>86.0</td><td>92.7</td> <td>41.8</td><td>72.0</td><td>81.3</td> </tr>
@@ -628,6 +639,16 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Jiwei Wei, Xing Xu, Yang Yang, Yanli Ji, Zheng Wang, Heng Tao Shen.*<br>
 [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Universal_Weighting_Metric_Learning_for_Cross-Modal_Matching_CVPR_2020_paper.pdf)
 
+**(*ECCV2020_PSN*) Preserving Semantic Neighborhoods for Robust Cross-modal Retrieval.**<br>
+*Christopher Thomas, Adriana Kovashka.*<br>
+[[paper]](https://arxiv.org/pdf/2007.08617.pdf)
+[[code]](https://github.com/CLT29/semantic_neighborhoods)
+
+**(*ECCV2020_AOQ*) Adaptive Offline Quintuplet Loss for Image-Text Matching.**<br>
+*Tianlang Chen, Jiajun Deng, Jiebo Luo.*<br>
+[[paper]](https://arxiv.org/pdf/2003.03669.pdf)
+[[code]](https://github.com/sunnychencool/AOQ)
+
 ### ``*Un-supervised or Semi-supervised*``
 **(*ECCV2018_VSA-AE-MMD*) Visual-Semantic Alignment Across Domains Using a Semi-Supervised Approach.**<br>
 *Angelo Carraggi, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara.*<br>
@@ -688,6 +709,11 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Botian Shi, Lei Ji, Pan Lu, Zhendong Niu, Nan Duan.*<br>
 [[paper]](https://www.ijcai.org/Proceedings/2019/0720.pdf)
 
+**(*ECCV2020_CVSE*) Consensus-Aware Visual-Semantic Embedding for Image-Text Matching.**<br>
+*Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma.*<br>
+[[paper]](https://arxiv.org/pdf/2007.08883.pdf)
+[[code]](https://github.com/BruceW91/CVSE)（Corrected codes）
+
 ### ``*Identification learning*``
 **(*ICCV2015_LSTM-Q+I*) VQA: Visual question answering.**<br>
 *Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, MargaretMitchell, Dhruv Batra, C Lawrence Zitnick, Devi Parikh.*<br>
@@ -724,25 +750,6 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 [[paper]](https://arxiv.org/pdf/1809.08440)
 
 ### ``Posted in``
-**(*ECCV2020*) Adaptive Offline Quintuplet Loss for Image-Text Matching.**<br>
-*Tianlang Chen, Jiajun Deng, Jiebo Luo.*<br>
-[[paper]](https://arxiv.org/pdf/2003.03669.pdf)
-[[code]](https://github.com/sunnychencool/AOQ)
-
-**(*ECCV2020*) Learning Joint Visual Semantic Matching Embeddings for Language-guided Retrieval.**<br>
-*Yanbei Chen, Loris Bazzani.*<br>
-[[paper]](https://assets.amazon.science/5b/db/440af26349adb83c77c85cd11922/learning-joint-visual-semantic-matching-embeddings-for-text-guided-retrieval.pdf)
-
-**(*ECCV2020*) Consensus-Aware Visual-Semantic Embedding for Image-Text Matching.**<br>
-*Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma.*<br>
-[[paper]](https://arxiv.org/pdf/2007.08883.pdf)
-[[code]](https://github.com/BruceW91/CVSE)
-
-**(*ECCV2020*) Preserving Semantic Neighborhoods for Robust Cross-modal Retrieval.**<br>
-*Christopher Thomas, Adriana Kovashka.*<br>
-[[paper]](https://arxiv.org/pdf/2007.08617.pdf)
-[[code]](https://github.com/CLT29/semantic_neighborhoods)
-
 **(*TC2020*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image-Text Retrieval.**<br>
 *Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
@@ -842,6 +849,10 @@ Due to the urgent time, we temporarily store some state-of-the-arts in [Posted i
 *Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
 [[paper]](https://arxiv.org/pdf/2006.09920.pdf)
 [[code]](https://github.com/BigRedT/info-ground)
+
+**(*ECCV2020_JVSM*) Learning Joint Visual Semantic Matching Embeddings for Language-guided Retrieval.**<br>
+*Yanbei Chen, Loris Bazzani.*<br>
+[[paper]](https://assets.amazon.science/5b/db/440af26349adb83c77c85cd11922/learning-joint-visual-semantic-matching-embeddings-for-text-guided-retrieval.pdf)
 
 **(*CVPR2020*) More Grounded Image Captioning by Distilling Image-Text Matching Model.**<br>
 *Yuanen Zhou, Meng Wang, Daqing Liu, Zhenzhen Hu, Hanwang Zhang.*<br>
