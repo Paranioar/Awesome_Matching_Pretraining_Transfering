@@ -30,8 +30,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
     * [Fewshot Learning](#fewshot-learning)
     * [Graph Learning](#graph-learning)
     * [Transformer Learning](#transformer-learning)
-* [License](#License) 
-
+    
 
 ## ``Peformance Comparison``
 
@@ -914,4 +913,4 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 
 
 ## ``*License*``
-[IIAU](https://ice.dlut.edu.cn/lu/) @ Haiwen Diao. Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
+MIT licensed. See the [LICENSE](LICENSE) file for details. Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
