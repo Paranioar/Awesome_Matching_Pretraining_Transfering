@@ -913,4 +913,4 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 
 
 ## ``*License*``
-MIT licensed. See the [LICENSE](LICENSE) file for details. Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
+[MIT licensed](LICENSE). Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
