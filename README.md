@@ -2,6 +2,7 @@ Cross-modal_Retrieval_Tutorial
 ==============================
 The Tutorial of Image-Text Matching for Preliminary Insight.  
 Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tutorial will be constantly updated.
+[MIT license](LICENSE). Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
 
 
 ## ``Catalogue ``
@@ -910,7 +911,3 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)  
 
 [Awesome Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer)
-
-
-## ``*License*``
-[MIT licensed](LICENSE). Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
