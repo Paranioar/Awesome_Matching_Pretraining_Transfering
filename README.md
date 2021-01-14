@@ -5,7 +5,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 
 
 ## ``Catalogue ``
-* [Peformance comparison](#peformance-comparison)
+* [Peformance Comparison](#peformance-comparison)
     * [Flickr8K](#performance-of-flickr8k)
     * [Flickr30K](#performance-of-flickr30k)
     * [MSCOCO1K](#performance-of-mscoco1k)
@@ -13,26 +13,27 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
     * [CUHK-PEDES](#performance-of-cuhk-pedes)
     * [CUB-Flowers](#performance-of-cub-flowers)
 
-* [Methods summary](#method-summary)
-    * [Generic-feature extraction](#generic-feature-extraction)
-    * [Cross-modal interaction](#cross-modal-interaction)
-    * [Similarity measurement](#similarity-measurement)
-    * [Loss function](#loss-function)
-    * [Un-supervised or Semi-supervised](#un-supervised-or-semi-supervised)
-    * [Zero-shot or Fewer-shot](#zero-shot-or-fewer-shot)
-    * [Adversarial learning](#adversarial-learning)
-    * [Commonsense learning](#commonsense-learning)
-    * [Identification learning](#identification-learning)
+* [Methods Summary](#method-summary)
+    * [Generic-Feature Extraction](#generic-feature-extraction)
+    * [Cross-Modal Interaction](#cross-modal-interaction)
+    * [Similarity Measurement](#similarity-measurement)
+    * [Loss Function](#loss-function)
+    * [Un-Supervised or Semi-Supervised](#un-supervised-or-semi-supervised)
+    * [Zero-Shot or Fewer-Shot](#zero-shot-or-fewer-shot)
+    * [Adversarial Learning](#adversarial-learning)
+    * [Commonsense Learning](#commonsense-learning)
+    * [Identification Learning](#identification-learning)
+    * [Scene-Text Learning](#scene-text-learning)
+    * [Related Works](#related-works)  
     * [Posted in](#posted-in)
-* [Related works](#related-works)   
-* [Other resources](#other-resources)  
-    * [Fewshot learning](#fewshot-learning)
-    * [Graph learning](#graph-learning)
-    * [Transformer learning](#transformer-learning)
+* [Other Resources](#other-resources)  
+    * [Fewshot Learning](#fewshot-learning)
+    * [Graph Learning](#graph-learning)
+    * [Transformer Learning](#transformer-learning)
 * [License](#License) 
 
 
-## ``Peformance comparison``
+## ``Peformance Comparison``
 
 ### *Performance of Flickr8K*
 **(*\** indicates Ensemble models, *^* indicates questionable authen)**
@@ -120,6 +121,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>BFAN*</td><td>BUTD</td> <td>68.1</td><td>91.4</td><td>--</td> <td>50.8</td><td>78.4</td><td>--</td> </tr>
    <tr> <td>CAMP</td><td>BUTD</td> <td>68.1</td><td>89.7</td><td>95.2</td> <td>51.5</td><td>77.1</td><td>85.3</td> </tr>
    <tr> <td>RDAN</td><td>BUTD</td> <td>68.1</td><td>91.0</td><td>95.9</td> <td>54.1</td><td>80.9</td><td>87.2</td> </tr>
+   <tr> <td>GSLS</td><td>ResNet, BUTD</td> <td>68.2</td><td>89.1</td><td>94.5</td> <td>43.4</td><td>73.5</td><td>82.5</td> </tr>
    <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>68.4</td><td>90.6</td><td>95.3</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>CASC</td><td>ResNet</td> <td>68.5</td><td>90.6</td><td>95.9</td> <td>50.2</td><td>78.3</td><td>86.3</td> </tr>
    <tr> <td>GVSE*</td><td>BUTD</td> <td>68.5</td><td>90.9</td><td>95.5</td> <td>50.6</td><td>79.8</td><td>87.6</td> </tr>
@@ -197,6 +199,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>67.3</td><td>91.7</td><td>96.5</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>56.6</td><td>84.9</td><td>92.8</td> </tr>
    <tr> <td>GXN</td><td>ResNet</td> <td>68.5</td><td>--</td><td>97.9</td> <td>56.6</td><td>--</td><td>94.5</td> </tr>
+   <tr> <td>GSLS</td><td>ResNet, BUTD</td> <td>68.9</td><td>94.1</td><td>98.0</td> <td>58.6</td><td>88.2</td><td>94.9</td> </tr>
    <tr> <td>CVSE++</td><td>ResNet</td> <td>69.1</td><td>92.2</td><td>96.1</td> <td>55.6</td><td>86.7</td><td>93.8</td> </tr>
    <tr> <td>PVSE</td><td>ResNet</td> <td>69.2</td><td>91.6</td><td>96.6</td> <td>55.2</td><td>86.5</td><td>93.7</td> </tr>
    <tr> <td>SCO</td><td>VggNet</td> <td>66.6</td><td>91.8</td><td>96.6</td> <td>55.5</td><td>86.6</td><td>93.8</td> </tr>
@@ -355,9 +358,9 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 </table> 
 
 
-## ``Method summary`` 
+## ``Method Summary`` 
 
-### ``*Generic-feature extraction*``
+### ``*Generic-Feature Extraction*``
 **(*NIPS2013_DeViSE*) DeViSE: A Deep Visual-Semantic Embedding Model.** <br>
 *Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov.*<br>
 [[paper]](https://papers.nips.cc/paper/5204-devise-a-deep-visual-semantic-embedding-model.pdf)
@@ -412,6 +415,10 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Aviv Eisenschtat, Lior Wolf.*<br>
 [[paper]](https://arxiv.org/pdf/1608.07973)
 
+**(*MM2018_WSJE*) Webly Supervised Joint Embedding for Cross-Modal Image-Text Retrieval.**<br>
+*Niluthpol Chowdhury Mithun, Rameswar Panda, Evangelos E. Papalexakis, Amit K. Roy-Chowdhury.*<br>
+[[paper]](https://arxiv.org/pdf/1808.07793)
+
 **(*WACV2018_SEAM*) Fast Self-Attentive Multimodal Retrieval.**<br>
 *Jônatas Wehrmann, Maurício Armani Lopes, Martin D More, Rodrigo C. Barros.*<br>
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8354311&tag=1)
@@ -459,7 +466,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen.*<br>
 [[paper]](https://arxiv.org/pdf/1910.05134)
 
-### ``*Cross-modal interaction*``
+### ``*Cross-Modal Interaction*``
 **(*arXiv2014_NIC*) Show and Tell: A Neural Image Caption Generator.**<br>
 *Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.*<br>
 [[paper]](https://arxiv.org/pdf/1411.4555)
@@ -563,10 +570,14 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[paper]](https://arxiv.org/pdf/2003.03772.pdf)
 [[code]](https://github.com/HuiChen24/IMRAM)
 
-### ``*Similarity measurement*``
+### ``*Similarity Measurement*``
 **(*ICLR2016_Order-emb*) Order-Embeddings of Images and Language.**<br>
 *Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
 [[paper]](https://arxiv.org/pdf/1511.06361.pdf)
+
+**(*Access2020_GSLS*) Combining Global and Local Similarity for Cross-Media Retrieval.**<br>
+*Zhixin Li, Feng Ling, Canlong Zhang, Huifang Ma.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8970540)
 
 **(*CVPR2020_HOAD*) Visual-Semantic Matching by Exploring High-Order Attention and Distraction.**<br>
 *Yongzhi Li, Duo Zhang, Yadong Mu.*<br>
@@ -592,7 +603,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[paper]](https://drive.google.com/file/d/1tAE_qkAxiw1CajjHix9EXoI7xu2t66iQ/view?usp=sharing)
 [[code]](https://github.com/Paranioar/SGRAF)
 
-### ``*Loss function*``
+### ``*Loss Function*``
 **(*TPAMI2018_TBNN*) Learning Two-Branch Neural Networks for Image-Text Matching Tasks.**<br>
 *Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik.*<br>
 [[paper]](https://arxiv.org/pdf/1704.03470.pdf)
@@ -649,7 +660,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[paper]](https://arxiv.org/pdf/2003.03669.pdf)
 [[code]](https://github.com/sunnychencool/AOQ)
 
-### ``*Un-supervised or Semi-supervised*``
+### ``*Un-Supervised or Semi-Supervised*``
 **(*ECCV2018_VSA-AE-MMD*) Visual-Semantic Alignment Across Domains Using a Semi-Supervised Approach.**<br>
 *Angelo Carraggi, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara.*<br>
 [[paper]](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11134/Carraggi_Visual-Semantic_Alignment_Across_Domains_Using_a_Semi-Supervised_Approach_ECCVW_2018_paper.pdf)
@@ -658,7 +669,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Po-Yao Huang, Guoliang Kang, Wenhe Liu, Xiaojun Chang, Alexander G Hauptmann.*<br>
 [[paper]](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)
 
-### ``*Zero-shot or Fewer-shot*``
+### ``*Zero-Shot or Fewer-Shot*``
 **(*CVPR2017_DEM*) Learning a Deep Embedding Model for Zero-Shot Learning.**<br>
 *Li Zhang, Tao Xiang, Shaogang Gong.*<br>
 [[paper]](https://arxiv.org/pdf/1611.05088.pdf)
@@ -672,7 +683,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Yan Huang, Liang Wang.*<br>
 [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
 
-### ``*Adversarial learning*``
+### ``*Adversarial Learning*``
 **(*MM2017_ACMR*) Adversarial Cross-Modal Retrieval.**<br>
 *Bokun Wang, Yang Yang, Xing Xu, Alan Hanjalic, Heng Tao Shen.*<br>
 [[paper]](http://cfm.uestc.edu.cn/~yangyang/papers/acmr.pdf)
@@ -699,7 +710,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Li Ren, Kai Li, LiQiang Wang, Kien Hua.*<br>
 [[paper]](https://arxiv.org/pdf/2010.12126)
 
-### ``*Commonsense learning*``
+### ``*Commonsense Learning*``
 **(*KSEM2019_SCKR*) Semantic Modeling of Textual Relationships in Cross-Modal Retrieval.**<br>
 *Jing Yu, Chenghao Yang, Zengchang Qin, Zhuoqian Yang, Yue Hu, Weifeng Zhang.*<br>
 [[paper]](https://arxiv.org/pdf/1810.13151)
@@ -714,7 +725,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[paper]](https://arxiv.org/pdf/2007.08883.pdf)
 [[code]](https://github.com/BruceW91/CVSE)（Corrected codes）
 
-### ``*Identification learning*``
+### ``*Identification Learning*``
 **(*ICCV2015_LSTM-Q+I*) VQA: Visual question answering.**<br>
 *Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, MargaretMitchell, Dhruv Batra, C Lawrence Zitnick, Devi Parikh.*<br>
 [[paper]](http://scholar.google.com.hk/scholar_url?url=http://openaccess.thecvf.com/content_iccv_2015/papers/Antol_VQA_Visual_Question_ICCV_2015_paper.pdf&hl=zh-CN&sa=X&ei=EDHkX9aDAY6CywTJ6a2ACw&scisig=AAGBfm2VHgUhZ4sZPI-ODBqcEdCd34_V8w&nossl=1&oi=scholarr)
@@ -749,33 +760,28 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan.*<br>
 [[paper]](https://arxiv.org/pdf/1809.08440)
 
-### ``Posted in``
-**(*TC2020*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image-Text Retrieval.**<br>
-*Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
-[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
+### ``*Scene-Text Learning*``
+**(*ECCV2018_SS*) Single Shot Scene Text Retrieval.**<br>
+*Lluís Gómez, Andrés Mafla, Marçal Rusiñol, Dimosthenis Karatzas.*<br>
+[[paper]](https://arxiv.org/pdf/1808.09044)
+[[code_Tensorflow]](https://github.com/lluisgomez/single-shot-str)[[code_Pytorch]](https://github.com/AndresPMD/Pytorch-yolo-phoc)
 
-**(*TCSVT2020*) Learning Dual Semantic Relations with Graph Attention for Image-Text Matching.**<br>
-*Keyu Wen, Xiaodong Gu, Qingrong Cheng.*<br>
-[[paper]](https://arxiv.org/pdf/2010.11550)
-[[code]](https://github.com/kywen1119/DSRAN)
+**(*WACV2020_PHOC*) Fine-grained Image Classification and Retrieval by Combining Visual and Locally Pooled Textual Features.**<br>
+*Andres Mafla, Sounak Dey, Ali Furkan Biten, Lluis Gomez, Dimosthenis Karatzas.*<br>
+[[paper]](https://arxiv.org/pdf/2001.04732.pdf)
+[[code]](https://github.com/AndresPMD/Fine_Grained_Clf)
 
-**(*ICPR2020_TERN*) Transformer Reasoning Network for Image-Text Matching and Retrieval.**<br>
-*Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato.*<br>
-[[paper]](https://arxiv.org/pdf/2004.09144.pdf)
-[[code]](https://github.com/mesnico/TERN)
+**(*WACV2021_MMRG*) Multi-Modal Reasoning Graph for Scene-Text Based Fine-Grained Image Classification and Retrieval.**<br>
+*Andres Mafla, Sounak Dey, Ali Furkan Biten, Lluis Gomez, Dimosthenis Karatzas.*<br>
+[[paper]](https://arxiv.org/pdf/2009.09809)
+[[code]](https://github.com/AndresPMD/GCN_classification)
 
-**(*TOMM2020_TERAN*) Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders.**<br>
-*Nicola Messina, Giuseppe Amato, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro, Stéphane Marchand-Maillet.*<br>
-[[paper]](https://arxiv.org/pdf/2008.05231)
-[[code]](https://github.com/mesnico/TERAN)
+**(*WACV2021_StacMR*) StacMR: Scene-Text Aware Cross-Modal Retrieval.**<br>
+*Andrés Mafla, Rafael Sampaio de Rezende, Lluís Gómez, Diane Larlus, Dimosthenis Karatzas.*<br>
+[[paper]](https://arxiv.org/pdf/2012.04329)
+[[code]](http://europe.naverlabs.com/stacmr)
 
-**(*COLING2020*) Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
-*Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
-[[paper]](https://www.aclweb.org/anthology/2020.coling-main.64.pdf)
-[[code]](https://github.com/dali-does/vse-probing)
-
-
-## ``*Related works*``
+### ``*Related Works*``
 **(*Machine Learning 2010*) Large scale image annotation: learning to rank with joint word-image embeddings.**<br>
 *Jason Weston, Samy Bengio, Nicolas Usunier.*<br>
 [[paper]](https://link.springer.com/content/pdf/10.1007%2Fs10994-010-5198-3.pdf)
@@ -810,11 +816,6 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[paper]](https://arxiv.org/pdf/1707.07998)
 [[code]](https://github.com/peteanderson80/bottom-up-attention)
 
-**(*CVPR2018_DML*) Deep Mutual Learning.**<br>
-*Ying Zhang, Tao Xiang, Timothy M. Hospedales, Huchuan Lu.*<br>
-[[paper]](https://drive.google.com/file/d/1Jr1uWF3RImqNRsDMKTJVIswUVfMKYnuE/view)
-[[code]](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
-
 **(*EMNLP2019_GMMR*) Multi-Head Attention with Diversity for Learning Grounded Multilingual Multimodal Representations.**<br>
 *Po-Yao Huang, Xiaojun Chang, Alexander Hauptmann.*<br>
 [[paper]](https://www.aclweb.org/anthology/D19-1154.pdf)
@@ -844,6 +845,15 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Suthee Chaidaroon, Mix Xie, Yi Fang, Alessandro Magnani.*<br>
 [[paper]](https://dl.acm.org/doi/pdf/10.1145/3331184.3331365)
 
+**(*arXiv2020_Tweets*) Deep Multimodal Image-Text Embeddings for Automatic Cross-Media Retrieval.**<br>
+*Hadi Abdi Khojasteh, Ebrahim Ansari, Parvin Razzaghi, Akbar Karimi.*<br>
+[[paper]](https://arxiv.org/pdf/2002.10016)
+
+**(*arXiv2020_TIMNet*) Weakly-Supervised Feature Learning via Text and Image Matching.**<br>
+*Gongbo Liang, Connor Greenwell, Yu Zhang, Xiaoqin Wang, Ramakanth Kavuluru, Nathan Jacobs.*<br>
+[[paper]](https://arxiv.org/pdf/2010.03060)
+[[code]](http://www.gb-liang.com/TIMNet)
+
 **(*ECCV2020_InfoNCE*) Contrastive Learning for Weakly Supervised Phrase Grounding.**<br>
 *Tanmay Gupta, Arash Vahdat, Gal Chechik, Xiaodong Yang, Jan Kautz, Derek Hoiem.*<br>
 [[paper]](https://arxiv.org/pdf/2006.09920.pdf)
@@ -853,10 +863,39 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Yanbei Chen, Loris Bazzani.*<br>
 [[paper]](https://assets.amazon.science/5b/db/440af26349adb83c77c85cd11922/learning-joint-visual-semantic-matching-embeddings-for-text-guided-retrieval.pdf)
 
-**(*CVPR2020*) More Grounded Image Captioning by Distilling Image-Text Matching Model.**<br>
+**(*CVPR2020_POS-SCAN*) More Grounded Image Captioning by Distilling Image-Text Matching Model.**<br>
 *Yuanen Zhou, Meng Wang, Daqing Liu, Zhenzhen Hu, Hanwang Zhang.*<br>
 [[paper]](https://arxiv.org/pdf/2004.00390)
 [[code]](https://github.com/YuanEZhou/Grounded-Image-Captioning)
+
+**(*COLING2020_VSE-Probing*) Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case.**<br>
+*Adam Dahlgren Lindström, Suna Bensch, Johanna Björklund, Frank Drewes.*<br>
+[[paper]](https://www.aclweb.org/anthology/2020.coling-main.64.pdf)
+[[code]](https://github.com/dali-does/vse-probing)
+
+### ``Posted in``
+**(*TC2020_SMAN*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image-Text Retrieval.**<br>
+*Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
+
+**(*TCSVT2020_DSRAN*) Learning Dual Semantic Relations with Graph Attention for Image-Text Matching.**<br>
+*Keyu Wen, Xiaodong Gu, Qingrong Cheng.*<br>
+[[paper]](https://arxiv.org/pdf/2010.11550)
+[[code]](https://github.com/kywen1119/DSRAN)
+
+**(*ICPR2020_TERN*) Transformer Reasoning Network for Image-Text Matching and Retrieval.**<br>
+*Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato.*<br>
+[[paper]](https://arxiv.org/pdf/2004.09144.pdf)
+[[code]](https://github.com/mesnico/TERN)
+
+**(*TOMM2020_TERAN*) Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders.**<br>
+*Nicola Messina, Giuseppe Amato, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro, Stéphane Marchand-Maillet.*<br>
+[[paper]](https://arxiv.org/pdf/2008.05231)
+[[code]](https://github.com/mesnico/TERAN)
+
+**(*arXiv2021_PCME*) Probabilistic Embeddings for Cross-Modal Retrieval.**<br>
+*Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
+[[paper]](https://arxiv.org/pdf/2101.05068)
 
 
 ## ``*Other resources*``
