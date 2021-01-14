@@ -1,7 +1,7 @@
 Cross-modal_Retrieval_Tutorial
 ==============================
 The Tutorial of Image-Text Matching for Preliminary Insight.  
-Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tutorial will be constantly updated.
+Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tutorial will be constantly updated.  
 [MIT license](LICENSE). Please contact me at (r1228240468@mail.dlut.edu.cn) if you have any questions.
 
 
