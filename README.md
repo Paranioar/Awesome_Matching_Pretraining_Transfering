@@ -57,7 +57,9 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>HM-LSTM</td><td>RCNN</td> <td>27.7</td><td>--</td><td>68.6</td> <td>24.4</td><td>--</td><td>68.1</td> </tr>
    <tr> <td>SPE</td><td>VggNet</td> <td>30.1</td><td>60.4</td><td>73.7</td> <td>23.0</td><td>51.3</td><td>64.8</td> </tr>
    <tr> <td>FV</td><td>GMM+HGLMM</td> <td>31.0</td><td>59.3</td><td>73.7</td> <td>21.2</td><td>50.0</td><td>64.8</td> </tr>
+   <tr> <td>MFM</td><td>VggNet</td> <td>35.6</td><td>67.0</td><td>78.6</td> <td>28.4</td><td>58.5</td><td>72.3</td> </tr>
    <tr> <td>NAA</td><td>ResNet</td> <td>37.2</td><td>68.1</td><td>79.1</td> <td>27.7</td><td>59.6</td><td>71.8</td> </tr>
+   <tr> <td>2WayNet</td><td>VggNet</td> <td>43.4</td><td>63.2</td><td>--</td> <td>29.3</td><td>49.7</td><td>--</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD</td> <td>52.2</td><td>81.0</td><td>89.2</td> <td>38.3</td><td>67.8</td><td>78.9</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>48.5</td><td>78.1</td><td>85.3</td> <td>32.0</td><td>61.4</td><td>73.9</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>52.1</td><td>81.5</td><td>90.1</td> <td>40.2</td><td>69.0</td><td>79.2</td> </tr>
@@ -137,12 +139,14 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>PFAN</td><td>BUTD, t2i</td> <td>66.0</td><td>89.6</td><td>94.3</td> <td>49.6</td><td>77.0</td><td>84.2</td> </tr>
    <tr> <td>PFAN</td><td>BUTD, i2t</td> <td>67.6</td><td>90.0</td><td>93.8</td> <td>45.7</td><td>74.7</td><td>83.6</td> </tr>
    <tr> <td>PFAN*</td><td>BUTD</td> <td>70.0</td><td>91.8</td><td>95.0</td> <td>50.4</td><td>78.7</td><td>86.1</td> </tr>
+   <tr> <td>PFAN++*</td><td>BUTD</td> <td>70.1</td><td>91.8</td><td>96.1</td> <td>52.7</td><td>79.9</td><td>87.0</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>70.1</td><td>91.6</td><td>97.2</td> <td>52.8</td><td>79.0</td><td>87.9</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>70.2</td><td>91.6</td><td>95.8</td> <td>55.5</td><td>81.3</td><td>88.2</td> </tr>
    <tr> <td>TERAN</td><td>BUTD, Bert</td> <td>70.8</td><td>90.9</td><td>95.5</td> <td>56.5</td><td>81.2</td><td>88.2</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>59.5</td><td>85.6</td><td>91.0</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>60.9</td><td>86.1</td><td>91.0</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>70.9</td><td>92.8</td><td>95.5</td> <td>50.7</td><td>78.7</td><td>86.2</td> </tr>
+   <tr> <td>VSRN</td><td>BUTD</td> <td>70.4</td><td>89.2</td><td>93.7</td> <td>53.0</td><td>77.9</td><td>85.7</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>71.3</td><td>90.6</td><td>96.0</td> <td>54.7</td><td>81.8</td><td>88.2</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>57.2</td><td>85.1</td><td>92.1</td> <td>40.1</td><td>69.5</td><td>79.5</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>71.8</td><td>90.8</td><td>94.8</td> <td>49.3</td><td>76.4</td><td>85.6</td> </tr>
@@ -246,6 +250,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>BFAN*</td><td>BUTD</td> <td>74.9</td><td>95.2</td><td>--</td> <td>59.4</td><td>88.4</td><td>--</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>75.3</td><td>95.8</td><td>98.6</td> <td>62.5</td><td>89.7</td><td>95.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>75.5</td><td>95.4</td><td>98.5</td> <td>61.3</td><td>89.7</td><td>95.2</td> </tr>
+   <tr> <td>VSRN</td><td>BUTD</td> <td>74.0</td><td>94.3</td><td>97.8</td> <td>60.8</td><td>88.4</td><td>94.1</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>76.2</td><td>94.8</td><td>98.2</td> <td>62.8</td><td>89.7</td><td>95.1</td> </tr>
    <tr> <td>ADAPT</td><td>BUTD, i2t</td> <td>74.5</td><td>94.2</td><td>97.9</td> <td>62.0</td><td>90.4</td><td>95.5</td> </tr>
    <tr> <td>ADAPT</td><td>BUTD, t2i</td> <td>75.3</td><td>95.1</td><td>98.4</td> <td>63.3</td><td>90.0</td><td>95.5</td> </tr>
@@ -258,6 +263,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>76.1</td><td>95.3</td><td>98.2</td> <td>61.0</td><td>88.6</td><td>94.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>74.0</td><td>95.6</td><td>98.4</td> <td>60.6</td><td>88.9</td><td>94.6</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>76.7</td><td>95.6</td><td>98.5</td> <td>61.7</td><td>89.1</td><td>95.0</td> </tr>
+   <tr> <td>PFAN++*</td><td>BUTD</td> <td>77.1</td><td>96.5</td><td>98.3</td> <td>62.5</td><td>89.9</td><td>95.4</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>76.1</td><td>95.5</td><td>98.4</td> <td>61.2</td><td>88.9</td><td>94.8</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>76.4</td><td>95.8</td><td>98.3</td> <td>62.3</td><td>89.4</td><td>96.2</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>77.4</td><td>96.1</td><td>98.9</td> <td>63.5</td><td>90.7</td><td>96.7</td> </tr>
@@ -311,6 +317,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>45.4</td><td>77.9</td><td>87.9</td> <td>36.2</td><td>65.5</td><td>76.7</td> </tr>
    <tr> <td>SAVE</td><td>ResNet</td> <td>46.7</td><td>76.3</td><td>86.1</td> <td>34.0</td><td>64.8</td><td>77.0</td> </tr>
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>46.9</td><td>77.7</td><td>87.6</td> <td>34.4</td><td>64.2</td><td>75.9</td> </tr>
+   <tr> <td>GVSE*</td><td>BUTD</td> <td>47.2</td><td>76.6</td><td>88.4</td> <td>31.2</td><td>61.2</td><td>70.5</td> </tr>
    <tr> <td>CASC</td><td>ResNet</td> <td>47.2</td><td>78.3</td><td>87.4</td> <td>34.7</td><td>64.8</td><td>76.8</td> </tr>
    <tr> <td>OAN</td><td>BUTD</td> <td>47.8</td><td>81.2</td><td>90.4</td> <td>37.0</td><td>66.6</td><td>78.0</td> </tr>
    <tr> <td>MTFN</td><td>BUTD</td> <td>44.7</td><td>76.4</td><td>87.3</td> <td>33.1</td><td>64.7</td><td>76.1</td> </tr>
@@ -322,6 +329,8 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>SCAN</td><td>BUTD, i2t_LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>50.5</td><td>80.2</td><td>89.8</td> <td>38.1</td><td>66.8</td><td>78.5</td> </tr>
+   <tr> <td>PFAN*</td><td>BUTD</td> <td>50.8</td><td>83.9</td><td>89.1</td> <td>39.5</td><td>69.5</td><td>80.8</td> </tr>
+   <tr> <td>PFAN++*</td><td>BUTD</td> <td>51.2</td><td>84.3</td><td>89.2</td> <td>41.4</td><td>70.9</td><td>79.0</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>51.2</td><td>81.7</td><td>89.1</td> <td>39.4</td><td>72.5</td><td>84.1</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>51.4</td><td>81.8</td><td>89.1</td> <td>40.5</td><td>73.5</td><td>84.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>52.5</td><td>83.3</td><td>90.9</td> <td>41.2</td><td>70.3</td><td>82.9</td> </tr>
