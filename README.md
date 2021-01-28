@@ -97,6 +97,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>VSE++</td><td>VggNet</td> <td>41.3</td><td>69.1</td><td>77.9</td> <td>31.4</td><td>60.0</td><td>71.2</td> </tr>
    <tr> <td>VSE++</td><td>ResNet</td> <td>52.9</td><td>80.5</td><td>87.2</td> <td>39.6</td><td>70.1</td><td>79.5</td> </tr>
    <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>53.1</td><td>78.8</td><td>87.6</td> <td>42.6</td><td>71.6</td><td>81.9</td> </tr>
+   <tr> <td>TERN</td><td>BUTD, Bert</td> <td>53.2</td><td>79.4</td><td>86.0</td> <td>41.1</td><td>71.9</td><td>81.2</td> </tr>
    <tr> <td>DAN</td><td>VggNet</td> <td>41.4</td><td>73.5</td><td>82.5</td> <td>31.8</td><td>61.7</td><td>72.5</td> </tr>
    <tr> <td>DAN</td><td>ResNet</td> <td>55.0</td><td>81.8</td><td> 89.0</td> <td>39.4</td><td>69.2</td><td>79.1</td> </tr>
    <tr> <td>NAA</td><td>ResNet</td> <td>55.1</td><td>80.3</td><td>89.6</td> <td>39.4</td><td>68.8</td><td>79.9</td> </tr>
@@ -106,6 +107,8 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>55.6</td><td>81.9</td><td>89.5</td> <td>39.1</td><td>69.2</td><td>80.9</td> </tr>
    <tr> <td>CVSE++</td><td>ResNet</td> <td>56.6</td><td>82.5</td><td>90.2</td> <td>42.4</td><td>71.6</td><td>80.8</td> </tr>
    <tr> <td>GXN</td><td>ResNet</td> <td>56.8</td><td>--</td><td>89.6</td> <td>41.5</td><td>--</td><td>80.1</td> </tr>
+   <tr> <td>SMAN</td><td>ResNet, Random</td> <td>56.9</td><td>84.8</td><td>91.9</td> <td>43.2</td><td>73.3</td><td>83.5</td> </tr>
+   <tr> <td>SMAN</td><td>ResNet, Glove</td> <td>57.3</td><td>85.3</td><td>92.2</td> <td>43.4</td><td>73.7</td><td>83.4</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>49.7</td><td>74.8</td><td>83.3</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>65.0</td><td>89.2</td><td>94.5</td> <td>49.5</td><td>79.5</td><td>86.6</td> </tr>
    <tr> <td>MTFN</td><td>BUTD</td> <td>63.1</td><td>85.8</td><td>92.4</td> <td>46.3</td><td>75.3</td><td>83.6</td> </tr>
@@ -134,6 +137,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>PFAN*</td><td>BUTD</td> <td>70.0</td><td>91.8</td><td>95.0</td> <td>50.4</td><td>78.7</td><td>86.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>70.1</td><td>91.6</td><td>97.2</td> <td>52.8</td><td>79.0</td><td>87.9</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>70.2</td><td>91.6</td><td>95.8</td> <td>55.5</td><td>81.3</td><td>88.2</td> </tr>
+   <tr> <td>TERAN</td><td>BUTD, Bert</td> <td>70.8</td><td>90.9</td><td>95.5</td> <td>56.5</td><td>81.2</td><td>88.2</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>59.5</td><td>85.6</td><td>91.0</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>60.9</td><td>86.1</td><td>91.0</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>70.9</td><td>92.8</td><td>95.5</td> <td>50.7</td><td>78.7</td><td>86.2</td> </tr>
@@ -192,12 +196,15 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>CHAIN-VSE</td><td>VggNet</td> <td>51.6</td><td>82.0</td><td>91.3</td> <td>38.6</td><td>75.1</td><td>87.2</td> </tr>
    <tr> <td>CHAIN-VSE</td><td>ResNet</td> <td>59.4</td><td>88.0</td><td>94.2</td> <td>43.5</td><td>79.8</td><td>90.2</td> </tr>
    <tr> <td>NAA</td><td>ResNet</td> <td>61.3</td><td>87.9</td><td>95.4</td> <td>47.0</td><td>80.8</td><td>90.1</td> </tr>
+   <tr> <td>TERN</td><td>BUTD, Bert</td> <td>63.7</td><td>90.5</td><td>96.2</td> <td>51.9</td><td>85.6</td><td>93.6</td> </tr>
    <tr> <td>VSE++</td><td>VggNet</td> <td>57.2</td><td>86.0</td><td>93.3</td> <td>45.9</td><td>79.4</td><td>89.1</td> </tr>
    <tr> <td>VSE++</td><td>ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>59.4</td><td>86.2</td><td>92.9</td> <td>41.6</td><td>76.3</td><td>87.5</td> </tr>
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>65.6</td><td>89.8</td><td>95.5</td> <td>47.1</td><td>79.9</td><td>90.0</td> </tr>
    <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>67.3</td><td>91.7</td><td>96.5</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>56.6</td><td>84.9</td><td>92.8</td> </tr>
+   <tr> <td>SMAN</td><td>ResNet, Random</td> <td>67.9</td><td>90.6</td><td>96.2</td> <td>58.8</td><td>87.0</td><td>93.7</td> </tr>
+   <tr> <td>SMAN</td><td>ResNet, Glove</td> <td>68.4</td><td>91.3</td><td>96.6</td> <td>58.5</td><td>87.4</td><td>93.5</td> </tr>
    <tr> <td>GXN</td><td>ResNet</td> <td>68.5</td><td>--</td><td>97.9</td> <td>56.6</td><td>--</td><td>94.5</td> </tr>
    <tr> <td>GSLS</td><td>ResNet, BUTD</td> <td>68.9</td><td>94.1</td><td>98.0</td> <td>58.6</td><td>88.2</td><td>94.9</td> </tr>
    <tr> <td>CVSE++</td><td>ResNet</td> <td>69.1</td><td>92.2</td><td>96.1</td> <td>55.6</td><td>86.7</td><td>93.8</td> </tr>
@@ -247,6 +254,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>AOQ*</td><td>BUTD, SCAN</td> <td>74.1</td><td>95.2</td><td>98.5</td> <td>59.8</td><td>88.6</td><td>95.0</td> </tr>
    <tr> <td>AOQ*</td><td>BUTD, BFAN</td> <td>77.3</td><td>96.0</td><td>98.5</td> <td>61.2</td><td>89.2</td><td>95.0</td> </tr>
    <tr> <td>AOQ*</td><td>BUTD, VSRN</td> <td>77.5</td><td>95.5</td><td>98.6</td> <td>63.5</td><td>90.5</td><td>95.8</td> </tr>
+   <tr> <td>TERAN</td><td>BUTD, Bert</td> <td>77.7</td><td>95.9</td><td>98.6</td> <td>65.0</td><td>91.2</td><td>96.4</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1</td><td>97.9</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>77.8</td><td>96.1</td><td>98.7</td> <td>66.2</td><td>93.0</td><td>97.9</td> </tr>
    <tr> <td>HAL</td><td>SCAN_i2t</td> <td>78.3</td><td>96.3</td><td>98.5</td> <td>60.1</td><td>86.7</td><td>92.8</td> </tr>
@@ -273,6 +281,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>CSE</td><td>ResNet</td> <td>27.9</td><td>57.1</td><td>70.4</td> <td>22.2</td><td>50.2</td><td>64.4</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>24.6</td><td>52.3</td><td>66.4</td> <td>19.1</td><td>44.6</td><td>58.4</td> </tr>
    <tr> <td>CMPM</td><td>ResNet</td> <td>31.1</td><td>60.7</td><td>73.9</td> <td>22.9</td><td>50.2</td><td>63.8</td> </tr>
+   <tr> <td>TERN</td><td>BUTD, Bert</td> <td>38.4</td><td>69.5</td><td>81.3</td> <td>28.7</td><td>59.7</td><td>72.7</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>35.5</td><td>63.2</td><td>75.6</td> <td>21.0</td><td>47.5</td><td>60.9</td> </tr>
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>41.2</td><td>70.5</td><td>81.1</td> <td>25.3</td><td>53.4</td><td>66.4</td> </tr>
    <tr> <td>VSE++</td><td>VggNet</td> <td>32.9</td><td>61.7</td><td>74.7</td> <td>24.1</td><td>52.8</td><td>66.2</td> </tr>
@@ -304,6 +313,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>52.0</td><td>81.8</td><td>90.1</td> <td>38.6</td><td>68.1</td><td>79.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>53.7</td><td>83.2</td><td>91.0</td> <td>39.7</td><td>69.1</td><td>79.8</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>54.0</td><td>82.5</td><td>90.7</td> <td>38.7</td><td>69.7</td><td>80.8</td> </tr>
+   <tr> <td>TERAN</td><td>BUTD, Bert</td> <td>55.6</td><td>83.9</td><td>91.6</td> <td>42.6</td><td>72.5</td><td>82.9</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>49.9</td><td>78.9</td><td>88.1</td> <td>33.2</td><td>62.4</td><td>74.7</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>56.6</td><td>84.5</td><td>92.0</td> <td>39.2</td><td>68.0</td><td>81.3</td> </tr>
    <tr> <td>AOQ*</td><td>BUTD, SCAN</td> <td>51.2</td><td>82.5</td><td>90.1</td> <td>39.4</td><td>69.7</td><td>80.4</td> </tr>
@@ -456,11 +466,26 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[paper]](https://arxiv.org/pdf/1906.04402.pdf)
 [[code]](https://github.com/yalesong/pvse)
 
+**(*ICPR2020_TERN*) Transformer Reasoning Network for Image-Text Matching and Retrieval.**<br>
+*Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato.*<br>
+[[paper]](https://arxiv.org/pdf/2004.09144.pdf)
+[[code]](https://github.com/mesnico/TERN)
+
+**(*TOMM2020_TERAN*) Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders.**<br>
+*Nicola Messina, Giuseppe Amato, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro, Stéphane Marchand-Maillet.*<br>
+[[paper]](https://arxiv.org/pdf/2008.05231)
+[[code]](https://github.com/mesnico/TERAN)
+
 **(*TOMM2020_NIS*) Upgrading the Newsroom: An Automated Image Selection System for News Articles.**<br>
 *Fangyu Liu, Rémi Lebret, Didier Orel, Philippe Sordet, Karl Aberer.*<br>
 [[paper]](https://arxiv.org/pdf/2004.11449.pdf)
 [[slides]](http://fangyuliu.me/media/others/lsir_talk_final_version_0.3.pdf)
 [[demo]](https://modemos.epfl.ch/article)
+
+**(*TCSVT2020_DSRAN*) Learning Dual Semantic Relations with Graph Attention for Image-Text Matching.**<br>
+*Keyu Wen, Xiaodong Gu, Qingrong Cheng.*<br>
+[[paper]](https://arxiv.org/pdf/2010.11550)
+[[code]](https://github.com/kywen1119/DSRAN)
 
 **(*WACV2020_SGM*) Cross-modal Scene Graph Matching for Relationship-aware Image-Text Retrieval.**<br>
 *Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen.*<br>
@@ -542,6 +567,10 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 *Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
 [[paper]](https://arxiv.org/pdf/1904.09471)
 [[code]](https://github.com/HabbakukWang1103/SAN)
+
+**(*TC2020_SMAN*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image-Text Retrieval.**<br>
+*Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
 
 **(*TNNLS2020_CASC*) Cross-Modal Attention With Semantic Consistence for Image-Text Matching.**<br>
 *Xing Xu, Tan Wang, Yang Yang, Lin Zuo, Fumin Shen, Heng Tao Shen.*<br>
@@ -874,25 +903,6 @@ Some state-of-the-arts are temporarily stored in [Posted in](#posted-in). The tu
 [[code]](https://github.com/dali-does/vse-probing)
 
 ### ``Posted in``
-**(*TC2020_SMAN*) SMAN: Stacked Multimodal Attention Network for Cross-Modal Image-Text Retrieval.**<br>
-*Zhong Ji, Haoran Wang, Jungong Han, Yanwei Pang.*<br>
-[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086164)
-
-**(*TCSVT2020_DSRAN*) Learning Dual Semantic Relations with Graph Attention for Image-Text Matching.**<br>
-*Keyu Wen, Xiaodong Gu, Qingrong Cheng.*<br>
-[[paper]](https://arxiv.org/pdf/2010.11550)
-[[code]](https://github.com/kywen1119/DSRAN)
-
-**(*ICPR2020_TERN*) Transformer Reasoning Network for Image-Text Matching and Retrieval.**<br>
-*Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato.*<br>
-[[paper]](https://arxiv.org/pdf/2004.09144.pdf)
-[[code]](https://github.com/mesnico/TERN)
-
-**(*TOMM2020_TERAN*) Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders.**<br>
-*Nicola Messina, Giuseppe Amato, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro, Stéphane Marchand-Maillet.*<br>
-[[paper]](https://arxiv.org/pdf/2008.05231)
-[[code]](https://github.com/mesnico/TERAN)
-
 **(*arXiv2021_PCME*) Probabilistic Embeddings for Cross-Modal Retrieval.**<br>
 *Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
 [[paper]](https://arxiv.org/pdf/2101.05068)
