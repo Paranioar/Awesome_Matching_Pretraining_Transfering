@@ -16,10 +16,6 @@ Method Summary of Cross-modal Retrieval
     * [Scene-Text Learning](#scene-text-learning)
     * [Related Works](#related-works)  
     * [Posted in](#posted-in)
-* [Other Resources](#other-resources)  
-    * [Fewshot Learning](#fewshot-learning)
-    * [Graph Learning](#graph-learning)
-    * [Transformer Learning](#transformer-learning)
 
 
 ## ``Algorithm-oriented Works`` 
@@ -589,17 +585,3 @@ Method Summary of Cross-modal Retrieval
 *Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
 [[paper]](https://arxiv.org/pdf/2101.05068)
 
-
-## ``*Other resources*``
-### ``*Fewshot learning*``
-[Awesome-Papers-Fewshot](https://github.com/Duan-JM/awesome-papers-fewshot)
-
-### ``*Graph learning*``
-[Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
-
-### ``*Transformer learning*``
-[Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)  
-
-[Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)  
-
-[Awesome Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer)
