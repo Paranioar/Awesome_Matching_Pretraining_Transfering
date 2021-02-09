@@ -111,6 +111,12 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://arxiv.org/pdf/1909.02701.pdf)
 [[code]](https://github.com/KunpengLi1994/VSRN)
 
+**(*ICCV2019_LIWE*) Language-Agnostic Visual-Semantic Embeddings.**<br>
+*Jonatas Wehrmann, Maurício Armani Lopes, Douglas Souza, Rodrigo Barros.*<br>
+[[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wehrmann_Language-Agnostic_Visual-Semantic_Embeddings_ICCV_2019_paper.pdf)
+[[code]](https://github.com/jwehrmann/lavse)
+[[demo]](https://jwehrmann.github.io/projects.lavse/)
+
 **(*CVPR2019_Personality*) Engaging Image Captioning via Personality.**<br>
 *Kurt Shuster, Samuel Humeau, Hexiang Hu, Antoine Bordes, Jason Weston.*<br>
 [[paper]](https://arxiv.org/pdf/1810.10665.pdf)
