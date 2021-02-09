@@ -116,6 +116,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>OAN</td><td>BUTD</td> <td>68.6</td><td>93.0</td><td>96.0</td> <td>53.3</td><td>80.1</td><td>87.1</td> </tr>
    <tr> <td>SAEM</td><td>BUTD, Bert</td> <td>69.1</td><td>91.0</td><td>95.1</td> <td>52.4</td><td>81.1</td><td>88.1</td> </tr>
    <tr> <td>MPL</td><td>SCAN_i2t</td> <td>69.4</td><td>89.9</td><td>95.4</td> <td>47.5</td><td>75.5</td><td>83.1</td> </tr>
+   <tr> <td>LIWE</td><td>BUTD, CLMR</td> <td>64.0</td><td>88.3</td><td>93.3</td> <td>46.8</td><td>76.4</td><td>84.5</td> </tr>
+   <tr> <td>LIWE</td><td>BUTD, -Glove</td> <td>66.4</td><td>88.9</td><td>94.1</td> <td>47.5</td><td>76.2</td><td>84.9</td> </tr>
+   <tr> <td>LIWE</td><td>BUTD, +Glove</td> <td>69.6</td><td>90.3</td><td>95.6</td> <td>51.2</td><td>80.4</td><td>87.2</td> </tr>
    <tr> <td>PFAN</td><td>BUTD, t2i</td> <td>66.0</td><td>89.6</td><td>94.3</td> <td>49.6</td><td>77.0</td><td>84.2</td> </tr>
    <tr> <td>PFAN</td><td>BUTD, i2t</td> <td>67.6</td><td>90.0</td><td>93.8</td> <td>45.7</td><td>74.7</td><td>83.6</td> </tr>
    <tr> <td>PFAN*</td><td>BUTD</td> <td>70.0</td><td>91.8</td><td>95.0</td> <td>50.4</td><td>78.7</td><td>86.1</td> </tr>
@@ -216,6 +219,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SCAN</td><td>BUTD, t2i_AVE</td> <td>70.9</td><td>94.5</td><td>97.8</td> <td>56.4</td><td>87.0</td><td>93.9</td> </tr>
    <tr> <td>SCAN</td><td>BUTD, i2t_AVE</td> <td>69.2</td><td>93.2</td><td>97.5</td> <td>54.4</td><td>86.0</td><td>93.6</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, LSE+AVE</td> <td>72.7</td><td>94.8</td><td>98.4</td> <td>58.8</td><td>88.4</td><td>94.8</td> </tr>
+   <tr> <td>LIWE</td><td>BUTD, -Glove</td> <td>69.6</td><td>93.9</td><td>98.0</td> <td>55.5</td><td>87.3</td><td>94.2</td> </tr>
+   <tr> <td>LIWE</td><td>BUTD, CLMR</td> <td>71.8</td><td>93.1</td><td>97.6</td> <td>56.2</td><td>87.5</td><td>94.2</td> </tr>
+   <tr> <td>LIWE</td><td>BUTD, +Glove</td> <td>73.2</td><td>95.5</td><td>98.2</td> <td>57.9</td><td>88.3</td><td>94.5</td> </tr>
    <tr> <td>SGM</td><td>BUTD</td> <td>73.4</td><td>93.8</td><td>97.8</td> <td>57.5</td><td>87.3</td><td>94.3</td> </tr>
    <tr> <td>ParNet</td><td>BUTD, NP</td> <td>72.8</td><td>94.9</td><td>97.9</td> <td>57.9</td><td>87.4</td><td>94.0</td> </tr>
    <tr> <td>ParNet</td><td>BUTD, P</td> <td>73.5</td><td>94.5</td><td>98.3</td> <td>58.3</td><td>88.2</td><td>94.1</td> </tr>
