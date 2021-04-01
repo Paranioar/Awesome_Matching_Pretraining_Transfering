@@ -257,8 +257,8 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>AOQ*</td><td>BUTD, BFAN</td> <td>77.3</td><td>96.0</td><td>98.5</td> <td>61.2</td><td>89.2</td><td>95.0</td> </tr>
    <tr> <td>AOQ*</td><td>BUTD, VSRN</td> <td>77.5</td><td>95.5</td><td>98.6</td> <td>63.5</td><td>90.5</td><td>95.8</td> </tr>
    <tr> <td>TERAN</td><td>BUTD, Bert</td> <td>77.7</td><td>95.9</td><td>98.6</td> <td>65.0</td><td>91.2</td><td>96.4</td> </tr>
-   <tr> <td>HOAD</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1</td><td>97.9</td> </tr>
-   <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>77.8</td><td>96.1</td><td>98.7</td> <td>66.2</td><td>93.0</td><td>97.9</td> </tr>
+   <tr> <td>HOAD^</td><td>BUTD</td> <td>77.0</td><td>96.1</td><td>98.7</td> <td>65.1</td><td>93.1</td><td>97.9</td> </tr>
+   <tr> <td>HOAD^</td><td>BUTD, +Dist</td> <td>77.8</td><td>96.1</td><td>98.7</td> <td>66.2</td><td>93.0</td><td>97.9</td> </tr>
    <tr> <td>TOD-Net</td><td>VSE++</td> <td>68.6</td><td>92.0</td><td>96.9</td> <td>54.5</td><td>85.3</td><td>92.4</td> </tr>
    <tr> <td>TOD-Net</td><td>Bert</td> <td>75.8</td><td>95.3</td><td>98.4</td> <td>61.8</td><td>89.6</td><td>95.0</td> </tr>
    <tr> <td>TOD-Net*</td><td>Bert</td> <td>78.1</td><td>96.0</td><td>98.6</td> <td>63.6</td><td>90.6</td><td>95.8</td> </tr>
