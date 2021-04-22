@@ -448,7 +448,7 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://arxiv.org/pdf/1605.05395)
 
 **(*CVPR2017_GNA-RNN*) Person search with natural language description.**<br>
-*huang  Li, Tong Xiao, Hongsheng Li, Bolei Zhou, DayuYue, Xiaogang Wang.*<br>
+*Shuang  Li, Tong Xiao, Hongsheng Li, Bolei Zhou, DayuYue, Xiaogang Wang.*<br>
 [[paper]](https://arxiv.org/pdf/1702.05729)
 [[code]](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description)
 
