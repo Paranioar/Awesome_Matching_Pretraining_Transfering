@@ -159,6 +159,10 @@ Method Summary of Cross-modal Retrieval
 *Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen.*<br>
 [[paper]](https://arxiv.org/pdf/1910.05134)
 
+**(*CVPR2021_PCME*) Probabilistic Embeddings for Cross-Modal Retrieval.**<br>
+*Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
+[[paper]](https://arxiv.org/pdf/2101.05068)
+
 ### ``*Cross-Modal Interaction*``
 **(*arXiv2014_NIC*) Show and Tell: A Neural Image Caption Generator.**<br>
 *Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.*<br>
@@ -351,6 +355,10 @@ Method Summary of Cross-modal Retrieval
 *Li Ren, Kai Li, LiQiang Wang, Kien Hua.*<br>
 [[paper]](https://arxiv.org/pdf/2010.12126)
 
+**(*PR2021_ITMeetsAL*) Integrating Information Theory and Adversarial Learning for Cross-modal Retrieval.**<br>
+*Wei Chen, Yu Liu, Erwin M. Bakker, Michael S. Lew.*<br>
+[[paper]](https://arxiv.org/pdf/2104.04991)
+
 ### ``*Loss Function*``
 **(*TPAMI2018_TBNN*) Learning Two-Branch Neural Networks for Image-Text Matching Tasks.**<br>
 *Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik.*<br>
@@ -411,6 +419,10 @@ Method Summary of Cross-modal Retrieval
 *Tianlang Chen, Jiajun Deng, Jiebo Luo.*<br>
 [[paper]](https://arxiv.org/pdf/2003.03669.pdf)
 [[code]](https://github.com/sunnychencool/AOQ)
+
+**(*arXiv2021_PG*) Discrete-continuous Action Space Policy Gradient-based Attention for Image-Text Matching.**<br>
+*Shiyang Yan, Li Yu, Yuan Xie.*<br>
+[[paper]](https://arxiv.org/pdf/2104.10406)
 
 
 ## ``Task-oriented Works`` 
@@ -587,7 +599,3 @@ Method Summary of Cross-modal Retrieval
 [[code]](https://github.com/dali-does/vse-probing)
 
 ### ``Posted in``
-**(*arXiv2021_PCME*) Probabilistic Embeddings for Cross-Modal Retrieval.**<br>
-*Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
-[[paper]](https://arxiv.org/pdf/2101.05068)
-
