@@ -163,6 +163,10 @@ Method Summary of Cross-modal Retrieval
 *Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
 [[paper]](https://arxiv.org/pdf/2101.05068)
 
+**(*CVPR2021_PG*) Discrete-continuous Action Space Policy Gradient-based Attention for Image-Text Matching.**<br>
+*Shiyang Yan, Li Yu, Yuan Xie.*<br>
+[[paper]](https://arxiv.org/pdf/2104.10406)
+
 ### ``*Cross-Modal Interaction*``
 **(*arXiv2014_NIC*) Show and Tell: A Neural Image Caption Generator.**<br>
 *Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.*<br>
@@ -419,11 +423,6 @@ Method Summary of Cross-modal Retrieval
 *Tianlang Chen, Jiajun Deng, Jiebo Luo.*<br>
 [[paper]](https://arxiv.org/pdf/2003.03669.pdf)
 [[code]](https://github.com/sunnychencool/AOQ)
-
-**(*arXiv2021_PG*) Discrete-continuous Action Space Policy Gradient-based Attention for Image-Text Matching.**<br>
-*Shiyang Yan, Li Yu, Yuan Xie.*<br>
-[[paper]](https://arxiv.org/pdf/2104.10406)
-
 
 ## ``Task-oriented Works`` 
 
