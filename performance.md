@@ -100,6 +100,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SMAN</td><td>ResNet, Glove</td> <td>57.3</td><td>85.3</td><td>92.2</td> <td>43.4</td><td>73.7</td><td>83.4</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>49.7</td><td>74.8</td><td>83.3</td> </tr>
    <tr> <td>A3VSE</td><td>BUTD</td> <td>65.0</td><td>89.2</td><td>94.5</td> <td>49.5</td><td>79.5</td><td>86.6</td> </tr>
+   <tr> <td>DXR</td><td>ResNet, Bert</td> <td>65.1</td><td>87.3</td><td>92.6</td> <td>50.6</td><td>78.8</td><td>86.7</td> </tr>
    <tr> <td>MTFN</td><td>BUTD</td> <td>63.1</td><td>85.8</td><td>92.4</td> <td>46.3</td><td>75.3</td><td>83.6</td> </tr>
    <tr> <td>MTFN</td><td>BUTD, RR_no_STT</td> <td>65.3</td><td>88.3</td><td>93.3</td> <td>46.7</td><td>75.9</td><td>83.8</td> </tr>
    <tr> <td>MTFN</td><td>BUTD, RR_STT</td> <td>65.3</td><td>88.3</td><td>93.3</td> <td>52.0</td><td>80.1</td><td>86.1</td> </tr>
@@ -161,6 +162,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>73.7</td><td>93.3</td><td>96.3</td> <td>56.1</td><td>81.5</td><td>88.0</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>75.2</td><td>93.3</td><td>96.6</td> <td>56.2</td><td>81.0</td><td>86.5</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>77.8</td><td>94.1</td><td>97.4</td> <td>58.5</td><td>83.0</td><td>88.8</td> </tr>
+   <tr> <td>T-EMDE</td><td>BUTD, SAF</td> <td>75.2</td><td>94.2</td><td>97.1</td> <td>57.1</td><td>82.2</td><td>88.3</td> </tr>
+   <tr> <td>T-EMDE</td><td>BUTD, SGR</td> <td>77.5</td><td>93.1</td><td>97.2</td> <td>56.9</td><td>82.0</td><td>87.5</td> </tr>
+   <tr> <td>T-EMDE*</td><td>BUTD, SGRAF</td> <td>78.8</td><td>94.4</td><td>97.5</td> <td>59.6</td><td>83.6</td><td>89.2</td> </tr>
    <tr> <td>DSRAN</td><td>BUTD, GRU</td> <td>72.6</td><td>93.6</td><td>96.3</td> <td>56.3</td><td>84.0</td><td>89.8</td> </tr>
    <tr> <td>DSRAN</td><td>BUTD, Bert</td> <td>75.3</td><td>94.4</td><td>97.6</td> <td>57.3</td><td>84.8</td><td>90.9</td> </tr>
    <tr> <td>DSRAN*</td><td>BUTD, GRU</td> <td>74.9</td><td>94.5</td><td>97.0</td> <td>58.6</td><td>85.8</td><td>91.3</td> </tr>
@@ -206,6 +210,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>VSE++</td><td>ResNet</td> <td>64.6</td><td>90.0</td><td>95.7</td> <td>52.0</td><td>84.3</td><td>92.0</td> </tr>
    <tr> <td>Dual-Path</td><td>VggNet</td> <td>59.4</td><td>86.2</td><td>92.9</td> <td>41.6</td><td>76.3</td><td>87.5</td> </tr>
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>65.6</td><td>89.8</td><td>95.5</td> <td>47.1</td><td>79.9</td><td>90.0</td> </tr>
+   <tr> <td>DXR</td><td>ResNet, Bert</td> <td>67.0</td><td>93.0</td><td>97.6</td> <td>56.8</td><td>88.2</td><td>94.9</td> </tr>
    <tr> <td>Personality</td><td>ResNeXt, Transformer</td> <td>67.3</td><td>91.7</td><td>96.5</td> <td>--</td><td>--</td><td>--</td> </tr>
    <tr> <td>Align2Ground</td><td>BUTD</td> <td>--</td><td>--</td><td>--</td> <td>56.6</td><td>84.9</td><td>92.8</td> </tr>
    <tr> <td>SMAN</td><td>ResNet, Random</td> <td>67.9</td><td>90.6</td><td>96.2</td> <td>58.8</td><td>87.0</td><td>93.7</td> </tr>
@@ -283,6 +288,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>76.1</td><td>95.4</td><td>98.3</td> <td>61.8</td><td>89.4</td><td>95.3</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>78.0</td><td>95.8</td><td>98.2</td> <td>61.4</td><td>89.3</td><td>95.4</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>79.6</td><td>96.2</td><td>98.5</td> <td>63.2</td><td>90.7</td><td>96.1</td> </tr>
+   <tr> <td>T-EMDE</td><td>BUTD, SAF</td> <td>78.3</td><td>95.7</td><td>98.5</td> <td>62.3</td><td>89.7</td><td>95.2</td> </tr>
+   <tr> <td>T-EMDE</td><td>BUTD, SGR</td> <td>77.1</td><td>95.9</td><td>98.5</td> <td>61.6</td><td>89.5</td><td>95.1</td> </tr>
+   <tr> <td>T-EMDE*</td><td>BUTD, SGRAF</td> <td>79.6</td><td>96.3</td><td>98.7</td> <td>63.5</td><td>90.4</td><td>95.6</td> </tr>
    <tr> <td>ACMM</td><td>BUTD</td> <td>81.9</td><td>98.0</td><td>99.3</td> <td>58.2</td><td>87.3</td><td>93.9</td> </tr>
    <tr> <td>ACMM*</td><td>BUTD</td> <td>84.1</td><td>97.8</td><td>99.4</td> <td>60.7</td><td>88.7</td><td>94.9</td> </tr>
    <tr> <td>PG*</td><td>BUTD, +GloVe</td> <td>84.0</td><td>95.8</td><td>97.8</td> <td>63.9</td><td>88.9</td><td>95.6</td> </tr>
@@ -310,6 +318,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SCO</td><td>VggNet</td> <td>40.2</td><td>70.1</td><td>81.3</td> <td>31.3</td><td>61.5</td><td>73.9</td> </tr>
    <tr> <td>SCO</td><td>ResNet</td> <td>42.8</td><td>72.3</td><td>83.0</td> <td>33.1</td><td>62.9</td><td>75.5</td> </tr>
    <tr> <td>CVSE++</td><td>ResNet</td> <td>43.2</td><td>73.5</td><td>84.1</td> <td>32.4</td><td>62.2</td><td>74.6</td> </tr>
+   <tr> <td>DXR</td><td>ResNet, Bert</td> <td>44.9</td><td>75.2</td><td>84.7</td> <td>33.9</td><td>64.9</td><td>77.4</td> </tr>
    <tr> <td>PVSE</td><td>ResNet</td> <td>45.2</td><td>74.3</td><td>84.5</td> <td>32.4</td><td>63.0</td><td>75.0</td> </tr>
    <tr> <td>R-SCAN</td><td>BUTD, VrR-VG</td> <td>45.4</td><td>77.9</td><td>87.9</td> <td>36.2</td><td>65.5</td><td>76.7</td> </tr>
    <tr> <td>SAVE</td><td>ResNet</td> <td>46.7</td><td>76.3</td><td>86.1</td> <td>34.0</td><td>64.8</td><td>77.0</td> </tr>
@@ -352,13 +361,14 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>53.3</td><td>82.3</td><td>90.1</td> <td>39.8</td><td>69.0</td><td>80.2</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>56.9</td><td>83.2</td><td>90.5</td> <td>40.2</td><td>69.0</td><td>79.8</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>57.8</td><td>84.9</td><td>91.6</td> <td>41.9</td><td>70.7</td><td>81.3</td> </tr>
+   <tr> <td>T-EMDE</td><td>BUTD, SAF</td> <td>56.7</td><td>--</td><td>90.7</td> <td>40.3</td><td>--</td><td>80.4</td> </tr>
+   <tr> <td>T-EMDE</td><td>BUTD, SGR</td> <td>57.0</td><td>--</td><td>91.0</td> <td>40.0</td><td>--</td><td>80.1</td> </tr>
+   <tr> <td>T-EMDE*</td><td>BUTD, SGRAF</td> <td>59.1</td><td>--</td><td>91.8</td> <td>41.8</td><td>--</td><td>81.7</td> </tr>
    <tr> <td>SAN^</td><td>ResNet</td> <td>65.4</td><td>89.4</td><td>94.8</td> <td>46.2</td><td>77.4</td><td>86.6</td> </tr>
    <tr> <td>ACMM</td><td>BUTD</td> <td>63.5</td><td>88.0</td><td>93.6</td> <td>36.7</td><td>65.1</td><td>76.7</td> </tr>
    <tr> <td>ACMM*</td><td>BUTD</td> <td>66.9</td><td>89.6</td><td>94.9</td> <td>39.5</td><td>69.6</td><td>81.1</td> </tr>
    <tr> <td>PG*</td><td>BUTD, +GloVe</td> <td>68.7</td><td>88.7</td><td>93.0</td> <td>46.2</td><td>77.8</td><td>85.5</td> </tr>
-
 </table> 
-
 
 ## ``Peformance of Identity-aware Datasets``
 
@@ -376,11 +386,19 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>Dual-Path</td><td>ResNet</td> <td>44.40</td><td>66.26</td><td>75.07</td> </tr>
    <tr> <td>CMPM</td><td>MobileNet</td> <td>44.02</td><td>--</td><td>77.00</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>49.37</td><td>--</td><td>79.27</td> </tr>
+   <tr> <td>MCCL</td><td>MobileNet, CL</td> <td>48.21</td><td>--</td><td>78.27</td> </tr>
+   <tr> <td>MCCL</td><td>MobileNet</td> <td>50.58</td><td>--</td><td>79.06</td> </tr>
+   <tr> <td>MIA</td><td>VggNet</td> <td>48.00</td><td>70.70</td><td>79.30</td> </tr>
+   <tr> <td>MIA</td><td>ResNet</td> <td>53.10</td><td>75.00</td><td>82.90</td> </tr>
    <tr> <td>PMA</td><td>VggNet</td> <td>47.02</td><td>68.54</td><td>78.06</td> </tr>
    <tr> <td>PMA</td><td>ResNet</td> <td>53.81</td><td>73.54</td><td>81.23</td> </tr>
    <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>54.51</td><td>77.56</td><td>84.78</td> </tr>
    <tr> <td>ITMeetsAL</td><td>MobileNet</td> <td>51.85</td><td>73.36</td><td>81.27</td> </tr>
    <tr> <td>ITMeetsAL</td><td>ResNet</td> <td>55.72</td><td>76.15</td><td>84.26</td> </tr>
+   <tr> <td>ViTAA</td><td>ResNet</td> <td>55.97</td><td>75.84</td><td>83.52</td> </tr>
+   <tr> <td>FTD</td><td>ResNet</td> <td>57.84</td><td>78.33</td><td>85.43</td> </tr>
+   <tr> <td>NAFS</td><td>ResNet, Bert</td> <td>59.94</td><td>79.86</td><td>86.70</td> </tr>
+   <tr> <td>NAFS</td><td>+RVN</td> <td>61.50</td><td>81.19</td><td>87.51</td> </tr>
 </table> 
 
 ### *Performance of CUB-Flowers*
