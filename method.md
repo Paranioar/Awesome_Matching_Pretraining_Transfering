@@ -159,6 +159,14 @@ Method Summary of Cross-modal Retrieval
 *Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen.*<br>
 [[paper]](https://arxiv.org/pdf/1910.05134)
 
+**(*arXiv2021_DXR*) Cross-Modal Retrieval Augmentation for Multi-Modal Classification.**<br>
+*Shir Gur, Natalia Neverova, Chris Stauffer, Ser-Nam Lim, Douwe Kiela, Austin Reiter.*<br>
+[[paper]](https://arxiv.org/pdf/2104.08108)
+
+**(*arXiv2021_T-EMDE*) T-EMDE: Sketching-based global similarity for cross-modal retrieval.**<br>
+*Barbara Rychalska, Mikolaj Wieczorek, Jacek Dabrowski.*<br>
+[[paper]](https://arxiv.org/pdf/2105.04242)
+
 **(*CVPR2021_PCME*) Probabilistic Embeddings for Cross-Modal Retrieval.**<br>
 *Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
 [[paper]](https://arxiv.org/pdf/2101.05068)
@@ -471,18 +479,58 @@ Method Summary of Cross-modal Retrieval
 *Tianlang Chen, Chenliang Xu, Jiebo Luo.*<br>
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8354312)
 
+**(*ECCV2018_CMPL*) Deep Cross-Modal Projection Learning for Image-Text Matching.**<br>
+*Ying Zhang, Huchuan Lu.*<br>
+[[paper]](https://drive.google.com/file/d/1aiBuE1NjW83PGgYbP0eQDGEKr4fqMA6J/view)
+[[code]](https://github.com/YingZhangDUT/Cross-Modal-Projection-Learning)
+
 **(*ECCV2018_GLA*) Improving deep visual representation for person re-identification by global and local image-language association.**<br>
 *Dapeng Chen, Hongsheng Li, Xihui Liu, Yantao Shen, JingShao, Zejian Yuan, Xiaogang Wang.*<br>
 [[paper]](https://arxiv.org/pdf/1808.01571)
+
+**(*ICASSP2019_MCCL*) Language person search with mutually connected classification loss.**<br>
+*Yuyu Wang, Chunjuan Bo, Dong Wang, Shuang Wang, Yunwei Qi, Huchuan Lu.*<br>
+[[paper]](https://ieeexplore.ieee.org/document/8682456)
+
+**(*ICCV2019_TIMAM*) Adversarial Representation Learning for Text-to-Image Matching.**<br>
+*Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris.*<br>
+[[paper]](https://arxiv.org/pdf/1908.10534.pdf)
+
+**(*ICCV2019_FTD*) Fusing Two Directions in Cross-Domain Adaption for Real Life Person Search by Language.**<br>
+*Kai Niu, Yan Huang, Liang Wang.*<br>
+[[paper]](https://openaccess.thecvf.com/content_ICCVW_2019/papers/WIDER/Niu_Fusing_Two_Directions_in_Cross-Domain_Adaption_for_Real_Life_Person_ICCVW_2019_paper.pdf)
 
 **(*CVPR2019_DSCMR*) Deep Supervised Cross-modal Retrieval.**<br>
 *Liangli Zhen, Peng Hu, Xu Wang, Dezhong Peng.*<br>
 [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhen_Deep_Supervised_Cross-Modal_Retrieval_CVPR_2019_paper.pdf)
 [[code]](https://github.com/penghu-cs/DSCMR)
 
+**(*TOMM2020_Dual-Path*) Dual-path Convolutional Image-Text Embeddings with Instance Loss.**<br>
+*Zhedong Zheng, Liang Zheng, Michael Garrett, Yi Yang, Mingliang Xu, YiDong Shen.*<br>
+[[paper]](https://arxiv.org/pdf/1711.05535)
+[[code]](https://github.com/layumi/Image-Text-Embedding)
+
+**(*TIP2020_MIA*) Improving Description-based Person Re-identification by Multi-granularity Image-text Alignment.**<br>
+*Kai Niu, Yan Huang, Wanli Ouyang, Liang Wang.*<br>
+[[paper]](https://arxiv.org/pdf/1906.09610)
+
 **(*AAAI2020_PMA*) Pose-Guided Multi-Granularity Attention Network for Text-Based Person Search.**<br>
 *Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan.*<br>
 [[paper]](https://arxiv.org/pdf/1809.08440)
+
+**(*ECCV2020_ViTAA*) ViTAA: Visual-Textual Attributes Alignment in Person Search by Natural Language.**<br>
+*Zhe Wang, Zhiyuan Fang, Jun Wang, Yezhou Yang.*<br>
+[[paper]](https://arxiv.org/pdf/2005.07327)
+[[code]](https://github.com/Jarr0d/ViTAA)
+
+**(*arXiv2021_NAFS*) Contextual Non-Local Alignment over Full-Scale Representation for Text-Based Person Search.**<br>
+*Chenyang Gao, Guanyu Cai, Xinyang Jiang, Feng Zheng, Jun Zhang, Yifei Gong, Pai Peng, Xiaowei Guo, Xing Sun.*<br>
+[[paper]](https://arxiv.org/pdf/2101.03036)
+[[code]](https://github.com/TencentYoutuResearch/PersonReID-NAFS)
+
+**(*PR2021_ITMeetsAL*) Integrating Information Theory and Adversarial Learning for Cross-modal Retrieval.**<br>
+*Wei Chen, Yu Liu, Erwin M. Bakker, Michael S. Lew.*<br>
+[[paper]](https://arxiv.org/pdf/2104.04991)
 
 ### ``*Scene-Text Learning*``
 **(*ECCV2018_SS*) Single Shot Scene Text Retrieval.**<br>
