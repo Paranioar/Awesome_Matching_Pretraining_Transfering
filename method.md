@@ -130,6 +130,10 @@ Method Summary of Cross-modal Retrieval
 *Zhixin Li, Feng Ling, Canlong Zhang, Huifang Ma.*<br>
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8970540)
 
+**(*Access2020_M3A*) Multi-Modal Memory Enhancement Attention Network for Image-Text Matching.**<br>
+*Zhong Ji, Zhigang Lin, Haoran Wang, Yuqing He.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9006782)
+
 **(*ICPR2020_TERN*) Transformer Reasoning Network for Image-Text Matching and Retrieval.**<br>
 *Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato.*<br>
 [[paper]](https://arxiv.org/pdf/2004.09144.pdf)
@@ -174,6 +178,11 @@ Method Summary of Cross-modal Retrieval
 **(*CVPR2021_PG*) Discrete-continuous Action Space Policy Gradient-based Attention for Image-Text Matching.**<br>
 *Shiyang Yan, Li Yu, Yuan Xie.*<br>
 [[paper]](https://arxiv.org/pdf/2104.10406)
+
+**(*CVPR2021_GPO*) Learning the Best Pooling Strategy for Visual Semantic Embedding.**<br>
+*Jiacheng Chen, Hexiang Hu, Hao Wu, Yuning Jiang, Changhu Wang.*<br>
+[[paper]](https://arxiv.org/pdf/2011.04305)
+[[code]](https://github.com/woodfrog/vse_infty)
 
 ### ``*Cross-Modal Interaction*``
 **(*arXiv2014_NIC*) Show and Tell: A Neural Image Caption Generator.**<br>
