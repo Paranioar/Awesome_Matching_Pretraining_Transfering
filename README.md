@@ -3,6 +3,8 @@ Cross-modal_Retrieval_Tutorial
 The Tutorial of Image-Text Matching for Preliminary Insight.  
 Some state-of-the-arts are temporarily stored in [Posted in](./method.md/#posted-in). The tutorial will be constantly updated.  
 
+## ``Logupdate ``
+【2021.07.10】 **A new section named [Vision-Language Pretraining](./method.md/#vision-language-pretraining) has been added.**
 
 ## ``Catalogue ``
 * [Peformance Comparison](./performance.md)
@@ -14,14 +16,15 @@ Some state-of-the-arts are temporarily stored in [Posted in](./method.md/#posted
     * [CUB-Flowers](./performance.md/#performance-of-cub-flowers)
 
 * [Methods Summary](./method.md)
+    * [Vision-Language Pretraining](./method.md/#vision-language-pretraining)
     * [Generic-Feature Extraction](./method.md/#generic-feature-extraction)
     * [Cross-Modal Interaction](./method.md/#cross-modal-interaction)
     * [Similarity Measurement](./method.md/#similarity-measurement)
     * [Commonsense Learning](./method.md/#commonsense-learning)
     * [Adversarial Learning](./method.md/#adversarial-learning)
     * [Loss Function](./method.md/#loss-function)
-    * [Un-Supervised or Semi-Supervised](./method.md/#un-supervised-or-semi-supervised)
-    * [Zero-Shot or Fewer-Shot](./method.md/#zero-shot-or-fewer-shot)
+    * [Un-/Semi-Supervised](./method.md/#un-supervised-or-semi-supervised)
+    * [Zero-/Fewer-Shot](./method.md/#zero-shot-or-fewer-shot)
     * [Identification Learning](./method.md/#identification-learning)
     * [Scene-Text Learning](./method.md/#scene-text-learning)
     * [Related Works](./method.md/#related-works)  
