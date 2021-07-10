@@ -31,7 +31,7 @@ Some state-of-the-arts are temporarily stored in [Posted in](./method.md/#posted
     * [Posted in](./method.md/#posted-in)
     
 * [Other Resources](./resource.md/#other-resources)  
-    * [Transformer Learning](./resource.md/#transformer-learning)
+    * [Multimodal Learning](./resource.md/#multimodal-learning)
     * [Graph Learning](./resource.md/#graph-learning)
     * [Fewshot Learning](./resource.md/#fewshot-learning)
     
