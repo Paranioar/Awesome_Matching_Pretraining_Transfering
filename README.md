@@ -4,6 +4,8 @@ The Tutorial of Image-Text Matching for Preliminary Insight.
 Some state-of-the-arts are temporarily stored in [Posted in](./method.md/#posted-in). The tutorial will be constantly updated.  
 
 ## ``Logupdate ``
+【2021.07.11】 **Some recent works [LGSGM,CCRS,SHAN](./method.md/) have been added.**
+
 【2021.07.10】 **A new section named [Vision-Language Pretraining](./method.md/#vision-language-pretraining) has been added.**
 
 ## ``Catalogue ``
