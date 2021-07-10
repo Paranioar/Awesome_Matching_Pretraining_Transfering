@@ -2,15 +2,23 @@ Other Resources to Broad the Horizons
 ==============================
 
 ## ``Catalogue ``
-* [Transformer Learning](#transformer-learning)
+* [Multimodal Learning](#multimodal-learning)
 * [Graph Learning](#graph-learning)
 * [Fewshot Learning](#fewshot-learning)
 
 
-## ``*Transformer learning*``
+## ``*Multimodal learning*``
+[Must-Read Papers on Pre-trained Language Models](https://github.com/thunlp/PLMpapers)
+
+[Reading List for Topics in Multimodal Machine Learning](https://github.com/pliang279/awesome-multimodal-ml)
+
+[BERT-related Papers](https://github.com/tomohideshibata/BERT-related-papers)
+
 [Recent Advances in Vision and Language PreTrained Models](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)  
 
 [Vision-Language-Paper-Reading](https://github.com/zh-plus/Vision-Language-Paper-Reading)  
+
+[Awesome Vision-and-Language](https://github.com/sangminwoo/awesome-vision-and-language)
 
 [Awesome Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer)
 
