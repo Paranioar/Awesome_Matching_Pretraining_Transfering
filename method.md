@@ -3,6 +3,7 @@ Method Summary of Cross-modal Retrieval
 
 ## ``Catalogue ``
 * [Algorithm-oriented Works](#algorithm-oriented-works)
+    * [Vision-Language Pretraining](#vision-language-pretraining)
     * [Generic-Feature Extraction](#generic-feature-extraction)
     * [Cross-Modal Interaction](#cross-modal-interaction)
     * [Similarity Measurement](#similarity-measurement)
@@ -19,6 +20,120 @@ Method Summary of Cross-modal Retrieval
 
 
 ## ``Algorithm-oriented Works`` 
+
+### ``*Vision-Language Pretraining*``
+**(*NIPS2019_ViLBERT*) ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks.** <br>
+*Jiasen Lu, Dhruv Batra, Devi Parikh, Stefan Lee.*<br>
+[[paper]](https://arxiv.org/pdf/1908.02265)
+[[code]](https://github.com/jiasenlu/vilbert_beta)
+
+**(*EMNLP2019_LXMERT*) LXMERT: Learning Cross-Modality Encoder Representations from Transformers.** <br>
+*Hao Tan, Mohit Bansal.*<br>
+[[paper]](https://arxiv.org/pdf/1908.07490)
+[[code]](https://github.com/airsplay/lxmert)
+
+**(*arXiv2020_InterBERT*) InterBERT: Vision-and-Language Interaction for Multi-modal Pretraining.** <br>
+*Junyang Lin, An Yang, Yichang Zhang, Jie Liu, Jingren Zhou, Hongxia Yang.*<br>
+[[paper]](https://arxiv.org/abs/2003.13198)
+
+**(*arXiv2020_Pixel-BERT*) Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers.** <br>
+*Zhicheng Huang, Zhaoyang Zeng, Bei Liu, Dongmei Fu, Jianlong Fu.*<br>
+[[paper]](https://arxiv.org/abs/2004.00849)
+
+**(*arXiv2020_CAPT*) CAPT: Contrastive Pre-Training for Learning Denoised Sequence Representations.** <br>
+*Fuli Luo, Pengcheng Yang, Shicheng Li, Xuancheng Ren, Xu Sun.*<br>
+[[paper]](https://arxiv.org/abs/2010.06351)
+
+**(*arXiv2020_LAMP*) LAMP: Label Augmented Multimodal Pretraining.** <br>
+*Jia Guo, Chen Zhu, Yilun Zhao, Heda Wang, Yao Hu, Xiaofei He, Deng Cai.*<br>
+[[paper]](https://arxiv.org/abs/2012.04446)
+
+**(*ACMMM2020_DeVLBert*) DeVLBert: Learning Deconfounded Visio-Linguistic Representations.** <br>
+*Shengyu Zhang, Tan Jiang, Tan Wang, Kun Kuang, Zhou Zhao, Jianke Zhu, Jin Yu, Hongxia Yang, Fei Wu.*<br>
+[[paper]](https://arxiv.org/abs/2008.06884)
+[[code]](https://github.com/shengyuzhang/DeVLBert)
+
+**(*EMNLP2020_X-LXMERT*) X-LXMERT: Paint, Caption and Answer Questions with Multi-Modal Transformers.** <br>
+*Jaemin Cho, Jiasen Lu, Dustin Schwenk, Hannaneh Hajishirzi, Aniruddha Kembhavi.*<br>
+[[paper]](https://arxiv.org/abs/2009.11278)
+[[code]](https://prior.allenai.org/projects/x-lxmert)
+
+**(*AAAI2020_Unicoder-VL*) Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training.** <br>
+*Gen Li, Nan Duan, Yuejian Fang, Ming Gong, Daxin Jiang, Ming Zhou.*<br>
+[[paper]](https://arxiv.org/pdf/1908.06066)
+
+**(*AAAI2020_VLP*) Unified Vision-Language Pre-Training for Image Captioning and VQA.** <br>
+*Luowei Zhou, Hamid Palangi, Lei Zhang, Houdong Hu, Jason J. Corso, Jianfeng Gao.*<br>
+[[paper]](https://arxiv.org/pdf/1909.11059)
+[[code]](https://github.com/LuoweiZhou/VLP)
+
+**(*ECCV2020_UNITER*) UNITER: UNiversal Image-TExt Representation Learning.** <br>
+*Yen-Chun Chen, Linjie Li, Licheng Yu, Ahmed El Kholy, Faisal Ahmed, Zhe Gan, Yu Cheng, Jingjing Liu.*<br>
+[[paper]](https://arxiv.org/pdf/1909.11740)
+[[code]](https://github.com/ChenRocks/UNITER)
+
+**(*ECCV2020_Oscar*) Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks.** <br>
+*Xiujun Li, Xi Yin, Chunyuan Li, Pengchuan Zhang, Xiaowei Hu, Lei Zhang, Lijuan Wang, Houdong Hu, Li Dong, Furu Wei, Yejin Choi, Jianfeng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2004.06165)
+[[code]](https://github.com/microsoft/Oscar)
+
+**(*ACL2020_VisualBERT*) VisualBERT: A Simple and Performant Baseline for Vision and Language.** <br>
+*Liunian Harold Li, Mark Yatskar, Da Yin, Cho-Jui Hsieh, Kai-Wei Chang.*<br>
+[[paper]](https://arxiv.org/abs/1908.03557)
+[[code]](https://github.com/uclanlp/visualbert)
+
+**(*ICLR2020_VL-BERT*) VL-BERT: Pre-training of Generic Visual-Linguistic Representations.** <br>
+*Weijie Su, Xizhou Zhu, Yue Cao, Bin Li, Lewei Lu, Furu Wei, Jifeng Dai.*<br>
+[[paper]](https://arxiv.org/abs/1908.08530)
+[[code]](https://github.com/jackroos/VL-BERT)
+
+**(*arXiv2021_SemVLP*) SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels.** <br>
+*Chenliang Li, Ming Yan, Haiyang Xu, Fuli Luo, Wei Wang, Bin Bi, Songfang Huang.*<br>
+[[paper]](https://arxiv.org/abs/2103.07829)
+
+**(*IJCNLP2021_IAIS*) Learning Relation Alignment for Calibrated Cross-modal Retrieval.** <br>
+*Shuhuai Ren, Junyang Lin, Guangxiang Zhao, Rui Men, An Yang, Jingren Zhou, Xu Sun, Hongxia Yang.*<br>
+[[paper]](https://arxiv.org/abs/2105.13868)
+[[code]](https://github.com/lancopku/IAIS)
+
+**(*TACL2021_MPU*) Multimodal Pretraining Unmasked: A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs.** <br>
+*Emanuele Bugliarello, Ryan Cotterell, Naoaki Okazaki, Desmond Elliott.*<br>
+[[paper]](https://arxiv.org/abs/2011.15124)
+[[code]](https://github.com/e-bug/mpre-unmasked)
+
+**(*AAAI2021_ERNIE-ViL*) ERNIE-ViL: Knowledge Enhanced Vision-Language Representations Through Scene Graph.** <br>
+*Fei Yu, Jiji Tang, Weichong Yin, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang.*<br>
+[[paper]](https://arxiv.org/abs/2006.16934)
+
+**(*AAAI2021_TDEN*) Scheduled Sampling in Vision-Language Pretraining with Decoupled Encoder-Decoder Network.** <br>
+*Yehao Li, Yingwei Pan, Ting Yao, Jingwen Chen, Tao Mei.*<br>
+[[paper]](https://arxiv.org/abs/2101.11562)
+[[code]](https://github.com/YehLi/TDEN)
+
+**(*ACL2021_UNIMO*) UNIMO: Towards Unified-Modal Understanding and Generation via Cross-Modal Contrastive Learning.** <br>
+*Wei Li, Can Gao, Guocheng Niu, Xinyan Xiao, Hao Liu, Jiachen Liu, Hua Wu, Haifeng Wang.*<br>
+[[paper]](https://arxiv.org/abs/2012.15409)
+[[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO)
+
+**(*CVPR2021_VinVL*) VinVL: Revisiting Visual Representations in Vision-Language Models.** <br>
+*Pengchuan Zhang, Xiujun Li, Xiaowei Hu, Jianwei Yang, Lei Zhang, Lijuan Wang, Yejin Choi, Jianfeng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2101.00529)
+[[code]](https://github.com/pzzhang/VinVL)
+
+**(*ICML2021_ViLT*) ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision.** <br>
+*Wonjae Kim, Bokyung Son, Ildoo Kim.*<br>
+[[paper]](https://arxiv.org/abs/2102.03334)
+[[code]](https://github.com/dandelin/vilt)
+
+**(*arXiv2021_CLIP*) Learning Transferable Visual Models From Natural Language Supervision.** <br>
+*Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever.*<br>
+[[paper]](https://arxiv.org/abs/2103.00020)
+[[code]](https://github.com/OpenAI/CLIP)
+
+**(*ICML2021_ALIGN*) Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.** <br>
+*Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig.*<br>
+[[paper]](https://arxiv.org/abs/2102.05918)
+[[blog]](https://ai.googleblog.com/2021/05/align-scaling-up-visual-and-vision.html)
 
 ### ``*Generic-Feature Extraction*``
 **(*NIPS2013_DeViSE*) DeViSE: A Deep Visual-Semantic Embedding Model.** <br>
