@@ -1,7 +1,6 @@
 Cross-modal_Retrieval_Tutorial
 ==============================
-The Tutorial of Image-Text Matching for Preliminary Insight.  
-Some state-of-the-arts are temporarily stored in [Posted in](./method.md/#posted-in). The tutorial will be constantly updated.  
+The tutorial of Image-Text Matching will be constantly updated for Preliminary Insight !
 
 ## ``Logupdate ``
 【2021.07.11】 **Some recent works [LGSGM,CCRS,SHAN](./method.md/) have been added.**
