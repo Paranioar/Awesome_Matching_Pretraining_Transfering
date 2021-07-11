@@ -136,6 +136,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>HOAD</td><td>BUTD</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>59.5</td><td>85.6</td><td>91.0</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>70.8</td><td>92.7</td><td>96.0</td> <td>60.9</td><td>86.1</td><td>91.0</td> </tr>
    <tr> <td>GOT</td><td>SCAN_i2t</td> <td>70.9</td><td>92.8</td><td>95.5</td> <td>50.7</td><td>78.7</td><td>86.2</td> </tr>
+   <tr> <td>LGSGM</td><td>BUTD</td> <td>71.0</td><td>91.9</td><td>96.1</td> <td>57.4</td><td>84.1</td><td>90.2</td> </tr>
    <tr> <td>VSRN</td><td>BUTD</td> <td>70.4</td><td>89.2</td><td>93.7</td> <td>53.0</td><td>77.9</td><td>85.7</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>71.3</td><td>90.6</td><td>96.0</td> <td>54.7</td><td>81.8</td><td>88.2</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>57.2</td><td>85.1</td><td>92.1</td> <td>40.1</td><td>69.5</td><td>79.5</td> </tr>
@@ -152,6 +153,11 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>68.8</td><td>91.6</td><td>96.0</td> <td>53.0</td><td>79.0</td><td>87.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>74.1</td><td>93.0</td><td>96.6</td> <td>53.9</td><td>79.4</td><td>87.2</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.2</td><td>92.8</td><td>96.4</td> <td>54.8</td><td>81.4</td><td>87.8</td> </tr>
+   <tr> <td>SHAN</td><td>BUTD, T2I</td> <td>72.5</td><td>92.3</td><td>95.8</td> <td>53.6</td><td>78.6</td><td>85.5</td> </tr>
+   <tr> <td>SHAN</td><td>BUTD, I2T</td> <td>70.6</td><td>91.7</td><td>95.5</td> <td>50.5</td><td>77.1</td><td>85.2</td> </tr>
+   <tr> <td>SHAN</td><td>BUTD, Full</td> <td>74.6</td><td>93.5</td><td>96.9</td> <td>55.3</td><td>81.3</td><td>88.4</td> </tr>
+   <tr> <td>CCRS*</td><td>BUTD, SCAN</td> <td>70.1</td><td>92.0</td><td>96.0</td> <td>52.3</td><td>79.9</td><td>86.8</td> </tr>
+   <tr> <td>CCRS*</td><td>BUTD, BFAN</td> <td>75.3</td><td>93.6</td><td>96.7</td> <td>55.4</td><td>81.3</td><td>87.7</td> </tr>
    <tr> <td>SAN^</td><td>VggNet</td> <td>67.0</td><td>88.0</td><td>94.6</td> <td>51.4</td><td>77.2</td><td>85.2</td> </tr>
    <tr> <td>SAN^</td><td>ResNet</td> <td>75.5</td><td>92.6</td><td>96.2</td> <td>60.1</td><td>84.7</td><td>90.6</td> </tr>
    <tr> <td>GSMN</td><td>BUTD, sparse</td> <td>71.4</td><td>92.0</td><td>96.1</td> <td>53.9</td><td>79.7</td><td>87.1</td> </tr>
@@ -256,6 +262,8 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>BFAN</td><td>BUTD, equal</td> <td>73.7</td><td>94.9</td><td>--</td> <td>58.3</td><td>87.5</td><td>--</td> </tr>
    <tr> <td>BFAN*</td><td>BUTD</td> <td>74.9</td><td>95.2</td><td>--</td> <td>59.4</td><td>88.4</td><td>--</td> </tr>
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>75.3</td><td>95.8</td><td>98.6</td> <td>62.5</td><td>89.7</td><td>95.1</td> </tr>
+   <tr> <td>CCRS*</td><td>BUTD, SCAN</td> <td>70.9</td><td>94.3</td><td>98.0</td> <td>57.3</td><td>87.6</td><td>94.3</td> </tr>
+   <tr> <td>CCRS*</td><td>BUTD, BFAN</td> <td>75.4</td><td>95.3</td><td>98.5</td> <td>60.3</td><td>88.6</td><td>94.6</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>75.5</td><td>95.4</td><td>98.5</td> <td>61.3</td><td>89.7</td><td>95.2</td> </tr>
    <tr> <td>VSRN</td><td>BUTD</td> <td>74.0</td><td>94.3</td><td>97.8</td> <td>60.8</td><td>88.4</td><td>94.1</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>76.2</td><td>94.8</td><td>98.2</td> <td>62.8</td><td>89.7</td><td>95.1</td> </tr>
@@ -270,6 +278,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>76.1</td><td>95.3</td><td>98.2</td> <td>61.0</td><td>88.6</td><td>94.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>74.0</td><td>95.6</td><td>98.4</td> <td>60.6</td><td>88.9</td><td>94.6</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>76.7</td><td>95.6</td><td>98.5</td> <td>61.7</td><td>89.1</td><td>95.0</td> </tr>
+   <tr> <td>SHAN</td><td>BUTD, T2I</td> <td>75.9</td><td>96.1</td><td>98.7</td> <td>60.7</td><td>88.2</td><td>94.2</td> </tr>
+   <tr> <td>SHAN</td><td>BUTD, I2T</td> <td>73.0</td><td>95.8</td><td>97.9</td> <td>58.5</td><td>87.3</td><td>94.0</td> </tr>
+   <tr> <td>SHAN</td><td>BUTD, Full</td> <td>76.8</td><td>96.3</td><td>98.7</td> <td>62.6</td><td>89.6</td><td>95.8</td> </tr>
    <tr> <td>PFAN++*</td><td>BUTD</td> <td>77.1</td><td>96.5</td><td>98.3</td> <td>62.5</td><td>89.9</td><td>95.4</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>76.1</td><td>95.5</td><td>98.4</td> <td>61.2</td><td>88.9</td><td>94.8</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>76.4</td><td>95.8</td><td>98.3</td> <td>62.3</td><td>89.4</td><td>96.2</td> </tr>
@@ -352,6 +363,8 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>51.4</td><td>81.8</td><td>89.1</td> <td>40.5</td><td>73.5</td><td>84.1</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>52.5</td><td>83.3</td><td>90.9</td> <td>41.2</td><td>70.3</td><td>82.9</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>53.0</td><td>81.1</td><td>89.4</td> <td>40.5</td><td>70.6</td><td>81.1</td> </tr>
+   <tr> <td>CCRS*</td><td>BUTD, SCAN</td> <td>47.9</td><td>78.1</td><td>88.2</td> <td>36.9</td><td>66.9</td><td>78.4</td> </tr>
+   <tr> <td>CCRS*</td><td>BUTD, BFAN</td> <td>53.1</td><td>81.8</td><td>90.2</td> <td>38.3</td><td>67.8</td><td>78.6</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>53.2</td><td>82.5</td><td>90.4</td> <td>38.9</td><td>68.5</td><td>79.2</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>52.0</td><td>81.8</td><td>90.1</td> <td>38.6</td><td>68.1</td><td>79.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>53.7</td><td>83.2</td><td>91.0</td> <td>39.7</td><td>69.1</td><td>79.8</td> </tr>
