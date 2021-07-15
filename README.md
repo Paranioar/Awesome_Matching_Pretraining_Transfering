@@ -3,7 +3,7 @@ Cross-modal_Retrieval_Tutorial
 The tutorial of Image-Text Matching will be constantly updated for Preliminary Insight !
 
 ## ``Logupdate ``
-【2021.07.11】 **Some recent works [LGSGM,CCRS,SHAN](./method.md/) have been added.**
+【2021.07.15】 **Some recent works [CAMERA,DIME](./method.md/) have been added.**
 
 【2021.07.10】 **A new section named [Vision-Language Pretraining](./method.md/#vision-language-pretraining) has been added.**
 
