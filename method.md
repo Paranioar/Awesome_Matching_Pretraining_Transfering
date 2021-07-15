@@ -305,7 +305,7 @@ Method Summary of Cross-modal Retrieval
 *Aviv Eisenschtat, Lior Wolf.*<br>
 [[paper]](https://arxiv.org/pdf/1608.07973)
 
-**(*MM2018_WSJE*) Webly Supervised Joint Embedding for Cross-Modal Image-Text Retrieval.**<br>
+**(*ACMMM2018_WSJE*) Webly Supervised Joint Embedding for Cross-Modal Image-Text Retrieval.**<br>
 *Niluthpol Chowdhury Mithun, Rameswar Panda, Evangelos E. Papalexakis, Amit K. Roy-Chowdhury.*<br>
 [[paper]](https://arxiv.org/pdf/1808.07793)
 
@@ -331,7 +331,7 @@ Method Summary of Cross-modal Retrieval
 *Lin Ma, Wenhao Jiang, Zequn Jie, Xu Wang.*<br>
 [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231219301390)
 
-**(*MM2019_SAEM*) Learning Fragment Self-Attention Embeddings for Image-Text Matching.**<br>
+**(*ACMMM2019_SAEM*) Learning Fragment Self-Attention Embeddings for Image-Text Matching.**<br>
 *Yiling Wu, Shuhui Wang, Guoli Song, Qingming Huang.*<br>
 [[paper]](https://dl.acm.org/doi/pdf/10.1145/3343031.3350940)
 [[code]](https://github.com/yiling2018/saem)
@@ -474,12 +474,12 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://dl.acm.org/doi/pdf/10.1145/3323873.3325043)
 [[code]](https://github.com/idejie/OAN)
 
-**(*MM2019_BFAN*) Focus Your Attention: A Bidirectional Focal Attention Network for Image-Text Matching.**<br>
+**(*ACMMM2019_BFAN*) Focus Your Attention: A Bidirectional Focal Attention Network for Image-Text Matching.**<br>
 *Chunxiao Liu, Zhendong Mao, An-An Liu, Tianzhu Zhang, Bin Wang, Yongdong Zhang.*<br>
 [[paper]](https://arxiv.org/pdf/1909.11416)
 [[code]](https://github.com/CrossmodalGroup/BFAN) 
 
-**(*MM2019_MTFN*) Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking.**<br>
+**(*ACMMM2019_MTFN*) Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking.**<br>
 *Tan Wang, Xing Xu, Yang Yang, Alan Hanjalic, Heng Tao Shen, Jingkuan Song.*<br>
 [[paper]](https://arxiv.org/pdf/1908.04011)
 [[code]](https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code) 
@@ -517,6 +517,10 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8994196)
 [[code]](https://github.com/Wangt-CN/Code_CASC) 
 
+**(*ACMMM2020_CAMERA*) Context-Aware Multi-View Summarization Network for Image-Text Matching.**<br>
+*Leigang Qu, Meng Liu, Da Cao, Liqiang Nie, Qi Tian.*<br>
+[[paper]](https://www.researchgate.net/profile/Meng-Liu-67/publication/346201037_Context-Aware_Multi-View_Summarization_Network_for_Image-Text_Matching/links/6052a29f299bf173674e0be6/Context-Aware-Multi-View-Summarization-Network-for-Image-Text-Matching.pdf)
+
 **(*AAAI2020_DP-RNN*) Expressing Objects just like Words: Recurrent Visual Embedding for Image-Text Matching.** <br>
 *Tianlang Chen, Jiebo Luo.*<br>
 [[paper]](https://arxiv.org/pdf/2002.08510.pdf)
@@ -547,6 +551,10 @@ Method Summary of Cross-modal Retrieval
 *Zhong Ji, Kexin Chen, Haoran Wang.*<br>
 [[paper]](https://arxiv.org/pdf/2106.06509)
 
+**(*SIGIR2021_DIME*) Dynamic Modality Interaction Modeling for Image-Text Retrieval.** <br>
+*Leigang Qu, Meng Liu, Jianlong Wu, Zan Gao, Liqiang Nie.*<br>
+[[paper]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462829)
+
 ### ``*Similarity Measurement*``
 **(*ICLR2016_Order-emb*) Order-Embeddings of Images and Language.**<br>
 *Ivan Vendrov, Ryan Kiros, Sanja Fidler, Raquel Urtasun.*<br>
@@ -573,7 +581,7 @@ Method Summary of Cross-modal Retrieval
 
 **(*AAAI2021_SGRAF*) Similarity Reasoning and Filtration for Image-Text Matching.**<br>
 *Haiwen Diao, Ying Zhang, Lin Ma, Huchuan Lu.*<br>
-[[paper]](https://drive.google.com/file/d/1tAE_qkAxiw1CajjHix9EXoI7xu2t66iQ/view?usp=sharing)
+[[paper]](https://arxiv.org/pdf/2101.01368)
 [[code]](https://github.com/Paranioar/SGRAF)
 
 ### ``*Commonsense Learning*``
@@ -589,10 +597,10 @@ Method Summary of Cross-modal Retrieval
 **(*ECCV2020_CVSE*) Consensus-Aware Visual-Semantic Embedding for Image-Text Matching.**<br>
 *Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma.*<br>
 [[paper]](https://arxiv.org/pdf/2007.08883.pdf)
-[[code]](https://github.com/BruceW91/CVSE)（Corrected codes）
+[[code]](https://github.com/BruceW91/CVSE)
 
 ### ``*Adversarial Learning*``
-**(*MM2017_ACMR*) Adversarial Cross-Modal Retrieval.**<br>
+**(*ACMMM2017_ACMR*) Adversarial Cross-Modal Retrieval.**<br>
 *Bokun Wang, Yang Yang, Xing Xu, Alan Hanjalic, Heng Tao Shen.*<br>
 [[paper]](http://cfm.uestc.edu.cn/~yangyang/papers/acmr.pdf)
 [[code]](https://github.com/sunpeng981712364/ACMR_demo)
@@ -690,7 +698,7 @@ Method Summary of Cross-modal Retrieval
 *Angelo Carraggi, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara.*<br>
 [[paper]](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11134/Carraggi_Visual-Semantic_Alignment_Across_Domains_Using_a_Semi-Supervised_Approach_ECCVW_2018_paper.pdf)
 
-**(*MM2019_A3VSE*) Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment.**<br>
+**(*ACMMM2019_A3VSE*) Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment.**<br>
 *Po-Yao Huang, Guoliang Kang, Wenhe Liu, Xiaojun Chang, Alexander G Hauptmann.*<br>
 [[paper]](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)
 
