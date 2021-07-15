@@ -393,6 +393,10 @@ Method Summary of Cross-modal Retrieval
 *Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen.*<br>
 [[paper]](https://arxiv.org/pdf/1910.05134)
 
+**(*ACMMM2020_CAMERA*) Context-Aware Multi-View Summarization Network for Image-Text Matching.**<br>
+*Leigang Qu, Meng Liu, Da Cao, Liqiang Nie, Qi Tian.*<br>
+[[paper]](https://www.researchgate.net/profile/Meng-Liu-67/publication/346201037_Context-Aware_Multi-View_Summarization_Network_for_Image-Text_Matching/links/6052a29f299bf173674e0be6/Context-Aware-Multi-View-Summarization-Network-for-Image-Text-Matching.pdf)
+
 **(*arXiv2021_DXR*) Cross-Modal Retrieval Augmentation for Multi-Modal Classification.**<br>
 *Shir Gur, Natalia Neverova, Chris Stauffer, Ser-Nam Lim, Douwe Kiela, Austin Reiter.*<br>
 [[paper]](https://arxiv.org/pdf/2104.08108)
@@ -516,10 +520,6 @@ Method Summary of Cross-modal Retrieval
 *Xing Xu, Tan Wang, Yang Yang, Lin Zuo, Fumin Shen, Heng Tao Shen.*<br>
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8994196)
 [[code]](https://github.com/Wangt-CN/Code_CASC) 
-
-**(*ACMMM2020_CAMERA*) Context-Aware Multi-View Summarization Network for Image-Text Matching.**<br>
-*Leigang Qu, Meng Liu, Da Cao, Liqiang Nie, Qi Tian.*<br>
-[[paper]](https://www.researchgate.net/profile/Meng-Liu-67/publication/346201037_Context-Aware_Multi-View_Summarization_Network_for_Image-Text_Matching/links/6052a29f299bf173674e0be6/Context-Aware-Multi-View-Summarization-Network-for-Image-Text-Matching.pdf)
 
 **(*AAAI2020_DP-RNN*) Expressing Objects just like Words: Recurrent Visual Embedding for Image-Text Matching.** <br>
 *Tianlang Chen, Jiebo Luo.*<br>
