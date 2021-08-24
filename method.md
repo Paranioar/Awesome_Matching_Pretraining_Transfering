@@ -800,6 +800,10 @@ Method Summary of Cross-modal Retrieval
 *Yuyu Wang, Chunjuan Bo, Dong Wang, Shuang Wang, Yunwei Qi, Huchuan Lu.*<br>
 [[paper]](https://ieeexplore.ieee.org/document/8682456)
 
+**(*ACMMM2019_A-GANet*) Deep adversarial graph attention convolution network for text-based person search.**<br>
+*Jiawei Liu, Zheng-Jun Zha, Richang Hong, Meng Wang, Yongdong Zhang.*<br>
+[[paper]](https://dl.acm.org/doi/pdf/10.1145/3343031.3350991?casa_token=P1d2TR_i_XUAAAAA:cYOVht8CMCuRGo1Q__knkyN-M76d9J0F3lqhuTXOi7VZTfl604QZjGtn_nZ4bqaD4qugCmKfIA)
+
 **(*ICCV2019_TIMAM*) Adversarial Representation Learning for Text-to-Image Matching.**<br>
 *Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris.*<br>
 [[paper]](https://arxiv.org/pdf/1908.10534.pdf)
@@ -821,6 +825,10 @@ Method Summary of Cross-modal Retrieval
 **(*TIP2020_MIA*) Improving Description-based Person Re-identification by Multi-granularity Image-text Alignment.**<br>
 *Kai Niu, Yan Huang, Wanli Ouyang, Liang Wang.*<br>
 [[paper]](https://arxiv.org/pdf/1906.09610)
+
+**(*WACV2020_CMAAM*) Text-based Person Search via Attribute-aided Matching.**<br>
+*Surbhi Aggarwal, R. Venkatesh Babu, Anirban Chakraborty.*<br>
+[[paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Aggarwal_Text-based_Person_Search_via_Attribute-aided_Matching_WACV_2020_paper.pdf)
 
 **(*AAAI2020_PMA*) Pose-Guided Multi-Granularity Attention Network for Text-Based Person Search.**<br>
 *Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan.*<br>
