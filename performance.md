@@ -154,6 +154,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>IMRAM</td><td>BUTD, Image</td> <td>67.0</td><td>90.5</td><td>95.6</td> <td>51.2</td><td>78.2</td><td>85.5</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Text</td> <td>68.8</td><td>91.6</td><td>96.0</td> <td>53.0</td><td>79.0</td><td>87.1</td> </tr>
    <tr> <td>IMRAM</td><td>BUTD, Full</td> <td>74.1</td><td>93.0</td><td>96.6</td> <td>53.9</td><td>79.4</td><td>87.2</td> </tr>
+   <tr> <td>HAN</td><td>BUTD</td> <td>74.1</td><td>92.4</td><td>96.4</td> <td>54.8</td><td>81.1</td><td>87.4</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.2</td><td>92.8</td><td>96.4</td> <td>54.8</td><td>81.4</td><td>87.8</td> </tr>
    <tr> <td>SHAN</td><td>BUTD, T2I</td> <td>72.5</td><td>92.3</td><td>95.8</td> <td>53.6</td><td>78.6</td><td>85.5</td> </tr>
    <tr> <td>SHAN</td><td>BUTD, I2T</td> <td>70.6</td><td>91.7</td><td>95.5</td> <td>50.5</td><td>77.1</td><td>85.2</td> </tr>
@@ -177,6 +178,8 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>DSRAN*</td><td>BUTD, Bert</td> <td>77.8</td><td>95.1</td><td>97.6</td> <td>59.2</td><td>86.0</td><td>91.9</td> </tr>
    <tr> <td>CAMERA</td><td>BUTD, Bert</td> <td>76.5</td><td>95.1</td><td>97.2</td> <td>58.9</td><td>84.7</td><td>90.2</td> </tr>
    <tr> <td>CAMERA*</td><td>BUTD, Bert</td> <td>78.0</td><td>95.1</td><td>97.9</td> <td>60.3</td><td>85.9</td><td>91.7</td> </tr>
+   <tr> <td>CAEMCL</td><td>BUTD</td> <td>76.3</td><td>93.2</td><td>96.5</td> <td>57.0</td><td>82.1</td><td>88.5</td> </tr>
+   <tr> <td>CAEMCL*</td><td>BUTD</td> <td>78.7</td><td>94.5</td><td>97.9</td> <td>58.2</td><td>83.6</td><td>89.6</td> </tr>
    <tr> <td>T-EMDE</td><td>BUTD, SAF</td> <td>75.2</td><td>94.2</td><td>97.1</td> <td>57.1</td><td>82.2</td><td>88.3</td> </tr>
    <tr> <td>T-EMDE</td><td>BUTD, SGR</td> <td>77.5</td><td>93.1</td><td>97.2</td> <td>56.9</td><td>82.0</td><td>87.5</td> </tr>
    <tr> <td>T-EMDE*</td><td>BUTD, SGRAF</td> <td>78.8</td><td>94.4</td><td>97.5</td> <td>59.6</td><td>83.6</td><td>89.2</td> </tr>
@@ -316,6 +319,8 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>DIME</td><td>BUTD, I2T, Bert</td> <td>77.9</td><td>95.9</td><td>98.3</td> <td>63.0</td><td>90.5</td><td>96.2</td> </tr>
    <tr> <td>DIME</td><td>BUTD, T2I, Bert</td> <td>77.2</td><td>95.5</td><td>98.5</td> <td>62.3</td><td>90.2</td><td>95.8</td> </tr>
    <tr> <td>DIME*</td><td>BUTD, Bert</td> <td>78.8</td><td>96.3</td><td>98.7</td> <td>64.8</td><td>91.5</td><td>96.5</td> </tr>
+   <tr> <td>CAEMCL</td><td>BUTD</td> <td>77.6</td><td>96.4</td><td>98.8</td> <td>62.2</td><td>89.8</td><td>95.8</td> </tr>
+   <tr> <td>CAEMCL*</td><td>BUTD</td> <td>78.9</td><td>97.5</td><td>98.8</td> <td>65.7</td><td>90.2</td><td>96.6</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>76.1</td><td>95.4</td><td>98.3</td> <td>61.8</td><td>89.4</td><td>95.3</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>78.0</td><td>95.8</td><td>98.2</td> <td>61.4</td><td>89.3</td><td>95.4</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>79.6</td><td>96.2</td><td>98.5</td> <td>63.2</td><td>90.7</td><td>96.1</td> </tr>
