@@ -10,6 +10,7 @@ Peformance Comparison of Cross-modal Retrieval
     * [MSCOCO5K](#performance-of-mscoco5k)
 * [Identity-aware datasets](#peformance-of-identity-aware-datasets)
     * [CUHK-PEDES](#performance-of-cuhk-pedes)
+    * [ICFG-PEDES](#performance-of-icfg-pedes)
     * [CUB-Flowers](#performance-of-cub-flowers)
 
 
@@ -440,8 +441,23 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>ITMeetsAL</td><td>ResNet</td> <td>55.72</td><td>76.15</td><td>84.26</td> </tr>
    <tr> <td>ViTAA</td><td>ResNet</td> <td>55.97</td><td>75.84</td><td>83.52</td> </tr>
    <tr> <td>FTD</td><td>ResNet</td> <td>57.84</td><td>78.33</td><td>85.43</td> </tr>
+   <tr> <td>SSAN</td><td>VggNet</td> <td>55.52</td><td>76.17</td><td>83.45</td> </tr>
+   <tr> <td>SSAN</td><td>ResNet</td> <td>61.37</td><td>80.15</td><td>86.73</td> </tr>
    <tr> <td>NAFS</td><td>ResNet, Bert</td> <td>59.94</td><td>79.86</td><td>86.70</td> </tr>
    <tr> <td>NAFS</td><td>+RVN</td> <td>61.50</td><td>81.19</td><td>87.51</td> </tr>
+</table> 
+
+### *Performance of ICFG-PEDES*
+<table>
+   <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
+        <td colspan="3", align="center">Text-to-Image</td> </tr>
+   <tr> <td>R@1</td><td>R@5</td><td>R@10</td></tr>
+   <tr> <td>Dual-Path</td><td>ResNet</td> <td>38.99</td><td>59.44</td><td>68.41</td> </tr>
+   <tr> <td>CMPL</td><td>ResNet</td> <td>43.51</td><td>65.44</td><td>74.26</td> </tr>
+   <tr> <td>MIA</td><td>ResNet</td> <td>46.49</td><td>67.14</td><td>75.18</td> </tr>
+   <tr> <td>SCAN</td><td>ResNet</td> <td>50.05</td><td>69.65</td><td>77.21</td> </tr>
+   <tr> <td>ViTAA</td><td>ResNet</td> <td>50.98</td><td>68.79</td><td>75.78</td> </tr>
+   <tr> <td>SSAN</td><td>ResNet</td> <td>54.23</td><td>72.63</td><td>79.53</td> </tr>
 </table> 
 
 ### *Performance of CUB-Flowers*
