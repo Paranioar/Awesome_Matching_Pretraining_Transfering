@@ -41,4 +41,4 @@ The tutorial of Image-Text Matching will be constantly updated for Preliminary I
     
 
 ## ``License ``
-[MIT license](LICENSE). If any questions, please contact me at (r1228240468@mail.dlut.edu.cn) or (r1228240468@gmail.com).
+[MIT license](LICENSE). If any questions, please contact me at r1228240468@gmail.com.
