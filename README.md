@@ -3,7 +3,11 @@ Cross-modal_Retrieval_Tutorial
 The tutorial of Image-Text Matching will be constantly updated for Preliminary Insight !
 
 ## ``Logupdate ``
-【2021.08.24】 **Some recent Pretrained works [ClipBERT, UC2, LightingDOT, GilBERT, SOHO](./method.md/) and Conventional methods [OLVSEM, SSP, HEI, SSAN, MGEL, SMFEA, HAN, CAEMCL, A-GANet, CMAAM](./method.md/) have been added.**  
+【2021.11.17】 **Pretrained works [TDMR, VLDeformer, CAMoE, MURAL, KD-VLP, DistillVLM, VLMO, ALBEF, SimVLM, CLIP2Video, CLIP2TV](./method.md/#vision-language-pretraining) and Conventional methods [WCGL, LapsCore, AACH, CSCC, Meta-SPN, DSSL, SAM, SSAMT, IMRL](./method.md/#generic-feature-extraction) have been added.**  
+
+【2021.11.17】 **A new section named [RSTPReid](./performance.md/#performance-of-rstpreid) (A new dataset from DSSL) has been added.**  
+
+【2021.08.24】 **Pretrained works [ClipBERT, UC2, LightingDOT, GilBERT, SOHO](./method.md/#vision-language-pretraining) and Conventional methods [OLVSEM, SSP, HEI, SSAN, MGEL, SMFEA, HAN, CAEMCL, A-GANet, CMAAM](./method.md/#generic-feature-extraction) have been added.**  
 
 【2021.08.24】 **A new section named [ICFG-PEDES](./performance.md/#performance-of-icfg-pedes) (A new dataset from SSAN) has been added.**  
 
@@ -15,6 +19,7 @@ The tutorial of Image-Text Matching will be constantly updated for Preliminary I
     * [Flickr30K](./performance.md/#performance-of-flickr30k)
     * [MSCOCO1K](./performance.md/#performance-of-mscoco1k)
     * [MSCOCO5K](./performance.md/#performance-of-mscoco5k)
+    * [RSTPReid](./performance.md/#performance-of-rstpreid)
     * [CUHK-PEDES](./performance.md/#performance-of-cuhk-pedes)
     * [ICFG-PEDES](./performance.md/#performance-of-icfg-pedes)
     * [CUB-Flowers](./performance.md/#performance-of-cub-flowers)
