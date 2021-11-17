@@ -9,6 +9,7 @@ Peformance Comparison of Cross-modal Retrieval
     * [MSCOCO1K](#performance-of-mscoco1k)
     * [MSCOCO5K](#performance-of-mscoco5k)
 * [Identity-aware datasets](#peformance-of-identity-aware-datasets)
+    * [RSTPReid](#performance-of-rstpreid)
     * [CUHK-PEDES](#performance-of-cuhk-pedes)
     * [ICFG-PEDES](#performance-of-icfg-pedes)
     * [CUB-Flowers](#performance-of-cub-flowers)
@@ -143,6 +144,8 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>57.2</td><td>85.1</td><td>92.1</td> <td>40.1</td><td>69.5</td><td>79.5</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>71.8</td><td>90.8</td><td>94.8</td> <td>49.3</td><td>76.4</td><td>85.6</td> </tr>
    <tr> <td>SGM</td><td>BUTD</td> <td>71.8</td><td>91.7</td><td>95.5</td> <td>53.5</td><td>79.6</td><td>86.5</td> </tr>
+   <tr> <td>Meta-SPN*</td><td>BFAN*</td> <td>72.5</td><td>93.2</td><td>96.7</td> <td>53.3</td><td>80.2</td><td>87.2</td> </tr>
+   <tr> <td>CSCC</td><td>BUTD, +GloVe</td> <td>72.7</td><td>93.4</td><td>96.5</td> <td>61.2</td><td>86.7</td><td>91.5</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>71.3</td><td>91.5</td><td>96.4</td> <td>54.0</td><td>80.0</td><td>87.6</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>72.1</td><td>93.1</td><td>96.1</td> <td>53.5</td><td>80.4</td><td>87.4</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>73.0</td><td>92.5</td><td>96.6</td> <td>55.6</td><td>82.0</td><td>88.9</td> </tr>
@@ -159,10 +162,15 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SHAN</td><td>BUTD, T2I</td> <td>72.5</td><td>92.3</td><td>95.8</td> <td>53.6</td><td>78.6</td><td>85.5</td> </tr>
    <tr> <td>SHAN</td><td>BUTD, I2T</td> <td>70.6</td><td>91.7</td><td>95.5</td> <td>50.5</td><td>77.1</td><td>85.2</td> </tr>
    <tr> <td>SHAN</td><td>BUTD, Full</td> <td>74.6</td><td>93.5</td><td>96.9</td> <td>55.3</td><td>81.3</td><td>88.4</td> </tr>
+   <tr> <td>WCGL</td><td>BUTD</td> <td>74.8</td><td>93.3</td><td>96.8</td> <td>54.8</td><td>80.6</td><td>87.5</td> </tr>
    <tr> <td>CCRS*</td><td>BUTD, SCAN</td> <td>70.1</td><td>92.0</td><td>96.0</td> <td>52.3</td><td>79.9</td><td>86.8</td> </tr>
    <tr> <td>CCRS*</td><td>BUTD, BFAN</td> <td>75.3</td><td>93.6</td><td>96.7</td> <td>55.4</td><td>81.3</td><td>87.7</td> </tr>
+   <tr> <td>SSAMT</td><td>BUTD, Bert</td> <td>75.4</td><td>92.6</td><td>96.4</td> <td>54.8</td><td>81.5</td><td>88.0</td> </tr>
    <tr> <td>SAN^</td><td>VggNet</td> <td>67.0</td><td>88.0</td><td>94.6</td> <td>51.4</td><td>77.2</td><td>85.2</td> </tr>
    <tr> <td>SAN^</td><td>ResNet</td> <td>75.5</td><td>92.6</td><td>96.2</td> <td>60.1</td><td>84.7</td><td>90.6</td> </tr>
+   <tr> <td>SAM</td><td>VSRN</td> <td>68.4</td><td>89.7</td><td>94.8</td> <td>52.4</td><td>78.7</td><td>86.6</td> </tr>
+   <tr> <td>SAM^</td><td>CVSE^</td> <td>70.0</td><td>89.2</td><td>93.1</td> <td>55.0</td><td>82.6</td><td>89.0</td> </tr>
+   <tr> <td>SAM</td><td>SGR</td> <td>75.9</td><td>92.4</td><td>96.6</td> <td>57.6</td><td>83.1</td><td>89.7</td> </tr>
    <tr> <td>GSMN</td><td>BUTD, sparse</td> <td>71.4</td><td>92.0</td><td>96.1</td> <td>53.9</td><td>79.7</td><td>87.1</td> </tr>
    <tr> <td>GSMN</td><td>BUTD, dense</td> <td>72.6</td><td>93.5</td><td>96.8</td> <td>53.7</td><td>80.0</td><td>87.0</td> </tr>
    <tr> <td>GSMN*</td><td>BUTD</td> <td>76.4</td><td>94.3</td><td>97.3</td> <td>57.4</td><td>82.3</td><td>89.0</td> </tr>
@@ -265,6 +273,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>MTFN</td><td>BUTD</td> <td>71.9</td><td>94.2</td><td>97.9</td> <td>57.3</td><td>88.6</td><td>95.0</td> </tr>
    <tr> <td>MTFN</td><td>BUTD, RR_no_STT</td> <td>74.3</td><td>94.9</td><td>97.9</td> <td>57.5</td><td>88.8</td><td>95.0</td> </tr>
    <tr> <td>MTFN</td><td>BUTD, RR_STT</td> <td>74.3</td><td>94.9</td><td>97.9</td> <td>60.1</td><td>89.1</td><td>95.0</td> </tr>
+   <tr> <td>Meta-SPN</td><td>BFAN, equal</td> <td>74.4</td><td>95.0</td><td>98.3</td> <td>58.6</td><td>87.6</td><td>94.3</td> </tr>
    <tr> <td>RDAN</td><td>BUTD</td> <td>74.6</td><td>96.2</td><td>98.7</td> <td>61.6</td><td>89.2</td><td>94.7</td> </tr>
    <tr> <td>CVSE</td><td>BUTD</td> <td>74.8</td><td>95.1</td><td>98.3</td> <td>59.9</td><td>89.4</td><td>95.2</td> </tr>
    <tr> <td>MMCA</td><td>BUTD, Bert</td> <td>74.8</td><td>95.6</td><td>97.7</td> <td>61.6</td><td>89.8</td><td>95.2</td> </tr>
@@ -275,6 +284,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>DP-RNN</td><td>BUTD</td> <td>75.3</td><td>95.8</td><td>98.6</td> <td>62.5</td><td>89.7</td><td>95.1</td> </tr>
    <tr> <td>CCRS*</td><td>BUTD, SCAN</td> <td>70.9</td><td>94.3</td><td>98.0</td> <td>57.3</td><td>87.6</td><td>94.3</td> </tr>
    <tr> <td>CCRS*</td><td>BUTD, BFAN</td> <td>75.4</td><td>95.3</td><td>98.5</td> <td>60.3</td><td>88.6</td><td>94.6</td> </tr>
+   <tr> <td>WCGL</td><td>BUTD</td> <td>75.4</td><td>95.5</td><td>98.6</td> <td>60.8</td><td>89.3</td><td>95.3</td> </tr>
    <tr> <td>CAAN</td><td>BUTD</td> <td>75.5</td><td>95.4</td><td>98.5</td> <td>61.3</td><td>89.7</td><td>95.2</td> </tr>
    <tr> <td>VSRN</td><td>BUTD</td> <td>74.0</td><td>94.3</td><td>97.8</td> <td>60.8</td><td>88.4</td><td>94.1</td> </tr>
    <tr> <td>VSRN*</td><td>BUTD</td> <td>76.2</td><td>94.8</td><td>98.2</td> <td>62.8</td><td>89.7</td><td>95.1</td> </tr>
@@ -307,6 +317,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>TOD-Net</td><td>VSE++</td> <td>68.6</td><td>92.0</td><td>96.9</td> <td>54.5</td><td>85.3</td><td>92.4</td> </tr>
    <tr> <td>TOD-Net</td><td>Bert</td> <td>75.8</td><td>95.3</td><td>98.4</td> <td>61.8</td><td>89.6</td><td>95.0</td> </tr>
    <tr> <td>TOD-Net*</td><td>Bert</td> <td>78.1</td><td>96.0</td><td>98.6</td> <td>63.6</td><td>90.6</td><td>95.8</td> </tr>
+   <tr> <td>SSAMT</td><td>BUTD, Bert</td> <td>78.2</td><td>95.6</td><td>98.0</td> <td>62.7</td><td>89.6</td><td>95.3</td> </tr>
    <tr> <td>HAL</td><td>SCAN_I2T</td> <td>78.3</td><td>96.3</td><td>98.5</td> <td>60.1</td><td>86.7</td><td>92.8</td> </tr>
    <tr> <td>DSRAN</td><td>BUTD, GRU</td> <td>76.3</td><td>94.9</td><td>98.4</td> <td>62.4</td><td>89.7</td><td>95.2</td> </tr>
    <tr> <td>DSRAN</td><td>BUTD, Bert</td> <td>77.1</td><td>95.3</td><td>98.1</td> <td>62.9</td><td>89.9</td><td>95.3</td> </tr>
@@ -319,6 +330,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>DIME</td><td>BUTD, I2T, Bert</td> <td>77.9</td><td>95.9</td><td>98.3</td> <td>63.0</td><td>90.5</td><td>96.2</td> </tr>
    <tr> <td>DIME</td><td>BUTD, T2I, Bert</td> <td>77.2</td><td>95.5</td><td>98.5</td> <td>62.3</td><td>90.2</td><td>95.8</td> </tr>
    <tr> <td>DIME*</td><td>BUTD, Bert</td> <td>78.8</td><td>96.3</td><td>98.7</td> <td>64.8</td><td>91.5</td><td>96.5</td> </tr>
+   <tr> <td>CSCC^</td><td>BUTD, +GloVe</td> <td>78.8</td><td>96.1</td><td>99.0</td> <td>66.6</td><td>92.5</td><td>96.4</td> </tr>
    <tr> <td>CAEMCL</td><td>BUTD</td> <td>77.6</td><td>96.4</td><td>98.8</td> <td>62.2</td><td>89.8</td><td>95.8</td> </tr>
    <tr> <td>CAEMCL*</td><td>BUTD</td> <td>78.9</td><td>97.5</td><td>98.8</td> <td>65.7</td><td>90.2</td><td>96.6</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>76.1</td><td>95.4</td><td>98.3</td> <td>61.8</td><td>89.4</td><td>95.3</td> </tr>
@@ -327,6 +339,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>T-EMDE</td><td>BUTD, SAF</td> <td>78.3</td><td>95.7</td><td>98.5</td> <td>62.3</td><td>89.7</td><td>95.2</td> </tr>
    <tr> <td>T-EMDE</td><td>BUTD, SGR</td> <td>77.1</td><td>95.9</td><td>98.5</td> <td>61.6</td><td>89.5</td><td>95.1</td> </tr>
    <tr> <td>T-EMDE*</td><td>BUTD, SGRAF</td> <td>79.6</td><td>96.3</td><td>98.7</td> <td>63.5</td><td>90.4</td><td>95.6</td> </tr>
+   <tr> <td>SAM</td><td>VSRN</td> <td>74.6</td><td>93.6</td><td>97.5</td> <td>61.5</td><td>89.6</td><td>94.9</td> </tr>
+   <tr> <td>SAM^</td><td>CVSE^</td> <td>79.8</td><td>95.1</td><td>97.7</td> <td>67.0</td><td>93.0</td><td>97.3</td> </tr>
+   <tr> <td>SAM</td><td>SGR</td> <td>80.7</td><td>97.2</td><td>98.6</td> <td>63.8</td><td>90.5</td><td>95.9</td> </tr>
    <tr> <td>ACMM</td><td>BUTD</td> <td>81.9</td><td>98.0</td><td>99.3</td> <td>58.2</td><td>87.3</td><td>93.9</td> </tr>
    <tr> <td>ACMM*</td><td>BUTD</td> <td>84.1</td><td>97.8</td><td>99.4</td> <td>60.7</td><td>88.7</td><td>94.9</td> </tr>
    <tr> <td>PG*</td><td>BUTD, +GloVe</td> <td>84.0</td><td>95.8</td><td>97.8</td> <td>63.9</td><td>88.9</td><td>95.6</td> </tr>
@@ -375,8 +390,9 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>CAMP</td><td>BUTD</td> <td>50.1</td><td>82.1</td><td>89.7</td> <td>39.0</td><td>68.9</td><td>80.2</td> </tr>   
    <tr> <td>SCAN</td><td>BUTD, I2T_LSE</td> <td>46.4</td><td>77.4</td><td>87.2</td> <td>34.4</td><td>63.7</td><td>75.7</td> </tr>
    <tr> <td>SCAN*</td><td>BUTD, AVE+LSE</td> <td>50.4</td><td>82.2</td><td>90.0</td> <td>38.6</td><td>69.3</td><td>80.4</td> </tr>
-   <tr> <td>GOT</td><td>SCAN_I2T</td> <td>50.5</td><td>80.2</td><td>89.8</td> <td>38.1</td><td>66.8</td><td>78.5</td> </tr>
+   <tr> <td>GOT</td><td>SCAN_I2T</td> <td>50.5</td><td>80.2</td><td>89.8</td> <td>38.1</td><td>66.8</td><td>78.5</td> </tr>   
    <tr> <td>PFAN*</td><td>BUTD</td> <td>50.8</td><td>83.9</td><td>89.1</td> <td>39.5</td><td>69.5</td><td>80.8</td> </tr>
+   <tr> <td>Meta-SPN</td><td>BFAN, equal</td> <td>51.0</td><td>81.1</td><td>89.4</td> <td>37.5</td><td>66.7</td><td>77.5</td> </tr>
    <tr> <td>PFAN++*</td><td>BUTD</td> <td>51.2</td><td>84.3</td><td>89.2</td> <td>41.4</td><td>70.9</td><td>79.0</td> </tr>
    <tr> <td>HOAD</td><td>BUTD</td> <td>51.2</td><td>81.7</td><td>89.1</td> <td>39.4</td><td>72.5</td><td>84.1</td> </tr>
    <tr> <td>HOAD</td><td>BUTD, +Dist</td> <td>51.4</td><td>81.8</td><td>89.1</td> <td>40.5</td><td>73.5</td><td>84.1</td> </tr>
@@ -395,7 +411,11 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>DSRAN</td><td>BUTD, Bert</td> <td>53.7</td><td>82.1</td><td>89.9</td> <td>40.3</td><td>70.9</td><td>81.3</td> </tr>
    <tr> <td>DSRAN*</td><td>BUTD, GRU</td> <td>54.4</td><td>83.5</td><td>91.3</td> <td>41.5</td><td>71.9</td><td>82.1</td> </tr>
    <tr> <td>DSRAN*</td><td>BUTD, Bert</td> <td>55.3</td><td>83.5</td><td>90.9</td> <td>41.7</td><td>72.7</td><td>82.8</td> </tr>
+   <tr> <td>CSCC</td><td>BUTD, +GloVe</td> <td>55.6</td><td>83.6</td><td>91.2</td> <td>40.8</td><td>73.2</td><td>84.3</td> </tr>
    <tr> <td>TERAN</td><td>BUTD, Bert</td> <td>55.6</td><td>83.9</td><td>91.6</td> <td>42.6</td><td>72.5</td><td>82.9</td> </tr>
+   <tr> <td>SAM</td><td>VSRN</td> <td>49.1</td><td>79.0</td><td>87.4</td> <td>37.5</td><td>68.1</td><td>79.5</td> </tr>
+   <tr> <td>SAM</td><td>SGR</td> <td>55.7</td><td>83.2</td><td>91.2</td> <td>40.5</td><td>69.7</td><td>80.5</td> </tr>
+   <tr> <td>SAM^</td><td>CVSE^</td> <td>56.4</td><td>82.4</td><td>90.1</td> <td>42.3</td><td>73.9</td><td>84.5</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Prod</td> <td>49.9</td><td>78.9</td><td>88.1</td> <td>33.2</td><td>62.4</td><td>74.7</td> </tr>
    <tr> <td>SCG</td><td>VggNet, Gated</td> <td>56.6</td><td>84.5</td><td>92.0</td> <td>39.2</td><td>68.0</td><td>81.3</td> </tr>
    <tr> <td>AOQ*</td><td>BUTD, SCAN</td> <td>51.2</td><td>82.5</td><td>90.1</td> <td>39.4</td><td>69.7</td><td>80.4</td> </tr>
@@ -404,6 +424,7 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>ADDR*</td><td>BUTD, BFAN</td> <td>54.3</td><td>84.0</td><td>91.5</td> <td>40.1</td><td>69.2</td><td>80.6</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, VSRN</td> <td>56.6</td><td>85.3</td><td>90.4</td> <td>42.5</td><td>71.9</td><td>82.0</td> </tr>
    <tr> <td>ADDR*</td><td>BUTD, SCAN</td> <td>57.3</td><td>86.0</td><td>92.7</td> <td>41.8</td><td>72.0</td><td>81.3</td> </tr>
+   <tr> <td>SSAMT</td><td>BUTD, Bert</td> <td>57.7</td><td>84.2</td><td>90.8</td> <td>40.8</td><td>70.5</td><td>80.5</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SAF</td> <td>53.3</td><td>82.3</td><td>90.1</td> <td>39.8</td><td>69.0</td><td>80.2</td> </tr>
    <tr> <td>SGRAF</td><td>BUTD, SGR</td> <td>56.9</td><td>83.2</td><td>90.5</td> <td>40.2</td><td>69.0</td><td>79.8</td> </tr>
    <tr> <td>SGRAF*</td><td>BUTD</td> <td>57.8</td><td>84.9</td><td>91.6</td> <td>41.9</td><td>70.7</td><td>81.3</td> </tr>
@@ -424,6 +445,14 @@ Peformance Comparison of Cross-modal Retrieval
 </table> 
 
 ## ``Peformance of Identity-aware Datasets``
+
+### *Performance of RSTPReid*
+<table>
+   <tr> <td rowspan="2">Method_name</td> <td rowspan="2", align="center">Concise_note</td> 
+        <td colspan="3", align="center">Text-to-Image</td> </tr>
+   <tr> <td>R@1</td><td>R@5</td><td>R@10</td></tr>
+   <tr> <td>DSSL</td><td>ResNet</td> <td>32.43</td><td>55.08</td><td>63.19</td> </tr>
+</table> 
 
 ### *Performance of CUHK-PEDES*
 <table>
@@ -459,6 +488,10 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>SSAN</td><td>ResNet</td> <td>61.37</td><td>80.15</td><td>86.73</td> </tr>
    <tr> <td>NAFS</td><td>ResNet, Bert</td> <td>59.94</td><td>79.86</td><td>86.70</td> </tr>
    <tr> <td>NAFS</td><td>+RVN</td> <td>61.50</td><td>81.19</td><td>87.51</td> </tr>
+   <tr> <td>DSSL</td><td>ResNet</td> <td>59.98</td><td>80.41</td><td>87.56</td> </tr>
+   <tr> <td>DSSL</td><td>+RR</td> <td>62.33</td><td>82.11</td><td>88.01</td> </tr>
+   <tr> <td>LapsCore</td><td>CMPL</td> <td>53.33</td><td>--</td><td>83.20</td> </tr>
+   <tr> <td>LapsCore</td><td>NAFS</td> <td>63.40</td><td>--</td><td>87.80</td> </tr>
 </table> 
 
 ### *Performance of ICFG-PEDES*
@@ -490,4 +523,6 @@ Peformance Comparison of Cross-modal Retrieval
    <tr> <td>CMPM</td><td>MobileNet</td> <td>62.1</td><td>64.6</td> <td>66.1</td><td>67.7</td> </tr>
    <tr> <td>CMPL</td><td>MobileNet</td> <td>64.3</td><td>67.9</td> <td>68.9</td><td>69.7</td> </tr>
    <tr> <td>TIMAM</td><td>ResNet, Bert</td> <td>67.7</td><td>70.3</td> <td>70.6</td><td>73.7</td> </tr>
+   <tr> <td>LapsCore</td><td>CMPL</td> <td>68.0</td><td>66.0</td> <td>75.2</td><td>71.4</td> </tr>
+   <tr> <td>LapsCore</td><td>CMP_adv</td> <td>72.3</td><td>69.5</td> <td>77.9</td><td>73.3</td> </tr>
 </table> 
