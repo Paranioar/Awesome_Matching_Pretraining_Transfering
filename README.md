@@ -1,17 +1,22 @@
 Cross-modal_Retrieval_Tutorial
 ==============================
-The tutorial of Image-Text Matching will be constantly updated for Preliminary Insight !
+The tutorial of Cross-Modal Matching will be constantly updated for Preliminary Insight !
 
 ## ``Logupdate ``
-【2021.11.17】 **Pretrained works [TDMR, VLDeformer, CAMoE, MURAL, KD-VLP, DistillVLM, VLMO, ALBEF, SimVLM, CLIP2Video, CLIP2TV](./method.md/#vision-language-pretraining) and Conventional methods [WCGL, LapsCore, AACH, CSCC, Meta-SPN, DSSL, SAM, SSAMT, IMRL](./method.md/#generic-feature-extraction) have been added.**  
 
-【2021.11.17】 **A new section named [RSTPReid](./performance.md/#performance-of-rstpreid) (A new dataset from DSSL) has been added.**  
+***`` Section Updating ``***
 
-【2021.08.24】 **Pretrained works [ClipBERT, UC2, LightingDOT, GilBERT, SOHO](./method.md/#vision-language-pretraining) and Conventional methods [OLVSEM, SSP, HEI, SSAN, MGEL, SMFEA, HAN, CAEMCL, A-GANet, CMAAM](./method.md/#generic-feature-extraction) have been added.**  
+【2021.12.11】 A new section named ***[Video-Text Learning]*** has been added.  
+【2021.11.17】 A new section named ***[RSTPReid]*** has been added.  
+【2021.08.24】 A new section named ***[ICFG-PEDES]*** has been added.  
+【2021.07.10】 A new section named ***[Vision-Language Pretraining]*** has been added.  
 
-【2021.08.24】 **A new section named [ICFG-PEDES](./performance.md/#performance-of-icfg-pedes) (A new dataset from SSAN) has been added.**  
+***`` Paper Updating ``***
 
-【2021.07.10】 **A new section named [Vision-Language Pretraining](./method.md/#vision-language-pretraining) has been added.**
+【2021.12.11】 Pretrained works ***[ActBERT, DeCLIP, TAGS, FILIP, LiT, Florence, OATransformer, RegionLearner](./method.md/#vision-language-pretraining)*** and Conventional methods ***[MEMBER, MRL, NCR, LESS, SwAMP, ISERI](./method.md/#generic-feature-extraction)*** have been added.  
+【2021.11.17】 Pretrained works ***[TDMR, VLDeformer, CAMoE, MURAL, KD-VLP, DistillVLM, VLMO, ALBEF, SimVLM, CLIP2Video, CLIP2TV](./method.md/#vision-language-pretraining)*** and Conventional methods ***[WCGL, LapsCore, AACH, CSCC, Meta-SPN, DSSL, SAM, SSAMT, IMRL](./method.md/#generic-feature-extraction)*** have been added.   
+【2021.08.24】 Pretrained works ***[ClipBERT, UC2, LightingDOT, GilBERT, SOHO](./method.md/#vision-language-pretraining)*** and Conventional methods ***[OLVSEM, SSP, HEI, SSAN, MGEL, SMFEA, HAN, CAEMCL, A-GANet, CMAAM](./method.md/#generic-feature-extraction)*** have been added.  
+
 
 ## ``Catalogue ``
 * [Peformance Comparison](./performance.md)
@@ -35,6 +40,7 @@ The tutorial of Image-Text Matching will be constantly updated for Preliminary I
     * [Un-/Semi-Supervised](./method.md/#un-supervised-or-semi-supervised)
     * [Zero-/Fewer-Shot](./method.md/#zero-shot-or-fewer-shot)
     * [Identification Learning](./method.md/#identification-learning)
+    * [Video-Text Learning](https://github.com/danieljf24/awesome-video-text-retrieval)
     * [Scene-Text Learning](./method.md/#scene-text-learning)
     * [Related Works](./method.md/#related-works)  
     * [Posted in](./method.md/#posted-in)
