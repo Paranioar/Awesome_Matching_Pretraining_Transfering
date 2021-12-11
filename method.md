@@ -186,6 +186,10 @@ Method Summary of Cross-modal Retrieval
 *Hrituraj Singh, Sumit Shekhar.*<br>
 [[paper]](https://aclanthology.org/2020.emnlp-main.264.pdf)
 
+**(*CVPR2020_ActBERT*) ActBERT: Learning Global-Local Video-Text Representations.** <br>
+*Linchao Zhu, Yi Yang.*<br>
+[[paper]](https://arxiv.org/pdf/2011.07231)
+
 **(*TACL2021_MPU*) Multimodal Pretraining Unmasked: A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs.** <br>
 *Emanuele Bugliarello, Ryan Cotterell, Naoaki Okazaki, Desmond Elliott.*<br>
 [[paper]](https://arxiv.org/abs/2011.15124)
@@ -318,6 +322,10 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wen_COOKIE_Contrastive_Cross-Modal_Knowledge_Sharing_Pre-Training_for_Vision-Language_Representation_ICCV_2021_paper.pdf)
 [[code]](https://github.com/kywen1119/COOKIE)
 
+**(*arXiv2021_DeCLIP*) Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image Pre-training Paradigm.** <br>
+*Yangguang Li, Feng Liang, Lichen Zhao, Yufeng Cui, Wanli Ouyang, Jing Shao, Fengwei Yu, Junjie Yan.*<br>
+[[paper]](https://arxiv.org/pdf/2110.05208)
+
 **(*arXiv2021_VLDeformer*) VLDeformer: Learning Visual-Semantic Embeddings by Vision-Language Transformer Decomposing.** <br>
 *Lisai Zhang, Hongfa Wu, Qingcai Chen, Yimeng Deng, Zhonghua Li, Dejiang Kong, Zhao Cao, Joanna Siebert, Yunpeng Han.*<br>
 [[paper]](https://arxiv.org/pdf/2110.11338)
@@ -327,9 +335,36 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://arxiv.org/pdf/2111.02358)
 [[code]](https://github.com/microsoft/unilm)
 
+**(*arXiv2021_TAGS*) Negative Sample is Negative in Its Own Way: Tailoring Negative Sentences for Image-Text Retrieval.** <br>
+*Zhihao Fan, Zhongyu Wei, Zejun Li, Siyuan Wang, Jianqing Fan.*<br>
+[[paper]](https://arxiv.org/pdf/2111.03349)
+[[code]](https://github.com/LibertFan/TAGS)
+
 **(*arXiv2021_CLIP2TV*) CLIP2TV: An Empirical Study on Transformer-based Methods for Video-Text Retrieval.** <br>
 *Zijian Gao, Jingyu Liu, Sheng Chen, Dedan Chang, Hao Zhang, Jinwei Yuan.*<br>
 [[paper]](https://arxiv.org/pdf/2111.05610)
+
+**(*arXiv2021_FILIP*) FILIP: Fine-grained Interactive Language-Image Pre-Training.** <br>
+*Lewei Yao, Runhui Huang, Lu Hou, Guansong Lu, Minzhe Niu, Hang Xu, Xiaodan Liang, Zhenguo Li, Xin Jiang, Chunjing Xu.*<br>
+[[paper]](https://arxiv.org/pdf/2111.07783)
+
+**(*arXiv2021_LiT*) LiT: Zero-Shot Transfer with Locked-image Text Tuning.** <br>
+*Xiaohua Zhai, Xiao Wang, Basil Mustafa, Andreas Steiner, Daniel Keysers, Alexander Kolesnikov, Lucas Beyer.*<br>
+[[paper]](https://arxiv.org/pdf/2111.07991)
+
+**(*arXiv2021_Florence*) Florence: A New Foundation Model for Computer Vision.** <br>
+*Lu Yuan, Dongdong Chen, Yi-Ling Chen, Noel Codella, Xiyang Dai, Jianfeng Gao, Houdong Hu, Xuedong Huang, Boxin Li, Chunyuan Li, Ce Liu, Mengchen Liu, Zicheng Liu, Yumao Lu, Yu Shi, Lijuan Wang, Jianfeng Wang, Bin Xiao, Zhen Xiao, Jianwei Yang, Michael Zeng, Luowei Zhou, Pengchuan Zhang.*<br>
+[[paper]](https://arxiv.org/pdf/2111.11432)
+
+**(*arXiv2021_OA-Transformer*) Object-aware Video-language Pre-training for Retrieval.** <br>
+*Alex Jinpeng Wang, Yixiao Ge, Guanyu Cai, Rui Yan, Xudong Lin, Ying Shan, Xiaohu Qie, Mike Zheng Shou.*<br>
+[[paper]](https://arxiv.org/pdf/2112.00656)
+[[code]](https://github.com/FingerRec/OA-Transformer)
+
+**(*arXiv2021_RegionLearner*) Video-Text Pre-training with Learned Regions.** <br>
+*Rui Yan, Mike Zheng Shou, Yixiao Ge, Alex Jinpeng Wang, Xudong Lin, Guanyu Cai, Jinhui Tang.*<br>
+[[paper]](https://arxiv.org/pdf/2112.01194)
+[[code]](https://github.com/ruiyan1995/Region_Learner)
 
 
 ### ``*Generic-Feature Extraction*``
@@ -479,6 +514,7 @@ Method Summary of Cross-modal Retrieval
 **(*ACMMM2020_CAMERA*) Context-Aware Multi-View Summarization Network for Image-Text Matching.**<br>
 *Leigang Qu, Meng Liu, Da Cao, Liqiang Nie, Qi Tian.*<br>
 [[paper]](https://www.researchgate.net/profile/Meng-Liu-67/publication/346201037_Context-Aware_Multi-View_Summarization_Network_for_Image-Text_Matching/links/6052a29f299bf173674e0be6/Context-Aware-Multi-View-Summarization-Network-for-Image-Text-Matching.pdf)
+[[code]](https://github.com/LgQu/CAMERA)
 
 **(*arXiv2021_DXR*) Cross-Modal Retrieval Augmentation for Multi-Modal Classification.**<br>
 *Shir Gur, Natalia Neverova, Chris Stauffer, Ser-Nam Lim, Douwe Kiela, Austin Reiter.*<br>
@@ -507,6 +543,7 @@ Method Summary of Cross-modal Retrieval
 **(*CVPR2021_PCME*) Probabilistic Embeddings for Cross-Modal Retrieval.**<br>
 *Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis, Diane Larlus.*<br>
 [[paper]](https://arxiv.org/pdf/2101.05068)
+[[code]](https://github.com/naver-ai/pcme)
 
 **(*CVPR2021_PG*) Discrete-continuous Action Space Policy Gradient-based Attention for Image-Text Matching.**<br>
 *Shiyang Yan, Li Yu, Yuan Xie.*<br>
@@ -662,6 +699,10 @@ Method Summary of Cross-modal Retrieval
 *Zhihao Fan, Zhongyu Wei, Zejun Li, Siyuan Wang, Haijun Shan, Xuanjing Huang, Jianqing Fan.*<br>
 [[paper]](https://arxiv.org/pdf/2109.05523)
 
+**(*arXiv2021_SwAMP*) SwAMP: Swapped Assignment of Multi-Modal Pairs for Cross-Modal Retrieval.** <br>
+*Minyoung Kim.*<br>
+[[paper]](https://arxiv.org/pdf/2111.05814)
+
 **(*ACMMM2021_CSCC*) Conceptual and Syntactical Cross-modal Alignment with Cross-level Consistency for Image-Text Matching.** <br>
 *Pengpeng Zeng, Lianli Gao, Xinyu Lyu, Shuaiqi Jing, Jingkuan Song.*<br>
 [[paper]](https://dl.acm.org/doi/pdf/10.1145/3474085.3475380)
@@ -669,6 +710,14 @@ Method Summary of Cross-modal Retrieval
 **(*IJCAI2021_SHAN*) Step-Wise Hierarchical Alignment Network for Image-Text Matching.**<br>
 *Zhong Ji, Kexin Chen, Haoran Wang.*<br>
 [[paper]](https://arxiv.org/pdf/2106.06509)
+
+**(*EMNLP2021_ISERI*) Inflate and Shrink: Enriching and Reducing Interactions for Fast Text-Image Retrieval.**<br>
+*Haoliang Liu, Tan Yu, Ping Li.*<br>
+[[paper]](https://aclanthology.org/2021.emnlp-main.772.pdf)
+
+**(*TIP2021_MEMBER*) Memorize, Associate and Match: Embedding Enhancement via Fine-Grained Alignment for Image-Text Retrieval.**<br>
+*Jiangtong Li, Liu Liu, Li Niu, and Liqing Zhang.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9605203)
 
 **(*SIGIR2021_HAN*) Heterogeneous Attention Network for Effective and Efficient Cross-modal Retrieval.** <br>
 *Tan Yu, Yi Yang, Yi Li, Lin Liu, Hongliang Fei, Ping Li.*<br>
@@ -681,6 +730,7 @@ Method Summary of Cross-modal Retrieval
 **(*SIGIR2021_DIME*) Dynamic Modality Interaction Modeling for Image-Text Retrieval.** <br>
 *Leigang Qu, Meng Liu, Jianlong Wu, Zan Gao, Liqiang Nie.*<br>
 [[paper]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462829)
+[[code]](https://github.com/LgQu/DIME)
 
 
 ### ``*Similarity Measurement*``
@@ -836,6 +886,19 @@ Method Summary of Cross-modal Retrieval
 **(*ICCVws2021_IMRL*) Hard-Negatives or Non-Negatives? A Hard-Negative Selection Strategy for Cross-Modal Retrieval Using the Improved Marginal Ranking Loss.**<br>
 *Damianos Galanopoulos, Vasileios Mezaris.*<br>
 [[paper]](https://openaccess.thecvf.com/content/ICCV2021W/ViRaL/papers/Galanopoulos_Hard-Negatives_or_Non-Negatives_A_Hard-Negative_Selection_Strategy_for_Cross-Modal_Retrieval_ICCVW_2021_paper.pdf)
+
+**(*CVPR2021_MRL*) Learning Cross-Modal Retrieval with Noisy Labels.**<br>
+*Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf)
+
+**(*NeurIPS2021_NCR*) Learning with Noisy Correspondence for Cross-modal Matching.**<br>
+*Zhenyu Huang, Guocheng Niu, Xiao Liu, Wenbiao Ding, Xinyan Xiao, Hua Wu, Xi Peng.*<br>
+[[paper]](https://papers.nips.cc/paper/2021/file/f5e62af885293cf4d511ceef31e61c80-Paper.pdf)
+[[code]](https://github.com/XLearning-SCU/2021-NeurIPS-NCR)
+
+**(*TPAMI2021_LESS*) Learning to Embed Semantic Similarity for Joint Image-text retrieval.**<br>
+*Noam Malali, Yosi Keller.*<br>
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9633145)
 
 **(*WACV2022_SAM*) Is An Image Worth Five Sentences? A New Look into Semantics for Image-Text Matching.**<br>
 *Ali Furkan Biten, Andres Mafla, Lluis Gomez, Dimosthenis Karatzas.*<br>
