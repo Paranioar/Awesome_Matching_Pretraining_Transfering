@@ -3,7 +3,7 @@ Cross-modal_Retrieval_Tutorial
 The tutorial of Cross-Modal Matching will be constantly updated for Preliminary Insight !
 
 ## ``NOTE``
-Thanks for the continuous attention and emails for follow-up updates. Due to busy schedule, sorry for not updating this project for a long time. 
+【2023.04.25】Thanks for the continuous attention and emails for follow-up updates. Due to busy schedule, sorry for not updating this project for a long time. 
 
 **At the end of May**, I plan to update more than 100 papers, and open the new section named ***[Transfer Learning]*** including hot *Prompt*, *Adapter*, and so on in Computer Vision, Natural Language Prcessing, Vision-and-Language. So stay tuned!
 
