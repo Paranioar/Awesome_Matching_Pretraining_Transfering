@@ -3,7 +3,6 @@ Method Summary of Cross-modal Retrieval
 
 ## ``Catalogue ``
 * [Algorithm-oriented Works](#algorithm-oriented-works)
-    * [Vision-Language Pretraining](#vision-language-pretraining)
     * [Generic-Feature Extraction](#generic-feature-extraction)
     * [Cross-Modal Interaction](#cross-modal-interaction)
     * [Similarity Measurement](#similarity-measurement)
