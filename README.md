@@ -6,7 +6,7 @@ The tutorial of Cross-Modal Matching will be constantly updated for Preliminary 
 
 ***`` Section Updating ``***
 
-【2023.05.25】 A new section named ***[Transfer Learning]*** has been added.  
+【2023.05.25】 A new section named ***[Parameter-Efficient Finetuning]*** has been added.  
 【2021.12.11】 A new section named ***[Video-Text Learning]*** has been added.  
 【2021.11.17】 A new section named ***[RSTPReid]*** has been added.  
 【2021.08.24】 A new section named ***[ICFG-PEDES]*** has been added.  
@@ -14,7 +14,7 @@ The tutorial of Cross-Modal Matching will be constantly updated for Preliminary 
 
 ***`` Paper Updating ``***
 
-【2023.05.31】 We have updated more than 100 papers in Transfer Learning, Pretrained model, and Conventional method.  
+【2023.06.01】 We have updated more than 100 papers in VLP, PEFT, ITR sections.  
 【2022.04.15】 Pretrained works ***[UniT, ViT-BERT, Frozen, PromptFuse, GLUE, CMKT, VLKD, X-VLM, LoopITR, DemoVLP, ViSTA, CoCo-BERT, X-Pool](./pretrained_model.md)*** and Conventional works ***[RELAX, SVSEN, GraDual, CMCAN, ALGCN, DAGNN, DAQN, DLMLG, UARDA, CGMN, TSHSR, VRACR, VSRN++](./conventional_method.md)*** and Datasets & Surveys ***[ECCVCaption, CxC, Survey](./conventional_method.md/#posted-in)*** have been added.   
 【2021.12.11】 Pretrained works ***[ActBERT, DeCLIP, TAGS, FILIP, LiT, Florence, OATransformer, RegionLearner](./pretrained_model.md)*** and Conventional works ***[MEMBER, MRL, NCR, LESS, SwAMP, ISERI](./conventional_method.md)*** have been added.  
 【2021.11.17】 Pretrained works ***[TDMR, VLDeformer, CAMoE, MURAL, KD-VLP, DistillVLM, VLMO, ALBEF, SimVLM, CLIP2Video, CLIP2TV](./pretrained_model.md)*** and Conventional works ***[WCGL, LapsCore, AACH, CSCC, Meta-SPN, DSSL, SAM, SSAMT, IMRL](./conventional_method.md)*** have been added.  
@@ -34,7 +34,7 @@ The tutorial of Cross-Modal Matching will be constantly updated for Preliminary 
 
 * [Methods Summary](./README.md)
     * [Vision-Language Pretraining](./pretrained_model.md)
-    * [Transfer Learning](./transfer_learning.md)
+    * [Parameter-Efficient Finetuning](./transfer_learning.md)
     * [Conventional Method](./conventional_method.md)
        * [Generic-Feature Extraction](./conventional_method.md/#generic-feature-extraction)
        * [Cross-Modal Interaction](./conventional_method.md/#cross-modal-interaction)
