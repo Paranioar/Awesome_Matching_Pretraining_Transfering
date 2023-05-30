@@ -1,4 +1,4 @@
-### ``*Transfer Learning*``
+### ``*Parameter-Efficient Finetuning*``
 
 **(*ICML2019_Adapter-BERT*) Parameter-Efficient Transfer Learning for NLP.** <br>
 *Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly.*<br>
