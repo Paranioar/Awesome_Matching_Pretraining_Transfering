@@ -1,4 +1,6 @@
-### ``*Parameter-Efficient Finetuning*``
+## ``Parameter-Efficient Finetuning``
+
+### ``*Parameter-Efficient Method*``
 
 **(*ICML2019_Adapter-BERT*) Parameter-Efficient Transfer Learning for NLP.** <br>
 *Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly.*<br>
@@ -9,14 +11,9 @@
 *Ankur Bapna, Naveen Arivazhagan, Orhan Firat.*<br>
 [[paper]](https://arxiv.org/abs/1909.08478)
 
-**(*ArXiv2019_Survey*) A Comprehensive Survey on Transfer Learning.** <br>
+**(*arXiv2019_Survey*) A Comprehensive Survey on Transfer Learning.** <br>
 *Fuzhen Zhuang, Zhiyuan Qi, Keyu Duan, Dongbo Xi, Yongchun Zhu, Hengshu Zhu, Hui Xiong, Qing He.*<br>
 [[paper]](https://arxiv.org/abs/1911.02685)
-
-**(*ECCV2020_Side-Tuning*) Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks.** <br>
-*Jeffrey O Zhang, Alexander Sax, Amir Zamir, Leonidas Guibas, Jitendra Malik.*<br>
-[[paper]](https://arxiv.org/abs/1912.13503)
-[[code]](https://github.com/jozhang97/side-tuning)
 
 **(*NeurIPS2020_TinyTL*) TinyTL: Reduce Memory, Not Parameters for Efficient On-Device Learning.** <br>
 *Han Cai, Chuang Gan, Ligeng Zhu, Song Han.*<br>
@@ -37,7 +34,7 @@
 [[paper]](https://arxiv.org/abs/2012.07463)
 [[code]](https://github.com/dguo98/DiffPruning)
 
-**(*ArXiv2020_Intrinsic-SAID*) Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning.** <br>
+**(*arXiv2020_Intrinsic-SAID*) Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning.** <br>
 *Armen Aghajanyan, Luke Zettlemoyer, Sonal Gupta.*<br>
 [[paper]](https://arxiv.org/abs/2012.13255)
 [[code]](https://github.com/rabeehk/compacter)
@@ -65,7 +62,7 @@
 [[paper]](https://arxiv.org/abs/2106.04647)
 [[code]](https://github.com/rabeehk/compacter)
 
-**(*ArXiv2021_LoRA*) LoRA: Low-Rank Adaptation of Large Language Models.** <br>
+**(*arXiv2021_LoRA*) LoRA: Low-Rank Adaptation of Large Language Models.** <br>
 *Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen.*<br>
 [[paper]](https://arxiv.org/abs/2106.09685)
 [[code]](https://github.com/microsoft/LoRA)
@@ -88,7 +85,7 @@
 [[paper]](https://arxiv.org/abs/2109.04332)
 [[code]](https://github.com/thu-coai/PPT)
 
-**(*ArXiv2021_CPT*) CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models.** <br>
+**(*arXiv2021_CPT*) CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models.** <br>
 *Yuan Yao, Ao Zhang, Zhengyan Zhang, Zhiyuan Liu, Tat-Seng Chua, Maosong Sun.*<br>
 [[paper]](https://arxiv.org/abs/2109.11797)
 [[code]](https://github.com/thunlp/CPT)
@@ -98,7 +95,7 @@
 [[paper]](https://arxiv.org/abs/2110.04366)
 [[code]](https://github.com/jxhe/unify-parameter-efficient-tuning)
 
-**(*ArXiv2021_CLIP-Adapter*) CLIP-Adapter: Better Vision-Language Models with Feature Adapters.** <br>
+**(*arXiv2021_CLIP-Adapter*) CLIP-Adapter: Better Vision-Language Models with Feature Adapters.** <br>
 *Peng Gao, Shijie Geng, Renrui Zhang, Teli Ma, Rongyao Fang, Yongfeng Zhang, Hongsheng Li, Yu Qiao.*<br>
 [[paper]](https://arxiv.org/abs/2110.04544)
 [[code]](https://github.com/gaopengcuhk/CLIP-Adapter)
@@ -108,7 +105,7 @@
 [[paper]](https://arxiv.org/abs/2110.07577)
 [[code]](https://github.com/morningmoni/unipelt)
 
-**(*ArXiv2022_LayerNorm-tuning*) How to Adapt Your Large-Scale Vision-and-Language Model for Downstream Image Classification.** <br>
+**(*arXiv2022_LayerNorm-tuning*) How to Adapt Your Large-Scale Vision-and-Language Model for Downstream Image Classification.** <br>
 *Konwoo Kim, Michael Laskin, Igor Mordatch, Deepak Pathak.*<br>
 [[paper]](https://openreview.net/pdf?id=EhwEUb2ynIa)
 [[code]](https://sites.google.com/view/adapt-large-scale-models)
@@ -147,7 +144,7 @@
 *Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou.*<br>
 [[paper]](https://arxiv.org/abs/2201.11903)
 
-**(*ArXiv2022_Y-Tuning*) Y-Tuning: An Efficient Tuning Paradigm for Large-Scale Pre-Trained Models via Label Representation Learning.** <br>
+**(*arXiv2022_Y-Tuning*) Y-Tuning: An Efficient Tuning Paradigm for Large-Scale Pre-Trained Models via Label Representation Learning.** <br>
 *Yitao Liu, Chenxin An, Xipeng Qiu.*<br>
 [[paper]](https://arxiv.org/abs/2202.09817)
 
@@ -161,7 +158,7 @@
 [[paper]](https://arxiv.org/abs/2203.12119)
 [[code]](https://github.com/kmnp/vpt)
 
-**(*ArXiv2022_IA3*) Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning.** <br>
+**(*arXiv2022_IA3*) Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning.** <br>
 *Haokun Liu, Derek Tam, Mohammed Muqeeth, Jay Mohta, Tenghao Huang, Mohit Bansal, Colin Raffel.*<br>
 [[paper]](https://arxiv.org/abs/2205.05638)
 [[code]](https://github.com/r-three/t-few)
@@ -176,17 +173,12 @@
 [[paper]](https://arxiv.org/abs/2205.13535)
 [[code]](https://github.com/ShoufaChen/AdaptFormer)
 
-**(*ArXiv2022_NOAH*) Neural Prompt Search.** <br>
+**(*arXiv2022_NOAH*) Neural Prompt Search.** <br>
 *Yuanhan Zhang, Kaiyang Zhou, Ziwei Liu.*<br>
 [[paper]](https://arxiv.org/abs/2206.04673)
 [[code]](https://github.com/ZhangYuanhan-AI/NOAH)
 
-**(*NeurIPS2022_LST*) LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning.** <br>
-*Yi-Lin Sung, Jaemin Cho, Mohit Bansal.*<br>
-[[paper]](https://arxiv.org/abs/2206.06522)
-[[code]](https://github.com/ylsung/Ladder-Side-Tuning)
-
-**(*ArXiv2022_Convpass*) Convolutional Bypasses Are Better Vision Transformer Adapters.** <br>
+**(*arXiv2022_Convpass*) Convolutional Bypasses Are Better Vision Transformer Adapters.** <br>
 *Shibo Jie, Zhi-Hong Deng.*<br>
 [[paper]](https://arxiv.org/abs/2207.07039)
 [[code]](https://github.com/JieShibo/PETL-ViT)
@@ -201,7 +193,7 @@
 [[paper]](https://arxiv.org/abs/2209.14610)
 [[code]](https://github.com/lupantech/PromptPG)
 
-**(*ArXiv2022_LPT*) LPT: Long-tailed Prompt Tuning for Image Classification.** <br>
+**(*arXiv2022_LPT*) LPT: Long-tailed Prompt Tuning for Image Classification.** <br>
 *Bowen Dong, Pan Zhou, Shuicheng Yan, Wangmeng Zuo.*<br>
 [[paper]](https://arxiv.org/abs/2210.01033)
 
@@ -210,7 +202,7 @@
 [[paper]](https://arxiv.org/abs/2210.01253)
 [[code]](https://github.com/CHENGY12/PLOT)
 
-**(*ArXiv2022_MaPLe*) MaPLe: Multi-modal Prompt Learning.** <br>
+**(*arXiv2022_MaPLe*) MaPLe: Multi-modal Prompt Learning.** <br>
 *Muhammad Uzair Khattak, Hanoona Rasheed, Muhammad Maaz, Salman Khan, Fahad Shahbaz Khan.*<br>
 [[paper]](https://arxiv.org/abs/2210.03117)
 [[code]](https://github.com/muzairkhattak/multimodal-prompt-learning)
@@ -238,17 +230,17 @@
 [[paper]](https://arxiv.org/abs/2212.03145)
 [[code]](https://github.com/JieShibo/PETL-ViT)
 
-**(*ArXiv2023_MM-CoT*) Multimodal Chain-of-Thought Reasoning in Language Models.** <br>
+**(*arXiv2023_MM-CoT*) Multimodal Chain-of-Thought Reasoning in Language Models.** <br>
 *Zhuosheng Zhang, Aston Zhang, Mu Li, Hai Zhao, George Karypis, Alex Smola.*<br>
 [[paper]](https://arxiv.org/abs/2302.00923)
 [[code]](https://github.com/amazon-science/mm-cot)
 
-**(*ArXiv2023_UniAdapter*) UniAdapter: Unified Parameter-Efficient Transfer Learning for Cross-modal Modeling.** <br>
+**(*arXiv2023_UniAdapter*) UniAdapter: Unified Parameter-Efficient Transfer Learning for Cross-modal Modeling.** <br>
 *Haoyu Lu, Mingyu Ding, Yuqi Huo, Guoxing Yang, Zhiwu Lu, Masayoshi Tomizuka, Wei Zhan.*<br>
 [[paper]](https://arxiv.org/abs/2302.06605)
 [[code]](https://github.com/RERV/UniAdapter)
 
-**(*ArXiv2023_PTUnifier*) Towards Unifying Medical Vision-and-Language Pre-training via Soft Prompts.** <br>
+**(*arXiv2023_PTUnifier*) Towards Unifying Medical Vision-and-Language Pre-training via Soft Prompts.** <br>
 *Zhihong Chen, Shizhe Diao, Benyou Wang, Guanbin Li, Xiang Wan.*<br>
 [[paper]](https://arxiv.org/abs/2302.08958)
 [[code]](https://github.com/zhjohnchan/PTUnifier)
@@ -257,3 +249,22 @@
 *Renrui Zhang, Xiangfei Hu, Bohao Li, Siyuan Huang, Hanqiu Deng, Hongsheng Li, Yu Qiao, Peng Gao.*<br>
 [[paper]](https://arxiv.org/abs/2303.02151)
 [[code]](https://github.com/ZrrSkywalker/CaFo)
+
+
+### ``*Memory-Efficient Method*``
+
+**(*ECCV2020_Side-Tuning*) Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks.** <br>
+*Jeffrey O Zhang, Alexander Sax, Amir Zamir, Leonidas Guibas, Jitendra Malik.*<br>
+[[paper]](https://arxiv.org/abs/1912.13503)
+[[code]](https://github.com/jozhang97/side-tuning)
+
+**(*NeurIPS2022_LST*) LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning.** <br>
+*Yi-Lin Sung, Jaemin Cho, Mohit Bansal.*<br>
+[[paper]](https://arxiv.org/abs/2206.06522)
+[[code]](https://github.com/ylsung/Ladder-Side-Tuning)
+
+**(*arXiv2023_UniPT*) UniPT: Universal Parallel Tuning for Transfer Learning with Efficient Parameter and Memory.** <br>
+*Haiwen Diao, Bo Wan, Ying Zhang, Xu Jia, Huchuan Lu, Long Chen.*<br>
+[[paper]](https://arxiv.org/abs/2308.14316)
+[[code]](https://github.com/Paranioar/UniPT)
+

@@ -1,4 +1,6 @@
-### ``*Vision-Language Pretraining*``
+## ``Vision-Language Pretraining``
+
+### ``*Pretrained Method*``
 
 **(*ICCV2019_VideoBERT*) VideoBERT: A Joint Model for Video and Language Representation Learning.** <br>
 *Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy, Cordelia Schmid.*<br>
@@ -116,6 +118,11 @@
 [[paper]](https://arxiv.org/abs/2004.13278)
 [[code]](https://github.com/salesforce/VD-BERT)
 
+**(*EMNLP2020_HERO*) HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training.** <br>
+*Linjie Li, Yen-Chun Chen, Yu Cheng, Zhe Gan, Licheng Yu, Jingjing Liu.*<br>
+[[paper]](https://arxiv.org/abs/2005.00200)
+[[code]](https://github.com/linjieli222/HERO)
+
 **(*ECCV2020_VALUE*) Behind the Scene: Revealing the Secrets of Pre-trained Vision-and-Language Models.** <br>
 *Jize Cao, Zhe Gan, Yu Cheng, Licheng Yu, Yen-Chun Chen, Jingjing Liu.*<br>
 [[paper]](https://arxiv.org/abs/2005.07310)
@@ -175,6 +182,10 @@
 **(*arXiv2020_LAMP*) LAMP: Label Augmented Multimodal Pretraining.** <br>
 *Jia Guo, Chen Zhu, Yilun Zhao, Heda Wang, Yao Hu, Xiaofei He, Deng Cai.*<br>
 [[paper]](https://arxiv.org/abs/2012.04446)
+
+**(*arXiv2020_MiniVLM*) MiniVLM: A Smaller and Faster Vision-Language Model.** <br>
+*Jianfeng Wang, Xiaowei Hu, Pengchuan Zhang, Xiujun Li, Lijuan Wang, Lei Zhang, Jianfeng Gao, Zicheng Liu.*<br>
+[[paper]](https://arxiv.org/abs/2012.06946)
 
 **(*arXiv2020_MANGO*) A Closer Look at the Robustness of Vision-and-Language Pre-trained Models.** <br>
 *Linjie Li, Zhe Gan, Jingjing Liu.*<br>
@@ -243,6 +254,11 @@
 *Antoine Miech, Jean-Baptiste Alayrac, Ivan Laptev, Josef Sivic, Andrew Zisserman.*<br>
 [[paper]](https://arxiv.org/abs/2103.16553)
 
+**(*ICCV2021_Frozen*) Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval.** <br>
+*Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.*<br>
+[[paper]](https://arxiv.org/abs/2104.00650)
+[[code]](https://github.com/m-bain/frozen-in-time)
+
 **(*CVPR2021_UC2*) UC2: Universal Cross-lingual Cross-modal Vision-and-Language Pre-training.** <br>
 *Mingyang Zhou, Luowei Zhou, Shuohang Wang, Yu Cheng, Linjie Li, Zhou Yu, Jingjing Liu.*<br>
 [[paper]](https://arxiv.org/abs/2104.00332)
@@ -261,6 +277,21 @@
 [[paper]](https://arxiv.org/abs/2104.08066)
 [[code]](https://github.com/alab-nii/eval_vl_glue)
 
+**(*ICCV2021_TEACHTEXT*) TEACHTEXT: CrossModal Generalized Distillation for Text-Video Retrieval.** <br>
+*Ioana Croitoru, Simion-Vlad Bogolin, Marius Leordeanu, Hailin Jin, Andrew Zisserman, Samuel Albanie, Yang Liu.*<br>
+[[paper]](https://arxiv.org/abs/2104.08271)
+[[code]](https://github.com/albanie/collaborative-experts)
+
+**(*Neurocomputing2022_CLIP4Clip*) CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval.** <br>
+*Huaishao Luo, Lei Ji, Ming Zhong, Yang Chen, Wen Lei, Nan Duan, Tianrui Li.*<br>
+[[paper]](https://arxiv.org/abs/2104.08860)
+[[code]](https://github.com/ArrowLuo/CLIP4Clip)
+
+**(*ICCV2021_MDETR*) MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding.** <br>
+*Aishwarya Kamath, Mannat Singh, Yann LeCun, Gabriel Synnaeve, Ishan Misra, Nicolas Carion.*<br>
+[[paper]](https://arxiv.org/abs/2104.12763)
+[[code]](https://github.com/ashkamath/mdetr)
+
 **(*CVPR2021_MCT*) Multimodal Contrastive Training for Visual Representation Learning.** <br>
 *Xin Yuan, Zhe Lin, Jason Kuen, Jianming Zhang, Yilin Wang, Michael Maire, Ajinkya Kale, Baldo Faieta.*<br>
 [[paper]](https://arxiv.org/abs/2104.12836)
@@ -274,6 +305,11 @@
 *Han Fang, Pengfei Xiong, Luhui Xu, Yu Chen.*<br>
 [[paper]](https://arxiv.org/abs/2106.11097)
 [[code]](https://github.com/CryhanFang/CLIP2Video)
+
+**(*ICLR2022_CLIP-ViL*) How Much Can CLIP Benefit Vision-and-Language Tasks?.** <br>
+*Sheng Shen, Liunian Harold Li, Hao Tan, Mohit Bansal, Anna Rohrbach, Kai-Wei Chang, Zhewei Yao, Kurt Keutzer.*<br>
+[[paper]](https://arxiv.org/abs/2107.06383)
+[[code]](https://github.com/clip-vil/CLIP-ViL)
 
 **(*SIGIR2021_GilBERT*) GilBERT: Generative Vision-Language Pre-Training for Image-Text Retrieval.** <br>
 *Weixiang Hong, Kaixiang Ji, Jiajia Liu, Jian Wang, Jingdong Chen, Wei Chu.*<br>
@@ -327,6 +363,11 @@
 [[paper]](https://arxiv.org/abs/2111.02358)
 [[code]](https://github.com/microsoft/unilm)
 
+**(*CVPR2022_METER*) An Empirical Study of Training End-to-End Vision-and-Language Transformers.** <br>
+*Zi-Yi Dou, Yichong Xu, Zhe Gan, Jianfeng Wang, Shuohang Wang, Lijuan Wang, Chenguang Zhu, Pengchuan Zhang, Lu Yuan, Nanyun Peng, Zicheng Liu, Michael Zeng.*<br>
+[[paper]](https://arxiv.org/abs/2111.02387)
+[[code]](https://github.com/zdou0830/METER)
+
 **(*arXiv2021_TAGS*) Negative Sample is Negative in Its Own Way: Tailoring Negative Sentences for Image-Text Retrieval.** <br>
 *Zhihao Fan, Zhongyu Wei, Zejun Li, Siyuan Wang, Jianqing Fan.*<br>
 [[paper]](https://arxiv.org/abs/2111.03349)
@@ -363,6 +404,11 @@
 [[paper]](https://arxiv.org/abs/2112.01194)
 [[code]](https://github.com/ruiyan1995/Region_Learner)
 
+**(*CVPR2022_GLIP*) Grounded Language-Image Pre-training.** <br>
+*Liunian Harold Li, Pengchuan Zhang, Haotian Zhang, Jianwei Yang, Chunyuan Li, Yiwu Zhong, Lijuan Wang, Lu Yuan, Lei Zhang, Jenq-Neng Hwang, Kai-Wei Chang, Jianfeng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2112.03857)
+[[code]](https://github.com/microsoft/GLIP)
+
 **(*arXiv2021_ViT-BERT*) Towards a Unified Foundation Model: Jointly Pre-Training Transformers on Unpaired Images and Text.** <br>
 *Qing Li, Boqing Gong, Yin Cui, Dan Kondratyuk, Xianzhi Du, Ming-Hsuan Yang, Matthew Brown.*<br>
 [[paper]](https://arxiv.org/abs/2112.07074)
@@ -371,8 +417,41 @@
 *Jianjie Luo, Yehao Li, Yingwei Pan, Ting Yao, Hongyang Chao, Tao Mei.*<br>
 [[paper]](https://arxiv.org/abs/2112.07515)
 
+**(*arXiv2021_SLIP*) SLIP: Self-supervision meets Language-Image Pre-training.** <br>
+*Norman Mu, Alexander Kirillov, David Wagner, Saining Xie.*<br>
+[[paper]](https://arxiv.org/abs/2112.12750)
+[[code]](https://github.com/facebookresearch/slip)
+
+**(*CVPR2022_QB-NORM*) Cross Modal Retrieval with Querybank Normalisation.** <br>
+*Simion-Vlad Bogolin, Ioana Croitoru, Hailin Jin, Yang Liu, Samuel Albanie.*<br>
+[[paper]](https://arxiv.org/abs/2112.12777)
+[[code]](https://github.com/ioanacroi/qb-norm)
+
 **(*ACLARR_PromptFuse*) Prompting as Multimodal Fusing.** <br>
 [[paper]](https://openreview.net/pdf?id=wWZCNLkK-FK)
+
+**(*TCSVT2022_CSIC*) Image-Text Retrieval with Cross-Modal Semantic Importance Consistency.** <br>
+*Zejun Liu, Fanglin Chen, Jun Xu, Wenjie Pei, Guangming Lu.*<br>
+[[paper]](https://ieeexplore.ieee.org/abstract/document/9940913)
+
+**(*PMLR2022_VLUE*) VLUE: A Multi-Task Benchmark for Evaluating Vision-Language Models.** <br>
+*Wangchunshu Zhou, Yan Zeng, Shizhe Diao, Xinsong Zhang.*<br>
+[[paper]](https://proceedings.mlr.press/v162/zhou22n/zhou22n.pdf)
+[[code]](https://github.com/MichaelZhouwang/VLUE)
+
+**(*CVPR2022_MCQ*) Bridging Video-text Retrieval with Multiple Choice Questions.** <br>
+*Yuying Ge, Yixiao Ge, Xihui Liu, Dian Li, Ying Shan, Xiaohu Qie, Ping Luo.*<br>
+[[paper]](https://arxiv.org/abs/2201.04850)
+[[code]](https://github.com/TencentARC/MCQ)
+
+**(*CVPR2022_TCL*) Vision-Language Pre-Training with Triple Contrastive Learning.** <br>
+*Jinyu Yang, Jiali Duan, Son Tran, Yi Xu, Sampath Chanda, Liqun Chen, Belinda Zeng, Trishul Chilimbi, Junzhou Huang.*<br>
+[[paper]](https://arxiv.org/abs/2202.10401v3)
+[[code]](https://github.com/uta-smile/TCL)
+
+**(*CVPR2022_CODIS*) Multi-modal Alignment using Representation Codebook.** <br>
+*Jiali Duan, Liqun Chen, Son Tran, Jinyu Yang, Yi Xu, Belinda Zeng, Trishul Chilimbi.*<br>
+[[paper]](https://arxiv.org/abs/2203.00048)
 
 **(*arXiv2022_LoopITR*) LoopITR: Combining Dual and Cross Encoder Architectures for Image-Text Retrieval.** <br>
 *Jie Lei, Xinlei Chen, Ning Zhang, Mengjiao Wang, Mohit Bansal, Tamara L. Berg, Licheng Yu.*<br>
@@ -381,6 +460,15 @@
 **(*ACL2022_VLKD*) Enabling Multimodal Generation on CLIP via Vision-Language Knowledge Distillation.** <br>
 *Wenliang Dai, Lu Hou, Lifeng Shang, Xin Jiang, Qun Liu, Pascale Fung.*<br>
 [[paper]](https://arxiv.org/abs/2203.06386)
+
+**(*arXiv2022_MDMMT-2*) MDMMT-2: Multidomain Multimodal Transformer for Video Retrieval, One More Step Towards Generalization.** <br>
+*Alexander Kunitsyn, Maksim Kalashnikov, Maksim Dzabraev, Andrei Ivaniuta.*<br>
+[[paper]](https://arxiv.org/abs/2203.07086)
+
+**(*arXiv2022_DRL*) Disentangled Representation Learning for Text-Video Retrieval.** <br>
+*Qiang Wang, Yanhao Zhang, Yun Zheng, Pan Pan, Xian-Sheng Hua.*<br>
+[[paper]](https://arxiv.org/abs/2203.07111)
+[[code]](https://github.com/foolwood/DRL)
 
 **(*ACL2022_CMKT*) Leveraging Visual Knowledge in Language Tasks: An Empirical Study on Intermediate Pre-training for Cross-modal Knowledge Transfer.** <br>
 *Woojeong Jin, Dong-Ho Lee, Chenguang Zhu, Jay Pujara, Xiang Ren.*<br>
@@ -401,3 +489,233 @@
 **(*CVPR2022_ViSTA*) ViSTA: Vision and Scene Text Aggregation for Cross-Modal Retrieval.** <br>
 *Mengjun Cheng, Yipeng Sun, Longchao Wang, Xiongwei Zhu, Kun Yao, Jie Chen, Guoli Song, Junyu Han, Jingtuo Liu, Errui Ding, Jingdong Wang.*<br>
 [[paper]](https://arxiv.org/abs/2203.16778)
+
+**(*CVPR2022_UniCL*) Unified Contrastive Learning in Image-Text-Label Space.** <br>
+*Jianwei Yang, Chunyuan Li, Pengchuan Zhang, Bin Xiao, Ce Liu, Lu Yuan, Jianfeng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2204.03610)
+[[code]](https://github.com/microsoft/UniCL)
+
+**(*CVPR2022_PSD*) Robust Cross-Modal Representation Learning with Progressive Self-Distillation.** <br>
+*Alex Andonian, Shixing Chen, Raffay Hamid.*<br>
+[[paper]](https://arxiv.org/abs/2204.04588)
+
+**(*CVPR2022_COTS*) COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval.** <br>
+*Haoyu Lu, Nanyi Fei, Yuqi Huo, Yizhao Gao, Zhiwu Lu, Ji-Rong Wen.*<br>
+[[paper]](https://arxiv.org/abs/2204.07441)
+
+**(*CVPR2022_MILES*) MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval.** <br>
+*Yuying Ge, Yixiao Ge, Xihui Liu, Alex Jinpeng Wang, Jianping Wu, Ying Shan, Xiaohu Qie, Ping Luo.*<br>
+[[paper]](https://arxiv.org/abs/2204.12408)
+[[code]](https://github.com/tencentarc/mcq)
+
+**(*TMLR2023_LTD*) Reducing Predictive Feature Suppression in Resource-Constrained Contrastive Image-Caption Retrieval.** <br>
+*Maurits Bleeker, Andrew Yates, Maarten de Rijke.*<br>
+[[paper]](https://arxiv.org/abs/2204.13382)
+[[code]](https://github.com/mauritsbleeker/reducing-predictive-feature-suppression)
+
+**(*arXiv2022_PyramidCLIP*) PyramidCLIP: Hierarchical Feature Alignment for Vision-language Model Pretraining.** <br>
+*Yuting Gao, Jinfeng Liu, Zihan Xu, Jun Zhang, Ke Li, Rongrong Ji, Chunhua Shen.*<br>
+[[paper]](https://arxiv.org/abs/2204.14095)
+
+**(*SIGIR2022_CenterCLIP*) CenterCLIP: Token Clustering for Efficient Text-Video Retrieval.** <br>
+*Shuai Zhao, Linchao Zhu, Xiaohan Wang, Yi Yang.*<br>
+[[paper]](https://arxiv.org/abs/2205.00823)
+[[code]](https://github.com/mzhaoshuai/CenterCLIP)
+
+**(*arXiv2022_HiVLP*) HiVLP: Hierarchical Vision-Language Pre-Training for Fast Image-Text Retrieval.** <br>
+*Feilong Chen, Xiuyi Chen, Jiaxin Shi, Duzhen Zhang, Jianlong Chang, Qi Tian.*<br>
+[[paper]](https://arxiv.org/abs/2205.12105)
+
+**(*arXiv2022_COOKIE*) Contrastive Cross-Modal Knowledge Sharing Pre-training for Vision-Language Representation Learning and Retrieval.** <br>
+*Keyu Wen, Zhenshan Tan, Qingrong Cheng, Cheng Chen, Xiaodong Gu.*<br>
+[[paper]](https://arxiv.org/abs/2207.00733)
+
+**(*SIGIR2022_CRET*) CRET: Cross-Modal Retrieval Transformer for Efficient Text-Video Retrieval.** <br>
+*Kaixiang Ji, Jiajia Liu, Weixiang Hong, Liheng Zhong, Jian Wang, Jingdong Chen, Wei Chu.*<br>
+[[paper]](https://dl.acm.org/doi/abs/10.1145/3477495.3531960)
+
+**(*ECCV2022_LocVTP*) LocVTP: Video-Text Pre-training for Temporal Localization.** <br>
+*Meng Cao, Tianyu Yang, Junwu Weng, Can Zhang, Jue Wang, Yuexian Zou.*<br>
+[[paper]](https://arxiv.org/abs/2207.10362)
+[[code]](https://github.com/mengcaopku/LocVTP)
+
+**(*CBMI2022_ALADIN*) ALADIN: Distilling Fine-grained Alignment Scores for Efficient Image-Text Matching and Retrieval.** <br>
+*Nicola Messina, Matteo Stefanini, Marcella Cornia, Lorenzo Baraldi, Fabrizio Falchi, Giuseppe Amato, Rita Cucchiara.*<br>
+[[paper]](https://arxiv.org/abs/2207.14757)
+[[code]](https://github.com/mesnico/ALADIN)
+
+**(*NeurIPS2022_LOUPE*) Fine-Grained Semantically Aligned Vision-Language Pre-Training.** <br>
+*Juncheng Li, Xin He, Longhui Wei, Long Qian, Linchao Zhu, Lingxi Xie, Yueting Zhuang, Qi Tian, Siliang Tang.*<br>
+[[paper]](https://arxiv.org/abs/2208.02515)
+[[code]](https://github.com/yyjmjc/loupe)
+
+**(*ECCV2022_GRIT-VLP*) GRIT-VLP: Grouped Mini-batch Sampling for Efficient Vision and Language Pre-training.** <br>
+*Jaeseok Byun, Taebaek Hwang, Jianlong Fu, Taesup Moon.*<br>
+[[paper]](https://arxiv.org/abs/2208.04060)
+[[code]](https://github.com/jaeseokbyun/GRIT-VLP)
+
+**(*arXiv2022_TokenFlow*) TokenFlow: Rethinking Fine-grained Cross-modal Alignment in Vision-Language Retrieval.** <br>
+*Xiaohan Zou, Changqiao Wu, Lele Cheng, Zhongyuan Wang.*<br>
+[[paper]](https://arxiv.org/abs/2209.13822)
+
+**(*NeurIPS2022_Knowledge-CLIP*) Contrastive Language-Image Pre-Training with Knowledge Graphs.** <br>
+*Xuran Pan, Tianzhu Ye, Dongchen Han, Shiji Song, Gao Huang.*<br>
+[[paper]](https://arxiv.org/abs/2210.08901)
+
+**(*arXiv2022_xCLIP*) Non-Contrastive Learning Meets Language-Image Pre-Training.** <br>
+*Jinghao Zhou, Li Dong, Zhe Gan, Lijuan Wang, Furu Wei.*<br>
+[[paper]](https://arxiv.org/abs/2210.09304)
+
+**(*BMVC2022_ViCHA*) Efficient Vision-Language Pretraining with Visual Concepts and Hierarchical Alignment.** <br>
+*Mustafa Shukor, Guillaume Couairon, Matthieu Cord.*<br>
+[[paper]](https://hal.science/hal-03811336v1/file/Long_version_arxiv.pdf)
+[[code]](https://github.com/mshukor/ViCHA)
+
+**(*ACMMM2022_CMAL*) CMAL: A Novel Cross-Modal Associative Learning Framework for Vision-Language Pre-Training.** <br>
+*Zhiyuan Ma, Jianjun Li, Guohui Li, Kaiyan Huang.*<br>
+[[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548292?casa_token=hi-6v_U02LUAAAAA%3A9bC8zagp-Strds7Ik1iST5VWvADRENtFa_R_vh2gBKfjxyTg1o-7LxTFhM16Q00mdg6l_7-vaWQOqNE)
+
+**(*ACMMM2022_MVPTR*) MVPTR: Multi-Level Semantic Alignment for Vision-Language Pre-Training via Multi-Stage Learning.** <br>
+*Zejun Li, Zhihao Fan, Huaixiao Tou, Jingjing Chen, Zhongyu Wei, Xuanjing Huang.*<br>
+[[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548341?casa_token=VWAkYtj9sQ8AAAAA%3A76l66PyWE1IXcXSHMTXzVndjPS61VGwPpd1RgCid8oKoJJ-f_6qtIDDmDzG16TVj20GUjTAPkElk53Q)
+
+**(*CVPR2022_CLIP-Event*) CLIP-Event: Connecting Text and Images with Event Structures.** <br>
+*Manling Li, Ruochen Xu, Shuohang Wang, Luowei Zhou, Xudong Lin, Chenguang Zhu, Michael Zeng, Heng Ji, Shih-Fu Chang.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_CLIP-Event_Connecting_Text_and_Images_With_Event_Structures_CVPR_2022_paper.pdf)
+[[code]](https://github.com/limanling/clip-event)
+
+**(*CVPR2023_TCL*) Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs.** <br>
+*Junbum Cha, Jonghwan Mun, Byungseok Roh.*<br>
+[[paper]](https://arxiv.org/abs/2212.00785)
+[[code]](https://github.com/kakaobrain/tcl)
+
+**(*arXiv2022_MAC*) Masked Contrastive Pre-Training for Efficient Video-Text Retrieval.** <br>
+*Fangxun Shu, Biaolong Chen, Yue Liao, Shuwen Xiao, Wenyu Sun, Xiaobo Li, Yousong Zhu, Jinqiao Wang, Si Liu.*<br>
+[[paper]](https://arxiv.org/abs/2212.00986)
+[[code]](https://github.com/shufangxun/MAC)
+
+**(*AAAI2023_NLIP*) NLIP: Noise-robust Language-Image Pre-training.** <br>
+*Runhui Huang, Yanxin Long, Jianhua Han, Hang Xu, Xiwen Liang, Chunjing Xu, Xiaodan Liang.*<br>
+[[paper]](https://arxiv.org/abs/2212.07086)
+
+**(*CVPR2023_BIKE*) Bidirectional Cross-Modal Knowledge Exploration for Video Recognition with Pre-trained Vision-Language Models.** <br>
+*Wenhao Wu, Xiaohan Wang, Haipeng Luo, Jingdong Wang, Yi Yang, Wanli Ouyang.*<br>
+[[paper]](https://arxiv.org/abs/2301.00182)
+[[code]](https://github.com/whwu95/BIKE)
+
+**(*CVPR2023_Cap4Video*) Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?.** <br>
+*Wenhao Wu, Haipeng Luo, Bo Fang, Jingdong Wang, Wanli Ouyang.*<br>
+[[paper]](https://arxiv.org/abs/2301.00184)
+[[code]](https://github.com/whwu95/Cap4Video)
+
+**(*arXiv2023_HADA*) HADA: A Graph-based Amalgamation Framework in Image-text Retrieval.** <br>
+*Manh-Duy Nguyen, Binh T. Nguyen, Cathal Gurrin.*<br>
+[[paper]](https://arxiv.org/abs/2301.04742)
+[[code]](https://github.com/m2man/HADA)
+
+**(*ICCV2023_LexLIP*) LexLIP: Lexicon-Bottlenecked Language-Image Pre-Training for Large-Scale Image-Text Retrieval.** <br>
+*Ziyang luo, Pu Zhao, Can Xu, Xiubo Geng, Tao Shen, Chongyang Tao, Jing Ma, Qingwen lin, Daxin Jiang.*<br>
+[[paper]](https://arxiv.org/abs/2302.02908)
+[[code]](https://github.com/chiyeunglaw/lexlip-iccv23)
+
+**(*arXiv2023_VITR*) VITR: Augmenting Vision Transformers with Relation-Focused Learning for Cross-Modal Information Retrieval.** <br>
+*Yan Gong, Georgina Cosma, Axel Finke.*<br>
+[[paper]](https://arxiv.org/abs/2302.06350)
+
+**(*arXiv2023_UKnow*) UKnow: A Unified Knowledge Protocol for Common-Sense Reasoning and Vision-Language Pre-training.** <br>
+*Biao Gong, Xiaoying Xie, Yutong Feng, Yiliang Lv, Yujun Shen, Deli Zhao.*<br>
+[[paper]](https://arxiv.org/abs/2302.06891)
+[[code]](https://github.com/Gongggg/UKnow)
+
+**(*AAAI2023_STOA-VLP*) STOA-VLP: Spatial-Temporal Modeling of Object and Action for Video-Language Pre-training.** <br>
+*Weihong Zhong, Mao Zheng, Duyu Tang, Xuan Luo, Heng Gong, Xiaocheng Feng, Bing Qin.*<br>
+[[paper]](https://arxiv.org/abs/2302.09736)
+
+**(*arXiv2023_CAVL*) CAVL: Learning Contrastive and Adaptive Representations of Vision and Language.** <br>
+*Shentong Mo, Jingfei Xia, Ihor Markevych.*<br>
+[[paper]](https://arxiv.org/abs/2304.04399)
+
+**(*ICML2023_MERU*) Hyperbolic Image-Text Representations.** <br>
+*Karan Desai, Maximilian Nickel, Tanmay Rajpurohit, Justin Johnson, Ramakrishna Vedantam.*<br>
+[[paper]](https://arxiv.org/abs/2304.09172)
+[[code]](https://github.com/facebookresearch/meru)
+
+**(*ACL2023_MI*) Vision Language Pre-training by Contrastive Learning with Cross-Modal Similarity Regulation.** <br>
+*Chaoya Jiang, Wei Ye, Haiyang Xu, Miang yan, Shikun Zhang, Jie Zhang, Fei Huang.*<br>
+[[paper]](https://arxiv.org/abs/2305.04474)
+
+**(*ACMMM2023_COPA*) COPA: Efficient Vision-Language Pre-training Through Collaborative Object- and Patch-Text Alignment.** <br>
+*Chaoya Jiang, Haiyang Xu, Wei Ye, Qinghao Ye, Chenliang Li, Ming Yan, Bin Bi, Shikun Zhang, Ji Zhang, Fei Huang.*<br>
+[[paper]](https://arxiv.org/abs/2308.03475)
+
+**(*ICCV2023_UCoFiA*) Unified Coarse-to-Fine Alignment for Video-Text Retrieval.** <br>
+*Ziyang Wang, Yi-Lin Sung, Feng Cheng, Gedas Bertasius, Mohit Bansal.*<br>
+[[paper]](https://arxiv.org/abs/2309.10091)
+[[code]](https://github.com/Ziyang412/UCoFiA)
+
+
+### ``*Pretrained Dataset*``
+
+**(*SIGIR2023_COCO-F30K-FG*) Rethinking Benchmarks for Cross-modal Image-text Retrieval.** <br>
+*Weijing Chen, Linli Yao, Qin Jin.*<br>
+[[paper]](https://arxiv.org/abs/2304.10824)
+[[code]](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG)
+
+**(*NIPS2011_SBU*) Im2Text: Describing Images Using 1 Million Captioned Photographs.** <br>
+*Vicente Ordonez, Girish Kulkarni, Tamara Berg.*<br>
+[[paper]](https://proceedings.neurips.cc/paper/2011/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf)
+
+**(*arXiv2015_YFCC100M*) YFCC100M: The New Data in Multimedia Research.** <br>
+*Bart Thomee, David A. Shamma, Gerald Friedland, Benjamin Elizalde, Karl Ni, Douglas Poland, Damian Borth, Li-Jia Li.*<br>
+[[paper]](https://arxiv.org/abs/1503.01817v2)
+
+**(*IJCV2017_VG*) Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations.** <br>
+*Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, Li-Jia Li, David A. Shamma, Michael S. Bernstein, Fei-Fei Li.*<br>
+[[paper]](https://arxiv.org/abs/1602.07332)
+
+**(*ICCV2017_JFT-300M*) Revisiting Unreasonable Effectiveness of Data in Deep Learning Era.** <br>
+*Chen Sun, Abhinav Shrivastava, Saurabh Singh, Abhinav Gupta.*<br>
+[[paper]](https://arxiv.org/abs/1707.02968v2)
+
+**(*SIGIR2021_WIT*) WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning.** <br>
+*Krishna Srinivasan, Karthik Raman, Jiecao Chen, Michael Bendersky, Marc Najork.*<br>
+[[paper]](https://arxiv.org/abs/2103.01913)
+[[code]](https://github.com/google-research-datasets/wit)
+
+**(*CVPR2021_CC-12M*) Conceptual 12M: Pushing Web-Scale Image-Text Pre-Training To Recognize Long-Tail Visual Concepts.** <br>
+*Soravit Changpinyo, Piyush Sharma, Nan Ding, Radu Soricut.*<br>
+[[paper]](https://arxiv.org/abs/2102.08981)
+[[code]](https://github.com/google-research-datasets/conceptual-12m)
+
+**(*NeurIPS2021_RedCaps*) RedCaps: web-curated image-text data created by the people, for the people.** <br>
+*Karan Desai, Gaurav Kaul, Zubin Aysola, Justin Johnson.*<br>
+[[paper]](https://arxiv.org/abs/2111.11431)
+[[code]](https://redcaps.xyz)
+
+**(*CVPR2022_LiT*) LiT: Zero-Shot Transfer with Locked-image text Tuning.** <br>
+*Xiaohua Zhai, Xiao Wang, Basil Mustafa, Andreas Steiner, Daniel Keysers, Alexander Kolesnikov, Lucas Beyer.*<br>
+[[paper]](https://arxiv.org/abs/2111.07991)
+[[code]](https://github.com/google-research/vision_transformer#lit-models)
+
+**(*CVPR2022_ALT200M*) Scaling Up Vision-Language Pre-training for Image Captioning.** <br>
+*Xiaowei Hu, Zhe Gan, Jianfeng Wang, Zhengyuan Yang, Zicheng Liu, Yumao Lu, Lijuan Wang.*<br>
+[[paper]](https://arxiv.org/abs/2111.12233)
+[[code]](https://github.com/xiaoweihu/ALT200M)
+
+**(*TMLR2022_GIT*) GIT: A Generative Image-to-text Transformer for Vision and Language.** <br>
+*Jianfeng Wang, Zhengyuan Yang, Xiaowei Hu, Linjie Li, Kevin Lin, Zhe Gan, Zicheng Liu, Ce Liu, Lijuan Wang.*<br>
+[[paper]](https://arxiv.org/abs/2205.14100)
+[[code]](https://github.com/microsoft/GenerativeImage2Text)
+
+**(*ICLR2023_WebLI*) PaLI: A Jointly-Scaled Multilingual Language-Image Model.** <br>
+*Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski, Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari, Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo, Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme, Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut.*<br>
+[[paper]](https://arxiv.org/abs/2209.06794)
+
+**(*NeurIPS2022_LAION-5B*) LAION-5B: An open large-scale dataset for training next generation image-text models.** <br>
+*Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, Patrick Schramowski, Srivatsa Kundurthy, Katherine Crowson, Ludwig Schmidt, Robert Kaczmarczyk, Jenia Jitsev.*<br>
+[[paper]](https://arxiv.org/abs/2210.08402)
+[[code]](https://github.com/mlfoundations/open_clip)
+
+**(*Github2022_COYO-700M*) COYO-700M: Image-Text Pair Dataset.** <br>
+*Byeon, Minwoo and Park, Beomhee and Kim, Haecheon and Lee, Sungjun and Baek, Woonhyuk and Kim, Saehoon.*<br>
+[[code]](https://github.com/kakaobrain/coyo-dataset)
