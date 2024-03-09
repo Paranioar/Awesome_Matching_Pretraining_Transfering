@@ -1,4 +1,4 @@
-Method Summary of Cross-modal Retrieval
+Methods Summary of Conventional Image-Text Matching
 ==============================
 
 ## ``Catalogue ``
@@ -276,6 +276,10 @@ Method Summary of Cross-modal Retrieval
 *Zheren Fu, Zhendong Mao, Yan Song, Yongdong Zhang.*<br>
 [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Fu_Learning_Semantic_Relationship_Among_Instances_for_Image-Text_Matching_CVPR_2023_paper.pdf)
 [[code]](https://github.com/CrossmodalGroup/HREM)
+
+**(*TCSVT2024_IMEB*) Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval.**<br>
+*Zhe Li, Lei Zhang, Kun Zhang, Yongdong Zhang, Zhendong Mao.*<br>
+[[paper]](https://ieeexplore.ieee.org/abstract/document/10414133/authors#authors)
 
 
 ### ``*Cross-Modal Interaction*``
@@ -647,6 +651,10 @@ Method Summary of Cross-modal Retrieval
 *Huaiwen Zhang, Yang Yang, Fan Qi, Shengsheng Qian, Changsheng Xu.*<br>
 [[paper]](https://ieeexplore.ieee.org/document/10024790)
 
+**(*TMM2023_CTPR*) Learning From Noisy Correspondence With Tri-Partition for Cross-Modal Matching.**<br>
+*Feng, Zerun and Zeng, Zhimin and Guo, Caili and Li, Zheng and Hu, Lin.*<br>
+[[paper]](https://ieeexplore.ieee.org/abstract/document/10258402)
+
 **(*TPAMI2023_RCL*) Cross-Modal Retrieval With Partially Mismatched Pairs.**<br>
 *Peng Hu, Zhenyu Huang, Dezhong Peng, Xu Wang, Xi Peng.*<br>
 [[paper]](https://ieeexplore.ieee.org/abstract/document/10050111)
@@ -662,10 +670,39 @@ Method Summary of Cross-modal Retrieval
 [[paper]](https://arxiv.org/abs/2303.12419)
 [[code]](https://github.com/xu5zhao/bicro)
 
+**(*ICCV2023_NoC*) Noise-aware Learning from Web-crawled Image-Text Data for Image Captioning.**<br>
+*Wooyoung Kang, Jonghwan Mun, Sungjun Lee, Byungseok Roh.*<br>
+[[paper]](https://arxiv.org/abs/2212.13563)
+[[code]](https://github.com/kakaobrain/noc)
+
 **(*NeurIPS2023_CRCL*) Cross-modal Active Complementary Learning with Self-refining Correspondence.**<br>
 *Yang Qin, Yuan Sun, Dezhong Peng, Joey Tianyi Zhou, Xi Peng, Peng Hu.*<br>
 [[paper]](https://arxiv.org/abs/2310.17468)
 [[code]](https://github.com/QinYang79/CRCL)
+
+**(*AAAI2024_NPC*) Negative Pre-aware for Noisy Cross-modal Matching.**<br>
+*Xu Zhang, Hao Li, Mang Ye.*<br>
+[[paper]](https://arxiv.org/abs/2312.05777)
+[[code]](https://github.com/ZhangXu0963/NPC)
+
+**(*AAAI2024_SREM*) Noisy Correspondence Learning with Self-Reinforcing Errors Mitigation.**<br>
+*Zhuohang Dang, Minnan Luo, Chengyou Jia, Guang Dai, Xiaojun Chang, Jingdong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2312.16478)
+
+**(*TIP2024_CREAM*) Cross-modal Retrieval with Noisy Correspondence via Consistency Refining and Mining.**<br>
+*Xinran Ma, Mouxing Yang, Yunfan Li, Peng Hu, Jiancheng Lv, Xi Peng.*<br>
+[[paper]](http://pengxi.me/wp-content/uploads/2024/03/pengxime-online.pdf)
+[[code]](https://github.com/XLearning-SCU/2024-TIP-CREAM)
+
+**(*ICLR2024_Norton*) Multi-granularity Correspondence Learning from Long-term Noisy Videos.**<br>
+*Yijie Lin, Jie Zhang, Zhenyu Huang, Jia Liu, Zujie Wen, Xi Peng.*<br>
+[[paper]](https://openreview.net/pdf?id=9Cu8MRmhq2)
+[[code]](https://github.com/XLearning-SCU/2024-ICLR-Norton)
+
+**(*CVPR2024_RDE*) Noisy-Correspondence Learning for Text-to-Image Person Re-identification.**<br>
+*Yang Qin, Yingke Chen, Dezhong Peng, Xi Peng, Joey Tianyi Zhou, Peng Hu.*<br>
+[[paper]](https://arxiv.org/abs/2308.09911)
+[[code]](https://github.com/QinYang79/RDE)
 
 
 ### ``*Commonsense Learning*``

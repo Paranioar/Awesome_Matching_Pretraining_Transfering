@@ -1,4 +1,12 @@
-## ``Vision-Language Pretraining``
+Methods Summary of Vision-Language Pretraining
+==============================
+
+## ``Catalogue ``
+* [Pretrained Method](#pretrained-method)
+* [Pretrained Dataset](#pretrained-dataset)
+    * [Image-related Dataset](#image-related-dataset)
+    * [Video-related Dataset](#video-related-dataset)
+
 
 ### ``*Pretrained Method*``
 
@@ -173,6 +181,11 @@
 **(*CVPR2020_ActBERT*) ActBERT: Learning Global-Local Video-Text Representations.** <br>
 *Linchao Zhu, Yi Yang.*<br>
 [[paper]](https://arxiv.org/abs/2011.07231)
+
+**(*CVPR2021_DenseCL*) Dense Contrastive Learning for Self-Supervised Visual Pre-Training.** <br>
+*Xinlong Wang, Rufeng Zhang, Chunhua Shen, Tao Kong, Lei Li.*<br>
+[[paper]](https://arxiv.org/abs/2011.09157)
+[[code]](https://git.io/DenseCL)
 
 **(*TACL2021_MPU*) Multimodal Pretraining Unmasked: A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs.** <br>
 *Emanuele Bugliarello, Ryan Cotterell, Naoaki Okazaki, Desmond Elliott.*<br>
@@ -631,6 +644,16 @@
 *Weihong Zhong, Mao Zheng, Duyu Tang, Xuan Luo, Heng Gong, Xiaocheng Feng, Bing Qin.*<br>
 [[paper]](https://arxiv.org/abs/2302.09736)
 
+**(*ICCV2023_EqSim*) Equivariant Similarity for Vision-Language Foundation Models.** <br>
+*Tan Wang, Kevin Lin, Linjie Li, Chung-Ching Lin, Zhengyuan Yang, Hanwang Zhang, Zicheng Liu, Lijuan Wang.*<br>
+[[paper]](https://arxiv.org/abs/2303.14465)
+[[code]](https://github.com/Wangt-CN/EqBen)
+
+**(*ICCV2023_SigLIP*) Sigmoid Loss for Language Image Pre-Training.** <br>
+*Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, Lucas Beyer.*<br>
+[[paper]](https://arxiv.org/abs/2303.15343)
+[[code]](https://github.com/google-research/big_vision)
+
 **(*arXiv2023_CAVL*) CAVL: Learning Contrastive and Adaptive Representations of Vision and Language.** <br>
 *Shentong Mo, Jingfei Xia, Ihor Markevych.*<br>
 [[paper]](https://arxiv.org/abs/2304.04399)
@@ -653,8 +676,27 @@
 [[paper]](https://arxiv.org/abs/2309.10091)
 [[code]](https://github.com/Ziyang412/UCoFiA)
 
+**(*arXiv2023_TiC-CLIP*) TiC-CLIP: Continual Training of CLIP Models.** <br>
+*Saurabh Garg, Mehrdad Farajtabar, Hadi Pouransari, Raviteja Vemulapalli, Sachin Mehta, Oncel Tuzel, Vaishaal Shankar, Fartash Faghri.*<br>
+[[paper]](https://arxiv.org/abs/2310.16226)
+
+**(*arXiv2023_MCAD*) MCAD: Multi-teacher Cross-modal Alignment Distillation for efficient image-text retrieval.**<br>
+*Youbo Lei, Feifei He, Chen Chen, Yingbin Mo, Si Jia Li, Defeng Xie, Haonan Lu.*<br>
+[[paper]](https://arxiv.org/abs/2310.19654)
+
+**(*ICLR2024_Norton*) Multi-granularity Correspondence Learning from Long-term Noisy Videos.**<br>
+*Yijie Lin, Jie Zhang, Zhenyu Huang, Jia Liu, Zujie Wen, Xi Peng.*<br>
+[[paper]](https://openreview.net/pdf?id=9Cu8MRmhq2)
+[[code]](https://github.com/XLearning-SCU/2024-ICLR-Norton)
+
+**(*COLING2024_UNIFY*) Unifying Latent and Lexicon Representations for Effective Video-Text Retrieval.**<br>
+*Haowei Liu, Yaya Shi, Haiyang Xu, Chunfeng Yuan, Qinghao Ye, Chenliang Li, Ming Yan, Ji Zhang, Fei Huang, Bing Li, Weiming Hu.*<br>
+[[paper]](https://arxiv.org/abs/2402.16769)
+
 
 ### ``*Pretrained Dataset*``
+
+#### ``**Image-related Dataset**``
 
 **(*SIGIR2023_COCO-F30K-FG*) Rethinking Benchmarks for Cross-modal Image-text Retrieval.** <br>
 *Weijing Chen, Linli Yao, Qin Jin.*<br>
@@ -719,3 +761,54 @@
 **(*Github2022_COYO-700M*) COYO-700M: Image-Text Pair Dataset.** <br>
 *Byeon, Minwoo and Park, Beomhee and Kim, Haecheon and Lee, Sungjun and Baek, Woonhyuk and Kim, Saehoon.*<br>
 [[code]](https://github.com/kakaobrain/coyo-dataset)
+
+
+#### ``**Video-related Dataset**``
+
+**(*CVPR2017_Kinetics-400*) Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset.** <br>
+*Joao Carreira, Andrew Zisserman.*<br>
+[[paper]](https://arxiv.org/abs/1705.07750)
+
+**(*CVPR2018_AVA*) AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions.** <br>
+*Chunhui Gu, Chen Sun, David A. Ross, Carl Vondrick, Caroline Pantofaru, Yeqing Li, Sudheendra Vijayanarasimhan, George Toderici, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, Jitendra Malik.*<br>
+[[paper]](https://arxiv.org/abs/1705.08421)
+
+**(*ICCV2017_Something-Something V2*) The "something something" video database for learning and evaluating visual common sense.** <br>
+*Raghav Goyal, Samira Ebrahimi Kahou, Vincent Michalski, Joanna Materzyńska, Susanne Westphal, Heuna Kim, Valentin Haenel, Ingo Fruend, Peter Yianilos, Moritz Mueller-Freitag, Florian Hoppe, Christian Thurau, Ingo Bax, Roland Memisevic.*<br>
+[[paper]](https://arxiv.org/abs/1706.04261)
+
+**(*arXiv2018_Kinetics-600*) A Short Note about Kinetics-600.** <br>
+*Joao Carreira, Eric Noland, Andras Banki-Horvath, Chloe Hillier, Andrew Zisserman.*<br>
+[[paper]](https://arxiv.org/abs/1808.01340)
+
+**(*arXiv2019_Kinetics-700*) A Short Note on the Kinetics-700 Human Action Dataset.** <br>
+*Joao Carreira, Eric Noland, Chloe Hillier, Andrew Zisserman.*<br>
+[[paper]](https://arxiv.org/abs/1907.06987)
+
+**(*ICCV2019_HowTo100M*) HowTo100M: Learning a Text-Video Embedding by Watching Hundred Million Narrated Video Clips.** <br>
+*Antoine Miech, Dimitri Zhukov, Jean-Baptiste Alayrac, Makarand Tapaswi, Ivan Laptev, Josef Sivic.*<br>
+[[paper]](https://arxiv.org/abs/1906.03327)
+
+**(*arXiv2020_WTS70M*) Learning Video Representations from Textual Web Supervision.** <br>
+*Jonathan C. Stroud, Zhichao Lu, Chen Sun, Jia Deng, Rahul Sukthankar, Cordelia Schmid, David A. Ross.*<br>
+[[paper]](https://arxiv.org/abs/2007.14937)
+
+**(*ICCV2021_WebVid10M*) Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval.** <br>
+*Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.*<br>
+[[paper]](https://arxiv.org/abs/2104.00650)
+
+**(*NeurIPS2021_YT-Temporal-180M*) MERLOT: Multimodal Neural Script Knowledge Models.** <br>
+*Rowan Zellers, Ximing Lu, Jack Hessel, Youngjae Yu, Jae Sung Park, Jize Cao, Ali Farhadi, Yejin Choi.*<br>
+[[paper]](https://arxiv.org/abs/2106.02636)
+
+**(*CVPR2022_HD-VILA-100M*) Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions.** <br>
+*Hongwei Xue, Tiankai Hang, Yanhong Zeng, Yuchong Sun, Bei Liu, Huan Yang, Jianlong Fu, Baining Guo.*<br>
+[[paper]](https://arxiv.org/abs/2111.10337)
+
+**(*ECCV2022_VideoCC3M*) Learning Audio-Video Modalities from Image Captions.** <br>
+*Arsha Nagrani, Paul Hongsuck Seo, Bryan Seybold, Anja Hauth, Santiago Manen, Chen Sun, Cordelia Schmid.*<br>
+[[paper]](https://arxiv.org/abs/2204.00679)
+
+**(*arXiv2023_InternVid-10M*) InternVid: A Large-scale Video-Text Dataset for Multimodal Understanding and Generation.** <br>
+*Yi Wang, Yinan He, Yizhuo Li, Kunchang Li, Jiashuo Yu, Xin Ma, Xinyuan Chen, Yaohui Wang, Ping Luo, Ziwei Liu, Yali Wang, Limin Wang, Yu Qiao.*<br>
+[[paper]](https://arxiv.org/abs/2307.06942)

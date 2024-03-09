@@ -4,7 +4,7 @@ The tutorial of Cross-Modal Matching / Pretraining / Transfering will be constan
 
 ## ``Logupdate ``
 
-【2023.12.12】 A new section named ***[Large Multi-Modality Model]*** has been added.  
+【2024.03.09】 A new section named ***[Large Multi-Modality Model]*** has been added.  
 【2023.05.25】 A new section named ***[Parameter-Efficient Finetuning]*** has been added.  
 【2021.12.11】 A new section named ***[Video-Text Learning]*** has been added.
 【2021.07.10】 A new section named ***[Vision-Language Pretraining]*** has been added.  
@@ -13,13 +13,20 @@ The tutorial of Cross-Modal Matching / Pretraining / Transfering will be constan
 
 * [Methods Summary](./README.md)
     * [Large Multi-Modality Model](./large_mmm.md)
+        * [Region Perception-Generation](./large_mmm.md/#region-perception-generation)
+        * [Image Perception-Generation](./large_mmm.md/#image-perception-generation)
+        * [Video Perception-Generation](./large_mmm.md/#video-perception-generation)
+        * [Large Uni-Modality Model](./large_mmm.md/#large-uni-modality-model)
+        * [Large Model Distillation](./large_mmm.md/#large-modal-distillation)
+        * [Related Survey](./large_mmm.md/#related-survey)
+        * [Related Benchmark](./large_mmm.md/#related-benchmark)
     * [Parameter-Efficient Finetuning](./transfer_learning.md)
         * [Parameter-Efficient Method](./transfer_learning.md/#parameter-efficient-method)
         * [Memory-Efficient Method](./transfer_learning.md/#memory-efficient-method)
     * [Vision-Language Pretraining](./pretrained_model.md)
         * [Pretrained Method](./pretrained_model.md/#pretrained-method)
         * [Pretrained Dataset](./pretrained_model.md/#pretrained-dataset)
-    * [Conventional Method](./conventional_method.md)
+    * [Conventional Image-Text Matching](./conventional_method.md)
         * [Generic-Feature Extraction](./conventional_method.md/#generic-feature-extraction)
         * [Cross-Modal Interaction](./conventional_method.md/#cross-modal-interaction)
         * [Similarity Measurement](./conventional_method.md/#similarity-measurement)
@@ -47,8 +54,10 @@ The tutorial of Cross-Modal Matching / Pretraining / Transfering will be constan
     * [ICFG-PEDES](./performance.md/#performance-of-icfg-pedes)
     * [CUB-Flowers](./performance.md/#performance-of-cub-flowers)
     
-* [Other Resources](./resource.md/#other-resources)  
-    * [Multimodal Learning](./resource.md/#multimodal-learning)
+* [Other Resources](./resource.md/#other-resources)
+    * [Large Foundation Model](./resource.md/#large-foundation-model)
+    * [Multi-Modality Model](./resource.md/#multi-modality-model)
+    * [Transfer Learning](./resource.md/#transfer-learning)
     * [Graph Learning](./resource.md/#graph-learning)
     * [Fewshot Learning](./resource.md/#fewshot-learning)
     

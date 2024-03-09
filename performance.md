@@ -1,7 +1,6 @@
 Peformance Comparison of Cross-modal Retrieval
 ==============================
 
-
 ## ``Catalogue ``
 * [Commonly-used datasets](#peformance-of-commonly-used-datasets)
     * [Flickr8K](#performance-of-flickr8k)
