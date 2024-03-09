@@ -6,7 +6,7 @@ The tutorial of Cross-Modal Matching / Pretraining / Transfering will be constan
 
 【2024.03.09】 A new section named ***[Large Multi-Modality Model]*** has been added.  
 【2023.05.25】 A new section named ***[Parameter-Efficient Finetuning]*** has been added.  
-【2021.12.11】 A new section named ***[Video-Text Learning]*** has been added.
+【2021.12.11】 A new section named ***[Video-Text Learning]*** has been added. 
 【2021.07.10】 A new section named ***[Vision-Language Pretraining]*** has been added.  
 
 ## ``Catalogue ``
