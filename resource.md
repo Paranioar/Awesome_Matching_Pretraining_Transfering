@@ -31,7 +31,9 @@ Other Resources to Broad the Horizons
 
 ## ``*Transfer Learning*``
 
-[Awesome Prompting Papers in Computer Vision](https://github.com/ttengwang/Awesome_Prompting_Papers_in_Computer_Vision)
+[Awesome Prompting Papers in Computer Vision](https://github.com/ttengwang/Awesome_Prompting_Papers_in_Computer_Vision)   
+
+[Awesome Parameter Efficient Transfer Learning](https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning)
 
 
 ## ``*Graph learning*``

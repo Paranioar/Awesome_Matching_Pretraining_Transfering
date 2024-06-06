@@ -176,7 +176,7 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://www.researchgate.net/profile/Meng-Liu-67/publication/346201037_Context-Aware_Multi-View_Summarization_Network_for_Image-Text_Matching/links/6052a29f299bf173674e0be6/Context-Aware-Multi-View-Summarization-Network-for-Image-Text-Matching.pdf)
 [[code]](https://github.com/LgQu/CAMERA)
 
-**(*arXiv2021_DXR*) Cross-Modal Retrieval Augmentation for Multi-Modal Classification.**<br>
+**(*EMNLP2021_DXR*) Cross-Modal Retrieval Augmentation for Multi-Modal Classification.**<br>
 *Shir Gur, Natalia Neverova, Chris Stauffer, Ser-Nam Lim, Douwe Kiela, Austin Reiter.*<br>
 [[paper]](https://arxiv.org/abs/2104.08108)
 
@@ -184,7 +184,7 @@ Methods Summary of Conventional Image-Text Matching
 *Barbara Rychalska, Mikolaj Wieczorek, Jacek Dabrowski.*<br>
 [[paper]](https://arxiv.org/abs/2105.04242)
 
-**(*arXiv2021_LGSGM*) A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval.**<br>
+**(*SoMeT2021_LGSGM*) A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval.**<br>
 *Manh-Duy Nguyen, Binh T. Nguyen, Cathal Gurrins.*<br>
 [[paper]](https://arxiv.org/abs/2106.02400)
 
@@ -218,7 +218,7 @@ Methods Summary of Conventional Image-Text Matching
 *Yun Wang, Tong Zhang, Xueya Zhang, Zhen Cui, Yuge Huang, Pengcheng Shen, Shaoxin Li, Jian Yang.*<br>
 [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Wasserstein_Coupled_Graph_Learning_for_Cross-Modal_Retrieval_ICCV_2021_paper.pdf)
 
-**(*arXiv2022_ADPOOL*) Improving Visual-Semantic Embedding with Adaptive Pooling and Optimization Objective.**<br>
+**(*ECAL2023_ADPOOL*) Improving Visual-Semantic Embedding with Adaptive Pooling and Optimization Objective.**<br>
 *Zijian Zhang, Chang Shu, Ya Xiao, Yuan Shen, Di Zhu, Jing Xiao, Youxin Chen, Jey Han Lau, Qian Zhang, Zheng Lu.*<br>
 [[paper]](https://arxiv.org/abs/2210.02206)
 [[code]](https://github.com/96-Zachary/vse_2ad)
@@ -250,7 +250,7 @@ Methods Summary of Conventional Image-Text Matching
 *Chen-Wei Xie, Jianmin Wu, Yun Zheng, Pan Pan, Xian-Sheng Hua.*<br>
 [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548107?casa_token=5VaiOwPt6LkAAAAA%3AOE9YCv5KHXtkaK7HgIEVjJ782j8dTazlXKj1Oo-qzd734OGgzycpc6peX2LJqnHlAGB01p4Ua3EUAus)
 
-**(*arXiv2023_USER*) USER: Unified Semantic Enhancement with Momentum Contrast for Image-Text Retrieval.** <br>
+**(*TIP2024_USER*) USER: Unified Semantic Enhancement with Momentum Contrast for Image-Text Retrieval.** <br>
 *Yan Zhang, Zhong Ji, Di Wang, Yanwei Pang, Xuelong Li.*<br>
 [[paper]](https://arxiv.org/abs/2301.06844)
 [[code]](https://github.com/zhangy0822/user)
@@ -284,7 +284,7 @@ Methods Summary of Conventional Image-Text Matching
 
 ### ``*Cross-Modal Interaction*``
 
-**(*arXiv2014_NIC*) Show and Tell: A Neural Image Caption Generator.**<br>
+**(*CVPR2015_NIC*) Show and Tell: A Neural Image Caption Generator.**<br>
 *Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.*<br>
 [[paper]](https://arxiv.org/abs/1411.4555)
 
@@ -326,7 +326,7 @@ Methods Summary of Conventional Image-Text Matching
 *Yaxian Xia, Lun Huang, Wenmin Wang, Xiaoyong Wei, Jie Chen.*<br> 
 [[paper]](https://arxiv.org/abs/1906.06892)
 
-**(*arXiv2019_TOD-Net*) Target-Oriented Deformation of Visual-Semantic Embedding Space.**<br>
+**(*TIS2021_TOD-Net*) Target-Oriented Deformation of Visual-Semantic Embedding Space.**<br>
 *Takashi Matsubara.*<br>
 [[paper]](https://arxiv.org/abs/1910.06514)
 
@@ -408,11 +408,11 @@ Methods Summary of Conventional Image-Text Matching
 *Yuxiao Chen, Jianbo Yuan, Long Zhao, Rui Luo, Larry Davis, Dimitris N. Metaxas.*<br>
 [[paper]](https://arxiv.org/abs/2105.09597)
 
-**(*arXiv2021_SSAMT*) Constructing Phrase-level Semantic Labels to Form Multi-Grained Supervision for Image-Text Retrieval.** <br>
+**(*ICMR2022_SSAMT*) Constructing Phrase-level Semantic Labels to Form Multi-Grained Supervision for Image-Text Retrieval.** <br>
 *Zhihao Fan, Zhongyu Wei, Zejun Li, Siyuan Wang, Haijun Shan, Xuanjing Huang, Jianqing Fan.*<br>
 [[paper]](https://arxiv.org/abs/2109.05523)
 
-**(*arXiv2021_SwAMP*) SwAMP: Swapped Assignment of Multi-Modal Pairs for Cross-Modal Retrieval.** <br>
+**(*AISTATS2023_SwAMP*) SwAMP: Swapped Assignment of Multi-Modal Pairs for Cross-Modal Retrieval.** <br>
 *Minyoung Kim.*<br>
 [[paper]](https://arxiv.org/abs/2111.05814)
 
@@ -498,15 +498,20 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2306.08789)
 [[code]](https://github.com/LCFractal/TGDT)
 
+**(*NeurIPS2023_DiffusionITM*) Are Diffusion Models Vision-And-Language Reasoners?.** <br>
+*Benno Krojer, Elinor Poole-Dayan, Vikram Voleti, Christopher Pal, Siva Reddy.*<br>
+[[paper]](https://arxiv.org/abs/2305.16397)
+[[code]](https://github.com/McGill-NLP/diffusion-itm)
+
 **(*TIP2023_RCAR*) Plug-and-Play Regulators for Image-Text Matching.** <br>
 *Haiwen Diao, Ying Zhang, Wei Liu, Xiang Ruan, Huchuan Lu.*<br>
 [[paper]](https://arxiv.org/abs/2303.13371)
 [[code]](https://github.com/paranioar/rcar)
 
-**(*NeurIPS2023_DiffusionITM*) Are Diffusion Models Vision-And-Language Reasoners?.** <br>
-*Benno Krojer, Elinor Poole-Dayan, Vikram Voleti, Christopher Pal, Siva Reddy.*<br>
-[[paper]](https://arxiv.org/abs/2305.16397)
-[[code]](https://github.com/McGill-NLP/diffusion-itm)
+**(*TIP2024_DBL*) Deep Boosting Learning: A Brand-new Cooperative Approach for Image-Text Matching.**<br>
+*Haiwen Diao, Ying Zhang, Shang Gao, Xiang Ruan, Huchuan Lu.*<br>
+[[paper]](https://arxiv.org/abs/2404.18114)
+[[code]](https://github.com/Paranioar/DBL)
 
 
 ### ``*Similarity Measurement*``
@@ -704,6 +709,15 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2308.09911)
 [[code]](https://github.com/QinYang79/RDE)
 
+**(*CVPR2024_L2RM*) Learning to Rematch Mismatched Pairs for Robust Cross-Modal Retrieval.**<br>
+*Haochen Han, Qinghua Zheng, Guang Dai, Minnan Luo, Jingdong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2403.05105)
+[[code]](https://github.com/hhc1997/L2RM)
+
+**(*arXiv2024_REPAIR*) REPAIR: Rank Correlation and Noisy Pair Half-replacing with Memory for Noisy Correspondence.**<br>
+*Ruochen Zheng, Jiahao Hong, Changxin Gao, Nong Sang.*<br>
+[[paper]](https://arxiv.org/abs/2403.08224)
+
 
 ### ``*Commonsense Learning*``
 
@@ -730,7 +744,7 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://dl.acm.org/doi/abs/10.1145/3580501)
 [[code]](https://github.com/PKU-ICST-MIPL/MKVSE-TOMM2023)
 
-**(*arXiv2023_CKSTN*) The Style Transformer with Common Knowledge Optimization for Image-Text Retrieval.**<br>
+**(*SPL2023_CKSTN*) The Style Transformer with Common Knowledge Optimization for Image-Text Retrieval.**<br>
 *Wenrui Li, Zhengyu Ma, Jinqiao Shi, Xiaopeng Fan.*<br>
 [[paper]](https://arxiv.org/abs/2303.00448)
 
@@ -763,7 +777,7 @@ Methods Summary of Conventional Image-Text Matching
 *Hao Wu, Jiayuan Mao, Yufeng Zhang, Yuning Jiang, Lei Li, Weiwei Sun, Wei-Ying Ma.*<br>
 [[paper]](https://arxiv.org/abs/1904.05521)
 
-**(*arXiv2020_ADDR*) Beyond the Deep Metric Learning: Enhance the Cross-Modal Matching with Adversarial Discriminative Domain Regularization.**<br>
+**(*ICPR2020_ADDR*) Beyond the Deep Metric Learning: Enhance the Cross-Modal Matching with Adversarial Discriminative Domain Regularization.**<br>
 *Li Ren, Kai Li, LiQiang Wang, Kien Hua.*<br>
 [[paper]](https://arxiv.org/abs/2010.12126)
 
@@ -878,7 +892,7 @@ Methods Summary of Conventional Image-Text Matching
 *Zheng Li, Caili Guo, Xin Wang, Zerun Feng, Jenq-Neng Hwang, Zhongtian Du.*<br>
 [[paper]](https://arxiv.org/abs/2209.13869)
 
-**(*arXiv2022_DCD*) Dynamic Contrastive Distillation for Image-Text Retrieval.** <br>
+**(*TMM2022_DCD*) Dynamic Contrastive Distillation for Image-Text Retrieval.** <br>
 *Jun Rao, Liang Ding, Shuhan Qi, Meng Fang, Yang Liu, Li Shen, Dacheng Tao.*<br>
 [[paper]](https://arxiv.org/abs/2207.01426)
 
@@ -908,6 +922,16 @@ Methods Summary of Conventional Image-Text Matching
 **(*arXiv2023_SelHN*) Selectively Hard Negative Mining for Alleviating Gradient Vanishing in Image-Text Matching.** <br>
 *Zheng Li, Caili Guo, Xin Wang, Zerun Feng, Zhongtian Du.*<br>
 [[paper]](https://arxiv.org/abs/2303.00181)
+
+**(*CVPR2024_CUSA*) Cross-Modal and Uni-Modal Soft-Label Alignment for Image-Text Retrieval.** <br>
+*Hailang Huang, Zhijie Nie, Ziqiao Wang, Ziyu Shang.*<br>
+[[paper]](https://arxiv.org/abs/2403.05261)
+[[code]](https://github.com/lerogo/aaai24_itr_cusa)
+
+**(*TIP2024_DBL*) Deep Boosting Learning: A Brand-new Cooperative Approach for Image-Text Matching.**<br>
+*Haiwen Diao, Ying Zhang, Shang Gao, Xiang Ruan, Huchuan Lu.*<br>
+[[paper]](https://arxiv.org/abs/2404.18114)
+[[code]](https://github.com/Paranioar/DBL)
 
 
 ## ``Task-oriented Works`` 
@@ -1044,7 +1068,7 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2107.12666)
 [[code]](https://github.com/zifyloo/SSAN)
 
-**(*arXiv2021_SAF*) Learning Semantic-Aligned Feature Representation for Text-based Person Search.**<br>
+**(*ICASSP2022_SAF*) Learning Semantic-Aligned Feature Representation for Text-based Person Search.**<br>
 *Shiping Li, Min Cao, Min Zhang.*<br>
 [[paper]](https://arxiv.org/abs/2112.06714)
 [[code]](https://github.com/reallsp/SAF)
@@ -1263,7 +1287,7 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2103.01654)
 [[code]](https://github.com/CuthbertCai/Ask-Confirm)
 
-**(*arXiv2022_SSJDN*) Scale-Semantic Joint Decoupling Network for Image-text Retrieval in Remote Sensing.**<br>
+**(*TOMM2024_SSJDN*) Scale-Semantic Joint Decoupling Network for Image-text Retrieval in Remote Sensing.**<br>
 *Chengyu Zheng, Ning song, Ruoyu Zhang, Lei Huang, Zhiqiang Wei, Jie Nie.*<br>
 [[paper]](https://arxiv.org/abs/2212.05752)
 
@@ -1280,7 +1304,7 @@ Methods Summary of Conventional Image-Text Matching
 *Xue Song, Jingjing Chen, Yu-Gang Jiang.*<br>
 [[paper]](https://dl.acm.org/doi/abs/10.1145/3581783.3611940)
 
-**(*arXiv2023_Diffusion-Classifier*) Text-to-Image Diffusion Models are Zero-Shot Classifiers.**<br>
+**(*NeurIPS2023_Diffusion-Classifier*) Text-to-Image Diffusion Models are Zero-Shot Classifiers.**<br>
 *Kevin Clark, Priyank Jaini.*<br>
 [[paper]](https://arxiv.org/abs/2303.15233)
 
@@ -1297,26 +1321,26 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://www.mdpi.com/2313-433X/7/8/125)
 [[code]](https://github.com/yangong23/VSEnetworksIR)
 
-**(*arXiv2022_Survey*) Where Does the Performance Improvement Come From? A Reproducibility Concern about Image-Text Retrieval.**<br>
+**(*SIGIR2022_Survey*) Where Does the Performance Improvement Come From? A Reproducibility Concern about Image-Text Retrieval.**<br>
 *Jun Rao, Fei Wang, Liang Ding, Shuhan Qi, Yibing Zhan, Weifeng Liu, Dacheng Tao.*<br>
 [[paper]](https://arxiv.org/abs/2203.03853)
 [[code]](https://github.com/WangFei-2019/Image-text-Retrieval)
 
-**(*arXiv2022_Survey*) Image-text Retrieval: A Survey on Recent Research and Development.**<br>
+**(*IJCAI2022_Survey*) Image-text Retrieval: A Survey on Recent Research and Development.**<br>
 *Min Cao, Shiping Li, Juntao Li, Liqiang Nie, Min Zhang.*<br>
 [[paper]](https://arxiv.org/abs/2203.14713)
 
-**(*arXiv2022_Survey*) Vision-Language Pre-training: Basics, Recent Advances, and Future Trends.**<br>
+**(*FTCGV2022_Survey*) Vision-Language Pre-training: Basics, Recent Advances, and Future Trends.**<br>
 *Zhe Gan, Linjie Li, Chunyuan Li, Lijuan Wang, Zicheng Liu, Jianfeng Gao.*<br>
 [[paper]](https://arxiv.org/abs/2210.09263)
 
-**(*arXiv2023_Survey*) Deep Learning for Video-Text Retrieval: a Review.**<br>
+**(*IJMIR2023_Survey*) Deep Learning for Video-Text Retrieval: a Review.**<br>
 *Cunjuan Zhu, Qi Jia, Wei Chen, Yanming Guo, Yu Liu.*<br>
 [[paper]](https://arxiv.org/abs/2302.12552)
 
 **(*arXiv2023_Survey*) A Survey on Image-text Multimodal Models.**<br>
 *Ruifeng Guo, Jingxuan Wei, Linzhuang Sun, Bihui Yu, Guiyong Chang, Dawei Liu, Sibo Zhang, Zhengbing Yao, Mingjun Xu, Liping Bu.*<br>
-[[paper]](https://browse.arxiv.org/abs/2309.15857)
+[[paper]](https://arxiv.org/abs/2309.15857)
 [[code]](https://github.com/i2vec/A-survey-on-image-text-multimodal-models)
 
 **(*EACL2021_CxC*) Crisscrossed Captions: Extended Intramodal and Intermodal Semantic Similarity Judgments for MS-COCO.**<br>
@@ -1324,7 +1348,7 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2004.15020)
 [[code]](https://github.com/google-research-datasets/Crisscrossed-Captions)
 
-**(*arXiv2022_ECCVCaption*) ECCV Caption: Correcting False Negatives by Collecting Machine-and-Human-verified Image-Caption Associations for MS-COCO.**<br>
+**(*ECCV2022_ECCVCaption*) ECCV Caption: Correcting False Negatives by Collecting Machine-and-Human-verified Image-Caption Associations for MS-COCO.**<br>
 *Sanghyuk Chun, Wonjae Kim, Song Park, Minsuk Chang, Seong Joon Oh.*<br>
 [[paper]](https://arxiv.org/abs/2204.03359)
 [[code]](https://github.com/naver-ai/eccv-caption)

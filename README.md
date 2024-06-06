@@ -1,31 +1,39 @@
-Awesome_Cross_Modal_Pretraining_Transfering
+Awesome_Matching_Pretraining_Transfering
 ===========================================
-The tutorial of Cross-Modal Matching / Pretraining / Transfering will be constantly updated for Preliminary Insight !
+The awesome tutorial of **Large Multi-Modality Model**, **Parameter-Efficient Finetuning**, **Vision-Language Pretraining**, **Conventional Image-Text Matching** will be constantly updated for Preliminary Insight !
 
 ## ``Logupdate ``
 
+【2024.06.06】 **Update 90+ papers; Due to limited time, LMMM section will be expanded later.**   
 【2024.03.09】 A new section named ***[Large Multi-Modality Model]*** has been added.  
 【2023.05.25】 A new section named ***[Parameter-Efficient Finetuning]*** has been added.  
-【2021.12.11】 A new section named ***[Video-Text Learning]*** has been added. 
 【2021.07.10】 A new section named ***[Vision-Language Pretraining]*** has been added.  
+【2020.11.01】 A new section named ***[Conventional Image-Text Matching]*** has been added.  
 
 ## ``Catalogue ``
 
 * [Methods Summary](./README.md)
     * [Large Multi-Modality Model](./large_mmm.md)
-        * [Region Perception-Generation](./large_mmm.md/#region-perception-generation)
-        * [Image Perception-Generation](./large_mmm.md/#image-perception-generation)
-        * [Video Perception-Generation](./large_mmm.md/#video-perception-generation)
-        * [Large Uni-Modality Model](./large_mmm.md/#large-uni-modality-model)
+        * [Large Language Model](./large_mmm.md/#large-language-model)
+        * [Large Vision Model](./large_mmm.md/#large-vision-model)
+        * [Large Region Multimodal Model](./large_mmm.md/#large-region-multimodal-model)
+        * [Large Image Multimodal Model](./large_mmm.md/#large-image-multimodal-model)
+        * [Large Video Multimodal Model](./large_mmm.md/#large-video-multimodal-model)
         * [Large Model Distillation](./large_mmm.md/#large-modal-distillation)
         * [Related Survey](./large_mmm.md/#related-survey)
         * [Related Benchmark](./large_mmm.md/#related-benchmark)
     * [Parameter-Efficient Finetuning](./transfer_learning.md)
-        * [Parameter-Efficient Method](./transfer_learning.md/#parameter-efficient-method)
-        * [Memory-Efficient Method](./transfer_learning.md/#memory-efficient-method)
+        * [Prompt Tuning](./transfer_learning.md/#prompt-tuning)
+        * [Adapter Tuning](./transfer_learning.md/#adapter-tuning)
+        * [Partially Tuning](./transfer_learning.md/#partially-tuning)
+        * [Side Tuning](./transfer_learning.md/#side-tuning)
+        * [Unified Tuning](./transfer_learning.md/#unified-tuning)
+        * [Posted in](./transfer_learning.md/#posted-in)
     * [Vision-Language Pretraining](./pretrained_model.md)
-        * [Pretrained Method](./pretrained_model.md/#pretrained-method)
-        * [Pretrained Dataset](./pretrained_model.md/#pretrained-dataset)
+        * [Image-Language Pretraining](./pretrained_model.md/#image-language-pretraining)
+        * [Video-Language Pretraining](./pretrained_model.md/#video-language-pretraining)
+        * [Image-Language Datasets](./pretrained_model.md/#image-language-datasets)
+        * [Video-Language Datasets](./pretrained_model.md/#video-language-datasets)
     * [Conventional Image-Text Matching](./conventional_method.md)
         * [Generic-Feature Extraction](./conventional_method.md/#generic-feature-extraction)
         * [Cross-Modal Interaction](./conventional_method.md/#cross-modal-interaction)
@@ -43,16 +51,15 @@ The tutorial of Cross-Modal Matching / Pretraining / Transfering will be constan
         * [Scene-Text Learning](./conventional_method.md/#scene-text-learning)
         * [Related Works](./conventional_method.md/#related-works)
         * [Posted in](./conventional_method.md/#posted-in)
-
-* [Peformance Comparison](./performance.md)
-    * [Flickr8K](./performance.md/#performance-of-flickr8k)
-    * [Flickr30K](./performance.md/#performance-of-flickr30k)
-    * [MSCOCO1K](./performance.md/#performance-of-mscoco1k)
-    * [MSCOCO5K](./performance.md/#performance-of-mscoco5k)
-    * [RSTPReid](./performance.md/#performance-of-rstpreid)
-    * [CUHK-PEDES](./performance.md/#performance-of-cuhk-pedes)
-    * [ICFG-PEDES](./performance.md/#performance-of-icfg-pedes)
-    * [CUB-Flowers](./performance.md/#performance-of-cub-flowers)
+        * [Peformance](./performance.md)
+            * [Flickr8K](./performance.md/#performance-of-flickr8k)
+            * [Flickr30K](./performance.md/#performance-of-flickr30k)
+            * [MSCOCO1K](./performance.md/#performance-of-mscoco1k)
+            * [MSCOCO5K](./performance.md/#performance-of-mscoco5k)
+            * [RSTPReid](./performance.md/#performance-of-rstpreid)
+            * [CUHK-PEDES](./performance.md/#performance-of-cuhk-pedes)
+            * [ICFG-PEDES](./performance.md/#performance-of-icfg-pedes)
+            * [CUB-Flowers](./performance.md/#performance-of-cub-flowers)
     
 * [Other Resources](./resource.md/#other-resources)
     * [Large Foundation Model](./resource.md/#large-foundation-model)
