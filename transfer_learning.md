@@ -269,6 +269,11 @@ Methods Summary of Parameter-Efficient Finetuning
 [[paper]](https://arxiv.org/abs/2304.07221)
 [[code]](https://github.com/zyh16143998882/ICCV23-IDPT)
 
+**(*NeurIPS2023_VPGTrans*) VPGTrans: Transfer Visual Prompt Generator across LLMs.** <br>
+*Ao Zhang, Hao Fei, Yuan Yao, Wei Ji, Li Li, Zhiyuan Liu, Tat-Seng Chua.*<br>
+[[paper]](https://arxiv.org/abs/2305.01278)
+[[code]](https://github.com/vpgtrans/vpgtrans)
+
 **(*arXiv2023_TreePrompt*) TreePrompt: Learning to Compose Tree Prompts for Explainable Visual Grounding.** <br>
 *Chenchi Zhang, Jun Xiao, Lei Chen, Jian Shao, Long Chen.*<br>
 [[paper]](https://arxiv.org/abs/2305.11497)
@@ -548,6 +553,11 @@ Methods Summary of Parameter-Efficient Finetuning
 *Mingyang Zhang, Hao Chen, Chunhua Shen, Zhen Yang, Linlin Ou, Xinyi Yu, Bohan Zhuang.*<br>
 [[paper]](https://arxiv.org/abs/2305.18403)
 
+**(*arXiv2023_OFT*) Controlling Text-to-Image Diffusion by Orthogonal Finetuning.** <br>
+*Zeju Qiu, Weiyang Liu, Haiwen Feng, Yuxuan Xue, Yao Feng, Zhen Liu, Dan Zhang, Adrian Weller, Bernhard Schölkopf.*<br>
+[[paper]](https://arxiv.org/abs/2306.07280)
+[[code]](https://github.com/Zeju1997/oft)
+
 **(*arXiv2023_GLoRA*) One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning.** <br>
 *Arnav Chavan, Zhuang Liu, Deepak Gupta, Eric Xing, Zhiqiang Shen.*<br>
 [[paper]](https://arxiv.org/abs/2306.07967)
@@ -619,6 +629,11 @@ Methods Summary of Parameter-Efficient Finetuning
 *Henry Hengyuan Zhao, Pichao Wang, Yuyang Zhao, Hao Luo, Fan Wang, Mike Zheng Shou.*<br>
 [[paper]](https://arxiv.org/abs/2309.08513)
 [[code]](https://github.com/showlab/SCT)
+
+**(*ICLR2024_LongLoRA*) LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models.** <br>
+*Yukang Chen, Shengju Qian, Haotian Tang, Xin Lai, Zhijian Liu, Song Han, Jiaya Jia.*<br>
+[[paper]](https://arxiv.org/abs/2309.12307)
+[[code]](https://github.com/dvlab-research/LongLoRA)
 
 **(*arXiv2023_QA-LoRA*) QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models.** <br>
 *Yuhui Xu, Lingxi Xie, Xiaotao Gu, Xin Chen, Heng Chang, Hengheng Zhang, Zhengsu Chen, Xiaopeng Zhang, Qi Tian.*<br>
@@ -731,10 +746,37 @@ Methods Summary of Parameter-Efficient Finetuning
 [[paper]](https://arxiv.org/abs/2403.17919)
 [[code]](https://github.com/optimalscale/lmflow)
 
+**(*arXiv2024_PiSSA*) PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models.** <br>
+*Fanxu Meng, Zhaohui Wang, Muhan Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2404.02948)
+[[code]](https://github.com/graphpku/pissa)
+
+**(*ICML2024_qGOFT*) Parameter Efficient Quasi-Orthogonal Fine-Tuning via Givens Rotation.** <br>
+*Xinyu Ma, Xu Chu, Zhibang Yang, Yang Lin, Xin Gao, Junfeng Zhao.*<br>
+[[paper]](https://arxiv.org/abs/2404.04316)
+
 **(*arXiv2024_MoMA*) MoMA: Multimodal LLM Adapter for Fast Personalized Image Generation.** <br>
 *Kunpeng Song, Yizhe Zhu, Bingchen Liu, Qing Yan, Ahmed Elgammal, Xiao Yang.*<br>
 [[paper]](https://arxiv.org/abs/2404.05674)
 [[code]](https://github.com/bytedance/MoMA)
+
+**(*ICML2024_DCRIS*) Enhancing Fine-grained Multi-modal Alignment via Adapters: A Parameter-Efficient Training Framework for Referring Image Segmentation.** <br>
+*Zunnan Xu, Jiaqi Huang, Ting Liu, Yong Liu, Haonan Han, Kehong Yuan, Xiu Li.*<br>
+[[paper]](https://openreview.net/pdf?id=bp8xXLi2Mp)
+[[code]](https://kkakkkka.github.io/dcris/)
+
+**(*arXiv2024_Sparse-Tuning*) Sparse-Tuning: Adapting Vision Transformers with Efficient Fine-tuning and Inference.** <br>
+*Ting Liu, Xuyang Liu, Liangtao Shi, Zunnan Xu, Siteng Huang, Yi Xin, Quanjun Yin.*<br>
+[[paper]](https://arxiv.org/abs/2405.14700)
+[[code]](https://github.com/liuting20/Sparse-Tuning)
+
+**(*arXiv2024_ADAPTER-X*) ADAPTER-X: A Novel General Parameter-Efficient Fine-Tuning Framework for Vision.** <br>
+*Minglei Li, Peng Ye, Yongqi Huang, Lin Zhang, Tao Chen, Tong He, Jiayuan Fan, Wanli Ouyang.*<br>
+[[paper]](https://arxiv.org/abs/2406.03051)
+
+**(*arXiv2024_LoRA-Init*) The Impact of Initialization on LoRA Finetuning Dynamics.** <br>
+*Soufiane Hayou, Nikhil Ghosh, Bin Yu.*<br>
+[[paper]](https://arxiv.org/abs/2406.08447)
 
 
 ### ``*Partially Tuning*``
@@ -920,6 +962,15 @@ Methods Summary of Parameter-Efficient Finetuning
 *Haiwen Diao, Bo Wan, Ying Zhang, Xu Jia, Huchuan Lu, Long Chen.*<br>
 [[paper]](https://arxiv.org/abs/2308.14316)
 [[code]](https://github.com/Paranioar/UniPT)
+
+**(*ECCV2024_SynQT*) Parameter-Efficient and Memory-Efficient Tuning for Vision Transformer: A Disentangled Approach.** <br>
+*Taolin Zhang, Jiawang Bai, Zhihe Lu, Dongze Lian, Genping Wang, Xinchao Wang, Shu-Tao Xia.*<br>
+[[paper]](https://arxiv.org/abs/2407.06964)
+
+**(*ECCV2024_SHERL*) SHERL: Synthesizing High Accuracy and Efficient Memory for Resource-Limited Transfer Learning.** <br>
+*Haiwen Diao, Bo Wan, Xu Jia, Yunzhi Zhuge, Ying Zhang, Huchuan Lu, Long Chen.*<br>
+[[paper]](https://arxiv.org/abs/2407.07523)
+[[code]](https://github.com/Paranioar/SHERL)
 
 
 ### ``*Unified Tuning*``

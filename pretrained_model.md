@@ -548,6 +548,10 @@ Methods Summary of Vision-Language Pretraining
 *Chaoya Jiang, Wei Ye, Haiyang Xu, Miang yan, Shikun Zhang, Jie Zhang, Fei Huang.*<br>
 [[paper]](https://arxiv.org/abs/2305.04474)
 
+**(*arXiv2023_Boon*) Boon: A Neural Search Engine for Cross-Modal Information Retrieval.** <br>
+*Yan Gong, Georgina Cosma.*<br>
+[[paper]](https://arxiv.org/abs/2307.14240)
+
 **(*ACMMM2023_COPA*) COPA: Efficient Vision-Language Pre-training Through Collaborative Object- and Patch-Text Alignment.** <br>
 *Chaoya Jiang, Haiyang Xu, Wei Ye, Qinghao Ye, Chenliang Li, Ming Yan, Bin Bi, Shikun Zhang, Ji Zhang, Fei Huang.*<br>
 [[paper]](https://arxiv.org/abs/2308.03475)
@@ -565,9 +569,19 @@ Methods Summary of Vision-Language Pretraining
 *Saurabh Garg, Mehrdad Farajtabar, Hadi Pouransari, Raviteja Vemulapalli, Sachin Mehta, Oncel Tuzel, Vaishaal Shankar, Fartash Faghri.*<br>
 [[paper]](https://arxiv.org/abs/2310.16226)
 
-**(*arXiv2023_MCAD*) MCAD: Multi-teacher Cross-modal Alignment Distillation for efficient image-text retrieval.**<br>
+**(*arXiv2023_MCAD*) MCAD: Multi-teacher Cross-modal Alignment Distillation for Efficient Image-text Retrieval.**<br>
 *Youbo Lei, Feifei He, Chen Chen, Yingbin Mo, Si Jia Li, Defeng Xie, Haonan Lu.*<br>
 [[paper]](https://arxiv.org/abs/2310.19654)
+
+**(*arXiv2023_MLLMs-Augmented*) MLLMs-Augmented Visual-Language Representation Learning.**<br>
+*Yanqing Liu, Kai Wang, Wenqi Shao, Ping Luo, Yu Qiao, Mike Zheng Shou, Kaipeng Zhang, Yang You.*<br>
+[[paper]](https://arxiv.org/abs/2311.18765)
+[[code]](https://github.com/lyq312318224/MLLMs-Augmented)
+
+**(*CVPR2024_MAFA*) MAFA: Managing False Negatives for Vision-Language Pre-training.**<br>
+*Jaeseok Byun, Dohoon Kim, Taesup Moon.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Byun_MAFA_Managing_False_Negatives_for_Vision-Language_Pre-training_CVPR_2024_paper.pdf)
+[[code]](https://github.com/jaeseokbyun/MAFA)
 
 
 ### ``*Video-Language Pretraining*``
@@ -733,6 +747,10 @@ Methods Summary of Vision-Language Pretraining
 [[paper]](https://arxiv.org/abs/2205.00823)
 [[code]](https://github.com/mzhaoshuai/CenterCLIP)
 
+**(*arXiv2022_VL-BEiT*) VL-BEiT: Generative Vision-Language Pretraining.** <br>
+*Hangbo Bao, Wenhui Wang, Li Dong, Furu Wei.*<br>
+[[paper]](https://arxiv.org/abs/2206.01127)
+
 **(*ACL2023_Singularity*) Revealing Single Frame Bias for Video-and-Language Learning.** <br>
 *Jie Lei, Tamara L. Berg, Mohit Bansal.*<br>
 [[paper]](https://arxiv.org/abs/2206.03428v1)
@@ -882,11 +900,6 @@ Methods Summary of Vision-Language Pretraining
 
 ### ``*Image-Language Datasets*``
 
-**(*SIGIR2023_COCO-F30K-FG*) Rethinking Benchmarks for Cross-modal Image-text Retrieval.** <br>
-*Weijing Chen, Linli Yao, Qin Jin.*<br>
-[[paper]](https://arxiv.org/abs/2304.10824)
-[[code]](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG)
-
 **(*NIPS2011_SBU*) Im2Text: Describing Images Using 1 Million Captioned Photographs.** <br>
 *Vicente Ordonez, Girish Kulkarni, Tamara Berg.*<br>
 [[paper]](https://proceedings.neurips.cc/paper/2011/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf)
@@ -903,6 +916,11 @@ Methods Summary of Vision-Language Pretraining
 *Chen Sun, Abhinav Shrivastava, Saurabh Singh, Abhinav Gupta.*<br>
 [[paper]](https://arxiv.org/abs/1707.02968v2)
 
+**(*ECCV2020_TextCaps*) TextCaps: a Dataset for Image Captioning with Reading Comprehension.** <br>
+*Oleksii Sidorov, Ronghang Hu, Marcus Rohrbach, Amanpreet Singh.*<br>
+[[paper]](https://arxiv.org/abs/2003.12462)
+[[code]](https://textvqa.org/textcaps/)
+
 **(*SIGIR2021_WIT*) WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning.** <br>
 *Krishna Srinivasan, Karthik Raman, Jiecao Chen, Michael Bendersky, Marc Najork.*<br>
 [[paper]](https://arxiv.org/abs/2103.01913)
@@ -913,15 +931,20 @@ Methods Summary of Vision-Language Pretraining
 [[paper]](https://arxiv.org/abs/2102.08981)
 [[code]](https://github.com/google-research-datasets/conceptual-12m)
 
-**(*NeurIPS2021_RedCaps*) RedCaps: web-curated image-text data created by the people, for the people.** <br>
-*Karan Desai, Gaurav Kaul, Zubin Aysola, Justin Johnson.*<br>
-[[paper]](https://arxiv.org/abs/2111.11431)
-[[code]](https://redcaps.xyz)
+**(*NeurIPS2022_VLMo*) VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts.** <br>
+*Hangbo Bao, Wenhui Wang, Li Dong, Qiang Liu, Owais Khan Mohammed, Kriti Aggarwal, Subhojit Som, Furu Wei.*<br>
+[[paper]](https://arxiv.org/abs/2111.02358)
+[[code]](https://aka.ms/vlmo)
 
 **(*CVPR2022_LiT*) LiT: Zero-Shot Transfer with Locked-image text Tuning.** <br>
 *Xiaohua Zhai, Xiao Wang, Basil Mustafa, Andreas Steiner, Daniel Keysers, Alexander Kolesnikov, Lucas Beyer.*<br>
 [[paper]](https://arxiv.org/abs/2111.07991)
 [[code]](https://github.com/google-research/vision_transformer#lit-models)
+
+**(*NeurIPS2021_RedCaps*) RedCaps: web-curated image-text data created by the people, for the people.** <br>
+*Karan Desai, Gaurav Kaul, Zubin Aysola, Justin Johnson.*<br>
+[[paper]](https://arxiv.org/abs/2111.11431)
+[[code]](https://redcaps.xyz)
 
 **(*CVPR2022_ALT200M*) Scaling Up Vision-Language Pre-training for Image Captioning.** <br>
 *Xiaowei Hu, Zhe Gan, Jianfeng Wang, Zhengyuan Yang, Zicheng Liu, Yumao Lu, Lijuan Wang.*<br>
@@ -945,6 +968,16 @@ Methods Summary of Vision-Language Pretraining
 **(*Github2022_COYO-700M*) COYO-700M: Image-Text Pair Dataset.** <br>
 *Byeon, Minwoo and Park, Beomhee and Kim, Haecheon and Lee, Sungjun and Baek, Woonhyuk and Kim, Saehoon.*<br>
 [[code]](https://github.com/kakaobrain/coyo-dataset)
+
+**(*Blog2023_LAION POP*) LAION POP: 600,000 High-resolution Images with Detailed Descriptions.** <br>
+*Christoph Schuhmann, Peter Bevan.*<br>
+[[code]](https://laion.ai/blog/laion-pop/)
+
+**(*SIGIR2023_COCO-F30K-FG*) Rethinking Benchmarks for Cross-modal Image-text Retrieval.** <br>
+*Weijing Chen, Linli Yao, Qin Jin.*<br>
+[[paper]](https://arxiv.org/abs/2304.10824)
+[[code]](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG)
+
 
 
 ### ``*Video-Language Datasets*``

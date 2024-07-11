@@ -281,6 +281,11 @@ Methods Summary of Conventional Image-Text Matching
 *Zhe Li, Lei Zhang, Kun Zhang, Yongdong Zhang, Zhendong Mao.*<br>
 [[paper]](https://ieeexplore.ieee.org/abstract/document/10414133/authors#authors)
 
+**(*CVPR2024_CORA*) Composing Object Relations and Attributes for Image-Text Matching.** <br>
+*Khoi Pham, Chuong Huynh, Ser-Nam Lim, Abhinav Shrivastava.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Pham_Composing_Object_Relations_and_Attributes_for_Image-Text_Matching_CVPR_2024_paper.pdf)
+[[code]](https://github.com/vkhoi/cora_cvpr24)
+
 
 ### ``*Cross-Modal Interaction*``
 
@@ -513,6 +518,11 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2404.18114)
 [[code]](https://github.com/Paranioar/DBL)
 
+**(*CVPR2024_LAPS*) Linguistic-Aware Patch Slimming Framework for Fine-grained Cross-Modal Alignment.** <br>
+*Zheren Fu, Lei Zhang, Hou Xia, Zhendong Mao.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Fu_Linguistic-Aware_Patch_Slimming_Framework_for_Fine-grained_Cross-Modal_Alignment_CVPR_2024_paper.pdf)
+[[code]](https://github.com/CrossmodalGroup/LAPS)
+
 
 ### ``*Similarity Measurement*``
 
@@ -717,6 +727,10 @@ Methods Summary of Conventional Image-Text Matching
 **(*arXiv2024_REPAIR*) REPAIR: Rank Correlation and Noisy Pair Half-replacing with Memory for Noisy Correspondence.**<br>
 *Ruochen Zheng, Jiahao Hong, Changxin Gao, Nong Sang.*<br>
 [[paper]](https://arxiv.org/abs/2403.08224)
+
+**(*CVPR2024_ESC*) Robust Noisy Correspondence Learning with Equivariant Similarity Consistency.**<br>
+*Yuchen Yang, Likai Wang, Erkun Yang, Cheng Deng.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Robust_Noisy_Correspondence_Learning_with_Equivariant_Similarity_Consistency_CVPR_2024_paper.pdf)
 
 
 ### ``*Commonsense Learning*``
@@ -1312,6 +1326,10 @@ Methods Summary of Conventional Image-Text Matching
 *Alexander C. Li, Mihir Prabhudesai, Shivam Duggal, Ellis Brown, Deepak Pathak.*<br>
 [[paper]](https://arxiv.org/abs/2303.16203)
 [[code]](https://diffusion-classifier.github.io/)
+
+**(*CVPR2024_FIVE*) Fine-grained Prototypical Voting with Heterogeneous Mixup for Semi-supervised 2D-3D Cross-modal Retrieval.**<br>
+*Fan Zhang, Xian-Sheng Hua, Chong Chen, Xiao Luo.*<br>
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Fine-grained_Prototypical_Voting_with_Heterogeneous_Mixup_for_Semi-supervised_2D-3D_Cross-modal_CVPR_2024_paper.pdf)
 
 
 ### ``Posted in``
