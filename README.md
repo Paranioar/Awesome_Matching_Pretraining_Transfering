@@ -4,7 +4,7 @@ The awesome tutorial of **Large Multi-Modality Model**, **Parameter-Efficient Fi
 
 ## ``Logupdate ``
 
-【2024.07.11】 **Update 50+ papers; Due to limited time, LMMM section will be expanded later.**   
+【2024.12.15】 **Due to time constraints, I will update the LMMM section further soon.**   
 【2024.03.09】 A new section named ***[Large Multi-Modality Model]*** has been added.  
 【2023.05.25】 A new section named ***[Parameter-Efficient Finetuning]*** has been added.  
 【2021.07.10】 A new section named ***[Vision-Language Pretraining]*** has been added.  
@@ -15,9 +15,9 @@ The awesome tutorial of **Large Multi-Modality Model**, **Parameter-Efficient Fi
 * [Large Multi-Modality Model](./large_mmm.md)
     * [Large Language Model](./large_mmm.md/#large-language-model)
     * [Large Vision Model](./large_mmm.md/#large-vision-model)
-    * [Large Region Multimodal Model](./large_mmm.md/#large-region-multimodal-model)
-    * [Large Image Multimodal Model](./large_mmm.md/#large-image-multimodal-model)
-    * [Large Video Multimodal Model](./large_mmm.md/#large-video-multimodal-model)
+    * [Large MMM for Perception](./large_mmm.md/#large-mmm-for-perception)
+    * [Large MMM for Generation](./large_mmm.md/#large-mmm-for-generation)
+    * [Large MMM for Unification](./large_mmm.md/#large-mmm-for-unification)
     * [Large Model Distillation](./large_mmm.md/#large-modal-distillation)
     * [Related Survey](./large_mmm.md/#related-survey)
     * [Related Benchmark](./large_mmm.md/#related-benchmark)

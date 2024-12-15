@@ -1153,14 +1153,34 @@ Methods Summary of Conventional Image-Text Matching
 [[paper]](https://arxiv.org/abs/2210.10276)
 [code](https://github.com/shuanglinyan/CFine)
 
-**(*ACMMM2023_GTR*) Text-based Person Search without Parallel Image-Text Data.**<br>
-*Yang Bai, Jingyao Wang, Min Cao, Chen Chen, Ziqiang Cao, Liqiang Nie, Min Zhang.*<br>
-[[paper]](https://arxiv.org/abs/2305.12964)
-
 **(*CVPR2023_IRRA*) Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval.**<br>
 *Ding Jiang, Mang Ye.*<br>
 [[paper]](https://arxiv.org/abs/2303.12501)
 [code](https://github.com/anosorae/irra)
+
+**(*ACMMM2023_GTR*) Text-based Person Search without Parallel Image-Text Data.**<br>
+*Yang Bai, Jingyao Wang, Min Cao, Chen Chen, Ziqiang Cao, Liqiang Nie, Min Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2305.12964)
+
+**(*CVPR2023_UniHCP*) UniHCP: A Unified Model for Human-Centric Perceptions.**<br>
+*Yuanzheng Ci, Yizhou Wang, Meilin Chen, Shixiang Tang, Lei Bai, Feng Zhu, Rui Zhao, Fengwei Yu, Donglian Qi, Wanli Ouyang.*<br>
+[[paper]](https://arxiv.org/abs/2303.02936)
+[code](https://github.com/opengvlab/unihcp)
+
+**(*CVPR2023_HumanBench*) HumanBench: Towards General Human-centric Perception with Projector Assisted Pretraining.**<br>
+*Shixiang Tang, Cheng Chen, Qingsong Xie, Meilin Chen, Yizhou Wang, Yuanzheng Ci, Lei Bai, Feng Zhu, Haiyang Yang, Li Yi, Rui Zhao, Wanli Ouyang.*<br>
+[[paper]](https://arxiv.org/abs/2303.05675)
+[code](https://github.com/OpenGVLab/HumanBench)
+
+**(*arXiv2023_PLIP*) PLIP: Language-Image Pre-training for Person Representation Learning.**<br>
+*Jialong Zuo, Jiahao Hong, Feng Zhang, Changqian Yu, Hanyu Zhou, Changxin Gao, Nong Sang, Jingdong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2305.08386)
+[code](https://github.com/Zplusdragon/PLIP)
+
+**(*arXiv2023_Instruct-ReID*) Instruct-ReID: A Multi-purpose Person Re-identification Task with Instructions.**<br>
+*Weizhen He, Yiheng Deng, Shixiang Tang, Qihao Chen, Qingsong Xie, Yizhou Wang, Lei Bai, Feng Zhu, Rui Zhao, Wanli Ouyang, Donglian Qi, Yunfeng Yan.*<br>
+[[paper]](https://arxiv.org/abs/2306.07520)
+[code](https://github.com/hwz-zju/Instruct-ReID)
 
 
 ### ``*Scene-Text Learning*``

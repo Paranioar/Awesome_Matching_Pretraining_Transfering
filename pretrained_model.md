@@ -747,6 +747,11 @@ Methods Summary of Vision-Language Pretraining
 [[paper]](https://arxiv.org/abs/2205.00823)
 [[code]](https://github.com/mzhaoshuai/CenterCLIP)
 
+**(*arXiv2022_VidIL*) Language Models with Image Descriptors are Strong Few-Shot Video-Language Learners.** <br>
+*Zhenhailong Wang, Manling Li, Ruochen Xu, Luowei Zhou, Jie Lei, Xudong Lin, Shuohang Wang, Ziyi Yang, Chenguang Zhu, Derek Hoiem, Shih-Fu Chang, Mohit Bansal, Heng Ji.*<br>
+[[paper]](https://arxiv.org/abs/2205.10747)
+[[code]](https://github.com/MikeWangWZHL/VidIL)
+
 **(*arXiv2022_VL-BEiT*) VL-BEiT: Generative Vision-Language Pretraining.** <br>
 *Hangbo Bao, Wenhui Wang, Li Dong, Furu Wei.*<br>
 [[paper]](https://arxiv.org/abs/2206.01127)
@@ -755,6 +760,16 @@ Methods Summary of Vision-Language Pretraining
 *Jie Lei, Tamara L. Berg, Mohit Bansal.*<br>
 [[paper]](https://arxiv.org/abs/2206.03428v1)
 [[code]](https://github.com/jayleicn/singularity)
+
+**(*CVPR2023_LAVENDER*) LAVENDER: Unifying Video-Language Understanding as Masked Language Modeling.** <br>
+*Linjie Li, Zhe Gan, Kevin Lin, Chung-Ching Lin, Zicheng Liu, Ce Liu, Lijuan Wang.*<br>
+[[paper]](https://arxiv.org/abs/2206.07160)
+[[code]](https://github.com/microsoft/LAVENDER)
+
+**(*NeurIPS2022_FrozenBiLM*) Zero-Shot Video Question Answering via Frozen Bidirectional Language Models.** <br>
+*Antoine Yang, Antoine Miech, Josef Sivic, Ivan Laptev, Cordelia Schmid.*<br>
+[[paper]](https://arxiv.org/abs/2206.08155)
+[[code]](https://github.com/antoyang/FrozenBiLM)
 
 **(*arXiv2022_LaT*) LaT: Latent Translation with Cycle-Consistency for Video-Text Retrieval.** <br>
 *Jinbin Bai, Chunhui Liu, Feiyue Ni, Haofan Wang, Mengying Hu, Xiaofeng Guo, Lele Cheng.*<br>
@@ -788,6 +803,10 @@ Methods Summary of Vision-Language Pretraining
 *Hongwei Xue, Yuchong Sun, Bei Liu, Jianlong Fu, Ruihua Song, Houqiang Li, Jiebo Luo.*<br>
 [[paper]](https://arxiv.org/abs/2209.06430v4)
 [[code]](https://github.com/microsoft/XPretrain/tree/main/CLIP-ViP)
+
+**(*NeurIPS2022_OmniVL*) OmniVL: One Foundation Model for Image-Language and Video-Language Tasks.** <br>
+*Junke Wang, Dongdong Chen, Zuxuan Wu, Chong Luo, Luowei Zhou, Yucheng Zhao, Yujia Xie, Ce Liu, Yu-Gang Jiang, Lu Yuan.*<br>
+[[paper]](https://arxiv.org/abs/2209.07526)
 
 **(*NeurIPS2022_LGDN*) LGDN: Language-Guided Denoising Network for Video-Language Modeling.** <br>
 *Haoyu Lu, Mingyu Ding, Nanyi Fei, Yuqi Huo, Zhiwu Lu.*<br>
@@ -836,6 +855,11 @@ Methods Summary of Vision-Language Pretraining
 *Weihong Zhong, Mao Zheng, Duyu Tang, Xuan Luo, Heng Gong, Xiaocheng Feng, Bing Qin.*<br>
 [[paper]](https://arxiv.org/abs/2302.09736)
 
+**(*CVPR2023_Vid2Seq*) Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning.** <br>
+*Antoine Yang, Arsha Nagrani, Paul Hongsuck Seo, Antoine Miech, Jordi Pont-Tuset, Ivan Laptev, Josef Sivic, Cordelia Schmid.*<br>
+[[paper]](https://arxiv.org/abs/2302.14115)
+[[code]](https://antoyang.github.io/vid2seq.html)
+
 **(*AAAI2024_MuLTI*) MuLTI: Efficient Video-and-Language Understanding with Text-Guided MultiWay-Sampler and Multiple Choice Modeling.** <br>
 *Jiaqi Xu, Bo Liu, Yunkuo Chen, Mengli Cheng, Xing Shi.*<br>
 [[paper]](https://arxiv.org/abs/2303.05707v2)
@@ -874,9 +898,18 @@ Methods Summary of Vision-Language Pretraining
 [[paper]](https://arxiv.org/abs/2303.14369v1)
 [[code]](https://github.com/jpthu17/HBI)
 
+**(*arXiv2023_VLAB*) VLAB: Enhancing Video Language Pre-training by Feature Adapting and Blending.** <br>
+*Xingjian He, Sihan Chen, Fan Ma, Zhicheng Huang, Xiaojie Jin, Zikang Liu, Dongmei Fu, Yi Yang, Jing Liu, Jiashi Feng.*<br>
+[[paper]](https://arxiv.org/abs/2305.13167)
+
 **(*ICCV2023_PIDRo*) PIDRo: Parallel Isomeric Attention with Dynamic Routing for Text-Video Retrieval.** <br>
 *Peiyan Guan, Renjing Pei, Bin Shao, Jianzhuang Liu2, Weimian Li, Jiaxi Gu, Hang Xu, Songcen Xu, Youliang Yan, Edmund Y. Lam.*<br>
 [[paper]](https://openaccess.thecvf.com//content/ICCV2023/papers/Guan_PIDRo_Parallel_Isomeric_Attention_with_Dynamic_Routing_for_Text-Video_Retrieval_ICCV_2023_paper.pdf)
+
+**(*ICCV2023_Eventful-Transformers*) Eventful Transformers: Leveraging Temporal Redundancy in Vision Transformers.** <br>
+*Matthew Dutson, Yin Li, Mohit Gupta.*<br>
+[[paper]](https://arxiv.org/abs/2308.13494)
+[[code]](https://github.com/WISION-Lab/eventful-transformer)
 
 **(*ICCV2023_UCoFiA*) Unified Coarse-to-Fine Alignment for Video-Text Retrieval.** <br>
 *Ziyang Wang, Yi-Lin Sung, Feng Cheng, Gedas Bertasius, Mohit Bansal.*<br>
@@ -978,6 +1011,11 @@ Methods Summary of Vision-Language Pretraining
 [[paper]](https://arxiv.org/abs/2304.10824)
 [[code]](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG)
 
+**(*arXiv2023_OBELICS*) OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents.** <br>
+*Hugo Laurençon, Lucile Saulnier, Léo Tronchon, Stas Bekman, Amanpreet Singh, Anton Lozhkov, Thomas Wang, Siddharth Karamcheti, Alexander M. Rush, Douwe Kiela, Matthieu Cord, Victor Sanh.*<br>
+[[paper]](https://arxiv.org/abs/2306.16527)
+[[code]](https://github.com/huggingface/obelics)
+
 
 
 ### ``*Video-Language Datasets*``
@@ -1073,6 +1111,10 @@ Methods Summary of Vision-Language Pretraining
 **(*CVPR2023_CNVid-3.5M*) CNVid-3.5M: Build, Filter, and Pre-train the Large-scale Public Chinese Video-text Dataset.** <br>
 *Tian Gan, Qing Wang, Xingning Dong, Xiangyuan Ren, Liqiang Nie, Qingpei Guo.*<br>
 [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gan_CNVid-3.5M_Build_Filter_and_Pre-Train_the_Large-Scale_Public_Chinese_Video-Text_CVPR_2023_paper.pdf)
+
+**(*arXiv2023_Youku-mPLUG*) Youku-mPLUG: A 10 Million Large-scale Chinese Video-Language Dataset for Pre-training and Benchmarks.** <br>
+*Haiyang Xu, Qinghao Ye, Xuan Wu, Ming Yan, Yuan Miao, Jiabo Ye, Guohai Xu, Anwen Hu, Yaya Shi, Guangwei Xu, Chenliang Li, Qi Qian, Maofei Que, Ji Zhang, Xiao Zeng, Fei Huang.*<br>
+[[paper]](https://arxiv.org/abs/2306.04362)
 
 **(*arXiv2023_InternVid-10M*) InternVid: A Large-scale Video-Text Dataset for Multimodal Understanding and Generation.** <br>
 *Yi Wang, Yinan He, Yizhuo Li, Kunchang Li, Jiashuo Yu, Xin Ma, Xinyuan Chen, Yaohui Wang, Ping Luo, Ziwei Liu, Yali Wang, Limin Wang, Yu Qiao.*<br>
