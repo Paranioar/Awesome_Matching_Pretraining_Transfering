@@ -13,12 +13,17 @@ Methods Summary of Large Multi-Modality Model
     * [Image Generation](#image-generation)
     * [Video Generation](#video-generation)
 * [Large MMM for Unification](#large-mmm-for-unification)
+* [Large MMM for Manipulation](#large-mmm-for-manipulation)
 * [Large Model Distillation](#large-model-distillation)
 * [Related Survey](#related-survey)
 * [Related Benchmark](#related-benchmark)
 
 
 ### ``*Large Language Model*``
+
+**(*arXiv2017_PPO*) Proximal Policy Optimization Algorithms.** <br>
+*John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov.*<br>
+[[paper]](https://arxiv.org/abs/1707.06347)
 
 **(*arXiv2018_GPT*) Improving Language Understanding by Generative Pre-Training.** <br>
 *Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever.*<br>
@@ -65,15 +70,34 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2204.02311)
 [[code]](https://github.com/lucidrains/PaLM-pytorch)
 
+**(*arXiv2022_ReAct*) ReAct: Synergizing Reasoning and Acting in Language Models.** <br>
+*Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao.*<br>
+[[paper]](https://arxiv.org/abs/2210.03629)
+[[code]](https://react-lm.github.io/)
+
 **(*arXiv2023_LLaMA*) LLaMA: Open and Efficient Foundation Language Models.** <br>
 *LLaMA Team.*<br>
 [[paper]](https://arxiv.org/abs/2302.13971)
 [[code]](https://github.com/facebookresearch/llama)
 
+**(*arXiv2023_Reflexion*) Reflexion: Language Agents with Verbal Reinforcement Learning.** <br>
+*Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao.*<br>
+[[paper]](https://arxiv.org/abs/2303.11366)
+[[code]](https://github.com/noahshinn/reflexion)
+
+**(*arXiv2023_ToT*) Tree of Thoughts: Deliberate Problem Solving with Large Language Models.** <br>
+*Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan.*<br>
+[[paper]](https://arxiv.org/abs/2305.10601)
+[[code]](https://github.com/princeton-nlp/tree-of-thought-llm)
+
 **(*arXiv2023_RWKV*) RWKV: Reinventing RNNs for the Transformer Era.** <br>
 *RWKV Team.*<br>
 [[paper]](https://arxiv.org/abs/2305.13048)
 [[code]](https://github.com/BlinkDL/RWKV-LM)
+
+**(*arXiv2023_DPO*) Direct Preference Optimization: Your Language Model is Secretly a Reward Model.** <br>
+*Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, Chelsea Finn.*<br>
+[[paper]](https://arxiv.org/abs/2305.18290)
 
 **(*arXiv2023_LLM-Judge*) Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena.** <br>
 *Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, Ion Stoica.*<br>
@@ -133,6 +157,11 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2405.21060)
 [[code]](https://github.com/state-spaces/mamba)
 
+**(*arXiv2024_TTT*) Learning to (Learn at Test Time): RNNs with Expressive Hidden States.** <br>
+*Yu Sun, Xinhao Li, Karan Dalal, Jiarui Xu, Arjun Vikram, Genghan Zhang, Yann Dubois, Xinlei Chen, Xiaolong Wang, Sanmi Koyejo, Tatsunori Hashimoto, Carlos Guestrin.*<br>
+[[paper]](https://arxiv.org/abs/2407.04620)
+[[code]](https://github.com/test-time-training/ttt-lm-pytorch)
+
 **(*arXiv2024_Qwen2*) Qwen2 Technical Report.** <br>
 *Qwen Team.*<br>
 [[paper]](https://arxiv.org/abs/2407.10671)
@@ -157,13 +186,181 @@ Methods Summary of Large Multi-Modality Model
 *Tianzhu Ye, Li Dong, Yuqing Xia, Yutao Sun, Yi Zhu, Gao Huang, Furu Wei.*<br>
 [[paper]](https://arxiv.org/abs/2410.05258)
 
+**(*arXiv2024_ScPO*) Self-Consistency Preference Optimization.** <br>
+*Archiki Prasad, Weizhe Yuan, Richard Yuanzhe Pang, Jing Xu, Maryam Fazel-Zarandi, Mohit Bansal, Sainbayar Sukhbaatar, Jason Weston, Jane Yu.*<br>
+[[paper]](https://arxiv.org/abs/2411.04109)
+
 **(*arXiv2024_Coconut*) Training Large Language Models to Reason in a Continuous Latent Space.** <br>
 *Shibo Hao, Sainbayar Sukhbaatar, DiJia Su, Xian Li, Zhiting Hu, Jason Weston, Yuandong Tian.*<br>
 [[paper]](https://arxiv.org/abs/2412.06769)
 
+**(*arXiv2024_LCM*) Large Concept Models: Language Modeling in a Sentence Representation Space.** <br>
+*LCM Team.*<br>
+[[paper]](https://arxiv.org/abs/2412.08821)
+[[code]](https://github.com/facebookresearch/large_concept_model)
+
 **(*arXiv2024_Phi-4*) Phi-4 Technical Report.** <br>
 *Microsoft Research.*<br>
 [[paper]](https://arxiv.org/abs/2412.08905)
+
+**(*arXiv2024_BLT*) Byte Latent Transformer: Patches Scale Better Than Tokens.** <br>
+*Artidoro Pagnoni, Ram Pasunuru, Pedro Rodriguez, John Nguyen, Benjamin Muller, Margaret Li, Chunting Zhou, Lili Yu, Jason Weston, Luke Zettlemoyer, Gargi Ghosh, Mike Lewis, Ari Holtzman, Srinivasan Iyer.*<br>
+[[paper]](https://arxiv.org/abs/2412.09871)
+[[code]](https://github.com/facebookresearch/blt)
+
+**(*arXiv2024_Qwen2.5*) Qwen2.5 Technical Report.** <br>
+*Qwen Team.*<br>
+[[paper]](https://arxiv.org/abs/2412.15115)
+
+**(*arXiv2024_DeepSeek-V3*) DeepSeek-V3 Technical Report.** <br>
+*DeepSeek-AI Team.*<br>
+[[paper]](https://arxiv.org/abs/2412.19437)
+[[code]](https://github.com/deepseek-ai/DeepSeek-V3)
+
+**(*arXiv2025_DeepSeek-R1*) DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.** <br>
+*DeepSeek-AI Team.*<br>
+[[paper]](https://arxiv.org/abs/2501.12948)
+[[code]](https://github.com/deepseek-ai/deepseek-r1)
+
+**(*arXiv2025_LLaDA*) Large Language Diffusion Models.** <br>
+*Shen Nie, Fengqi Zhu, Zebin You, Xiaolu Zhang, Jingyang Ou, Jun Hu, Jun Zhou, Yankai Lin, Ji-Rong Wen, Chongxuan Li.*<br>
+[[paper]](https://arxiv.org/abs/2502.09992)
+[[code]](https://github.com/ML-GSAI/LLaDA)
+
+**(*arXiv2025_LayerNorm-Scaling*) The Curse of Depth in Large Language Models.** <br>
+*Wenfang Sun, Xinyuan Song, Pengxiang Li, Lu Yin, Yefeng Zheng, Shiwei Liu.*<br>
+[[paper]](https://arxiv.org/abs/2502.05795)
+[[code]](https://github.com/lmsdss/LayerNorm-Scaling)
+
+**(*ICLR2025_BD3-LMs*) Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models.** <br>
+*Marianne Arriola, Aaron Gokaslan, Justin T Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov.*<br>
+[[paper]](https://arxiv.org/abs/2503.09573)
+[[code]](https://m-arriola.com/bd3lms/)
+
+**(*arXiv2025_DAPO*) DAPO: An Open-Source LLM Reinforcement Learning System at Scale.** <br>
+*ByteDance Seed.*<br>
+[[paper]](https://arxiv.org/abs/2503.14476)
+[[code]](https://github.com/BytedTsinghua-SIA/DAPO)
+
+**(*arXiv2025_GPG*) GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning.** <br>
+*Xiangxiang Chu, Hailang Huang, Xiao Zhang, Fei Wei, Yong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2504.02546)
+
+**(*arXiv2025_EMPO*) Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization.** <br>
+*Qingyang Zhang, Haitao Wu, Changqing Zhang, Peilin Zhao, Yatao Bian.*<br>
+[[paper]](https://arxiv.org/abs/2504.05812)
+[[code]](https://github.com/QingyangZhang/EMPO)
+
+**(*arXiv2025_Findings*) Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?.** <br>
+*Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song, Gao Huang.*<br>
+[[paper]](https://arxiv.org/abs/2504.13837)
+
+**(*arXiv2025_TTRL*) TTRL: Test-Time Reinforcement Learning.** <br>
+*Yuxin Zuo, Kaiyan Zhang, Li Sheng, Shang Qu, Ganqu Cui, Xuekai Zhu, Haozhan Li, Yuchen Zhang, Xinwei Long, Ermo Hua, Biqing Qi, Youbang Sun, Zhiyuan Ma, Lifan Yuan, Ning Ding, Bowen Zhou.*<br>
+[[paper]](https://arxiv.org/abs/2504.16084)
+[[code]](https://github.com/PRIME-RL/TTRL)
+
+**(*arXiv2025_One-Shot-RLVR*) Reinforcement Learning for Reasoning in Large Language Models with One Training Example.** <br>
+*Yiping Wang, Qing Yang, Zhiyuan Zeng, Liliang Ren, Liyuan Liu, Baolin Peng, Hao Cheng, Xuehai He, Kuan Wang, Jianfeng Gao, Weizhu Chen, Shuohang Wang, Simon Shaolei Du, Yelong Shen.*<br>
+[[paper]](https://arxiv.org/abs/2504.20571)
+[[code]](https://github.com/ypwang61/One-Shot-RLVR)
+
+**(*arXiv2025_Qwen3*) Qwen3 Technical Report.** <br>
+*Qwen Team.*<br>
+[[paper]](https://arxiv.org/pdf/2505.09388)
+[[code]](https://github.com/QwenLM/Qwen3)
+
+**(*arXiv2025_ParScale*) Parallel Scaling Law for Language Models.** <br>
+*Mouxiang Chen, Binyuan Hui, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Jianling Sun, Junyang Lin, Zhongxin Liu.*<br>
+[[paper]](https://arxiv.org/abs/2505.10475)
+[[code]](https://github.com/qwenlm/parscale)
+
+**(*Blog2025_Mercury*) Introducing Mercury, The First Commercial-scale Diffusion Large Language Model.** <br>
+*Inception Team.*<br>
+[[paper]](https://www.inceptionlabs.ai/news)
+
+**(*Blog2025_Dream*) Introducing Dream 7B, Diffusion Reasoning Model.** <br>
+*Jiacheng Ye, Zhihui Xie, Lin Zheng, Jiahui Gao, Zirui Wu, Xin Jiang, Zhenguo Li, and Lingpeng Kong.*<br>
+[[paper]](https://hkunlp.github.io/blog/2025/dream/)
+
+**(*Blog2025_Gemini-Diffusion*) Gemini Diffusion.** <br>
+*Google DeepMind.*<br>
+[[paper]](https://deepmind.google/models/gemini-diffusion/)
+
+**(*arXiv2025_MiMo*) MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining.** <br>
+*Xiaomi LLM-Core Team.*<br>
+[[paper]](https://arxiv.org/abs/2505.07608)
+[[code]](https://github.com/xiaomimimo/MiMo)
+
+**(*arXiv2025_SLOT*) SLOT: Sample-specific Language Model Optimization at Test-time.** <br>
+*Yang Hu, Xingyu Zhang, Xueji Fang, Zhiyang Chen, Xiao Wang, Huatian Zhang, Guojun Qi.*<br>
+[[paper]](https://arxiv.org/abs/2505.12392)
+[[code]](https://github.com/maple-research-lab/SLOT)
+
+**(*arXiv2025_EM*) The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning.** <br>
+*Shivam Agarwal, Zimin Zhang, Lifan Yuan, Jiawei Han, Hao Peng.*<br>
+[[paper]](https://arxiv.org/abs/2505.15134)
+
+**(*arXiv2025_RRMs*) Reward Reasoning Model.** <br>
+*Jiaxin Guo, Zewen Chi, Li Dong, Qingxiu Dong, Xun Wu, Shaohan Huang, Furu Wei.*<br>
+[[paper]](https://arxiv.org/abs/2505.14674)
+[[code]](https://huggingface.co/Reward-Reasoning)
+
+**(*arXiv2025_LLaDA-1.5*) LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models.** <br>
+*Fengqi Zhu, Rongzhen Wang, Shen Nie, Xiaolu Zhang, Chunwei Wu, Jun Hu, Jun Zhou, Jianfei Chen, Yankai Lin, Ji-Rong Wen, Chongxuan Li.*<br>
+[[paper]](https://arxiv.org/abs/2505.19223)
+[[code]](https://ml-gsai.github.io/LLaDA-1.5-Demo/)
+
+**(*arXiv2025_One-Shot-EM*) One-shot Entropy Minimization.** <br>
+*Zitian Gao, Lynx Chen, Joey Zhou, Bryan Dai.*<br>
+[[paper]](https://arxiv.org/abs/2505.20282)
+[[code]](https://github.com/zitian-gao/one-shot-em)
+
+**(*arXiv2025_SRT*) Can Large Reasoning Models Self-Train?.** <br>
+*Sheikh Shafayat, Fahim Tajwar, Ruslan Salakhutdinov, Jeff Schneider, Andrea Zanette.*<br>
+[[paper]](https://arxiv.org/abs/2505.21444)
+[[code]](https://self-rewarding-llm-training.github.io/)
+
+**(*arXiv2025_Fast-dLLM*) Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding.** <br>
+*Chengyue Wu, Hao Zhang, Shuchen Xue, Zhijian Liu, Shizhe Diao, Ligeng Zhu, Ping Luo, Song Han, Enze Xie.*<br>
+[[paper]](https://arxiv.org/abs/2505.22618)
+[[code]](https://github.com/NVlabs/Fast-dLLM)
+
+**(*arXiv2025_R3M*) Reflect, Retry, Reward: Self-Improving LLMs via Reinforcement Learning.** <br>
+*Shelly Bensal, Umar Jamil, Christopher Bryant, Melisa Russak, Kiran Kamble, Dmytro Mozolevskyi, Muayad Ali, Waseem AlShikh.*<br>
+[[paper]](https://arxiv.org/abs/2505.24726)
+
+**(*arXiv2025_RPT*) Reinforcement Pre-Training.** <br>
+*Qingxiu Dong, Li Dong, Yao Tang, Tianzhu Ye, Yutao Sun, Zhifang Sui, Furu Wei.*<br>
+[[paper]](https://arxiv.org/abs/2506.08007)
+[[code]](https://aka.ms/GeneralAI)
+
+**(*arXiv2025_EMPO*) EMPO: A Clustering-Based On-Policy Algorithm for Offline Reinforcement Learing.** <br>
+*Jongeui Park, Myungsik Cho, Youngchul Sung.*<br>
+[[paper]](https://openreview.net/pdf?id=Vga4Kz3rEj)
+
+**(*arXiv2025_Spurious-Rewards*) Spurious Rewards: Rethinking Training Signals in RLVR.** <br>
+*Rulin Shao, Shuyue Stella Li, Rui Xin, Scott Geng, Yiping Wang, Sewoong Oh, Simon Shaolei Du, Nathan Lambert, Sewon Min, Ranjay Krishna, Yulia Tsvetkov, Hannaneh Hajishirzi, Pang Wei Koh, Luke Zettlemoyer.*<br>
+[[paper]](https://arxiv.org/abs/2506.10947)
+[[code]](https://github.com/ruixin31/Spurious_Rewards)
+
+**(*arXiv2025_OctoThinker*) OctoThinker: Mid-training Incentivizes Reinforcement Learning Scaling.** <br>
+*Zengzhi Wang, Fan Zhou, Xuefeng Li, Pengfei Liu.*<br>
+[[paper]](https://arxiv.org/abs/2506.20512)
+
+**(*arXiv2025_Step-3*) Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding.** <br>
+*StepFun Inc.*<br>
+[[paper]](https://arxiv.org/abs/2507.19427)
+
+**(*arXiv2025_Kimi-K2*) Kimi K2: Open Agentic Intelligence.** <br>
+*MoonshotAI.*<br>
+[[paper]]https://kimik2.com/)
+[[code]](https://github.com/MoonshotAI/Kimi-K2)
+
+**(*arXiv2025_GLM-4.5*) GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models.** <br>
+*Zhipu AI & Tsinghua University.*<br>
+[[paper]]https://www.arxiv.org/abs/2508.06471)
+[[code]](https://github.com/zai-org/GLM-4.5)
 
 
 ### ``*Large Vision Model*``
@@ -342,7 +539,7 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://github.com/OpenGVLab/VideoMAEv2)
 
 **(*arXiv2023_SAM*) Segment Anything.** <br>
-*Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alexander C. Berg, Wan-Yen Lo, Piotr Dollár, Ross Girshick.*<br>
+*Meta FAIR.*<br>
 [[paper]](https://arxiv.org/abs/2304.02643)
 [[code]](https://github.com/facebookresearch/segment-anything)
 
@@ -371,9 +568,19 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2306.12156)
 [[code]](https://github.com/CASIA-IVA-Lab/FastSAM)
 
+**(*arXiv2023_MetaCLIP*) Demystifying CLIP Data.** <br>
+*Hu Xu, Saining Xie, Xiaoqing Ellen Tan, Po-Yao Huang, Russell Howes, Vasu Sharma, Shang-Wen Li, Gargi Ghosh, Luke Zettlemoyer, Christoph Feichtenhofer.*<br>
+[[paper]](https://arxiv.org/abs/2309.16671)
+[[code]](https://github.com/facebookresearch/MetaCLIP)
+
 **(*ICLR2024_MAGVITv2*) Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation.** <br>
 *Lijun Yu, José Lezama, Nitesh B. Gundavarapu, Luca Versari, Kihyuk Sohn, David Minnen, Yong Cheng, Agrim Gupta, Xiuye Gu, Alexander G. Hauptmann, Boqing Gong, Ming-Hsuan Yang, Irfan Essa, David A. Ross, Lu Jiang.*<br>
 [[paper]](https://arxiv.org/abs/2310.05737)
+
+**(*CVPR2024_MobileCLIP*) MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training.** <br>
+*Pavan Kumar Anasosalu Vasu, Hadi Pouransari, Fartash Faghri, Raviteja Vemulapalli, Oncel Tuzel.*<br>
+[[paper]](https://arxiv.org/abs/2311.17049)
+[[code]](https://github.com/apple/ml-mobileclip)
 
 **(*CVPR2024_LVM*) Sequential Modeling Enables Scalable Learning for Large Vision Models.** <br>
 *Yutong Bai, Xinyang Geng, Karttikeya Mangalam, Amir Bar, Alan Yuille, Trevor Darrell, Jitendra Malik, Alexei A Efros.*<br>
@@ -430,9 +637,58 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://github.com/NVlabs/MambaVision)
 
 **(*arXiv2024_SAM2*) SAM 2: Segment Anything in Images and Videos.** <br>
-*Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman Rädle, Chloe Rolland, Laura Gustafson, Eric Mintun, Junting Pan, Kalyan Vasudev Alwala, Nicolas Carion, Chao-Yuan Wu, Ross Girshick, Piotr Dollár, Christoph Feichtenhofer.*<br>
+*Meta FAIR.*<br>
 [[paper]](https://arxiv.org/abs/2408.00714)
 [[code]](https://github.com/facebookresearch/sam2)
+
+**(*arXiv2024_AIMv2*) Multimodal Autoregressive Pre-training of Large Vision Encoders.** <br>
+*Apple Team.*<br>
+[[paper]](https://arxiv.org/abs/2411.14402)
+[[code]](https://github.com/apple/ml-aim)
+
+**(*arXiv2024_4DS*) Scaling 4D Representations.** <br>
+*Google DeepMind.*<br>
+[[paper]](https://arxiv.org/abs/2412.15212)
+
+**(*arXiv2025_SigLIP2*) SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features.** <br>
+*Google DeepMind.*<br>
+[[paper]](https://arxiv.org/abs/2502.14786)
+[[code]](https://github.com/google-research/big_vision/tree/main/big_vision/configs/proj/image_text/README_siglip2.md)
+
+**(*arXiv2025_Web-DINO*) Scaling Language-Free Visual Representation Learning.** <br>
+*Meta FAIR.*<br>
+[[paper]](https://arxiv.org/abs/2504.01017)
+[[code]](https://davidfan.io/webssl/)
+
+**(*arXiv2025_PE*) Perception Encoder: The best visual embeddings are not at the output of the network.** <br>
+*Meta FAIR.*<br>
+[[paper]](https://arxiv.org/abs/2504.13181)
+[[code]](https://github.com/facebookresearch/perception_models)
+
+**(*arXiv2025_VPRL*) Visual Planning: Let's Think Only with Images.** <br>
+*Yi Xu, Chengzu Li, Han Zhou, Xingchen Wan, Caiqi Zhang, Anna Korhonen, Ivan Vulić.*<br>
+[[paper]](https://arxiv.org/abs/2505.11409)
+[[code]](https://github.com/yix8/visualplanning)
+
+**(*arXiv2025_HIPS*) Hidden in plain sight: VLMs overlook their visual representations.** <br>
+*Stephanie Fu, Tyler Bonnen, Devin Guillory, Trevor Darrell.*<br>
+[[paper]](https://arxiv.org/abs/2506.08008)
+[[code]](https://hidden-plain-sight.github.io/)
+
+**(*arXiv2025_MetaCLIP-2*) MetaCLIP 2: A Worldwide Scaling Recipe.** <br>
+*Yung-Sung Chuang, Yang Li, Dong Wang, Ching-Feng Yeh, Kehan Lyu, Ramya Raghavendra, James Glass, Lifei Huang, Jason Weston, Luke Zettlemoyer, Xinlei Chen, Zhuang Liu, Saining Xie, Wen-tau Yih, Shang-Wen Li, Hu Xu.*<br>
+[[paper]](https://arxiv.org/abs/2507.22062)
+[[code]](https://github.com/facebookresearch/MetaCLIP)
+
+**(*arXiv2025_DINOv3*) DINOv3.** <br>
+*Meta AI Research.*<br>
+[[paper]](https://arxiv.org/abs/2508.10104)
+[[code]](https://github.com/facebookresearch/dinov3)
+
+**(*arXiv2025_MobileCLIP2*) MobileCLIP2: Improving Multi-Modal Reinforced Training.** <br>
+*Fartash Faghri, Pavan Kumar Anasosalu Vasu, Cem Koc, Vaishaal Shankar, Alexander Toshev, Oncel Tuzel, Hadi Pouransari.*<br>
+[[paper]](https://arxiv.org/abs/2508.20691)
+[[code]](https://github.com/apple/ml-mobileclip-dr)
 
 
 ### ``*Large MMM for Perception*``
@@ -536,6 +792,11 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2312.10032)
 [[code]](https://github.com/CircleRadon/Osprey)
 
+**(*arXiv2023_V*\*) V\*: Guided Visual Search as a Core Mechanism in Multimodal LLMs.** <br>
+*Penghao Wu, Saining Xie.*<br>
+[[paper]](https://arxiv.org/abs/2312.14135)
+[[code]](https://github.com/penghao-wu/vstar)
+
 **(*ECCV2024_All-Seeingv2*) The All-Seeing Project V2: Towards General Relation Comprehension of the Open World.** <br>
 *Weiyun Wang, Yiming Ren, Haowen Luo, Tiantong Li, Chenxiang Yan, Zhe Chen, Wenhai Wang, Qingyun Li, Lewei Lu, Xizhou Zhu, Yu Qiao, Jifeng Dai.*<br>
 [[paper]](https://arxiv.org/abs/2402.19474)
@@ -560,6 +821,72 @@ Methods Summary of Large Multi-Modality Model
 *Jiannan Wu, Muyan Zhong, Sen Xing, Zeqiang Lai, Zhaoyang Liu, Wenhai Wang, Zhe Chen, Xizhou Zhu, Lewei Lu, Tong Lu, Ping Luo, Yu Qiao, Jifeng Dai.*<br>
 [[paper]](https://arxiv.org/abs/2406.08394)
 [[code]](https://github.com/opengvlab/visionllm)
+
+**(*Blog2025_o3/o4-mini*) Thinking with images.** <br>
+*OpenAI Team.*<br>
+[[paper]](https://openai.com/index/thinking-with-images/)
+
+**(*arXiv2025_DyFo*) DyFo: A Training-Free Dynamic Focus Visual Search for Enhancing LMMs in Fine-Grained Visual Understanding.** <br>
+*Geng Li, Jinglin Xu, Yunzhen Zhao, Yuxin Peng.*<br>
+[[paper]](https://arxiv.org/abs/2504.14920)
+[[code]](https://github.com/PKU-ICST-MIPL/DyFo_CVPR2025)
+
+**(*arXiv2025_UniVG-R1*) UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning.** <br>
+*Sule Bai, Mingxing Li, Yong Liu, Jing Tang, Haoji Zhang, Lei Sun, Xiangxiang Chu, Yansong Tang.*<br>
+[[paper]](https://arxiv.org/abs/2505.14231)
+[[code]](https://amap-ml.github.io/UniVG-R1-page/)
+
+**(*arXiv2025_DeepEyes*) DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning.** <br>
+*Ziwei Zheng, Michael Yang, Jack Hong, Chenxiao Zhao, Guohai Xu, Le Yang, Chao Shen, Xing Yu.*<br>
+[[paper]](https://arxiv.org/abs/2505.14362)
+[[code]](https://github.com/Visual-Agent/DeepEyes)
+
+**(*arXiv2025_Chain-of-Focus*) Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL.** <br>
+*Xintong Zhang, Zhi Gao, Bofei Zhang, Pengxiang Li, Xiaowen Zhang, Yang Liu, Tao Yuan, Yuwei Wu, Yunde Jia, Song-Chun Zhu, Qing Li.*<br>
+[[paper]](https://arxiv.org/abs/2505.15436)
+[[code]](https://cof-reasoning.github.io/)
+
+**(*arXiv2025_GRIT*) GRIT: Teaching MLLMs to Think with Images.** <br>
+*Yue Fan, Xuehai He, Diji Yang, Kaizhi Zheng, Ching-Chen Kuo, Yuting Zheng, Sravana Jyothi Narayanaraju, Xinze Guan, Xin Eric Wang.*<br>
+[[paper]](https://arxiv.org/abs/2505.15879)
+[[code]](https://grounded-reasoning.github.io/)
+
+**(*arXiv2025_VLM-R3*) VLM-R3: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought.** <br>
+*Chaoya Jiang, Yongrui Heng, Wei Ye, Han Yang, Haiyang Xu, Ming Yan, Ji Zhang, Fei Huang, Shikun Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2505.16192v1)
+
+**(*arXiv2025_Ground-R1*) Ground-R1: Incentivizing Grounded Visual Reasoning via Reinforcement Learning.** <br>
+*Meng Cao, Haoze Zhao, Can Zhang, Xiaojun Chang, Ian Reid, Xiaodan Liang.*<br>
+[[paper]](https://arxiv.org/abs/2505.20272)
+
+**(*arXiv2025_VRAG-RL*) VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning.** <br>
+*Qiuchen Wang, Ruixue Ding, Yu Zeng, Zehui Chen, Lin Chen, Shihang Wang, Pengjun Xie, Fei Huang, Feng Zhao.*<br>
+[[paper]](https://arxiv.org/abs/2505.22019)
+[[code]](https://github.com/Alibaba-NLP/VRAG)
+
+**(*arXiv2025_SAM-R1*) SAM-R1: Leveraging SAM for Reward Feedback in Multimodal Segmentation via Reinforcement Learning.** <br>
+*Jiaqi Huang, Zunnan Xu, Jun Zhou, Ting Liu, Yicheng Xiao, Mingwen Ou, Bowen Ji, Xiu Li, Kehong Yuan.*<br>
+[[paper]](https://arxiv.org/abs/2505.22596)
+
+**(*arXiv2025_ViGoRL*) Grounded Reinforcement Learning for Visual Reasoning.** <br>
+*Gabriel Sarch, Snigdha Saha, Naitik Khandelwal, Ayush Jain, Michael J. Tarr, Aviral Kumar, Katerina Fragkiadaki.*<br>
+[[paper]](https://arxiv.org/abs/2505.23678v1)
+[[code]](https://visually-grounded-rl.github.io/)
+
+**(*arXiv2025_PixelThink*) PixelThink: Towards Efficient Chain-of-Pixel Reasoning.** <br>
+*Song Wang, Gongfan Fang, Lingdong Kong, Xiangtai Li, Jianyun Xu, Sheng Yang, Qiang Li, Jianke Zhu, Xinchao Wang.*<br>
+[[paper]](https://arxiv.org/abs/2505.23727)
+[[code]](https://pixelthink.github.io/)
+
+**(*arXiv2025_DINO-R1*) DINO-R1: Incentivizing Reasoning Capability in Vision Foundation Models.** <br>
+*Chenbin Pan, Wenbin He, Zhengzhong Tu, Liu Ren.*<br>
+[[paper]](https://arxiv.org/abs/2505.24025)
+[[code]](https://christinepan881.github.io/DINO-R1/)
+
+**(*arXiv2025_SpatialLM*) SpatialLM: Training Large Language Models for Structured Indoor Modeling.** <br>
+*Yongsen Mao, Junhao Zhong, Chuan Fang, Jia Zheng, Rui Tang, Hao Zhu, Ping Tan, Zihan Zhou.*<br>
+[[paper]](https://arxiv.org/abs/2506.07491)
+[[code]](https://manycore-research.github.io/SpatialLM/)
 
 
 #### ``*Image Perception*``
@@ -840,7 +1167,7 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://github.com/THUDM/CogVLM)
 
 **(*CVPR2024_InternVL*) InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks.** <br>
-*Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, Guo Chen, Sen Xing, Muyan Zhong, Qinglong Zhang, Xizhou Zhu, Lewei Lu, Bin Li, Ping Luo, Tong Lu, Yu Qiao, Jifeng Dai.*<br>
+*Shanghai AI Laboratory.*<br>
 [[paper]](https://arxiv.org/abs/2312.14238)
 [[code]](https://github.com/OpenGVLab/InternVL)
 
@@ -924,7 +1251,7 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://brave-vlms.epfl.ch/)
 
 **(*arXiv2024_InternVL1.5*) How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites.** <br>
-*Zhe Chen, Weiyun Wang, Hao Tian, Shenglong Ye, Zhangwei Gao, Erfei Cui, Wenwen Tong, Kongzhi Hu, Jiapeng Luo, Zheng Ma, Ji Ma, Jiaqi Wang, Xiaoyi Dong, Hang Yan, Hewei Guo, Conghui He, Botian Shi, Zhenjiang Jin, Chao Xu, Bin Wang, Xingjian Wei, Wei Li, Wenjian Zhang, Bo Zhang, Pinlong Cai, Licheng Wen, Xiangchao Yan, Min Dou, Lewei Lu, Xizhou Zhu, Tong Lu, Dahua Lin, Yu Qiao, Jifeng Dai, Wenhai Wang.*<br>
+*Shanghai AI Laboratory.*<br>
 [[paper]](https://arxiv.org/abs/2404.16821)
 [[code]](https://github.com/OpenGVLab/InternVL)
 
@@ -942,6 +1269,11 @@ Methods Summary of Large Multi-Modality Model
 *Shiyin Lu, Yang Li, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang, Han-Jia Ye.*<br>
 [[paper]](https://arxiv.org/abs/2405.20797)
 [[code]](https://github.com/AIDC-AI/Ovis)
+
+**(*arXiv2024_MiCo*) Explore the Limits of Omni-modal Pretraining at Scale.** <br>
+*Yiyuan Zhang, Handong Li, Jing Liu, Xiangyu Yue.*<br>
+[[paper]](https://arxiv.org/abs/2406.09412)
+[[code]](https://github.com/invictus717/MiCo)
 
 **(*arXiv2024_Cambrian-1*) Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs.** <br>
 *Shengbang Tong, Ellis Brown, Penghao Wu, Sanghyun Woo, Manoj Middepogu, Sai Charitha Akula, Jihan Yang, Shusheng Yang, Adithya Iyer, Xichen Pan, Austin Wang, Rob Fergus, Yann LeCun, Saining Xie.*<br>
@@ -988,6 +1320,11 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2407.17453)
 [[code]](https://github.com/NVlabs/VILA/tree/main)
 
+**(*arXiv2024_DIVA*) Diffusion Feedback Helps CLIP See Better.** <br>
+*Wenxuan Wang, Quan Sun, Fan Zhang, Yepeng Tang, Jing Liu, Xinlong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2407.20171)
+[[code]](https://github.com/baaivision/diva)
+
 **(*arXiv2024_MoMa*) MoMa: Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts.** <br>
 *Xi Victoria Lin, Akshat Shrivastava, Liang Luo, Srinivasan Iyer, Mike Lewis, Gargi Ghosh, Luke Zettlemoyer, Armen Aghajanyan.*<br>
 [[paper]](https://arxiv.org/abs/2407.21770v3)
@@ -1007,14 +1344,14 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2408.04840)
 [[code]](https://github.com/x-plug/mplug-owl)
 
-**(*arXiv2024_VITA*) VITA: Towards Open-Source Interactive Omni Multimodal LLM.** <br>
-*Chaoyou Fu, Haojia Lin, Zuwei Long, Yunhang Shen, Meng Zhao, Yifan Zhang, Xiong Wang, Di Yin, Long Ma, Xiawu Zheng, Ran He, Rongrong Ji, Yunsheng Wu, Caifeng Shan, Xing Sun.*<br>
-[[paper]](https://arxiv.org/abs/2408.05211)
-[[code]](https://vita-home.github.io/)
-
 **(*arXiv2024_CROME*) CROME: Cross-Modal Adapters for Efficient Multimodal LLM.** <br>
 *Sayna Ebrahimi, Sercan O. Arik, Tejas Nama, Tomas Pfister.*<br>
 [[paper]](https://arxiv.org/abs/2408.06610)
+
+**(*arXiv2024_Sys2-LLaVA*) Visual Agents as Fast and Slow Thinkers.** <br>
+*Guangyan Sun, Mingyu Jin, Zhenting Wang, Cheng-Long Wang, Siqi Ma, Qifan Wang, Tong Geng, Ying Nian Wu, Yongfeng Zhang, Dongfang Liu.*<br>
+[[paper]](https://arxiv.org/abs/2408.08862)
+[[code]](https://github.com/GuangyanS/Sys2-LLaVA)
 
 **(*arXiv2024_BLIP-3*) xGen-MM (BLIP-3): A Family of Open Large Multimodal Models.** <br>
 *Salesforce AI Research.*<br>
@@ -1099,6 +1436,11 @@ Methods Summary of Large Multi-Modality Model
 *Weixin Liang, Lili Yu, Liang Luo, Srinivasan Iyer, Ning Dong, Chunting Zhou, Gargi Ghosh, Mike Lewis, Wen-tau Yih, Luke Zettlemoyer, Xi Victoria Lin.*<br>
 [[paper]](https://arxiv.org/abs/2411.04996)
 
+**(*arXiv2024_Insight-V*) Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models.** <br>
+*Yuhao Dong, Zuyan Liu, Hai-Long Sun, Jingkang Yang, Winston Hu, Yongming Rao, Ziwei Liu.*<br>
+[[paper]](https://arxiv.org/abs/2411.14432)
+[[code]](https://github.com/dongyh20/Insight-V)
+
 **(*arXiv2024_SAE*) Large Multi-modal Models Can Interpret Features in Large Multi-modal Models.** <br>
 *Kaichen Zhang, Yifei Shen, Bo Li, Ziwei Liu.*<br>
 [[paper]](https://arxiv.org/abs/2411.14982)
@@ -1145,9 +1487,214 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2412.05939)
 [[code]](https://github.com/LooperXX/MMGiC)
 
+**(*arXiv2024_POINTS1.5*) POINTS1.5: Building a Vision-Language Model towards Real World Applications.** <br>
+*Yuan Liu, Le Tian, Xiao Zhou, Xinyu Gao, Kavio Yu, Yang Yu, Jie Zhou.*<br>
+[[paper]](https://arxiv.org/abs/2412.08443)
+
 **(*arXiv2024_Euclid*) Euclid: Supercharging Multimodal LLMs with Synthetic High-Fidelity Visual Descriptions.** <br>
 *Jiarui Zhang, Ollie Liu, Tianyu Yu, Jinyi Hu, Willie Neiswanger.*<br>
 [[paper]](https://arxiv.org/abs/2412.08737)
+
+**(*arXiv2024_V2PE*) V2PE: Improving Multimodal Long-Context Capability of Vision-Language Models with Variable Visual Position Encoding.** <br>
+*Junqi Ge, Ziyi Chen, Jintao Lin, Jinguo Zhu, Xihui Liu, Jifeng Dai, Xizhou Zhu.*<br>
+[[paper]](https://arxiv.org/abs/2412.09616)
+[[code]](https://github.com/OpenGVLab/V2PE)
+
+**(*arXiv2024_DeepSeek-VL2*) DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding.** <br>
+*DeepSeek-AI Team.*<br>
+[[paper]](https://arxiv.org/abs/2412.10302)
+[[code]](https://github.com/deepseek-ai/DeepSeek-VL2)
+
+**(*arXiv2024_HoVLE*) HoVLE: Unleashing the Power of Monolithic Vision-Language Models with Holistic Vision-Language Embedding.** <br>
+*Chenxin Tao, Shiqian Su, Xizhou Zhu, Chenyu Zhang, Zhe Chen, Jiawen Liu, Wenhai Wang, Lewei Lu, Gao Huang, Yu Qiao, Jifeng Dai.*<br>
+[[paper]](https://arxiv.org/abs/2412.16158)
+[[code]](https://huggingface.co/OpenGVLab/HoVLE)
+
+**(*arXiv2025_EVEv2*) EVEv2: Improved Baselines for Encoder-Free Vision-Language Models.** <br>
+*Haiwen Diao, Xiaotong Li, Yufeng Cui, Yueze Wang, Haoge Deng, Ting Pan, Wenxuan Wang, Huchuan Lu, Xinlong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2502.06788)
+[[code]](https://github.com/baaivision/EVE)
+
+**(*arXiv2024_Qwen2.5-VL*) Qwen2.5-VL Technical Report.** <br>
+*Qwen Team.*<br>
+[[paper]](https://arxiv.org/abs/2502.13923)
+[[code]](https://github.com/qwenlm/qwen2.5-vl)
+
+**(*arXiv2025_Visual-RFT*) Visual-RFT: Visual Reinforcement Fine-Tuning.** <br>
+*Ziyu Liu, Zeyi Sun, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang.*<br>
+[[paper]](https://arxiv.org/abs/2503.01785)
+[[code]](https://github.com/liuziyu77/visual-rft)
+
+**(*arXiv2025_UnifiedReward*) Unified Reward Model for Multimodal Understanding and Generation.** <br>
+*Yibin Wang, Yuhang Zang, Hao Li, Cheng Jin, Jiaqi Wang.*<br>
+[[paper]](https://arxiv.org/abs/2503.05236)
+[[code]](https://codegoat24.github.io/UnifiedReward/)
+
+**(*arXiv2025_Vision-R1*) Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models.** <br>
+*Wenxuan Huang, Bohan Jia, Zijie Zhai, Shaosheng Cao, Zheyu Ye, Fei Zhao, Zhe Xu, Yao Hu, Shaohui Lin.*<br>
+[[paper]](https://arxiv.org/abs/2503.06749)
+[[code]](https://github.com/Osilly/Vision-R1)
+
+**(*arXiv2025_LMM-R1*) LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL.** <br>
+*Yingzhe Peng, Gongrui Zhang, Miaosen Zhang, Zhiyuan You, Jie Liu, Qipeng Zhu, Kai Yang, Xingzhong Xu, Xin Geng, Xu Yang.*<br>
+[[paper]](https://arxiv.org/abs/2503.07536)
+[[code]](https://github.com/TideDra/lmm-r1)
+
+**(*arXiv2025_R1-Onevision*) R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization.** <br>
+*Yi Yang, Xiaoxuan He, Hongkun Pan, Xiyan Jiang, Yan Deng, Xingtao Yang, Haoyu Lu, Dacheng Yin, Fengyun Rao, Minfeng Zhu, Bo Zhang, Wei Chen.*<br>
+[[paper]](https://arxiv.org/abs/2503.10615)
+[[code]](https://github.com/Fancy-MLLM/R1-onevision)
+
+**(*arXiv2025_BREEN*) BREEN: Bridge Data-Efficient Encoder-Free Multimodal Learning with Learnable Queries.** <br>
+*Tianle Li, Yongming Rao, Winston Hu, Yu Cheng.*<br>
+[[paper]](https://arxiv.org/abs/2503.12446)
+
+**(*arXiv2025_HaploVL*) HaploVL: A Single-Transformer Baseline for Multi-Modal Understanding.** <br>
+*Rui Yang, Lin Song, Yicheng Xiao, Runhui Huang, Yixiao Ge, Ying Shan, Hengshuang Zhao.*<br>
+[[paper]](https://arxiv.org/abs/2503.14694)
+
+**(*arXiv2025_GenHancer*) GenHancer: Imperfect Generative Models are Secretly Strong Vision-Centric Enhancers.** <br>
+*Shijie Ma, Yuying Ge, Teng Wang, Yuxin Guo, Yixiao Ge, Ying Shan.*<br>
+[[paper]](https://arxiv.org/abs/2503.19480)
+[[code]](https://mashijie1028.github.io/GenHancer/)
+
+**(*arXiv2025_VoRA*) Vision as LoRA.** <br>
+*Han Wang, Yongjie Ye, Bingru Li, Yuxiang Nie, Jinghui Lu, Jingqun Tang, Yanjie Wang, Can Huang.*<br>
+[[paper]](https://arxiv.org/abs/2503.20680)
+[[code]](https://github.com/Hon-Wong/VoRA)
+
+**(*arXiv2025_Ross3D*) Ross3D: Reconstructive Visual Instruction Tuning with 3D-Awareness.** <br>
+*Haochen Wang, Yucheng Zhao, Tiancai Wang, Haoqiang Fan, Xiangyu Zhang, Zhaoxiang Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2504.01901)
+
+**(*arXiv2025_SAIL*) The Scalability of Simplicity: Empirical Analysis of Vision-Language Learning with a Single Transformer.** <br>
+*Weixian Lei, Jiacong Wang, Haochen Wang, Xiangtai Li, Jun Hao Liew, Jiashi Feng, Zilong Huang.*<br>
+[[paper]](https://arxiv.org/abs/2504.10462v1)
+[[paper]](https://github.com/bytedance/SAIL)
+
+**(*arXiv2025_PerceptionLM*) PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding.** <br>
+*Meta FAIR.*<br>
+[[paper]](https://arxiv.org/abs/2504.13180)
+[[code]](https://github.com/facebookresearch/perception_models)
+
+**(*arXiv2025_InternVL3*) InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models.** <br>
+*Shanghai AI Laboratory.*<br>
+[[paper]](https://arxiv.org/abs/2504.10479)
+[[code]](https://github.com/opengvlab/internvl)
+
+**(*arXiv2025_ZipR1*) ZipR1: Reinforcing Token Sparsity in MLLMs.** <br>
+*Feng Chen, Yefei He, Lequan Lin, Jing Liu, Bohan Zhuang, Qi Wu.*<br>
+[[paper]](https://arxiv.org/abs/2504.18579)
+
+**(*arXiv2025_UnifiedReward-GRPO*) Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning.** <br>
+*Yibin Wang, Zhimin Li, Yuhang Zang, Chunyu Wang, Qinglin Lu, Cheng Jin, Jiaqi Wang.*<br>
+[[paper]](https://arxiv.org/abs/2505.03318)
+[[code]](https://codegoat24.github.io/UnifiedReward/think)
+
+**(*arXiv2025_Seed1.5-VL*) Seed1.5-VL Technical Report.** <br>
+*ByteDance Seed.*<br>
+[[paper]](https://arxiv.org/abs/2505.07062)
+[[code]](https://www.volcengine.com/)
+
+**(*arXiv2025_MiMo-VL*) MiMo-VL Technical Report.** <br>
+*Xiaomi LLM-Core Team.*<br>
+[[paper]](https://github.com/XiaomiMiMo/MiMo-VL/blob/main/MiMo-VL-Technical-Report.pdf)
+[[code]](https://github.com/XiaomiMiMo/MiMo-VL)
+
+**(*ICML2025_ProxyV*) Streamline Without Sacrifice - Squeeze out Computation Redundancy in LMM.** <br>
+*Penghao Wu, Lewei Lu, Ziwei Liu.*<br>
+[[paper]](https://arxiv.org/abs/2505.15816)
+[[code]](https://github.com/penghao-wu/ProxyV)
+
+**(*arXiv2025_R1-ShareVL*) R1-ShareVL: Incentivizing Reasoning Capability of Multimodal Large Language Models via Share-GRPO.** <br>
+*Huanjin Yao, Qixiang Yin, Jingyi Zhang, Min Yang, Yibo Wang, Wenhao Wu, Fei Su, Li Shen, Minghui Qiu, Dacheng Tao, Jiaxing Huang.*<br>
+[[paper]](https://arxiv.org/abs/2505.16673)
+[[code]](https://github.com/HJYao00/R1-ShareVL)
+
+**(*arXiv2025_LaViDa*) LaViDa: A Large Diffusion Language Model for Multimodal Understanding.** <br>
+*Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover.*<br>
+[[paper]](https://arxiv.org/abs/2505.16839)
+[[code]](https://github.com/jacklishufan/lavida)
+
+**(*arXiv2025_LLaDA-V*) LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning.** <br>
+*Zebin You, Shen Nie, Xiaolu Zhang, Jun Hu, Jun Zhou, Zhiwu Lu, Ji-Rong Wen, Chongxuan Li.*<br>
+[[paper]](https://arxiv.org/abs/2505.16933)
+[[code]](https://ml-gsai.github.io/LLaDA-V-demo/)
+
+**(*arXiv2025_Dimple*) Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding.** <br>
+*Runpeng Yu, Xinyin Ma, Xinchao Wang.*<br>
+[[paper]](https://arxiv.org/abs/2505.16990)
+[[code]](https://github.com/yu-rp/Dimple)
+
+**(*arXiv2025_un2CLIP*) un2CLIP: Improving CLIP's Visual Detail Capturing Ability via Inverting unCLIP.** <br>
+*Yinqi Li, Jiahe Zhao, Hong Chang, Ruibing Hou, Shiguang Shan, Xilin Chen.*<br>
+[[paper]](https://arxiv.org/abs/2505.24517)
+[[code]](https://github.com/LiYinqi/un2CLIP)
+
+**(*arXiv2025_SRPO*) SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning.** <br>
+*Zhongwei Wan, Zhihao Dou, Che Liu, Yu Zhang, Dongfei Cui, Qinjian Zhao, Hui Shen, Jing Xiong, Yi Xin, Yifan Jiang, Yangfan He, Mi Zhang, Shen Yan.*<br>
+[[paper]](https://arxiv.org/abs/2506.01713)
+[[code]](https://github.com/SUSTechBruce/SRPO_MLLMs)
+
+**(*arXiv2025_SynthRL*) SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis.** <br>
+*Zijian Wu, Jinjie Ni, Xiangyan Liu, Zichen Liu, Hang Yan, Michael Qizhe Shieh.*<br>
+[[paper]](https://arxiv.org/abs/2506.02096)
+
+**(*arXiv2025_ASVR*) Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better.** <br>
+*Dianyi Wang, Wei Song, Yikun Wang, Siyuan Wang, Kaicheng Yu, Zhongyu Wei, Jiaqi Wang.*<br>
+[[paper]](https://arxiv.org/abs/2506.09040)
+[[code]](https://github.com/AlenjandroWang/ASVR)
+
+**(*arXiv2025_Gemini-2.5*) Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities.** <br>
+*Gemini Team.*<br>
+[[paper]](https://arxiv.org/abs/2507.06261)
+
+**(*arXiv2025_MMSearch-R1*) MMSearch-R1: Incentivizing LMMs to Search.** <br>
+*Jinming Wu, Zihao Deng, Wei Li, Yiding Liu, Bo You, Bo Li, Zejun Ma, Ziwei Liu.*<br>
+[[paper]](https://arxiv.org/abs/2506.20670)
+[[code]](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1)
+
+**(*arXiv2025_DenseWorld-1M*) DenseWorld-1M: Towards Detailed Dense Grounded Caption in the Real World.** <br>
+*Xiangtai Li, Tao Zhang, Yanwei Li, Haobo Yuan, Shihao Chen, Yikang Zhou, Jiahao Meng, Yueyi Sun, Shilin Xu, Lu Qi, Tianheng Cheng, Yi Lin, Zilong Huang, Wenhao Huang, Jiashi Feng, Guang Shi.*<br>
+[[paper]](https://arxiv.org/abs/2506.24102)
+[[code]](https://github.com/lxtGH/DenseWorld-1M)
+
+**(*arXiv2025_GLM-4.1V-Thinking*) GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning.** <br>
+*GLM-V Team.*<br>
+[[paper]](https://arxiv.org/abs/2507.01006)
+[[code]](https://github.com/THUDM/GLM-4.1V-Thinking)
+
+**(*arXiv2025_Keye-VL*) Kwai Keye-VL Technical Report.** <br>
+*Keye Team, Kuaishou Group.*<br>
+[[paper]](https://arxiv.org/abs/2507.01949)
+[[code]](https://github.com/Kwai-Keye/Keye)
+
+**(*arXiv2025_Analysis*) Scaling Laws for Optimal Data Mixtures.** <br>
+*Mustafa Shukor, Louis Bethune, Dan Busbridge, David Grangier, Enrico Fini, Alaaeldin El-Nouby, Pierre Ablin.*<br>
+[[paper]](https://arxiv.org/abs/2507.09404)
+
+**(*arXiv2025_Mono-InternVL-1.5*) Mono-InternVL-1.5: Towards Cheaper and Faster Monolithic Multimodal Large Language Models.** <br>
+*Gen Luo, Wenhan Dou, Wenhao Li, Zhaokai Wang, Xue Yang, Changyao Tian, Hao Li, Weiyun Wang, Wenhai Wang, Xizhou Zhu, Yu Qiao, Jifeng Dai.*<br>
+[[paper]](https://arxiv.org/abs/2507.12566)
+[[code]](https://github.com/OpenGVLab/Mono-InternVL)
+
+**(*arXiv2025_Analysis*) VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs.** <br>
+*Shmuel Berman, Jia Deng.*<br>
+[[paper]](https://arxiv.org/abs/2507.13361)
+
+**(*Blog2025_ARC-AGI*) Can lossless information compression by itself produce intelligent behavior?** <br>
+*Isaac Liao, Albert Gu.*<br>
+[[Blog]](https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html)
+
+**(*Blog2025_LFM2*) Introducing LFM2: The Fastest On-Device Foundation Models on the Market.** <br>
+*Liquid AI.*<br>
+[[Blog]](https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models)
+
+**(*arXiv2025_Ovis2.5*) Ovis2.5 Technical Report.** <br>
+*Ovis Team, Alibaba Group.*<br>
+[[paper]](https://arxiv.org/abs/2508.11737)
+[[code]](https://github.com/AIDC-AI/Ovis)
+
 
 
 #### ``*Video Perception*``
@@ -1246,6 +1793,11 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2407.15841)
 [[code]](https://github.com/apple/ml-slowfast-llava)
 
+**(*arXiv2024_VITA*) VITA: Towards Open-Source Interactive Omni Multimodal LLM.** <br>
+*Chaoyou Fu, Haojia Lin, Zuwei Long, Yunhang Shen, Meng Zhao, Yifan Zhang, Xiong Wang, Di Yin, Long Ma, Xiawu Zheng, Ran He, Rongrong Ji, Yunsheng Wu, Caifeng Shan, Xing Sun.*<br>
+[[paper]](https://arxiv.org/abs/2408.05211)
+[[code]](https://vita-home.github.io/)
+
 **(*arXiv2024_LongVILA*) LongVILA: Scaling Long-Context Visual Language Models for Long Videos.** <br>
 *Fuzhao Xue, Yukang Chen, Dacheng Li, Qinghao Hu, Ligeng Zhu, Xiuyu Li, Yunhao Fang, Haotian Tang, Shang Yang, Zhijian Liu, Ethan He, Hongxu Yin, Pavlo Molchanov, Jan Kautz, Linxi Fan, Yuke Zhu, Yao Lu, Song Han.*<br>
 [[paper]](https://arxiv.org/abs/2408.10188)
@@ -1295,6 +1847,57 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2412.09596)
 [[code]](https://github.com/InternLM/InternLM-XComposer/tree/main/InternLM-XComposer-2.5-OmniLive)
 
+**(*arXiv2024_FastVLM*) FastVLM: Efficient Vision Encoding for Vision Language Models.** <br>
+*Pavan Kumar Anasosalu Vasu, Fartash Faghri, Chun-Liang Li, Cem Koc, Nate True, Albert Antony, Gokul Santhanam, James Gabriel, Peter Grasch, Oncel Tuzel, Hadi Pouransari.*<br>
+[[paper]](https://arxiv.org/abs/2412.13303)
+
+**(*arXiv2024_Video-Panda*) Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models.** <br>
+*Jinhui Yi, Syed Talal Wasim, Yanan Luo, Muzammal Naseer, Juergen Gall.*<br>
+[[paper]](https://arxiv.org/abs/2412.18609)
+[[code]](https://github.com/jh-yi/video-panda)
+
+**(*arXiv2025_VITA-1.5*) VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction.** <br>
+*Chaoyou Fu, Haojia Lin, Xiong Wang, Yi-Fan Zhang, Yunhang Shen, Xiaoyu Liu, Haoyu Cao, Zuwei Long, Heting Gao, Ke Li, Long Ma, Xiawu Zheng, Rongrong Ji, Xing Sun, Caifeng Shan, Ran He.*<br>
+[[paper]](https://arxiv.org/abs/2501.01957)
+[[code]](https://github.com/VITA-MLLM/VITA)
+
+**(*arXiv2025_VideoLLaMA-3*) VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding.** <br>
+*Boqiang Zhang, Kehan Li, Zesen Cheng, Zhiqiang Hu, Yuqian Yuan, Guanzheng Chen, Sicong Leng, Yuming Jiang, Hang Zhang, Xin Li, Peng Jin, Wenqi Zhang, Fan Wang, Lidong Bing, Deli Zhao.*<br>
+[[paper]](https://arxiv.org/abs/2501.13106)
+[[code]](https://github.com/DAMO-NLP-SG/VideoLLaMA3)
+
+**(*arXiv2025_Ola*) Ola: Pushing the Frontiers of Omni-Modal Language Model with Progressive Modality Alignment.** <br>
+*Zuyan Liu, Yuhao Dong, Jiahui Wang, Ziwei Liu, Winston Hu, Jiwen Lu, Yongming Rao.*<br>
+[[paper]](https://arxiv.org/abs/2502.04328)
+[[code]](https://github.com/Ola-Omni/Ola)
+
+**(*arXiv2025_VideoRoPE*) VideoRoPE: What Makes for Good Video Rotary Position Embedding?.** <br>
+*Xilin Wei, Xiaoran Liu, Yuhang Zang, Xiaoyi Dong, Pan Zhang, Yuhang Cao, Jian Tong, Haodong Duan, Qipeng Guo, Jiaqi Wang, Xipeng Qiu, Dahua Lin.*<br>
+[[paper]](https://arxiv.org/abs/2502.05173)
+[[code]](https://github.com/Wiselnn570/VideoRoPE)
+
+**(*arXiv2025_Pixel-Reasoner*) Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning.** <br>
+*Alex Su, Haozhe Wang, Weiming Ren, Fangzhen Lin, Wenhu Chen.*<br>
+[[paper]](https://arxiv.org/abs/2505.15966)
+
+**(*arXiv2025_SynPO*) SynPO: Synergizing Descriptiveness and Preference Optimization for Video Detailed Captioning.** <br>
+*Jisheng Dang, Yizhou Zhang, Hao Ye, Teng Wang, Siming Chen, Huicheng Zheng, Yulan Guo, Jianhuang Lai, Bin Hu.*<br>
+[[paper]](https://arxiv.org/abs/2506.00835)
+
+**(*arXiv2025_VideoCap-R1*) VideoCap-R1: Enhancing MLLMs for Video Captioning via Structured Thinking.** <br>
+*Desen Meng, Rui Huang, Zhilin Dai, Xinhao Li, Yifan Xu, Jun Zhang, Zhenpeng Huang, Meng Zhang, Lingshu Zhang, Yi Liu, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2506.01725)
+
+**(*arXiv2025_VGR*) VGR: Visual Grounded Reasoning.** <br>
+*Jiacong Wang, Zijian Kang, Haochen Wang, Haiyong Jiang, Jiawen Li, Bohong Wu, Ya Wang, Jiao Ran, Xiao Liang, Chao Feng, Jun Xiao.*<br>
+[[paper]](https://arxiv.org/abs/2506.11991)
+
+**(*arXiv2025_ARC-Hunyuan-Video-7B*) ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World Shorts.** <br>
+*Yuying Ge, Yixiao Ge, Chen Li, Teng Wang, Junfu Pu, Yizhuo Li, Lu Qiu, Jin Ma, Lisheng Duan, Xinyu Zuo, Jinwen Luo, Weibo Gu, Zexuan Li, Xiaojing Zhang, Yangyu Tao, Han Hu, Di Wang, Ying Shan.*<br>
+[[paper]](https://arxiv.org/abs/2507.20939)
+[[code]](https://tencentarc.github.io/posts/arc-video-announcement/)
+
+
 
 ### ``*Large MMM for Generation*``
 
@@ -1319,6 +1922,11 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2202.04200)
 [[code]](https://github.com/google-research/maskgit)
 
+**(*ICLR2023_Rectified-Flow*) Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.** <br>
+*Xingchao Liu, Chengyue Gong, Qiang Liu.*<br>
+[[paper]](https://arxiv.org/abs/2209.03003)
+[[code]](https://github.com/gnobitab/RectifiedFlow)
+
 **(*ICCV2023_DiT*) Scalable Diffusion Models with Transformers.** <br>
 *William Peebles, Saining Xie.*<br>
 [[paper]](https://arxiv.org/abs/2212.09748)
@@ -1328,6 +1936,11 @@ Methods Summary of Large Multi-Modality Model
 *Michael Tschannen, Cian Eastwood, Fabian Mentzer.*<br>
 [[paper]](https://arxiv.org/abs/2312.02116)
 [[code]](https://github.com/google-research/big_vision)
+
+**(*ECCV2024_SiT*) SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers.** <br>
+*Nanye Ma, Mark Goldstein, Michael S. Albergo, Nicholas M. Boffi, Eric Vanden-Eijnden, Saining Xie.*<br>
+[[paper]](https://arxiv.org/abs/2401.08740)
+[[code]](https://github.com/willisma/SiT)
 
 **(*arXiv2024_FiT*) FiT: Flexible Vision Transformer for Diffusion Model.** <br>
 *Zeyu Lu, Zidong Wang, Di Huang, Chengyue Wu, Xihui Liu, Wanli Ouyang, Lei Bai.*<br>
@@ -1358,6 +1971,16 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2406.11838)
 [[code]](https://github.com/LTH14/mar)
 
+**(*ICLR2025_REPA*) Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think.** <br>
+*Sihyun Yu, Sangkyung Kwak, Huiwon Jang, Jongheon Jeong, Jonathan Huang, Jinwoo Shin, Saining Xie.*<br>
+[[paper]](https://arxiv.org/abs/2410.06940)
+[[code]](https://sihyun.me/REPA)
+
+**(*ICLR2025_DC-AE*) Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models.** <br>
+*Junyu Chen, Han Cai, Junsong Chen, Enze Xie, Shang Yang, Haotian Tang, Muyang Li, Yao Lu, Song Han.*<br>
+[[paper]](https://arxiv.org/abs/2410.10733)
+[[code]](https://github.com/mit-han-lab/efficientvit)
+
 **(*arXiv2024_RAR*) Randomized Autoregressive Visual Generation.** <br>
 *Qihang Yu, Ju He, Xueqing Deng, Xiaohui Shen, Liang-Chieh Chen.*<br>
 [[paper]](https://arxiv.org/abs/2411.00776)
@@ -1381,6 +2004,40 @@ Methods Summary of Large Multi-Modality Model
 *DeepMind Team.*<br>
 [[blog]](https://diffusionflow.github.io/)
 [[wechat]](https://mp.weixin.qq.com/s/BUaE2_VJwJi1VtNI3x-aIA)
+
+**(*arXiv2024_PAR*) Parallelized Autoregressive Visual Generation.** <br>
+*Yuqing Wang, Shuhuai Ren, Zhijie Lin, Yujin Han, Haoyuan Guo, Zhenheng Yang, Difan Zou, Jiashi Feng, Xihui Liu.*<br>
+[[paper]](https://arxiv.org/abs/2412.15119)
+[[code]](https://epiphqny.github.io/PAR-project)
+
+**(*arXiv2024_FlowAR*) FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching.** <br>
+*Sucheng Ren, Qihang Yu, Ju He, Xiaohui Shen, Alan Yuille, Liang-Chieh Chen.*<br>
+[[paper]](https://arxiv.org/abs/2412.15205)
+[[code]](https://github.com/OliverRensu/FlowAR)
+
+**(*arXiv2024_NPP*) Next Patch Prediction for Autoregressive Visual Generation.** <br>
+*Yatian Pang, Peng Jin, Shuo Yang, Bin Lin, Bin Zhu, Zhenyu Tang, Liuhan Chen, Francis E. H. Tay, Ser-Nam Lim, Harry Yang, Li Yuan.*<br>
+[[paper]](https://arxiv.org/abs/2412.15321)
+[[code]](https://github.com/PKU-YuanGroup/Next-Patch-Prediction)
+
+**(*arXiv2025_REPA-E*) REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers.** <br>
+*Xingjian Leng, Jaskirat Singh, Yunzhong Hou, Zhenchang Xing, Saining Xie, Liang Zheng.*<br>
+[[paper]](https://arxiv.org/abs/2504.10483)
+[[code]](https://end2end-diffusion.github.io/)
+
+**(*arXiv2025_VFMTok*) Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation.** <br>
+*Anlin Zheng, Xin Wen, Xuanyang Zhang, Chuofan Ma, Tiancai Wang, Gang Yu, Xiangyu Zhang, Xiaojuan Qi.*<br>
+[[paper]](https://arxiv.org/abs/2507.08441)
+
+**(*ICCV2025_DC-AE-1.5*) DC-AE 1.5: Accelerating Diffusion Model Convergence with Structured Latent Space.** <br>
+*Junyu Chen, Dongyun Zou, Wenkun He, Junsong Chen, Enze Xie, Song Han, Han Cai.*<br>
+[[paper]](https://arxiv.org/abs/2508.00413)
+[[code]](https://github.com/dc-ai-projects/DC-Gen)
+
+**(*ICCV2025_OneVAE*) OneVAE: Joint Discrete and Continuous Optimization Helps Discrete Video VAE Train Better.** <br>
+*Yupeng Zhou, Zhen Li, Ziheng Ouyang, Yuming Chen, Ruoyi Du, Daquan Zhou, Bin Fu, Yihao Liu, Peng Gao, Ming-Ming Cheng, Qibin Hou.*<br>
+[[paper]](https://arxiv.org/abs/2508.09857)
+[[code]](https://github.com/HVision-NKU/OneVAE)
 
 
 #### ``*Image Generation*``
@@ -1409,10 +2066,20 @@ Methods Summary of Large Multi-Modality Model
 *GenAI Team.*<br>
 [[paper]](https://arxiv.org/abs/2309.15807)
 
+**(*ICLR2024_PixArt-α*) PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis.** <br>
+*Junsong Chen, Jincheng Yu, Chongjian Ge, Lewei Yao, Enze Xie, Yue Wu, Zhongdao Wang, James Kwok, Ping Luo, Huchuan Lu, Zhenguo Li.*<br>
+[[paper]](https://arxiv.org/abs/2310.00426)
+[[code]](https://pixart-alpha.github.io/)
+
 **(*CVPR2024_Powers-of-Ten*) Generative Powers of Ten.** <br>
 *Xiaojuan Wang, Janne Kontkanen, Brian Curless, Steve Seitz, Ira Kemelmacher, Ben Mildenhall, Pratul Srinivasan, Dor Verbin, Aleksander Holynski.*<br>
 [[paper]](https://arxiv.org/abs/2312.02149)
 [[code]](https://powers-of-10.github.io/)
+
+**(*ICMLw2024_PIXART-δ*) PIXART-δ: Fast and Controllable Image Generation with Latent Consistency Models.** <br>
+*Junsong Chen, Yue Wu, Simian Luo, Enze Xie, Sayak Paul, Ping Luo, Hang Zhao, Zhenguo Li.*<br>
+[[paper]](https://arxiv.org/abs/2401.05252)
+[[code]](https://github.com/PixArt-alpha/PixArt-alpha)
 
 **(*arXiv2024_CoBSAT*) Can MLLMs Perform Text-to-Image In-Context Learning?.** <br>
 *Yuchen Zeng, Wonjun Kang, Yicong Chen, Hyung Il Koo, Kangwook Lee.*<br>
@@ -1423,6 +2090,11 @@ Methods Summary of Large Multi-Modality Model
 *Stability AI.*<br>
 [[paper]](https://arxiv.org/abs/2403.03206)
 [[code]](https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers)
+
+**(*ECCV2024_PixArt-Σ*) PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation.** <br>
+*Junsong Chen, Chongjian Ge, Enze Xie, Yue Wu, Lewei Yao, Xiaozhe Ren, Zhongdao Wang, Ping Luo, Huchuan Lu, Zhenguo Li.*<br>
+[[paper]](https://arxiv.org/abs/2403.04692)
+[[code]](https://pixart-alpha.github.io/PixArt-sigma-project/)
 
 **(*ECCV2024_ZigMa*) ZigMa: A DiT-style Zigzag Mamba Diffusion Model.** <br>
 *Vincent Tao Hu, Stefan Andreas Baumann, Ming Gui, Olga Grebenkova, Pingchuan Ma, Johannes Fischer, Björn Ommer.*<br>
@@ -1468,6 +2140,16 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2410.02705)
 [[code]](https://github.com/hustvl/ControlAR)
 
+**(*arXiv2024_Meissonic*) Meissonic: Revitalizing Masked Generative Transformers for Efficient High-Resolution Text-to-Image Synthesis.** <br>
+*Jinbin Bai, Tian Ye, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan.*<br>
+[[paper]](https://arxiv.org/abs/2410.08261)
+[[code]](https://github.com/viiika/Meissonic)
+
+**(*ICLR2025_SANA*) SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers.** <br>
+*Enze Xie, Junsong Chen, Junyu Chen, Han Cai, Haotian Tang, Yujun Lin, Zhekai Zhang, Muyang Li, Ligeng Zhu, Yao Lu, Song Han.*<br>
+[[paper]](https://arxiv.org/abs/2410.10629)
+[[code]](https://github.com/NVlabs/Sana)
+
 **(*arXiv2024_ZipAR*) ZipAR: Accelerating Autoregressive Image Generation through Spatial Locality.** <br>
 *Yefei He, Feng Chen, Yuanyu He, Shaoxuan He, Hong Zhou, Kaipeng Zhang, Bohan Zhuang.*<br>
 [[paper]](https://arxiv.org/abs/2412.04062)
@@ -1478,38 +2160,180 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2412.04431)
 [[code]](https://github.com/FoundationVision/Infinity)
 
+**(*arXiv2024_UniReal*) UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics.** <br>
+*Xi Chen, Zhifei Zhang, He Zhang, Yuqian Zhou, Soo Ye Kim, Qing Liu, Yijun Li, Jianming Zhang, Nanxuan Zhao, Yilin Wang, Hui Ding, Zhe Lin, Hengshuang Zhao.*<br>
+[[paper]](https://arxiv.org/abs/2412.07774)
+[[code]](https://xavierchen34.github.io/UniReal-Page/)
+
+**(*arXiv2025_IMAGINE-E*) IMAGINE-E: Image Generation Intelligence Evaluation of State-of-the-art Text-to-Image Models.** <br>
+*Jiayi Lei, Renrui Zhang, Xiangfei Hu, Weifeng Lin, Zhen Li, Wenjian Sun, Ruoyi Du, Le Zhuo, Zhongyu Li, Xinyue Li, Shitian Zhao, Ziyu Guo, Yiting Lu, Peng Gao, Hongsheng Li.*<br>
+[[paper]](https://arxiv.org/abs/2501.13920)
+[[code]](https://github.com/jylei16/Imagine-e)
+
+**(*CVPR2025_PARM*) Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step.** <br>
+*Ziyu Guo, Renrui Zhang, Chengzhuo Tong, Zhizheng Zhao, Rui Huang, Haoquan Zhang, Manyuan Zhang, Jiaming Liu, Shanghang Zhang, Peng Gao, Hongsheng Li, Pheng-Ann Heng.*<br>
+[[paper]](https://arxiv.org/abs/2501.13926)
+[[code]](https://github.com/ZiyuGuo99/Image-Generation-CoT)
+
+**(*ICML2025_SANA-1.5*) SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer.** <br>
+*Enze Xie, Junsong Chen, Yuyang Zhao, Jincheng Yu, Ligeng Zhu, Chengyue Wu, Yujun Lin, Zhekai Zhang, Muyang Li, Junyu Chen, Han Cai, Bingchen Liu, Daquan Zhou, Song Han.*<br>
+[[paper]](https://arxiv.org/abs/2501.18427)
+[[code]](https://github.com/NVlabs/Sana)
+
+**(*arXiv2025_SANA-Sprint*) SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation.** <br>
+*Junsong Chen, Shuchen Xue, Yuyang Zhao, Jincheng Yu, Sayak Paul, Junyu Chen, Han Cai, Song Han, Enze Xie.*<br>
+[[paper]](https://arxiv.org/abs/2503.09641)
+[[code]](https://github.com/NVlabs/Sana)
+
+**(*arXiv2025_LeX-Art*) LeX-Art: Rethinking Text Generation via Scalable High-Quality Data Synthesis.** <br>
+*Shitian Zhao, Qilong Wu, Xinyue Li, Bo Zhang, Ming Li, Qi Qin, Dongyang Liu, Kaipeng Zhang, Hongsheng Li, Yu Qiao, Peng Gao, Bin Fu, Zhen Li.*<br>
+[[paper]](https://arxiv.org/abs/2503.21749)
+[[code]](https://zhaoshitian.github.io/lexart/)
+
+**(*arXiv2025_Lumina-Image-2.0*) Lumina-Image 2.0: A Unified and Efficient Image Generative Framework.** <br>
+*Qi Qin, Le Zhuo, Yi Xin, Ruoyi Du, Zhen Li, Bin Fu, Yiting Lu, Jiakang Yuan, Xinyue Li, Dongyang Liu, Xiangyang Zhu, Manyuan Zhang, Will Beddow, Erwann Millon, Victor Perez, Wenhai Wang, Conghui He, Bo Zhang, Xiaohong Liu, Hongsheng Li, Yu Qiao, Chang Xu, Peng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2503.21758)
+[[code]](https://github.com/Alpha-VLLM/Lumina-Image-2.0)
+
+**(*arXiv2025_PosterMaker*) PosterMaker: Towards High-Quality Product Poster Generation with Accurate Text Rendering.** <br>
+*Yifan Gao, Zihang Lin, Chuanbin Liu, Min Zhou, Tiezheng Ge, Bo Zheng, Hongtao Xie.*<br>
+[[paper]](https://arxiv.org/abs/2504.06632)
+[[code]](https://poster-maker.github.io/)
+
+**(*arXiv2025_DDT-LLaMA*) Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens.** <br>
+*Kaihang Pan, Wang Lin, Zhongqi Yue, Tenglong Ao, Liyu Jia, Wei Zhao, Juncheng Li, Siliang Tang, Hanwang Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2504.14666)
+[[code]](https://ddt-llama.github.io/)
+
+**(*arXiv2025_Flow-GRPO*) Flow-GRPO: Training Flow Matching Models via Online RL.** <br>
+*Jie Liu, Gongye Liu, Jiajun Liang, Yangguang Li, Jiaheng Liu, Xintao Wang, Pengfei Wan, Di Zhang, Wanli Ouyang.*<br>
+[[paper]](https://arxiv.org/abs/2505.05470)
+[[code]](https://github.com/yifan123/flow_grpo)
+
+**(*arXiv2025_Selftok*) Selftok: Discrete Visual Tokens of Autoregression, by Diffusion, and for Reasoning.** <br>
+*Bohan Wang, Zhongqi Yue, Fengda Zhang, Shuo Chen, Li'an Bi, Junzhe Zhang, Xue Song, Kennard Yanting Chan, Jiachun Pan, Weijia Wu, Mingze Zhou, Wang Lin, Kaihang Pan, Saining Zhang, Liyu Jia, Wentao Hu, Wei Zhao, Hanwang Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2505.07538)
+[[code]](https://selftok-team.github.io/report/)
+
+**(*Blog2025_FLUX.1-Kontext*) Introducing FLUX.1 Kontext and the BFL Playground.** <br>
+*Black Forest Labs.*<br>
+[[blog]](https://bfl.ai/announcements/flux-1-kontext)
+[[demo]](https://playground.bfl.ai/image/generate)
+
+**(*arXiv2025_TwGI*) Thinking with Generated Images.** <br>
+*Ethan Chern, Zhulin Hu, Steffi Chern, Siqi Kou, Jiadi Su, Yan Ma, Zhijie Deng, Pengfei Liu.*<br>
+[[paper]](https://arxiv.org/abs/2505.22525)
+[[code]](https://github.com/GAIR-NLP/thinking-with-generated-images)
+
+**(*arXiv2025_Hita*) Hita: Holistic Tokenizer for Autoregressive Image Generation.** <br>
+*Anlin Zheng, Haochen Wang, Yucheng Zhao, Weipeng Deng, Tiancai Wang, Xiangyu Zhang, Xiaojuan Qi.*<br>
+[[paper]](https://arxiv.org/abs/2507.02358)
+[[code]](https://github.com/CVMI-Lab/Hita)
+
+**(*arXiv2025_Qwen-Image*) Qwen-Image Technical Report.** <br>
+*Qwen Team.*<br>
+[[paper]](https://arxiv.org/abs/2508.02324)
+[[code]](https://github.com/QwenLM/Qwen-Image)
+
+**(*arXiv2025_NextStep-1*) NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale.** <br>
+*NextStep-Team, StepFun.*<br>
+[[paper]](https://arxiv.org/abs/2508.10711)
+[[code]](https://github.com/stepfun-ai/NextStep-1)
+
 
 #### ``*Video Generation*``
+
+**(*arXiv2023_GAIA-1*) GAIA-1: A Generative World Model for Autonomous Driving.** <br>
+*Anthony Hu, Lloyd Russell, Hudson Yeo, Zak Murez, George Fedoseev, Alex Kendall, Jamie Shotton, Gianluca Corrado.*<br>
+[[paper]](https://arxiv.org/abs/2309.17080)
 
 **(*arXiv2024_Panda-70M*) Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers.** <br>
 *Tsai-Shien Chen, Aliaksandr Siarohin, Willi Menapace, Ekaterina Deyneka, Hsiang-wei Chao, Byung Eun Jeon, Yuwei Fang, Hsin-Ying Lee, Jian Ren, Ming-Hsuan Yang, Sergey Tulyakov.*<br>
 [[paper]](https://arxiv.org/abs/2402.19479)
-[[demo]](https://snap-research.github.io/Panda-70M)
+[[code]](https://snap-research.github.io/Panda-70M)
 
 **(*arXiv2024_Pyramid-Flow*) Pyramidal Flow Matching for Efficient Video Generative Modeling.** <br>
 *Yang Jin, Zhicheng Sun, Ningyuan Li, Kun Xu, Kun Xu, Hao Jiang, Nan Zhuang, Quzhe Huang, Yang Song, Yadong Mu, Zhouchen Lin.*<br>
 [[paper]](https://arxiv.org/abs/2410.05954)
-[[demo]](https://github.com/jy0205/Pyramid-Flow)
+[[code]](https://github.com/jy0205/Pyramid-Flow)
 
 **(*arXiv2024_Koala-36M*) Koala-36M: A Large-scale Video Dataset Improving Consistency between Fine-grained Conditions and Video Content.** <br>
 *Qiuheng Wang, Yukai Shi, Jiarong Ou, Rui Chen, Ke Lin, Jiahao Wang, Boyuan Jiang, Haotian Yang, Mingwu Zheng, Xin Tao, Fei Yang, Pengfei Wan, Di Zhang.*<br>
 [[paper]](https://arxiv.org/abs/2410.08260)
-[[demo]](https://koala36m.github.io/)
+[[code]](https://koala36m.github.io/)
 
 **(*arXiv2024_Movie-Gen*) Movie Gen: A Cast of Media Foundation Models.** <br>
 *Movie Gen team.*<br>
 [[paper]](https://arxiv.org/abs/2410.13720)
-[[demo]](https://go.fb.me/MovieGenResearchVideos)
+[[code]](https://go.fb.me/MovieGenResearchVideos)
 
 **(*arXiv2024_HunyuanVideo*) HunyuanVideo: A Systematic Framework For Large Video Generative Models.** <br>
 *Hunyuan Foundation Model Team.*<br>
-[[paper]](https://www.arxiv.org/abs/2412.03603)
-[[demo]](https://github.com/Tencent/HunyuanVideo)
+[[paper]](https://arxiv.org/abs/2412.03603)
+[[code]](https://github.com/Tencent/HunyuanVideo)
 
 **(*arXiv2024_DiCoDe*) DiCoDe: Diffusion-Compressed Deep Tokens for Autoregressive Video Generation with Language Models.** <br>
 *Yizhuo Li, Yuying Ge, Yixiao Ge, Ping Luo, Ying Shan.*<br>
 [[paper]](https://arxiv.org/abs/2412.04446)
-[[demo]](https://liyz15.github.io/DiCoDe)
+[[code]](https://liyz15.github.io/DiCoDe)
+
+**(*arXiv2024_NOVA*) Autoregressive Video Generation without Vector Quantization.** <br>
+*Haoge Deng, Ting Pan, Haiwen Diao, Zhengxiong Luo, Yufeng Cui, Huchuan Lu, Shiguang Shan, Yonggang Qi, Xinlong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2412.14169)
+[[code]](https://github.com/baaivision/NOVA)
+
+**(*arXiv2025_Lumina-Video*) Lumina-Video: Efficient and Flexible Video Generation with Multi-scale Next-DiT.** <br>
+*Dongyang Liu, Shicheng Li, Yutong Liu, Zhen Li, Kai Wang, Xinyue Li, Qi Qin, Yufei Liu, Yi Xin, Zhongyu Li, Bin Fu, Chenyang Si, Yuewen Cao, Conghui He, Ziwei Liu, Yu Qiao, Qibin Hou, Hongsheng Li, Peng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2502.06782)
+[[code]](https://www.github.com/Alpha-VLLM/Lumina-Video)
+
+**(*arXiv2025_VACE*) VACE: All-in-One Video Creation and Editing.** <br>
+*Zeyinzi Jiang, Zhen Han, Chaojie Mao, Jingfeng Zhang, Yulin Pan, Yu Liu.*<br>
+[[paper]](https://arxiv.org/abs/2503.07598)
+[[code]](https://ali-vilab.github.io/VACE-Page/)
+
+**(*arXiv2025_FAR*) Long-Context Autoregressive Video Modeling with Next-Frame Prediction.** <br>
+*Yuchao Gu, Weijia Mao, Mike Zheng Shou.*<br>
+[[paper]](https://arxiv.org/abs/2503.19325)
+[[code]](https://farlongctx.github.io/)
+
+**(*arXiv2025_GAIA-2*) GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving.** <br>
+*Lloyd Russell, Anthony Hu, Lorenzo Bertoni, George Fedoseev, Jamie Shotton, Elahe Arani, Gianluca Corrado.*<br>
+[[paper]](https://arxiv.org/abs/2503.20523)
+
+**(*arXiv2025_WORLDMEM*) WORLDMEM: Long-term Consistent World Simulation with Memory.** <br>
+*Zeqi Xiao, Yushi Lan, Yifan Zhou, Wenqi Ouyang, Shuai Yang, Yanhong Zeng, Xingang Pan.*<br>
+[[paper]](https://arxiv.org/abs/2504.12369)
+[[code]](https://xizaoqu.github.io/worldmem/)
+
+**(*arXiv2025_MAGI-1*) MAGI-1: Autoregressive Video Generation at Scale.** <br>
+*Sand AI.*<br>
+[[paper]](https://arxiv.org/abs/2505.13211)
+[[code]](https://github.com/SandAI-org/MAGI-1)
+
+**(*arXiv2025_Frame-In-N-Out*) Frame In-N-Out: Unbounded Controllable Image-to-Video Generation.** <br>
+*Boyang Wang, Xuweiyi Chen, Matheus Gadelha, Zezhou Cheng.*<br>
+[[paper]](https://arxiv.org/abs/2505.21491)
+[[code]](https://uva-computer-vision-lab.github.io/Frame-In-N-Out/)
+
+**(*arXiv2025_NFD*) Playing with Transformer at 30+ FPS via Next-Frame Diffusion.** <br>
+*Xinle Cheng, Tianyu He, Jiayi Xu, Junliang Guo, Di He, Jiang Bian.*<br>
+[[paper]](https://arxiv.org/abs/2506.01380)
+
+**(*Blog2025_Seedance-1.0*) Seedance 1.0: Exploring the Boundaries of Video Generation Models.** <br>
+*ByteDance Seed.*<br>
+[[paper]](https://arxiv.org/abs/2506.09113)
+[[demo]](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/vision?type=GenVideo)
+
+**(*arXiv2025_CI-VID*) CI-VID: A Coherent Interleaved Text-Video Dataset.** <br>
+*Yiming Ju, Jijin Hu, Zhengxiong Luo, Haoge Deng, hanyu Zhao, Li Du, Chengwei Wu, Donglin Hao, Xinlong Wang, Tengfei Pan.*<br>
+[[paper]](https://arxiv.org/abs/2507.01938)
+[[code]](https://github.com/ymju-BAAI/CI-VID)
+
+**(*arXiv2025_Lumos-1*) Lumos-1: On Autoregressive Video Generation from a Unified Model Perspective.** <br>
+*Hangjie Yuan, Weihua Chen, Jun Cen, Hu Yu, Jingyun Liang, Shuning Chang, Zhihui Lin, Tao Feng, Pengwei Liu, Jiazheng Xing, Hao Luo, Jiasheng Tang, Fan Wang, Yi Yang.*<br>
+[[paper]](https://arxiv.org/abs/2507.08801)
+[[code]](https://github.com/alibaba-damo-academy/Lumos)
 
 
 ### ``*Large MMM for Unification*``
@@ -1520,7 +2344,7 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://codi-gen.github.io/)
 
 **(*ICLR2023_Emu*) Generative Pretraining in Multimodality.** <br>
-*Quan Sun, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Yueze Wang, Hongcheng Gao, Jingjing Liu, Tiejun Huang, Xinlong Wang.*<br>
+*BAAI Team.*<br>
 [[paper]](https://arxiv.org/abs/2307.05222)
 [[code]](https://github.com/baaivision/Emu)
 
@@ -1555,11 +2379,11 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://github.com/ailab-cvc/vl-gpt)
 
 **(*arXiv2023_Gemini*) Gemini: A Family of Highly Capable Multimodal Models.** <br>
-*Gemini Team, Google.*<br>
+*Gemini Team.*<br>
 [[paper]](https://arxiv.org/abs/2312.11805)
 
 **(*CVPR2024_Emu2*) Generative Multimodal Models are In-Context Learners.** <br>
-*Quan Sun, Yufeng Cui, Xiaosong Zhang, Fan Zhang, Qiying Yu, Zhengxiong Luo, Yueze Wang, Yongming Rao, Jingjing Liu, Tiejun Huang, Xinlong Wang.*<br>
+*BAAI Team.*<br>
 [[paper]](https://arxiv.org/abs/2312.13286)
 [[code]](https://baaivision.github.io/emu2)
 
@@ -1644,7 +2468,7 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2409.17692)
 
 **(*arXiv2024_Emu3*) Emu3: Next-Token Prediction is All You Need.** <br>
-*Emu3 Team.*<br>
+*BAAI Team.*<br>
 [[paper]](https://arxiv.org/abs/2409.18869)
 [[code]](https://emu.baai.ac.cn/)
 
@@ -1654,7 +2478,7 @@ Methods Summary of Large Multi-Modality Model
 [[code]](https://github.com/ydcUstc/MMAR)
 
 **(*arXiv2024_Janus*) Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation.** <br>
-*DeepSeek AI.*<br>
+*DeepSeek-AI Team.*<br>
 [[paper]](https://arxiv.org/abs/2410.13848)
 [[code]](https://github.com/deepseek-ai/janus)
 
@@ -1663,7 +2487,7 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2410.21747)
 
 **(*arXiv2024_JanusFlow*) JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation.** <br>
-*DeepSeek AI.*<br>
+*DeepSeek-AI Team.*<br>
 [[paper]](https://arxiv.org/abs/2411.07975)
 [[code]](https://github.com/deepseek-ai/janus)
 
@@ -1692,6 +2516,201 @@ Methods Summary of Large Multi-Modality Model
 *Liao Qu, Huichao Zhang, Yiheng Liu, Xu Wang, Yi Jiang, Yiming Gao, Hu Ye, Daniel K. Du, Zehuan Yuan, Xinglong Wu.*<br>
 [[paper]](https://arxiv.org/abs/2412.03069)
 [[code]](https://byteflow-ai.github.io/TokenFlow/)
+
+**(*arXiv2024_Liquid*) Liquid: Language Models are Scalable and Unified Multi-modal Generators.** <br>
+*Junfeng Wu, Yi Jiang, Chuofan Ma, Yuliang Liu, Hengshuang Zhao, Zehuan Yuan, Song Bai, Xiang Bai.*<br>
+[[paper]](https://arxiv.org/abs/2412.04332)
+[[code]](https://github.com/FoundationVision/Liquid)
+
+**(*arXiv2024_Divot*) Divot: Diffusion Powers Video Tokenizer for Comprehension and Generation.** <br>
+*Yuying Ge, Yizhuo Li, Yixiao Ge, Ying Shan.*<br>
+[[paper]](https://arxiv.org/abs/2412.04432)
+[[code]](https://github.com/TencentARC/Divot)
+
+**(*arXiv2024_SynerGen-VL*) SynerGen-VL: Towards Synergistic Image Understanding and Generation with Vision Experts and Token Folding.** <br>
+*Hao Li, Changyao Tian, Jie Shao, Xizhou Zhu, Zhaokai Wang, Jinguo Zhu, Wenhan Dou, Xiaogang Wang, Hongsheng Li, Lewei Lu, Jifeng Dai.*<br>
+[[paper]](https://arxiv.org/abs/2412.09604)
+
+**(*arXiv2024_MetaMorph*) MetaMorph: Multimodal Understanding and Generation via Instruction Tuning.** <br>
+*Shengbang Tong, David Fan, Jiachen Zhu, Yunyang Xiong, Xinlei Chen, Koustuv Sinha, Michael Rabbat, Yann LeCun, Saining Xie, Zhuang Liu.*<br>
+[[paper]](https://arxiv.org/abs/2412.14164)
+
+**(*arXiv2024_LlamaFusion*) LlamaFusion: Adapting Pretrained Language Models for Multimodal Generation.** <br>
+*Weijia Shi, Xiaochuang Han, Chunting Zhou, Weixin Liang, Xi Victoria Lin, Luke Zettlemoyer, Lili Yu.*<br>
+[[paper]](https://arxiv.org/abs/2412.15188)
+
+**(*arXiv2025_D-DiT*) Dual Diffusion for Unified Image Generation and Understanding.** <br>
+*Zijie Li, Henry Li, Yichun Shi, Amir Barati Farimani, Yuval Kluger, Linjie Yang, Peng Wang.*<br>
+[[paper]](https://arxiv.org/abs/2501.00289)
+
+**(*arXiv2025_QLIP*) QLIP: Text-Aligned Visual Tokenization Unifies Auto-Regressive Multimodal Understanding and Generation.** <br>
+*Yue Zhao, Fuzhao Xue, Scott Reed, Linxi Fan, Yuke Zhu, Jan Kautz, Zhiding Yu, Philipp Krähenbühl, De-An Huang.*<br>
+[[paper]](https://arxiv.org/abs/2502.05178)
+[[code]](https://nvlabs.github.io/QLIP/)
+
+**(*arXiv2025_USP*) USP: Unified Self-Supervised Pretraining for Image Generation and Understanding.** <br>
+*Xiangxiang Chu, Renda Li, Yong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2503.06132)
+[[code]](https://github.com/AMAP-ML/USP)
+
+**(*arXiv2025_OmniMamba*) OmniMamba: Efficient and Unified Multimodal Understanding and Generation via State Space Models.** <br>
+*Jialv Zou, Bencheng Liao, Qian Zhang, Wenyu Liu, Xinggang Wang.*<br>
+[[paper]](https://arxiv.org/abs/2503.08686)
+[[code]](https://github.com/hustvl/OmniMamba)
+
+**(*arXiv2025_UniFluid*) Unified Autoregressive Visual Generation and Understanding with Continuous Tokens.** <br>
+*Lijie Fan, Luming Tang, Siyang Qin, Tianhong Li, Xuan Yang, Siyuan Qiao, Andreas Steiner, Chen Sun, Yuanzhen Li, Tao Zhu, Michael Rubinstein, Michalis Raptis, Deqing Sun, Radu Soricut.*<br>
+[[paper]](https://arxiv.org/abs/2503.13436)
+
+**(*arXiv2025_UniDisc*) Unified Multimodal Discrete Diffusion.** <br>
+*Alexander Swerdlow, Mihir Prabhudesai, Siddharth Gandhi, Deepak Pathak, Katerina Fragkiadaki.*<br>
+[[paper]](https://arxiv.org/abs/2503.20853)
+[[code]](https://unidisc.github.io/)
+
+**(*arXiv2025_UGen*) UGen: Unified Autoregressive Multimodal Model with Progressive Vocabulary Learning.** <br>
+*Hongxuan Tang, Hao Liu, Xinyan Xiao.*<br>
+[[paper]](https://arxiv.org/abs/2503.21193v1)
+
+**(*arXiv2025_Harmon*) Harmonizing Visual Representations for Unified Multimodal Understanding and Generation.** <br>
+*Size Wu, Wenwei Zhang, Lumin Xu, Sheng Jin, Zhonghua Wu, Qingyi Tao, Wentao Liu, Wei Li, Chen Change Loy.*<br>
+[[paper]](https://arxiv.org/abs/2503.21979v1)
+[[code]](https://github.com/wusize/Harmon)
+
+**(*arXiv2025_ILLUME+*) ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement.** <br>
+*Runhui Huang, Chunwei Wang, Junwei Yang, Guansong Lu, Yunlong Yuan, Jianhua Han, Lu Hou, Wei Zhang, Lanqing Hong, Hengshuang Zhao, Hang Xu.*<br>
+[[paper]](https://arxiv.org/abs/2504.01934v1)
+[[code]](https://illume-unified-mllm.github.io/)
+
+**(*arXiv2025_MetaQuery*) Transfer between Modalities with MetaQueries.** <br>
+*Xichen Pan, Satya Narayan Shukla, Aashu Singh, Zhuokai Zhao, Shlok Kumar Mishra, Jialiang Wang, Zhiyang Xu, Jiuhai Chen, Kunpeng Li, Felix Juefei-Xu, Ji Hou, Saining Xie.*<br>
+[[paper]](https://arxiv.org/abs/2504.06256)
+[[code]](https://xichenpan.com/metaquery)
+
+**(*arXiv2025_Mogao*) Mogao: An Omni Foundation Model for Interleaved Multi-Modal Generation.** <br>
+*Chao Liao, Liyang Liu, Xun Wang, Zhengxiong Luo, Xinyu Zhang, Wenliang Zhao, Jie Wu, Liang Li, Zhi Tian, Weilin Huang.*<br>
+[[paper]](https://arxiv.org/abs/2505.05472)
+
+**(*arXiv2025_BLIP3-o*) BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset.** <br>
+*Jiuhai Chen, Zhiyang Xu, Xichen Pan, Yushi Hu, Can Qin, Tom Goldstein, Lifu Huang, Tianyi Zhou, Saining Xie, Silvio Savarese, Le Xue, Caiming Xiong, Ran Xu.*<br>
+[[paper]](https://arxiv.org/abs/2505.09568)
+[[code]](https://github.com/jiuhaichen/blip3o)
+
+**(*arXiv2025_ETT*) End-to-End Vision Tokenizer Tuning.** <br>
+*Wenxuan Wang, Fan Zhang, Yufeng Cui, Haiwen Diao, Zhuoyan Luo, Huchuan Lu, Jing Liu, Xinlong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2505.10562)
+
+**(*arXiv2025_UniCTokens*) UniCTokens: Boosting Personalized Understanding and Generation via Unified Concept Tokens.** <br>
+*Ruichuan An, Sihan Yang, Renrui Zhang, Zijun Shen, Ming Lu, Gaole Dai, Hao Liang, Ziyu Guo, Shilin Yan, Yulin Luo, Bocheng Zou, Chaoqun Yang, Wentao Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2505.14671v1)
+[[code]](https://github.com/arctanxarc/UniCTokens)
+
+**(*arXiv2025_BAGEL*) Emerging Properties in Unified Multimodal Pretraining.** <br>
+*Chaorui Deng, Deyao Zhu, Kunchang Li, Chenhui Gou, Feng Li, Zeyu Wang, Shu Zhong, Weihao Yu, Xiaonan Nie, Ziang Song, Guang Shi, Haoqi Fan.*<br>
+[[paper]](https://arxiv.org/abs/2505.14683)
+[[code]](https://bagel-ai.org/)
+
+**(*arXiv2025_MMaDA*) MMaDA: Multimodal Large Diffusion Language Models.** <br>
+*Ling Yang, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang.*<br>
+[[paper]](https://arxiv.org/abs/2505.15809)
+[[code]](https://github.com/Gen-Verse/MMaDA)
+
+**(*arXiv2025_FUDOKI*) FUDOKI: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities.** <br>
+*Jin Wang, Yao Lai, Aoxue Li, Shifeng Zhang, Jiacheng Sun, Ning Kang, Chengyue Wu, Zhenguo Li, Ping Luo.*<br>
+[[paper]](https://arxiv.org/abs/2505.20147)
+[[code]](https://fudoki-hku.github.io/)
+
+**(*arXiv2025_HaploOmni*) HaploOmni: Unified Single Transformer for Multimodal Video Understanding and Generation.** <br>
+*Yicheng Xiao, Lin Song, Rui Yang, Cheng Cheng, Zunnan Xu, Zhaoyang Zhang, Yixiao Ge, Xiu Li, Ying Shan.*<br>
+[[paper]](https://arxiv.org/abs/2506.02975v1)
+[[code]](https://github.com/Tencent/HaploVLM)
+
+**(*arXiv2025_UniWorld-V1*) UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation.** <br>
+*Bin Lin, Zongjian Li, Xinhua Cheng, Yuwei Niu, Yang Ye, Xianyi He, Shenghai Yuan, Wangbo Yu, Shaodong Wang, Yunyang Ge, Yatian Pang, Li Yuan.*<br>
+[[paper]](https://arxiv.org/abs/2506.03147)
+[[code]](https://github.com/PKU-YuanGroup/UniWorld-V1)
+
+**(*arXiv2025_Ming-Omni*) Ming-Omni: A Unified Multimodal Model for Perception and Generation.** <br>
+*Inclusion AI, Ant Group.*<br>
+[[paper]](https://arxiv.org/abs/2506.09344)
+[[code]](https://github.com/inclusionAI/Ming/tree/main)
+
+**(*arXiv2025_Show-o2*) Show-o2: Improved Native Unified Multimodal Models.** <br>
+*Jinheng Xie, Zhenheng Yang, Mike Zheng Shou.*<br>
+[[paper]](https://arxiv.org/abs/2506.15564)
+[[code]](https://github.com/showlab/Show-o)
+
+**(*arXiv2025_UniFork*) UniFork: Exploring Modality Alignment for Unified Multimodal Understanding and Generation.** <br>
+*Teng Li, Quanfeng Lu, Lirui Zhao, Hao Li, Xizhou Zhu, Yu Qiao, Jun Zhang, Wenqi Shao.*<br>
+[[paper]](https://arxiv.org/abs/2506.17202)
+[[code]](https://github.com/tliby/UniFork)
+
+**(*arXiv2025_OmniGen2*) OmniGen2: Exploration to Advanced Multimodal Generation.** <br>
+*Chenyuan Wu, Pengfei Zheng, Ruiran Yan, Shitao Xiao, Xin Luo, Yueze Wang, Wanli Li, Xiyan Jiang, Yexin Liu, Junjie Zhou, Ze Liu, Ziyi Xia, Chaofan Li, Haoge Deng, Jiahao Wang, Kun Luo, Bo Zhang, Defu Lian, Xinlong Wang, Zhongyuan Wang, Tiejun Huang, Zheng Liu.*<br>
+[[paper]](https://arxiv.org/abs/2506.18871)
+[[code]](https://github.com/VectorSpaceLab/OmniGen2)
+
+**(*arXiv2025_Omni-Video*) Omni-Video: Democratizing Unified Video Understanding and Generation.** <br>
+*Zhiyu Tan, Hao Yang, Luozheng Qin, Jia Gong, Mengping Yang, Hao Li.*<br>
+[[paper]](https://arxiv.org/abs/2507.06119v2)
+[[code]](https://howellyoung-s.github.io/OmniVideo_project/)
+
+**(*arXiv2025_X-Omni*) X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again.** <br>
+*Zigang Geng, Yibing Wang, Yeyao Ma, Chen Li, Yongming Rao, Shuyang Gu, Zhao Zhong, Qinglin Lu, Han Hu, Xiaosong Zhang, Linus, Di Wang, Jie Jiang.*<br>
+[[paper]](https://arxiv.org/abs/2507.22058)
+
+**(*arXiv2025_RecA*) Reconstruction Alignment Improves Unified Multimodal Models.** <br>
+*Ji Xie, Trevor Darrell, Luke Zettlemoyer, XuDong Wang.*<br>
+[[paper]](https://arxiv.org/abs/2509.07295)
+[[code]](https://reconstruction-alignment.github.io/)
+
+**(*arXiv2025_Lumina-DiMOO*) Lumina-DiMOO: An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding.** <br>
+*xx.*<br>
+[[paper]](xxx)
+[[code]](xxx)
+
+
+### ``*Large MMM for Manipulation*``
+
+**(*arXiv2025_Magma*) Magma: A Foundation Model for Multimodal AI Agents.** <br>
+*Jianwei Yang, Reuben Tan, Qianhui Wu, Ruijie Zheng, Baolin Peng, Yongyuan Liang, Yu Gu, Mu Cai, Seonghyeon Ye, Joel Jang, Yuquan Deng, Lars Liden, Jianfeng Gao.*<br>
+[[paper]](https://arxiv.org/abs/2502.13130)
+[[code]](https://microsoft.github.io/Magma)
+
+**(*arXiv2025_Cosmos-Reason1*) Cosmos-Reason1: From Physical Common Sense To Embodied Reasoning.** <br>
+*NVIDIA Team.*<br>
+[[paper]](https://arxiv.org/abs/2503.15558)
+[[code]](https://github.com/nvidia-cosmos/cosmos-reason1)
+
+**(*arXiv2025_ViSA-Flow*) ViSA-Flow: Accelerating Robot Skill Learning via Large-Scale Video Semantic Action Flow.** <br>
+*Changhe Chen, Quantao Yang, Xiaohao Xu, Nima Fazeli, Olov Andersson.*<br>
+[[paper]](https://arxiv.org/abs/2505.01288)
+[[code]](https://visaflow-web.github.io/ViSAFLOW)
+
+**(*arXiv2025_Sekai*) Sekai: A Video Dataset towards World Exploration.** <br>
+*Zhen Li, Chuanhao Li, Xiaofeng Mao, Shaoheng Lin, Ming Li, Shitian Zhao, Zhaopan Xu, Xinyue Li, Yukang Feng, Jianwen Sun, Zizhen Li, Fanrui Zhang, Jiaxin Ai, Zhixiang Wang, Yuwei Wu, Tong He, Jiangmiao Pang, Yu Qiao, Yunde Jia, Kaipeng Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2506.15675)
+[[code]](https://lixsp11.github.io/sekai-project/)
+
+**(*arXiv2025_GR-3*) GR-3 Technical Report.** <br>
+*ByteDance Seed.*<br>
+[[paper]](https://arxiv.org/abs/2507.15493)
+[[code]](https://seed.bytedance.com/GR3/)
+
+**(*arXiv2025_HunyuanWorld-1.0*) HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels.** <br>
+*Tencent Hunyuan.*<br>
+[[paper]](https://arxiv.org/abs/2507.21809)
+[[code]](https://3d-models.hunyuan.tencent.com/world/)
+
+**(*arXiv2025_M3-Agent*) Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory.** <br>
+*Lin Long, Yichen He, Wentao Ye, Yiyuan Pan, Yuan Lin, Hang Li, Junbo Zhao, Wei Li.*<br>
+[[paper]](https://arxiv.org/abs/2508.09736v1)
+[[code]](https://github.com/bytedance-seed/m3-agent)
+
+**(*arXiv2025_Matrix-Game 2.0*) Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model.** <br>
+*Xianglong He, Chunli Peng, Zexiang Liu, Boyang Wang, Yifan Zhang, Qi Cui, Fei Kang, Biao Jiang, Mengyin An, Yangyang Ren, Baixin Xu, Hao-Xiang Guo, Kaixiong Gong, Cyrus Wu, Wei Li, Xuchen Song, Yang Liu, Eric Li, Yahui Zhou.*<br>
+[[paper]](https://arxiv.org/abs/2508.13009)
+[[code]](https://matrix-game-v2.github.io/)
+
 
 
 ### ``*Large Model Distillation*``
@@ -1838,6 +2857,30 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2312.12436)
 [[code]](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
 
+**(*arXiv2024_Survey*) From GPT-4 to Gemini and Beyond: Assessing the Landscape of MLLMs on Generalizability, Trustworthiness and Causality through Four Modalities.** <br>
+*Chaochao Lu, Chen Qian, Guodong Zheng, Hongxing Fan, Hongzhi Gao, Jie Zhang, Jing Shao, Jingyi Deng, Jinlan Fu, Kexin Huang, Kunchang Li, Lijun Li, Limin Wang, Lu Sheng, Meiqi Chen, Ming Zhang, Qibing Ren, Sirui Chen, Tao Gui, Wanli Ouyang, Yali Wang, Yan Teng, Yaru Wang, Yi Wang, Yinan He, Yingchun Wang, Yixu Wang, Yongting Zhang, Yu Qiao, Yujiong Shen, Yurong Mou, Yuxi Chen, Zaibin Zhang, Zhelun Shi, Zhenfei Yin, Zhipin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2401.15071)
+
+**(*arXiv2024_Survey*) Vision Mamba: A Comprehensive Survey and Taxonomy.** <br>
+*Xiao Liu, Chenxu Zhang, Lei Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2405.04404)
+[[code]](https://github.com/lx6c78/Vision-Mamba-A-Comprehensive-Survey-and-Taxonomy)
+
+**(*arXiv2024_Survey*) Autoregressive Models in Vision: A Survey.** <br>
+*Jing Xiong, Gongye Liu, Lun Huang, Chengyue Wu, Taiqiang Wu, Yao Mu, Yuan Yao, Hui Shen, Zhongwei Wan, Jinfa Huang, Chaofan Tao, Shen Yan, Huaxiu Yao, Lingpeng Kong, Hongxia Yang, Mi Zhang, Guillermo Sapiro, Jiebo Luo, Ping Luo, Ngai Wong.*<br>
+[[paper]](https://arxiv.org/abs/2411.05902)
+[[code]](https://github.com/ChaofanTao/Autoregressive-Models-in-Vision-Survey)
+
+**(*arXiv2025_Survey*) On Path to Multimodal Generalist: General-Level and General-Bench.** <br>
+*Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Weiming Wu, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Shuicheng Yan, Hanwang Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2505.04620)
+[[code]](https://generalist.top/)
+
+**(*arXiv2025_Survey*) Shifting AI Efficiency From Model-Centric to Data-Centric Compression.** <br>
+*Xuyang Liu, Zichen Wen, Shaobo Wang, Junjie Chen, Zhishan Tao, Yubo Wang, Xiangqi Jin, Chang Zou, Yiyu Wang, Chenfei Liao, Xu Zheng, Honggang Chen, Weijia Li, Xuming Hu, Conghui He, Linfeng Zhang.*<br>
+[[paper]](https://arxiv.org/abs/2505.19147)
+[[code]](https://github.com/xuyang-liu16/awesome-token-level-model-compression)
+
 
 ### ``*Related Benchmark*``
 
@@ -1913,3 +2956,38 @@ Methods Summary of Large Multi-Modality Model
 *Chaoyou Fu, Yuhan Dai, Yongdong Luo, Lei Li, Shuhuai Ren, Renrui Zhang, Zihan Wang, Chenyu Zhou, Yunhang Shen, Mengdan Zhang, Peixian Chen, Yanwei Li, Shaohui Lin, Sirui Zhao, Ke Li, Tong Xu, Xiawu Zheng, Enhong Chen, Rongrong Ji, Xing Sun.*<br>
 [[paper]](https://arxiv.org/abs/2405.21075)
 [[code]](https://video-mme.github.io/)
+
+**(*arXiv2024_VSI-Bench*) Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces.** <br>
+*Jihan Yang, Shusheng Yang, Anjali W. Gupta, Rilyn Han, Li Fei-Fei, Saining Xie.*<br>
+[[paper]](https://arxiv.org/abs/2412.14171)
+[[code]](https://github.com/vision-x-nyu/thinking-in-space)
+
+**(*arXiv2025_WISE*) WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation.** <br>
+*Yuwei Niu, Munan Ning, Mengren Zheng, Bin Lin, Peng Jin, Jiaqi Liao, Kunpeng Ning, Bin Zhu, Li Yuan.*<br>
+[[paper]](https://arxiv.org/abs/2503.07265v1)
+[[code]](https://github.com/PKU-YuanGroup/WISE)
+
+**(*arXiv2025_GPT-ImgEval*) GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation.** <br>
+*Zhiyuan Yan, Junyan Ye, Weijia Li, Zilong Huang, Shenghai Yuan, Xiangyang He, Kaiqing Lin, Jun He, Conghui He, Li Yuan.*<br>
+[[paper]](https://arxiv.org/abs/2504.02782)
+[[code]](https://github.com/PicoTrex/GPT-ImgEval)
+
+**(*arXiv2025_PhyX*) PhyX: Does Your Model Have the "Wits" for Physical Reasoning?.** <br>
+*Hui Shen, Taiqiang Wu, Qi Han, Yunta Hsieh, Jizhou Wang, Yuyue Zhang, Yuxin Cheng, Zijian Hao, Yuansheng Ni, Xin Wang, Zhongwei Wan, Kai Zhang, Wendong Xu, Jing Xiong, Ping Luo, Wenhu Chen, Chaofan Tao, Zhuoqing Mao, Ngai Wong.*<br>
+[[paper]](https://arxiv.org/abs/2505.15929)
+[[code]](https://phyx-bench.github.io/)
+
+**(*arXiv2025_MMMG*) MMMG: a Comprehensive and Reliable Evaluation Suite for Multitask Multimodal Generation.** <br>
+*Jihan Yao, Yushi Hu, Yujie Yi, Bin Han, Shangbin Feng, Guang Yang, Bingbing Wen, Ranjay Krishna, Lucy Lu Wang, Yulia Tsvetkov, Noah A. Smith, Banghua Zhu.*<br>
+[[paper]](https://arxiv.org/abs/2505.17613)
+[[code]](https://github.com/yaojh18/MMMG)
+
+**(*arXiv2025_VS-Bench*) VS-Bench: Evaluating VLMs for Strategic Reasoning and Decision-Making in Multi-Agent Environments.** <br>
+*Zelai Xu, Zhexuan Xu, Xiangmin Yi, Huining Yuan, Xinlei Chen, Yi Wu, Chao Yu, Yu Wang.*<br>
+[[paper]](https://arxiv.org/abs/2506.02387)
+[[code]](https://vs-bench.github.io/)
+
+**(*arXiv2025_PhysUniBench*) PhysUniBench: An Undergraduate-Level Physics Reasoning Benchmark for Multimodal Models.** <br>
+*Lintao Wang, Encheng Su, Jiaqi Liu, Pengze Li, Peng Xia, Jiabei Xiao, Wenlong Zhang, Xinnan Dai, Xi Chen, Yuan Meng, Mingyu Ding, Lei Bai, Wanli Ouyang, Shixiang Tang, Aoran Wang, Xinzhu Ma.*<br>
+[[paper]](https://arxiv.org/abs/2506.17667)
+[[code]](https://prismax-team.github.io/PhysUniBenchmark/)
