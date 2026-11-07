@@ -1897,7 +1897,30 @@ Methods Summary of Large Multi-Modality Model
 [[paper]](https://arxiv.org/abs/2507.20939)
 [[code]](https://tencentarc.github.io/posts/arc-video-announcement/)
 
+**(*ICML2026_Video-o3*) Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning.** <br>
+*Xiangyu Zeng, Zhiqiu Zhang, Yuhan Zhu, Xinhao Li, Zikang Wang, Changlian Ma, Qingyu Zhang, Zizheng Huang, Kun Ouyang, Tianxiang Jiang, Ziang Yan, Yi Wang, Hongjie Zhang, Yali Wang, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2601.23224)
+[[code]](https://github.com/MCG-NJU/Video-o3)
 
+**(*arXiv2026_VideoChat3*) VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding.** <br>
+*Xinhao Li, Yuhan Zhu, Xiangyu Zeng, Yuhao Dong, Haoning Wu, Zhiqiu Zhang, Yuandong Yang, Changlian Ma, Qingyu Zhang, Yansong Shi, Xinyu Chen, Haoran Chen, Zizheng Huang, Jun Zhang, Kun Ouyang, Lin Sui, Ziang Yan, Yicheng Xu, Chenting Wang, Yinan He, Hongjie Zhang, Yi Wang, Yu Qiao, Yali Wang, Ziwei Liu, Kai Chen, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2607.14935)
+[[code]](https://github.com/MCG-NJU/VideoChat3)
+
+**(*arXiv2026_TimeLens2*) TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs.** <br>
+*Yuhan Zhu, Changlian Ma, Xiangyu Zeng, Xinhao Li, Zhiqiu Zhang, Songze Li, Jun Zhang, Tianxiang Jiang, Yuandong Yang, Ziang Yan, Zikang Wang, Xinyu Chen, Haoran Chen, Shaowei Zhang, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2607.17423)
+[[code]](https://github.com/MCG-NJU/TimeLens2)
+
+**(*arXiv2026_OneStreamer*) OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction.** <br>
+*Xiangyu Zeng, Yuandong Yang, Zhiqiu Zhang, Yuhan Zhu, Xinhao Li, Qingyi Si, Dingyu Yao, Changlian Ma, Haoran Chen, Xinyu Chen, Yansong Shi, Junhao Zhou, Yifei Li, Jun Zhang, Chuanyu Qin, Chenxu Yang, Xinlei Yu, Kun Ouyang, Yuchen Shao, Qianshan Wei, Changhai Zhou, Jun Gao, Jiaqi Wang, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2610.01762)
+[[code]](https://github.com/MCG-NJU/OneStreamer)
+
+**(*arXiv2026_VideoJev*) VideoJev: System One Model for Video Understanding and Interaction.** <br>
+*Yuhan Zhu, Xiangyu Zeng, Qingyi Si, Chenxu Yang, Yifei Li, Luozheng Qin, Junhao Zhou, Dingyu Yao, Jun Zhang, Chuanyu Qin, Zhiqiu Zhang, Yuandong Yang, Yuqi Xu, Tianyu Zhang, Hongcheng Guo, Jiaqi Wang, Nan Duan, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2610.18615)
+[[code]](https://github.com/MCG-NJU/VideoJev)
 
 ### ``*Large MMM for Generation*``
 

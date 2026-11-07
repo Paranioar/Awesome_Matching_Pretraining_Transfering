@@ -976,6 +976,10 @@ Methods Summary of Conventional Image-Text Matching
 *Yan Huang, Liang Wang.*<br>
 [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
 
+**(*ICML2026_FreeRet*) FreeRet: MLLMs as Training-Free Retrievers.** <br>
+*Yuhan Zhu, Xiangyu Zeng, Chenting Wang, Xinhao Li, Chunxu Liu, Yicheng Xu, Ziang Yan, Yi Wang, Limin Wang.*<br>
+[[paper]](https://arxiv.org/abs/2509.24621)
+[[code]](https://github.com/MCG-NJU/FreeRet)
 
 ### ``*Continual Learning*``
 
